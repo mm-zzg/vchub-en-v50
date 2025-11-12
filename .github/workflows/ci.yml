@@ -1,0 +1,116 @@
+name: ci 
+on:
+  push:
+    branches:
+      - master 
+      - main
+env:
+  NODE_VERSION: 18.x
+  PYTHON_VERSION: 3.x
+
+permissions:
+  contents: write
+
+jobs:
+  npm-build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js runtime
+        uses: actions/setup-node@v5
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Set up Node.js dependency cache
+        uses: actions/cache@v4
+        id: cache
+        with:
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          path: node_modules
+
+      - name: Set up Node.js dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Build project
+        run: |
+          npm run build
+          git diff --name-only
+
+  npm-check:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js runtime
+        uses: actions/setup-node@v5
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Set up Node.js dependency cache
+        uses: actions/cache@v4
+        id: cache
+        with:
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          path: node_modules
+
+      - name: Set up Node.js dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Check project
+        run: npm run check
+
+  python:
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python runtime
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: |
+            pyproject.toml
+            requirements.txt
+
+      - name: Set up Python dependencies
+        run: pip install --upgrade build twine
+
+    #   - name: Build Python package
+    #     run: python -m build
+
+    #   - name: Publish Python package
+    #     uses: pypa/gh-action-pypi-publish@release/v1
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache 
+          restore-keys: |
+            mkdocs-material-
+    #   - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
