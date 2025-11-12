@@ -180,7 +180,8 @@ not_in_nav: |
 
 # Page tree
 nav:
-  - Home: index.md
+  - Overview:
+    - Overview: overview/index.md
   - Getting started:
     - Installation: getting-started.md
     - Creating your site: creating-your-site.md
