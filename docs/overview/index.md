@@ -1,44 +1,54 @@
-
-
 # Product Overview
-## What is WAGO SCADA?
-WAGO SCADA is a SCADA product developed and marketed by WAGO. It is fully based on modern web technology, which allows you to easily use WAGO SCADA to quickly build various complex field configuration applications. Whether on-premises or in the cloud, WAGO SCADA enables you to monitor and control the entire industrial process in real-time from any location, ensuring continuity in production and enhancing efficiency. 
-WAGO SCADA also supports large-scale field configuration projects, allowing you to collect a vast amount of industrial data and gain in-depth insights through the built-in reporting tools, which helps further optimize production decisions. With no restrictions on the number of users and device connections, WAGO SCADA is an economical choice suitable for industrial configuration projects of all sizes.
-WAGO SCADA is committed to providing efficient and convenient solutions for your industrial configuration field.
-## Features of WAGO SCADA
-- **Server Installation:**  
-  WAGO SCADA only needs to be installed on a single server and can run in various browsers, greatly reducing the difficulty of on-site installation, deployment, and subsequent maintenance.
-- **WYSIWYG (What You See Is What You Get):**  
-  WAGO SCADA provides a WYSIWYG configuration editor, providing real-time feedback during the configuration process, allowing users to view and test their design at any time during the configuration process.
-- **Object-Oriented Modeling:**  
-  WAGO SCADA allows you to build monitoring points based on the physical model of the industrial field, managing your device data entirely in an object-oriented manner.
-- **Multi-dimensional Historical Data:**  
-  WAGO SCADA supports various mainstream relational data on the market; it also supports temporal databases, providing multi-dimensional historical storage and processing mechanisms.
-- **Cloud Deployment:**  
-  The cloud deployment of WAGO SCADA offers highly flexible options, extending monitoring and control functions from the edge to the cloud, enabling cloud edge collaboration, remote access, data storage, and collaboration, bringing greater convenience and scalability to your industrial operations.
-- **Mobile Support:**  
-  WAGO SCADA supports mobile devices, allowing you to easily access and control functions anytime, anywhere through smartphones and tablets, for more real-time management of your industrial field.
-- **High Availability:**  
-  WAGO SCADA supports high-availability configurations, ensuring the stability and reliability of the system through mechanisms such as backup servers and redundant storage. This ensures continuous real-time monitoring and control, enabling smooth operations in the face of potential failures and maintenance needs.
-- **High Security:**  
-  WAGO SCADA provides excellent security options like HTTPS support, encrypted storage, and certificate configuration, ensuring data confidentiality and integrity while providing a reliable industrial configuration solution.
-- **Flexible Networking:**  
-  WAGO SCADA supports flexible networking, making it easy to scale applications, ensuring that your industrial applications can seamlessly adapt to growth in demand and continue to provide efficient monitoring and control.
-- **Cross-platform:**  
-  The fully cross-platform nature of WAGO SCADA allows you to easily implement unified monitoring and control across different operating systems and devices, regardless of any on-site deployment conditions.
-- **Localization:**  
-  WAGO SCADA supports mainstream localized operating systems and chips, meeting the needs of domestic customers and providing more local support for industrial automation.
-- **3D Low-code Digital Twin Platform:**  
-  WAGO SCADA's low-code digital twin platform combines powerful digital modeling and low-code development capabilities, allowing users to easily create digital twin scenarios, simulate industrial processes, and rapidly develop 3D twin applications, providing faster innovation and responsiveness for industrial automation.
-## Web-based Implementation
-WAGO SCADA is fully implemented based on web standards, so you can directly run and operate your SCADA application using a web browser. For example, you can connect and configure PLC or historical storage directly through a web browser, and you can also use a web browser to configure your SCADA application. Another benefit of being based on web standards is that it can make your configuration screen easier to create and more aesthetically pleasing than traditional desktops.
-## High Performance
-Thanks to WAGO SCADA's modern design architecture and built-in high-performance engine, it can monitor tens of thousands or even millions of field data points in real-time and perform storage and analysis.
-## Reporting
-WAGO SCADA has a built-in online report designer, allowing you to complete report design through drag-and-drop. Report data can be seamlessly integrated with the SCADA historical database and the company's SQL databases. It comes with a rich set of report controls, helping users easily design various report styles and export to multiple mainstream file formats, including Excel, Word, PDF, HTML, images, and JSON.
-## Alarm System
-WAGO SCADA has built-in standardized alarm tools that you can use at any time to build your on-site alarm application. All alarms can be displayed and stored in real-time, and you can also confirm and suspend alarms at any time.
-## Data-driven Connectivity
-WAGO SCADA supports multiple data protocols, allowing you to easily connect on-site data to WAGO SCADA. Additionally, WAGO is continuously expanding its supported data protocols, ensuring the adaptability of WAGO SCADA to a broader range of applications and industries.
-Tokens:2181↑1100↓1081
+
+**What is ** **VC Hub** **?**
+
+ VC Hub is a SCADA product developed and marketed by WAGO. It is fully based on modern web technology, which allows you to easily use VC Hub to quickly build various complex field configuration applications. Whether on-premises or in the cloud, VC Hub enables you to monitor and control the entire industrial process in real-time from any location, ensuring continuity in production and enhancing efficiency. VC Hub also supports large-scale field configuration projects, allowing you to collect a vast amount of industrial data and gain in-depth insights through the built-in reporting tools, which helps further optimize production decisions. With no restrictions on the number of users and device connections, VC Hub is an economical choice suitable for industrial configuration projects of all sizes.
+
+ VC Hub is committed to providing efficient and convenient solutions for your industrial configuration field.
+
+**Features of ** **VC Hub**
+
+-  Server Installation: VC Hub only needs to be installed on a single server and can run in various browsers, greatly reducing the difficulty of on-site installation, deployment, and subsequent maintenance.
+-  WYSIWYG (What You See Is What You Get): VC Hub provides a WYSIWYG configuration editor, providing real-time feedback during the configuration process, allowing users to view and test their design at any time during the configuration process.
+-  Object-Oriented Modeling: VC Hub allows you to build monitoring points based on the physical model of the industrial field, managing your device data entirely in an object-oriented manner.
+-  Multi-dimensional Historical Data: VC Hub supports various mainstream relational data on the market, it also supports temporal databases, providing multi-dimensional historical storage and processing mechanisms.
+-  Cloud Deployment: The cloud deployment of VC Hub offers highly flexible options, extending monitoring and control functions from the edge to the cloud, enabling cloud edge collaboration, remote access, data storage, and collaboration, bringing greater convenience and scalability to your industrial operations.
+-  Mobile Support: VC Hub supports mobile devices, allowing you to easily access and control functions anytime, anywhere through smart phones and tablets, for more real-time management of your industrial field.
+-  High Availability: VC Hub supports high-availability configurations, ensuring the stability and reliability of the system, continuously providing real-time monitoring and control through mechanisms such as backup servers and redundant storage, to handle potential failures and maintenance needs, ensuring smooth operation of your site.
+-  High Security: VC Hub provides excellent security, with features such as HTTPS support, encrypted storage, and certificate configuration, ensuring the confidentiality and integrity of data, thus providing a reliable industrial configuration solution.
+-  Flexible Networking: VC Hub supports flexible networking, making it easy to scale applications, ensuring that your industrial applications can seamlessly adapt to growth in demand and continue to provide efficient monitoring and control.
+-  Cross-platform: The fully cross-platform nature of VC Hub allows you to easily implement unified monitoring and control across different operating systems and devices, regardless of any on-site deployment conditions.
+-  Localization: VC Hub supports main stream localized operating systems and chips, meeting the needs of domestic customers and providing more local support for industrial automation.
+-  3D Low-code Digital Twin Platform: VC Hub i s low-code digital twin platform combines powerful digital modeling and low-code development capabilities, allowing users to easily create digital twin scenarios, simulate industrial processes, and rapidly develop 3D twin applications, providing faster innovation and responsiveness for industrial automation.
+
+
+
+**Web-based Implementation**
+
+ VC Hub is fully implemented based on web standards, so you can directly run and operate your SCADA application using a web browser. For example, you can connect and configure PLC or historical storage directly through a web browser, and you can also use a web browser to configure your SCADA application. Another benefit of being based on web standards is that it can make your configuration screen easier to create and more aesthetically pleasing than traditional desktops.
+
+![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/SKeLj43H/resources/7DrngpVWHCttIJKdRwNS0rDtDetr6_TwQPwfqjUKHSg.png?token=W.LECpBG6dRlGcMcaRIBRLDQ5jyOuH0IdOXogqsybbkdoDEh9dH8PAKbs9UR0-NRGEat_fAu_2Oa4EHl9EaeU2600BpA)
+
+**High Performance**
+
+ Profit from VC Hub is modern design architecture and built-in high-performance engine, it can monitor tens of thousands or even millions of field data points in real-time and perform storage and analysis.
+
+**Reporting**
+
+ VC Hub has a built-in online report designer, allowing you to complete report design through drag-and-drop. Report data can be seamlessly integrated with the SCADA historical database and the company's SQL databases. It comes with a rich set of report controls, helping users easily design various report styles and export to multiple mainstream file formats, including Excel, Word, PDF, HTML, images, and JSON.
+
+![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/SKeLj43H/resources/aAXJMuoLtO_qukULUYNZWwcsr-4MyGutH1DO3GciYB4.png?token=W.LECpBG6dRlGcMcaRIBRLDQ5jyOuH0IdOXogqsybbkdoDEh9dH8PAKbs9UR0-NRGEat_fAu_2Oa4EHl9EaeU2600BpA)
+
+**Alarm**
+
+ VC Hub has built-in standardized alarm tools that you can use at any time to build your on-site alarm application. All alarms can be displayed and stored in real-time, and you can also confirm and suspend alarms at any time.
+
+![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/SKeLj43H/resources/hHNoNatHhTky2AmjX2ilC65QrKApy9dUKgPp8HAyHvM.png?token=W.LECpBG6dRlGcMcaRIBRLDQ5jyOuH0IdOXogqsybbkdoDEh9dH8PAKbs9UR0-NRGEat_fAu_2Oa4EHl9EaeU2600BpA)
+
+
+
+**Data-driven**
+ VC Hub supports multiple data protocols, allowing you to easily connect on-site data to VC Hub. And we are also constantly increasing and expanding these data protocols to enable VC Hub to be applied to a wider range of fields.
+
+![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/SKeLj43H/resources/YY7I3Mgz6Q7kIinee7GtVi6NnM2eqkeDy1dryA-WXuU.png?token=W.LECpBG6dRlGcMcaRIBRLDQ5jyOuH0IdOXogqsybbkdoDEh9dH8PAKbs9UR0-NRGEat_fAu_2Oa4EHl9EaeU2600BpA)
 
