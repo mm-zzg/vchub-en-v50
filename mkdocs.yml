@@ -180,10 +180,11 @@ nav:
   - Appendix:
     - appendix/index.md
     - System.Function:
-     - appendix/index.md
+      - appendix/index.md
       - System.Alarm:
-       - appendix.system-alarm/index.md
-       - appendix.system-alarm/system-alarm-query.md
-       - appendix.system-alarm/system-alarm-queryHistory.md
+        - appendix.system-alarm/index.md
+        - appendix.system-alarm/system-alarm-query.md
+        - appendix.system-alarm/system-alarm-queryHistory.md
     - Demo Workspace:
+      - demo/index.md
  
