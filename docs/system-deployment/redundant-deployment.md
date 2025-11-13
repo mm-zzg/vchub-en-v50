@@ -4,17 +4,20 @@
 
  The following is an example of a redundant server deployment in a standalone deployment architecture:
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/ReDg69gM/resources/PYtbTt3A5hUz7ZNJDshMWDsT6W8WVWadxghtQGO3BOg.png?token=W.xEJBY0iA2HTeF3qTTThjlkYluRmUd1oX9LO5_YRFC5Dz0sJko2Ok9got_fTUvhawI5ArL-vi-FiJYhGw3xheJwcW_A)
+<img width="1890" height="1212" alt="image" src="https://github.com/user-attachments/assets/6200fa9e-61fc-4968-9729-d76581aeda1d" />
+
 
  The following is an example of a redundant server deployment in a grouped network architecture：
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/ReDg69gM/resources/N4sCviua_EOHas3r73qDX5Lck5ri8UqQyvPCmJcfdTw.png?token=W.xEJBY0iA2HTeF3qTTThjlkYluRmUd1oX9LO5_YRFC5Dz0sJko2Ok9got_fTUvhawI5ArL-vi-FiJYhGw3xheJwcW_A)
+<img width="2256" height="1373" alt="image" src="https://github.com/user-attachments/assets/b3234eb0-86cf-4eb9-b94c-74827cce1e82" />
+
 
 
 
  The following is an example of a redundant server deployment under the Cloud Edge networking architecture:
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/ReDg69gM/resources/MN0a50_QusXixVDgtU_P_uElxj-5TBis-pGw1P07c70.png?token=W.xEJBY0iA2HTeF3qTTThjlkYluRmUd1oX9LO5_YRFC5Dz0sJko2Ok9got_fTUvhawI5ArL-vi-FiJYhGw3xheJwcW_A)
+<img width="3266" height="1739" alt="image" src="https://github.com/user-attachments/assets/92456a2e-86af-4f3a-a00d-76331d2c96c0" />
+
 
 
 
