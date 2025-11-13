@@ -1,24 +1,24 @@
 # Azure Cloud Deployment
 
-#### Introduction
+## Introduction
 
 This document primarily introduces how to deploy the VC Hub service based on Azure Virtual Machine, and how to enhance the availability, disaster recovery, and backup capabilities of the VC Hub service through the complementary services provided by Azure and the inherent capabilities of VC Hub.
 
 We will start with the deployment of a single virtual machine and progressively describe how to deploy a reliable VC Hub system for different business scenarios.
 
-#### Environment Requirements
+## Environment Requirements
 
-###### Hardware (Virtual Machine Configuration)
+#### Hardware (Virtual Machine Configuration)
 
 -  CPU: x86 64-bit architecture, 4 cores or above
 -  Memory: 16GB
 -  HardDrive: SSD or higher performance hard drive, with at least 10GB of available space
 
-#### Deployment Method
+## Deployment Method
 
-###### Single Virtual Machine Deployment
+#### Single Virtual Machine Deployment
 
-######## Overview
+###### Overview
 
 Subscribe to an Azure Virtual Machine with hardware configuration requirements and Azure Database service to proceed with cloud deployment in the future.
 
@@ -26,7 +26,7 @@ Currently, VC Hub supports the following Azure Database service types: Azure Dat
 
 This method is only suitable for scenarios where system stability and disaster recovery capabilities are relatively low. The advantage lies in its simplicity of configuration.
 
-######## Deployment architecture
+###### Deployment architecture
 
 The diagram below illustrates the single-machine deployment architecture of VC Hub based on Azure, where VC Hub can be directly installed on an Azure VM using an installation package.
 
@@ -34,11 +34,12 @@ We recommend users to subscribe directly to Azure Database service for storing V
 
 For cloud-based VC Hub nodes, communication with device sites can be achieved via the MQTT protocol, as depicted with Station2 in the diagram. To establish MQTT communication, users need to enable port 1883 on Azure Virtual Machine. Cloud-based VC Hub communicates with device sites through port 1883, which is currently not customizable.
 
-Users can utilize the built-in[known-link]feature of VC Hub to establish communication between cloud-based VC Hub nodes and other VC Hub nodes, as shown with Station1 in the diagram. Station1 can be deployed in the cloud or locally, and users need to enable port 8060 on Azure Virtual Machine for communication. This port can be customized within the VC Hub website.
+Users can utilize the built-in networking feature of VC Hub to establish communication between cloud-based VC Hub nodes and other VC Hub nodes, as shown with Station1 in the diagram. Station1 can be deployed in the cloud or locally, and users need to enable port 8060 on Azure Virtual Machine for communication. This port can be customized within the VC Hub website.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/7H8Qv2rs/resources/IEfYXHTmEVByxV0w50rQeiRdpls4ZU0G04Xyh64YbFI.png?token=W.W4I3355eyWZmu5ncolwR49KkZdjqhO8AY9r3US9RsbdxMH3_COJOHurva9lVtaGAsnDIVG6gUPJn3OBOIQk9lcjq0Q)
+<img width="3416" height="1645" alt="image" src="https://github.com/user-attachments/assets/47800807-ac68-40a1-84b2-51c6e037e170" />
 
-######## Service Level Agreements Analysis
+
+###### Service Level Agreements Analysis
 
 As of 2024-04-01, Azure officially provides the following Uptime Calculation for reference in single-instance virtual machine scenarios:
 
@@ -48,21 +49,22 @@ As of 2024-04-01, Azure officially provides the following Uptime Calculation for
 |-----------------------|--------------|--------------|----------|
 | 99.9%                 | 99.5%        | 95%          | 99.9%    |
 
-###### Dual Virtual Machine Active-Standby Deployment
+#### Dual Virtual Machine Active-Standby Deployment
 
-######## Overview
+###### Overview
 
 In scenarios where a single virtual machine service may not meet the stability requirements, a dual Azure Virtual Machine setup can be employed to achieve high availability for the VC Hub service. It is recommended to subscribe to two Azure VMs deployed in different Availability Zones to increase availability to 99.99%.
 
-Utilizing the[known-link] configuration provided by the VC Hub service, establish connections between the two VC Hub services to form a primary-secondary setup. In the event of the primary virtual machine failure, the secondary virtual machine will immediately take over the data monitoring service, ensuring seamless transition from the user's perspective.
+Utilizing the redundancy configuration provided by the VC Hub service, establish connections between the two VC Hub services to form a primary-secondary setup. In the event of the primary virtual machine failure, the secondary virtual machine will immediately take over the data monitoring service, ensuring seamless transition from the user's perspective.
 
 Simultaneously, both VC Hub nodes connect to the same Azure Database. Devices need to interact with both VC Hub nodes simultaneously via the MQTT protocol.
 
 For local VC Hub nodes, they only need to configure networking connections with the primary VC Hub node in the cloud. In the event of primary node failure, the local VC Hub will automatically switch its connection to the backup VM.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/7H8Qv2rs/resources/fSWu9Af0uEaj4OfVOHikRWfYH2odNFtzD55IWwBbFgA.png?token=W.W4I3355eyWZmu5ncolwR49KkZdjqhO8AY9r3US9RsbdxMH3_COJOHurva9lVtaGAsnDIVG6gUPJn3OBOIQk9lcjq0Q)
+<img width="3416" height="1645" alt="image" src="https://github.com/user-attachments/assets/8a99c3c3-6772-480e-a8ba-b38fcd7870c8" />
 
-######## Service Level Agreements Analysis
+
+###### Service Level Agreements Analysis
 
 System stability is enhanced. In the event of a VM failure, the VC Hub service on the other VM will continue to monitor device data, providing sufficient time for fault handling.
 
@@ -70,7 +72,7 @@ System stability is enhanced. In the event of a VM failure, the VC Hub service o
 |----------------------------------------------------------------|---------------------------------------------------------------|
 | 99.99%                                                         | 99.95%                                                        |
 
-#### Port Configuration
+## Port Configuration
 
 | Port | Function                  | Description                                                                                                                                   |
 |------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -79,21 +81,21 @@ System stability is enhanced. In the event of a VM failure, the VC Hub service o
 | 8060 | Networking and Redundancy | Used for communication in networking and redundancy functions. Default is 8060, which can be modified in the management platform by the user. |
 | 1883 | MQTT Communication        | Used for MQTT communication between the cloud-based VC Hub system and devices. Currently does not support customization.                      |
 
-#### Data Backup And Restore
+## Data Backup And Restore
 
-###### Overview
+#### Overview
 
 We recommend users to regularly back up important data within VC Hub. Users can choose to perform backups manually or automatically.
 
-###### How to operate
+#### How to operate
 
-######## Historical database
+###### Historical database
 
 In the cloud deployment scenario, we recommend using Azure Database to store VC Hub historical data (including collected historical data and alarm history data). Azure Database also provides data backup functionality. Users can refer to the technical documentation provided by Azure, specifically [Change automated backup settings for  [Change automated backup settings for Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-change-settings?view=azuresql-db&preserve-view=true&tabs=azure-portal), to configure regular backups for the VC Hub historical database.
 
 When it comes to restoring historical data, Azure Database also offers an automatic recovery feature. You can refer to the documentation on how to  [Restore a database from a backup in Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/recovery-using-backups?view=azuresql-db&tabs=azure-portal) for guidance on restoring data from backups in Azure SQL Database.
 
-######## Application data directory
+###### Application data directory
 
 All data in VC Hub, apart from historical data, is stored in a fixed directory in the form of folders and files, known as the application data directory. This directory includes data such as projects, certificates, network settings, logs, and more.
 
@@ -105,9 +107,9 @@ The specific location of the application data directory can be configured during
 
 ![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/7H8Qv2rs/resources/2hNWBl-yCqZM6e93-lETDUTrgXegzJClVdpsE-zfaM8.png?token=W.W4I3355eyWZmu5ncolwR49KkZdjqhO8AY9r3US9RsbdxMH3_COJOHurva9lVtaGAsnDIVG6gUPJn3OBOIQk9lcjq0Q)
 
-#### Data Monitor
+## Data Monitor
 
-###### Overview
+#### Overview
 
 In a production environment, when Azure VM experiences a complete outage, system administrators typically receive abnormal report information. However, in some scenarios, it may be a specific service within the server that experiences an interruption, such as SCADA service or database service. In such cases, Azure Monitor can be introduced to monitor the performance of VC Hub and database services within the server.
 
@@ -117,10 +119,10 @@ By enabling the Azure Monitor agent in Azure VMs hosting VC Hub services, real-t
 
 ![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/7H8Qv2rs/resources/srmb762aNtUqC5CQpnuUs9CjwDPANpWNithyJVIgEaA.png?token=W.W4I3355eyWZmu5ncolwR49KkZdjqhO8AY9r3US9RsbdxMH3_COJOHurva9lVtaGAsnDIVG6gUPJn3OBOIQk9lcjq0Q)
 
-###### Azure Monitor Url
+#### Azure Monitor Url
 
  [Azure Monitor](https://azure.microsoft.com/en-us/products/monitor)
 
-#### Extension
+## Extension
 
 This manual primarily describes how to deploy VC Hub using the cloud services provided by Azure. Similarly, we also support similar hosted virtual machine services, database services, backup services, and monitoring services from other cloud service providers such as AWS, Alibaba Cloud, Tencent Cloud, and others.
