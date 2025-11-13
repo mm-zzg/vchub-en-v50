@@ -168,9 +168,12 @@ not_in_nav: |
 
 # Page tree
 nav:
-  - Overview:
-    - overview/index.md
-    - overview/version-update-notes.md
+  - Product Overview:
+    - Product overview/index.md
+    - Product overview/Version Update Notes.md
+    - Product overview/Support and Assistance.md
+    - Product overview/System Requirements.md
+    - Product overview/Breaking Changes.md
   - Installation:
     - installation/index.md
     - installation/windows-environment.md
