@@ -2,7 +2,8 @@
 
  In large-scale sites, a large amount of data needs to be collected, and usually a single VC Hub  server can not handle all the work. At this point, you need to install multiple VC Hub  servers on site and work together through networking to share these tasks.
 
-<img width="784" height="496" alt="image" src="https://github.com/user-attachments/assets/aefb0797-b33b-4269-8bd6-b02ac209c0f4" />
+<img width="2317" height="1590" alt="image" src="https://github.com/user-attachments/assets/7b0fa5aa-927a-4137-8de2-87b005c0afb0" />
+
 
 #### **Decentralization**
 
