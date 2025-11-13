@@ -1,83 +1,59 @@
-
 # Version Update Notes
 
-WAGO SCADA is constantly evolving and being updated, with each new version bringing new features and bug fixes. Here, you can quickly preview the new features and resolved issues of the corresponding versions.
+ VC Hub is constantly evolving and being updated, with each new version bringing new features and bug fixes. Here, you can quickly preview the new features and resolved issues of the corresponding versions.
 
----
+### Determining Your Current Version
 
-## Determining Your Current Version
+ You can find out the version number of VC Hub you are currently using in the following two ways:
 
-You can find out the version number of WAGO SCADA you are currently using in the following two ways:
+1.  In the bottom right corner of the management platform, you can find the corresponding VC Hub version number.
+2.  In the top right corner ofthe configuration editing interface, there is an exclamation mark icon. You can click on this icon to get the corresponding VC Hub version number information.
 
-1. **Bottom Right Corner of the Management Platform**
-   The version number can be found in the bottom right corner of the management platform.
+<img width="1919" height="314" alt="image" src="https://github.com/user-attachments/assets/82b76b6c-fdc5-478e-b107-09f4466ca8f1" />
 
-2. **Top Right Corner of the Configuration Editing Interface**
-   Click on the exclamation mark icon in the top right corner of the configuration editing interface to view the version number information.
+<img width="1917" height="333" alt="image" src="https://github.com/user-attachments/assets/52c1ff48-efb8-47e1-82f3-ee3e328dbb0a" />
 
----
+-  WYSIWYG Configuration Editor：VC Hub provides a WYSIWYG (What You See Is What You Get) configuration editor, allowing you to preview the configuration effects in real-time.
+-  Standardized Alarms：VC Hub offers standardized alarm functions, including various limit alarms, rate of change alarms, and equal value alarms, and provides corresponding real-time and historical configuration controls.
+-  Object-Oriented VC Hub supports the direct creation of tags and supports the creation of tags in an object-oriented manner. You can build your field applications through the concept of assets.
+-  Multi-Database: VC Hub supports the configuration of various databases for historical data storage, such as MySQL, SQL Server, etc.
+-  Networking and Redundancy: VC Hub supports large-scale configurations and high-availability scenarios. You can build your complexfield configuration projects through multiple SCADA networking.
+-  3D Digital Twin: VC Hub supports 3D configuration, like 2D configuration. You can build your digital twin scenarios, and it provides many 3D API for you to configure more advanced and complex digital twin applications.
 
-## Features Overview
+#### New Features
 
-### **WYSIWYG Configuration Editor**
-WAGO SCADA provides a WYSIWYG (What You See Is What You Get) configuration editor, allowing real-time preview of configuration effects.
+###### 4.4.X
 
-### **Standardized Alarms**
-- Includes limit alarms, rate of change alarms, and equal value alarms.
-- Provides real-time and historical configuration controls.
+- **Logo and Name Modification**: The product logo has been replaced, and the product name has been changed from WAGO SCADA to Visualization and Control Hub, abbreviated as VC Hub.
 
-### **Object-Oriented Tag Creation**
-- Supports direct creation of tags.
-- Allows object-oriented tag creation to build field applications using the concept of assets.
+###### 4.3.X
 
-### **Multi-Database Support**
-WAGO SCADA enables the configuration of various databases for historical data storage, such as MySQL and SQL Server.
+- **SVG Editor**: Through the SVG editor, users can modify and save attributes of SVG images in the library, such as color, size, text content, and visibility.
+- **Toggle Button**: Switches between ON and OFF states when clicked. Commonly used to control Boolean-type devices, such as start/stop or on/off switches.
+- **2-State Button**: Represents two distinct states, typically ON/OFF or Start/Stop. Each state can be configured with specific appearance styles.
+- **Multi-State Button**: Contains multiple states and can switch between them. Each state can be configured with its own appearance style.
+- **Historical Data Storage of Raw Values**: When storing historical data for variables, it is possible to store the original raw values of the variables.
+- **Screen Functions and Expression Functions**: By defining screen functions or expression functions, common logic can be centralized and reused. This avoids writing the same logic repeatedly in each component, allowing one modification to take effect globally, reducing maintenance costs.
+- **Binding Support for Enabling/Disabling Animations**: When configuring animations for components, the enabling and disabling of animations can be controlled through property bindings.
 
-### **Networking and Redundancy**
-- Supports large-scale configurations and high-availability scenarios.
-- Facilitates complex field configuration projects through SCADA networking.
+###### 4.2.X
 
-### **3D Digital Twin**
-- Supports 3D configuration, similar to 2D configuration.
-- Allows building of digital twin scenarios using advanced 3D APIs.
+- **Permissions**：Supports single sign-on; allows setting permissions for projects and pages.
+- **SQL Query**：Enables querying data from third-party databases. It is a pre-configured query that can be later bound to controls. When executing SQL statements, parameters can be passed to return dynamic result sets.
+- **Table Control**: Displays data in a table format. You can customize the table’s content, style, and interactive effects.
+- **Bidirectional Binding**：Tags, indirect tags, and properties support bidirectional binding. For example, if a control is bound to a tag, changes in the tag will be reflected in the control, and modifying the control’s value will also update the tag.
+- **Parameterized Data Source Binding**：When binding a data source to a tag, parameters can be used to replace path content. Later, modifying the parameter value will automatically update the path.
+- **Batch Editing Control Properties**：For the same type of controls, such as multiple labels, selecting all of them allows batch modification of their properties.
+- **Editable System Tags**：System tags can be edited and configured for alarms, historical storage, and other settings.
+- **OPC UA**：Add discovery service function.
+- **Camera**: Configure WebRTC Streamer to set up the camera, enabling camera streaming while keeping it separate from the VC Hub server.
+- **WeCom and DingTalk support to receive alarm notification**: Support to send alarm notification to WeCom group, WeCom account, DingTalk group , DingTalk account.
 
----
+###### 4.1.X
 
-## New Features by Version
-
-### **Version 4.3.X**
-
-- **SVG Editor**: Modify and save attributes of SVG images, such as color, size, text content, and visibility.
-- **Toggle Button**: Switches between ON and OFF states when clicked. Useful for controlling Boolean-type devices like start/stop or on/off switches.
-- **2-State Button**: Represents two distinct states (e.g., ON/OFF or Start/Stop), with configurable styles for each state.
-- **Multi-State Button**: Contains multiple states and allows switching between them, with configurable appearance styles for each state.
-- **Historical Data Storage of Raw Values**: Supports storing original raw values of variables for historical data.
-- **Screen Functions and Expression Functions**: Centralize common logic into reusable functions, reducing repeated logic and maintenance costs.
-- **Binding Support for Enabling/Disabling Animations**: Property bindings can control enabling or disabling of animations for components.
-
----
-
-### **Version 4.2.X**
-
-- **Permissions**: Supports single sign-on and project/page permissions setting.
-- **SQL Query**: Enables querying data from third-party databases, with support for parameterized dynamic result sets bound to controls.
-- **Table Control**: Displays data in a customizable table format, with styling and interactive elements.
-- **Bidirectional Binding**: Tags, indirect tags, and properties can reflect changes bidirectionally between controls and tags.
-- **Parameterized Data Source Binding**: Use parameters for flexible tag paths, automatically updating paths when parameter values change.
-- **Batch Editing Control Properties**: Batch modify properties for multiple controls, such as labels.
-- **Editable System Tags**: System tags can be edited and configured for alarms, historical storage, and more.
-- **OPC UA**: Added discovery service function.
-- **Camera Configuration**: Set up WebRTC streamer for camera streaming, separate from the WAGO SCADA server.
-- **Alarm Notifications Integration**: Send alarm notifications to WeCom (group/account) or DingTalk (group/account).
-
----
-
-### **Version 4.1.X**
-
-- **Alarm Notifications**: Notifications sent to specific users via email or SMS when system alarms occur.
-- **Symbols**: Create detailed models of devices or systems using symbols and sub-symbols for efficient monitoring. Supports user-defined symbols.
-- **Workspace Upgrades**: Upgrade historical workspaces to align with the current package version.
-- **Open API**: Share data with external applications or partners via APIs for seamless integration.
-- **Property Binding Enhancements**: Supports "Dynamic Tag" binding and "Cell Update" binding.
-- **Batch Operation Tags**: Add and edit tags in bulk using Excel.
-
+- **Alarm Notifications**: VC Hub can send alarm notifications to specific users when a system alarm occurs. Notifications can be sent via email or SMS.
+- **Symbols**: Symbols can be used to create detailed models of devices or systems, supporting combinations of multiple components and sub-symbols. This allows users to easily monitor the overall system operation. VC Hub supports user-defined symbols, enhancing operational efficiency.
+- **Workspace Upgrades**: VC Hub supports upgrading historical workspaces to the version of the currently installed package.
+- **Open API**: VC Hub allows data to be shared with external applications or partners via APIs for seamless data sharing.
+- **Property Binding**: Added support for "Dynamic Tag" binding and "Cell Update" binding.
+- **Batch Operation Tags**: VC Hub supports bulk addition and editing of tags through Excel.
