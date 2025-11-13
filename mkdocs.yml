@@ -202,67 +202,91 @@ nav:
           - management-platform/scripts/index.md
       - management-platform/networking.md
       - Databases:
-        - management-platform/databases/index.md
+          - management-platform/databases/index.md
       - Redundancy:
-        - management-platform/redundancy/index.md   
+          - management-platform/redundancy/index.md   
       - Security:
-        - management-platform/security/index.md    
+          - management-platform/security/index.md    
       - management-platform/certificate-management.md
       - management-platform/node-configuration.md      
       - management-platform/trust-store.md
       - Open API:
-        - management-platform/open-api/index.md
+          - management-platform/open-api/index.md
       - management-platform/diagnostics.md
-
+  - 2D Visualization:
+      - 2d-visualization/index.md
+      - Page:
+          - 2d-visualization/page/index.md
+      - Sql Query:
+          - 2d-visualization/sql-query/index.md
+      - Controls:
+          - 2d-visualization/controls/index.md
+      - Libraries:
+          - 2d-visualization/libraries/index.md
+      - Symbol:
+          - 2d-visualization/symbol/index.md
+      - Report:
+          - 2d-visualization/report/index.md
+      - Function:
+          - 2d-visualization/function/index.md
+      - Property Binding:
+          - 2d-visualization/property-binding/index.md
+      - Event:
+          - 2d-visualization/event/index.md
+      - Project Properties:
+          - 2d-visualization/project-properties/index.md
+  - 3D Visualization:
+      - 3d-visualization/index.md
+      - 3d Low Code Example:
+          - 3d-visualization/3d-low-code-example/index.md
   - Appendix:
-    - appendix/index.md
-    - System-Function:
-      - appendix/system-function/index.md
-      - System-Alarm:
-      - appendix/system-function/system-alarm/index.md
-      - appendix/system-function/system-alarm/system-alarm-query.md
-      - appendix/system-function/system-alarm/system-alarm-queryhistory.md
-      - System-Context:
-      - appendix/system-function/system-context/index.md
-      - System-Context-alarm:
-        - appendix/system-function/system-context/system-context-alarm/index.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-ackmode.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-acknotes.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-acktime.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-description.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-statuschangeid.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-statuschangetime.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-name.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-nodename.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-ackuser.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-path.md         
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-priority.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-state.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-type.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-alarmvalue.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-datatype.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-activetime.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-alarmgroups.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-cleartime.md
-        - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-notificationrule.md
-      - System-Context-currentEvent:
-        - appendix/system-function/system-context/system-context-currentevent/index.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-newvalue.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-offsetx.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-offsety.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-oldvalue.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-screenx.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-screeny.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-type.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-x.md
-        - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-y.md
-      
-      - System.Datatable:
-        - appendix/system-function/system.datatable/index.md
-      - System.Db:
-        - appendix/system-function/system.db/index.md
-    - Demo Workspace:
-      - appendix/demo-workspace/index.md
-      - appendix/demo-workspace/home.md
-      - appendix/demo-workspace/components.md
-      - appendix/demo-workspace/features.md
+      - appendix/index.md
+      - System-Function:
+          - appendix/system-function/index.md
+          - System-Alarm:
+              - appendix/system-function/system-alarm/index.md
+              - appendix/system-function/system-alarm/system-alarm-query.md
+              - appendix/system-function/system-alarm/system-alarm-queryhistory.md
+          - System-Context:
+              - appendix/system-function/system-context/index.md
+              - System-Context-alarm:
+                  - appendix/system-function/system-context/system-context-alarm/index.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-ackmode.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-acknotes.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-acktime.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-description.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-statuschangeid.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-statuschangetime.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-name.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-nodename.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-ackuser.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-path.md         
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-priority.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-state.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-type.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-alarmvalue.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-datatype.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-activetime.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-alarmgroups.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-cleartime.md
+                  - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-notificationrule.md
+              - System-Context-currentEvent:
+                  - appendix/system-function/system-context/system-context-currentevent/index.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-newvalue.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-offsetx.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-offsety.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-oldvalue.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-screenx.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-screeny.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-type.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-x.md
+                  - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-y.md
+          - System.Datatable:
+              - appendix/system-function/system.datatable/index.md
+          - System.Db:
+              - appendix/system-function/system.db/index.md
+      - Demo Workspace:
+          - appendix/demo-workspace/index.md
+          - appendix/demo-workspace/home.md
+          - appendix/demo-workspace/components.md
+          - appendix/demo-workspace/features.md
