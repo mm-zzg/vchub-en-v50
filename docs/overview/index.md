@@ -1,6 +1,6 @@
 # Product Overview
 
-**What is VC Hub** **?**
+**What is VC Hub ?**
 
  VC Hub is a SCADA product developed and marketed by WAGO. It is fully based on modern web technology, which allows you to easily use VC Hub to quickly build various complex field configuration applications. Whether on-premises or in the cloud, VC Hub enables you to monitor and control the entire industrial process in real-time from any location, ensuring continuity in production and enhancing efficiency. VC Hub also supports large-scale field configuration projects, allowing you to collect a vast amount of industrial data and gain in-depth insights through the built-in reporting tools, which helps further optimize production decisions. With no restrictions on the number of users and device connections, VC Hub is an economical choice suitable for industrial configuration projects of all sizes.
 
