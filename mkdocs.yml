@@ -171,7 +171,6 @@ nav:
   - Product Overview:
     - overview/index.md
     - overview/version-update-notes.md
-    - overview/support-and-assistance.md
     - overview/system-requirements.md
     - overview/breaking-changes.md
   - Installation:
