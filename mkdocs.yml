@@ -183,6 +183,11 @@ nav:
     - quick-start-guide/index.md
   - System Deployment:
     - system-deployment/index.md
+    - system-deployment/standalone-deployment.md
+    - system-deployment/network-deployment.md
+    - system-deployment/hybrid-cloud-and-local-deployment.md
+    - system-deployment/redundant-deployment.md
+    - system-deployment/azure-cloud-deployment.md
   - Appendix:
     - appendix/index.md
     - System.Function:
