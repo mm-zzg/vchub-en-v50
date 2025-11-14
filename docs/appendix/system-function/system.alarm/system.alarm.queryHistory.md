@@ -1,1 +1,0 @@
-# System.Alarm.queryHistory
