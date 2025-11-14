@@ -43,7 +43,7 @@ Users can click the **Edit** button on the right side of any workspace in the wo
 
 #### **Open**
 
-Users can switch to the target workspace by clicking the **Open** button on the right side of any workspace in the workspace list. After clicking the button, a confirmation prompt box will pop up, and the page will enter the **Loading** state after the user clicks the confirmation button, and the background process of VC Hub will be restarted automatically, and after completing the restarting process, the page will be automatically jumped to the **login** page.
+Users can switch to the target workspace by clicking the **Open** button on the right side of any workspace in the workspace list. After clicking the button, a confirmation prompt box will pop up, and the page will enter the **Loading** state after the user clicks the OK button, and the background process of VC Hub will be restarted automatically, and after completing the restarting process, the page will be automatically jumped to the **login** page.
 
 Note that after the switch, all users who are using the current system will be switched to the workspace; during the restart process, the system will be temporarily disabled, and refreshing the page will cause the browser to fail to connect to the server, so wait for a few moments, and then re-enter the website can still be accessed normally.
 
@@ -63,7 +63,7 @@ Users can move their mouse over any of the workspace "**More**" buttons to displ
 <img width="1793" height="202" alt="image" src="https://github.com/user-attachments/assets/5356e590-644d-4613-96ce-403e70360ad5" />
 
 
-After clicking the "**Delete**" button, a deletion prompt box will pop up, click on the **confirmation**, the selected workspace data will be deleted.
+After clicking the "**Delete**" button, a deletion prompt box will pop up, click on the **OK**, the selected workspace data will be deleted.
 
 Note: Deletion is not recoverable after deletion, please be careful; the delete button of the current workspace will be disabled.
 
