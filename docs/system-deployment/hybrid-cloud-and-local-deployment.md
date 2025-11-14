@@ -1,4 +1,4 @@
- # Hybrid Cloud and Local Deployment
+# Hybrid Cloud and Local Deployment
 
  A VC Hub  node deployed within a local area network can be networked with VC Hub  in the cloud. In the absence of a public IP address, nodes within a local area network can generally only create outbound connections from local area.
 
@@ -13,7 +13,7 @@
 
 #### **Flow Control**
 
- The data collected between the nodes of the WAGO SCADA grouping will not be synchronized in real time, and the cloud nodes will only send data requests to the nodes on the LAN when end users on the cloud nodes view the data from the remote nodes, and this on-demand subscription approach can effectively avoid sky-high bills on the cloud platform.
+ The data collected between the nodes of the VC Hub grouping will not be synchronized in real time, and the cloud nodes will only send data requests to the nodes on the LAN when end users on the cloud nodes view the data from the remote nodes, and this on-demand subscription approach can effectively avoid sky-high bills on the cloud platform.
 
 
 #### **Note**
