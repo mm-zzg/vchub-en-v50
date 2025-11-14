@@ -287,10 +287,39 @@ nav:
                   - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-type.md
                   - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-x.md
                   - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-y.md
-          - System.Datatable:
-              - appendix/system-function/system.datatable/index.md
-          - System.Db:
-              - appendix/system-function/system.db/index.md
+          - System-Datatable:
+              - appendix/system-function/system-datatable/index.md
+              - appendix/system-function/system-datatable/system-datatable-todatatable.md              
+          - System-Db:
+              - appendix/system-function/system-db/index.md
+              - appendix/system-function/system-db/system-db-runsqlquery.md
+          - System-Event:
+              - appendix/system-function/system-event/index.md
+              - appendix/system-function/system-event/system-event-fail.md  
+              - appendix/system-function/system-event/system-event-success.md 
+          - System-Page:
+              - appendix/system-function/system-page/index.md
+              - appendix/system-function/system-page/system-page-getpropertyvalue.md
+              - appendix/system-function/system-page/system-page-setpropertyvalue.md
+          - System-PTZControl:
+              - appendix/system-function/system-ptzcontrol/index.md
+              - appendix/system-function/system-ptzcontrol/system-ptzcontrol-move.md
+              - appendix/system-function/system-ptzcontrol/system-ptzcontrol-stop.md
+              - appendix/system-function/system-ptzcontrol/system-ptzcontrol-setposition.md
+          - System-Security:
+              - appendix/system-function/system-security/index.md
+              - appendix/system-function/system-security/system-security-changepassword.md
+              - appendix/system-function/system-security/system-security-getroles.md
+              - appendix/system-function/system-security/system-security-getusername.md
+              - appendix/system-function/system-security/system-security-login.md
+              - appendix/system-function/system-security/system-security-logout.md
+          - System-Tag:
+              - appendix/system-function/system-tag/index.md
+              - appendix/system-function/system-tag/system-tag-getpropertyvalues
+
+
+
+              
       - Demo Workspace:
           - appendix/demo-workspace/index.md
           - appendix/demo-workspace/home.md
