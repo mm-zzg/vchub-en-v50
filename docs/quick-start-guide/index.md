@@ -90,7 +90,7 @@ Note: For more information on binding, please refer to the Property Binding page
 
 Click the preview button in the page tool bar to view the preview effect. You can also click the run button for the project in the project list to view the running page.
 
-<img width="829" height="306" alt="image" src="https://github.com/user-attachments/assets/35ce933b-cf8b-4906-84cf-a962a4a04dc8" />
+
 
 
 
