@@ -210,6 +210,7 @@ nav:
                               - management-platform/devices/modbus-rtu/batch-operation.md
                       - OPC UA:
                               - management-platform/devices/opc-ua/index.md
+                              - management-platform/devices/opc-ua/batch-operation.md
                               - management-platform/devices/opc-ua/test-report.md
                       - MQTT Native:
                               - management-platform/devices/mqtt-native/index.md 
