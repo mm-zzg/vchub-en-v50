@@ -23,8 +23,8 @@ site_name: VC Hub User Manual
 site_url: https://zzg890.github.io/vch-docs/
 site_author: Martin Donath
 site_description: >-
-    Write your documentation in Markdown and create a professional static site in
-    minutes – searchable, customizable, in 60+ languages, for all devices
+      Write your documentation in Markdown and create a professional static site in
+      minutes – searchable, customizable, in 60+ languages, for all devices
 
 # Repository
 # repo_name: squidfunk/mkdocs-material
@@ -35,311 +35,325 @@ copyright: Copyright &copy; 2016 - 2025 Martin Donath
 
 # Configuration
 theme:
-    name: material
-    custom_dir: material/overrides
-    features:
-        - content.action.edit
-        - content.action.view
-        - content.code.annotate
-        - content.code.copy
-        # - content.code.select
-        # - content.footnote.tooltips
-        # - content.tabs.link
-        - content.tooltips
-        # - header.autohide
-        # - navigation.expand
-        - navigation.footer
-        - navigation.indexes
-        # - navigation.instant
-        # - navigation.instant.prefetch
-        # - navigation.instant.progress
-        # - navigation.prune
-        - navigation.sections
-        - navigation.tabs
-        # - navigation.tabs.sticky
-        - navigation.top
-        - navigation.tracking
-        - search.highlight
-        - search.share
-        - search.suggest
-        - toc.follow
-        # - toc.integrate
-    palette:
-        scheme: default
-        primary: green
-        accent: light green
-    font:
-        text: Roboto
-        code: Roboto Mono
-    favicon: assets/favicon.png
-    icon:
-        logo: logo
+      name: material
+      custom_dir: material/overrides
+      features:
+            - content.action.edit
+            - content.action.view
+            - content.code.annotate
+            - content.code.copy
+            # - content.code.select
+            # - content.footnote.tooltips
+            # - content.tabs.link
+            - content.tooltips
+            # - header.autohide
+            # - navigation.expand
+            - navigation.footer
+            - navigation.indexes
+            # - navigation.instant
+            # - navigation.instant.prefetch
+            # - navigation.instant.progress
+            # - navigation.prune
+            - navigation.sections
+            - navigation.tabs
+            # - navigation.tabs.sticky
+            - navigation.top
+            - navigation.tracking
+            - search.highlight
+            - search.share
+            - search.suggest
+            - toc.follow
+            # - toc.integrate
+      palette:
+            scheme: default
+            primary: green
+            accent: light green
+      font:
+            text: Roboto
+            code: Roboto Mono
+      favicon: assets/favicon.png
+      icon:
+            logo: logo
 
 # Plugins
 plugins:
-    - blog
-    - search:
-          separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-    - minify:
-          minify_html: true
+      - blog
+      - search:
+              separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      - minify:
+              minify_html: true
 
 # Hooks
 hooks:
-    - material/overrides/hooks/shortcodes.py
-    - material/overrides/hooks/translations.py
+      - material/overrides/hooks/shortcodes.py
+      - material/overrides/hooks/translations.py
 
 # Additional configuration
 extra:
-    status:
-        new: Recently added
-        deprecated: Deprecated
-    analytics:
-        provider: google
-        property: !ENV GOOGLE_ANALYTICS_KEY
-    social:
-        - icon: fontawesome/brands/github
-          link: https://github.com/squidfunk
-        - icon: fontawesome/brands/docker
-          link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-        - icon: fontawesome/brands/python
-          link: https://pypi.org/project/mkdocs-material/
-        - icon: fontawesome/brands/bluesky
-          link: https://bsky.app/profile/squidfunk.bsky.social
-        - icon: fontawesome/brands/mastodon
-          link: https://fosstodon.org/@squidfunk
-        - icon: fontawesome/brands/x-twitter
-          link: https://x.com/squidfunk
+      status:
+            new: Recently added
+            deprecated: Deprecated
+      analytics:
+            provider: google
+            property: !ENV GOOGLE_ANALYTICS_KEY
+      social:
+            - icon: fontawesome/brands/github
+              link: https://github.com/squidfunk
+            - icon: fontawesome/brands/docker
+              link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+            - icon: fontawesome/brands/python
+              link: https://pypi.org/project/mkdocs-material/
+            - icon: fontawesome/brands/bluesky
+              link: https://bsky.app/profile/squidfunk.bsky.social
+            - icon: fontawesome/brands/mastodon
+              link: https://fosstodon.org/@squidfunk
+            - icon: fontawesome/brands/x-twitter
+              link: https://x.com/squidfunk
 
 # Extensions
 markdown_extensions:
-    - abbr
-    - admonition
-    - attr_list
-    - def_list
-    - footnotes
-    - md_in_html
-    - toc:
-          permalink: true
-    - pymdownx.arithmatex:
-          generic: true
-    - pymdownx.betterem:
-          smart_enable: all
-    - pymdownx.caret
-    - pymdownx.details
-    - pymdownx.emoji:
-          emoji_generator: !!python/name:material.extensions.emoji.to_svg
-          emoji_index: !!python/name:material.extensions.emoji.twemoji
-    - pymdownx.highlight:
-          anchor_linenums: true
-          line_spans: __span
-          pygments_lang_class: true
-    - pymdownx.inlinehilite
-    - pymdownx.keys
-    - pymdownx.magiclink:
-          normalize_issue_symbols: true
-          repo_url_shorthand: true
-          user: squidfunk
-          repo: mkdocs-material
-    - pymdownx.mark
-    - pymdownx.smartsymbols
-    - pymdownx.snippets:
-          auto_append:
-              - includes/mkdocs.md
-    - pymdownx.superfences:
-          custom_fences:
-              - name: mermaid
-                class: mermaid
-                format: !!python/name:pymdownx.superfences.fence_code_format
-    - pymdownx.tabbed:
-          alternate_style: true
-          combine_header_slug: true
-          slugify: !!python/object/apply:pymdownx.slugs.slugify
-              kwds:
-                  case: lower
-    - pymdownx.tasklist:
-          custom_checkbox: true
-    - pymdownx.tilde
+      - abbr
+      - admonition
+      - attr_list
+      - def_list
+      - footnotes
+      - md_in_html
+      - toc:
+              permalink: true
+      - pymdownx.arithmatex:
+              generic: true
+      - pymdownx.betterem:
+              smart_enable: all
+      - pymdownx.caret
+      - pymdownx.details
+      - pymdownx.emoji:
+              emoji_generator: !!python/name:material.extensions.emoji.to_svg
+              emoji_index: !!python/name:material.extensions.emoji.twemoji
+      - pymdownx.highlight:
+              anchor_linenums: true
+              line_spans: __span
+              pygments_lang_class: true
+      - pymdownx.inlinehilite
+      - pymdownx.keys
+      - pymdownx.magiclink:
+              normalize_issue_symbols: true
+              repo_url_shorthand: true
+              user: squidfunk
+              repo: mkdocs-material
+      - pymdownx.mark
+      - pymdownx.smartsymbols
+      - pymdownx.snippets:
+              auto_append:
+                    - includes/mkdocs.md
+      - pymdownx.superfences:
+              custom_fences:
+                    - name: mermaid
+                      class: mermaid
+                      format: !!python/name:pymdownx.superfences.fence_code_format
+      - pymdownx.tabbed:
+              alternate_style: true
+              combine_header_slug: true
+              slugify: !!python/object/apply:pymdownx.slugs.slugify
+                    kwds:
+                          case: lower
+      - pymdownx.tasklist:
+              custom_checkbox: true
+      - pymdownx.tilde
 
 not_in_nav: |
-    /tutorials/**/*.md
+      /tutorials/**/*.md
 
 # Page tree
 nav:
-    - Product Overview:
-          - overview/index.md
-          - overview/version-update-notes.md
-          - overview/system-requirements.md
-          - overview/breaking-changes.md
-    - New in this Version:
-          - new-version/index.md
-    - Installation and Upgrade:
-          - installation/index.md
-          - installation/windows-environment.md
-          - installation/linux-environment.md
-    - Quick Start Guide:
-          - quick-start-guide/index.md
-    - System Deployment:
-          - system-deployment/index.md
-          - system-deployment/standalone-deployment.md
-          - system-deployment/network-deployment.md
-          - system-deployment/hybrid-cloud-and-local-deployment.md
-          - system-deployment/redundant-deployment.md
-          - system-deployment/azure-cloud-deployment.md
-    - Management Platform:
-          - management-platform/index.md
-          - management-platform/license-and-activation.md
-          - Workspaces:
-                - management-platform/workspaces/index.md
-                - management-platform/workspaces/multi-workspace-management.md
-                - management-platform/workspaces/current-workspace-configure-file.md
-                - management-platform/workspaces/workspace-directory.md
-                - management-platform/workspaces/upgrade-workspace.md
-                - management-platform/workspaces/can-not-log-in.md
-          - Projects:
-                - management-platform/projects/index.md
-          - Devices:
-                - management-platform/devices/index.md
-          - Assets and Tags:
-                - management-platform/assets-and-tags/index.md
-          - Alarming:
-                - management-platform/alarming/index.md
-          - Scripts:
-                - management-platform/scripts/index.md
-          - management-platform/networking.md
-          - Databases:
-                - management-platform/databases/index.md
-          - Redundancy:
-                - management-platform/redundancy/index.md
-          - Security:
-                - management-platform/security/index.md
-          - management-platform/node-configuration.md
-          - management-platform/certificate-management.md
-          - management-platform/mqtt-broker.md
-          - management-platform/trust-store.md
-          - Open API:
-                - management-platform/open-api/index.md
-          - management-platform/diagnostics.md
-    - 2D Visualization:
-          - 2d-visualization/index.md
-          - Page:
-                - 2d-visualization/page/index.md
-          - Sql Query:
-                - 2d-visualization/sql-query/index.md
-          - Controls:
-                - 2d-visualization/controls/index.md
-          - Libraries:
-                - 2d-visualization/libraries/index.md
-          - Symbol:
-                - 2d-visualization/symbol/index.md
-          - Report:
-                - 2d-visualization/report/index.md
-          - Function:
-                - 2d-visualization/function/index.md
-          - Property Binding:
-                - 2d-visualization/property-binding/index.md
-          - Event:
-                - 2d-visualization/event/index.md
-          - Project Properties:
-                - 2d-visualization/project-properties/index.md
-    - 3D Visualization:
-          - 3d-visualization/index.md
-          - 3d Low Code Example:
-                - 3d-visualization/3d-low-code-example/index.md
-    - Appendix:
-          - appendix/index.md
-          - System-Function:
-                - appendix/system-function/index.md
-                - System-Alarm:
-                      - appendix/system-function/system-alarm/index.md
-                      - appendix/system-function/system-alarm/system-alarm-query.md
-                      - appendix/system-function/system-alarm/system-alarm-queryhistory.md
-                - System-Context:
-                      - appendix/system-function/system-context/index.md
-                      - System-Context-alarm:
-                            - appendix/system-function/system-context/system-context-alarm/index.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-ackmode.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-acknotes.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-acktime.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-description.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-statuschangeid.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-statuschangetime.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-name.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-nodename.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-ackuser.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-path.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-priority.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-state.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-type.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-alarmvalue.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-datatype.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-activetime.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-alarmgroups.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-cleartime.md
-                            - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-notificationrule.md
-                      - System-Context-currentEvent:
-                            - appendix/system-function/system-context/system-context-currentevent/index.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-newvalue.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-offsetx.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-offsety.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-oldvalue.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-screenx.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-screeny.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-type.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-x.md
-                            - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-y.md
-                - System-Datatable:
-                      - appendix/system-function/system-datatable/index.md
-                      - appendix/system-function/system-datatable/system-datatable-todatatable.md
-                - System-Db:
-                      - appendix/system-function/system-db/index.md
-                        - appendix/system-function/system-db/system-db-runsqlquery.md
-                - System-Event:
-                      - appendix/system-function/system-event/index.md
-                      - appendix/system-function/system-event/system-event-fail.md
-                      - appendix/system-function/system-event/system-event-success.md
-                - System-Page:
-                      - appendix/system-function/system-page/index.md
-                      - appendix/system-function/system-page/system-page-getpropertyvalue.md
-                      - appendix/system-function/system-page/system-page-setpropertyvalue.md
-                - System-PTZControl:
-                      - appendix/system-function/system-ptzcontrol/index.md
-                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-move.md
-                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-stop.md
-                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-setposition.md
-                - System-Security:
-                      - appendix/system-function/system-security/index.md
-                      - appendix/system-function/system-security/system-security-changepassword.md
-                      - appendix/system-function/system-security/system-security-getroles.md
-                      - appendix/system-function/system-security/system-security-getusername.md
-                      - appendix/system-function/system-security/system-security-login.md
-                      - appendix/system-function/system-security/system-security-logout.md
-                - System-Tag:
-                      - appendix/system-function/system-tag/index.md
-                      - appendix/system-function/system-tag/system-tag-getpropertyvalues.md
-                      - appendix/system-function/system-tag/system-tag-mock.md
-                      - appendix/system-function/system-tag/system-tag-querypropertyvalues.md
-                      - appendix/system-function/system-tag/system-tag-readvalue.md
-                      - appendix/system-function/system-tag/system-tag-subscribe.md
-                      - appendix/system-function/system-tag/system-tag-writevalue.md
-                - System-UI:
-                      - appendix/system-function/system-ui/index.md
-                      - appendix/system-function/system-ui/system-ui-applychanges.md
-                      - appendix/system-function/system-ui/system-ui-back.md
-                      - appendix/system-function/system-ui/system-ui-close.md
-                      - appendix/system-function/system-ui/system-ui-findcontrol.md
-                      - appendix/system-function/system-ui/system-ui-forward.md
-                      - appendix/system-function/system-ui/system-ui-gohome.md
-                      - appendix/system-function/system-ui/system-ui-open.md
-                      - appendix/system-function/system-ui/system-ui-opennewtab.md
-                      - appendix/system-function/system-ui/system-ui-openpopup.md
-                      - appendix/system-function/system-ui/system-ui-redirect.md
-                - System-Utils:
-                      - appendix/system-function/system.utils/index.md
-                      - appendix/system-function/system.utils/system-utils-importscript.md
-                      - appendix/system-function/system.utils/system-utils-importstyle.md
+      - Product Overview:
+              - overview/index.md
+              - overview/version-update-notes.md
+              - overview/system-requirements.md
+              - overview/breaking-changes.md
+      - New in this Version:
+              - new-version/index.md
+      - Installation and Upgrade:
+              - installation/index.md
+              - installation/windows-environment.md
+              - installation/linux-environment.md
+      - Quick Start Guide:
+              - quick-start-guide/index.md
+      - System Deployment:
+              - system-deployment/index.md
+              - system-deployment/standalone-deployment.md
+              - system-deployment/network-deployment.md
+              - system-deployment/hybrid-cloud-and-local-deployment.md
+              - system-deployment/redundant-deployment.md
+              - system-deployment/azure-cloud-deployment.md
+      - Management Platform:
+              - management-platform/index.md
+              - management-platform/license-and-activation.md
+              - Workspaces:
+                      - management-platform/workspaces/index.md
+                      - management-platform/workspaces/multi-workspace-management.md
+                      - management-platform/workspaces/current-workspace-configure-file.md
+                      - management-platform/workspaces/workspace-directory.md
+                      - management-platform/workspaces/upgrade-workspace.md
+                      - management-platform/workspaces/can-not-log-in.md
+              - Projects:
+                      - management-platform/projects/index.md
+              - Devices:
+                      - management-platform/devices/index.md
+                      - Modbus TCP:
+                              - management-platform/devices/modbus-tcp/index.md
+                      - Modbus RTU:
+                              - management-platform/devices/modbus-rtu/index.md                  
+                      - OPC UA:
+                              - management-platform/devices/opc-ua/index.md        
+                      - Mqtt Native:
+                              - management-platform/devices/mqtt-native/index.md            
+                      - Mqtt SparkplugB:
+                              - management-platform/devices/mqtt-sparkplugb/index.md    
+                      - SIMENS S7:
+                              - management-platform/devices/simens-s7/index.md    
+                      - WAGO Protocol:
+                              - management-platform/devices/wago-protocol/index.md    
+              - Assets and Tags:
+                      - management-platform/assets-and-tags/index.md
+              - Alarming:
+                      - management-platform/alarming/index.md
+              - Scripts:
+                      - management-platform/scripts/index.md
+              - management-platform/networking.md
+              - Databases:
+                      - management-platform/databases/index.md
+              - Redundancy:
+                      - management-platform/redundancy/index.md
+              - Security:
+                      - management-platform/security/index.md
+              - management-platform/node-configuration.md
+              - management-platform/certificate-management.md
+              - management-platform/mqtt-broker.md
+              - management-platform/trust-store.md
+              - Open API:
+                      - management-platform/open-api/index.md
+              - management-platform/diagnostics.md
+      - 2D Visualization:
+              - 2d-visualization/index.md
+              - Page:
+                      - 2d-visualization/page/index.md
+              - Sql Query:
+                      - 2d-visualization/sql-query/index.md
+              - Controls:
+                      - 2d-visualization/controls/index.md
+              - Libraries:
+                      - 2d-visualization/libraries/index.md
+              - Symbol:
+                      - 2d-visualization/symbol/index.md
+              - Report:
+                      - 2d-visualization/report/index.md
+              - Function:
+                      - 2d-visualization/function/index.md
+              - Property Binding:
+                      - 2d-visualization/property-binding/index.md
+              - Event:
+                      - 2d-visualization/event/index.md
+              - Project Properties:
+                      - 2d-visualization/project-properties/index.md
+      - 3D Visualization:
+              - 3d-visualization/index.md
+              - 3d Low Code Example:
+                      - 3d-visualization/3d-low-code-example/index.md
+      - Appendix:
+              - appendix/index.md
+              - System-Function:
+                      - appendix/system-function/index.md
+                      - System-Alarm:
+                              - appendix/system-function/system-alarm/index.md
+                              - appendix/system-function/system-alarm/system-alarm-query.md
+                              - appendix/system-function/system-alarm/system-alarm-queryhistory.md
+                      - System-Context:
+                              - appendix/system-function/system-context/index.md
+                              - System-Context-alarm:
+                                      - appendix/system-function/system-context/system-context-alarm/index.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-ackmode.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-acknotes.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-acktime.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-description.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-statuschangeid.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-statuschangetime.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-name.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-nodename.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-ackuser.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-path.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-priority.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-state.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-type.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-alarmvalue.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-datatype.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-activetime.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-alarmgroups.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-cleartime.md
+                                      - appendix/system-function/system-context/system-context-alarm/system-context-currentalarm-notificationrule.md
+                              - System-Context-currentEvent:
+                                      - appendix/system-function/system-context/system-context-currentevent/index.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-newvalue.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-offsetx.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-offsety.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-oldvalue.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-screenx.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-screeny.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-type.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-x.md
+                                      - appendix/system-function/system-context/system-context-currentevent/system-context-currentevent-y.md
+                      - System-Datatable:
+                              - appendix/system-function/system-datatable/index.md
+                              - appendix/system-function/system-datatable/system-datatable-todatatable.md
+                      - System-Db:
+                              - appendix/system-function/system-db/index.md
+                                - appendix/system-function/system-db/system-db-runsqlquery.md
+                      - System-Event:
+                              - appendix/system-function/system-event/index.md
+                              - appendix/system-function/system-event/system-event-fail.md
+                              - appendix/system-function/system-event/system-event-success.md
+                      - System-Page:
+                              - appendix/system-function/system-page/index.md
+                              - appendix/system-function/system-page/system-page-getpropertyvalue.md
+                              - appendix/system-function/system-page/system-page-setpropertyvalue.md
+                      - System-PTZControl:
+                              - appendix/system-function/system-ptzcontrol/index.md
+                              - appendix/system-function/system-ptzcontrol/system-ptzcontrol-move.md
+                              - appendix/system-function/system-ptzcontrol/system-ptzcontrol-stop.md
+                              - appendix/system-function/system-ptzcontrol/system-ptzcontrol-setposition.md
+                      - System-Security:
+                              - appendix/system-function/system-security/index.md
+                              - appendix/system-function/system-security/system-security-changepassword.md
+                              - appendix/system-function/system-security/system-security-getroles.md
+                              - appendix/system-function/system-security/system-security-getusername.md
+                              - appendix/system-function/system-security/system-security-login.md
+                              - appendix/system-function/system-security/system-security-logout.md
+                      - System-Tag:
+                              - appendix/system-function/system-tag/index.md
+                              - appendix/system-function/system-tag/system-tag-getpropertyvalues.md
+                              - appendix/system-function/system-tag/system-tag-mock.md
+                              - appendix/system-function/system-tag/system-tag-querypropertyvalues.md
+                              - appendix/system-function/system-tag/system-tag-readvalue.md
+                              - appendix/system-function/system-tag/system-tag-subscribe.md
+                              - appendix/system-function/system-tag/system-tag-writevalue.md
+                      - System-UI:
+                              - appendix/system-function/system-ui/index.md
+                              - appendix/system-function/system-ui/system-ui-applychanges.md
+                              - appendix/system-function/system-ui/system-ui-back.md
+                              - appendix/system-function/system-ui/system-ui-close.md
+                              - appendix/system-function/system-ui/system-ui-findcontrol.md
+                              - appendix/system-function/system-ui/system-ui-forward.md
+                              - appendix/system-function/system-ui/system-ui-gohome.md
+                              - appendix/system-function/system-ui/system-ui-open.md
+                              - appendix/system-function/system-ui/system-ui-opennewtab.md
+                              - appendix/system-function/system-ui/system-ui-openpopup.md
+                              - appendix/system-function/system-ui/system-ui-redirect.md
+                      - System-Utils:
+                              - appendix/system-function/system.utils/index.md
+                              - appendix/system-function/system.utils/system-utils-importscript.md
+                              - appendix/system-function/system.utils/system-utils-importstyle.md
 
-          - Demo Workspace:
-                - appendix/demo-workspace/index.md
-                - appendix/demo-workspace/home.md
-                - appendix/demo-workspace/components.md
-                - appendix/demo-workspace/features.md
+              - Demo Workspace:
+                      - appendix/demo-workspace/index.md
+                      - appendix/demo-workspace/home.md
+                      - appendix/demo-workspace/components.md
+                      - appendix/demo-workspace/features.md
