@@ -227,6 +227,7 @@ nav:
                       - management-platform/devices/usage-of-legacy-protocols.md       
               - Assets and Tags:
                       - management-platform/assets-and-tags/index.md
+                      - management-platform/assets-and-tags/aggregation-modes.md
               - Alarming:
                       - management-platform/alarming/index.md
               - Scripts:
