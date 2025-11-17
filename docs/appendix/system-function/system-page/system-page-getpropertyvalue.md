@@ -2,24 +2,33 @@
 
 
 ## Description
-Get images from the local library.
-
+Get the value of the current page's custom property or control property.
 ## Grammar
-System.Library.getLocalImage(path:string): Promise<string>
+                                                                                                                               
+System.Page.getPropertyValue(path: string): any 
 
-Parameter
+Parameter 
 
-path - The path of the image
+path - Path of the page's custom property or control property 
 
-Return
+Return 
 
-base64
+Property value
+
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Obtain"Sun. svg" from the local library under "Scenery".
+Get the value of the custom property "no" for the page.
 ```typescript 
 
-const base64 = await System.Library.getLocalImage('Scenery.Sun.svg');
-console.log(base64)
+const value = System.Page.getPropertyValue('#custom.no');
+console.log(value);
+
+```   
+Get the text property value of TextInput1.
+```typescript 
+
+const value = System.Page.getPropertyValue('TextInput1#text');
+console.log(value);
+
 ```   
 
