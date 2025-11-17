@@ -1,16 +1,17 @@
-# System.Context.currentAlarm.ackNotes
+# System.Context.currentEvent.oldValue
+
 
 ## Description
-The acknowledgment notes of the current alarm.
+If it is triggered by a value change, obtain the old value.
 
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentEvent.oldValue
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the old value of the current triggering event.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
-
+const oldValue = System.Context.currentEvent.oldValue;
+console.log(oldValue)
 ```   
+

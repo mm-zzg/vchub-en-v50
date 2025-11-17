@@ -1,16 +1,24 @@
-# System.Context.currentAlarm.ackNotes
+# System.Library.getLocalImage
+
 
 ## Description
-The acknowledgment notes of the current alarm.
+Get images from the local library.
 
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Library.getLocalImage(path:string): Promise<string>
+
+Parameter
+
+path - The path of the image
+
+Return
+
+base64
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Obtain"Sun. svg" from the local library under "Scenery".
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
-
+const base64 = await System.Library.getLocalImage('Scenery.Sun.svg');
+console.log(base64)
 ```   

@@ -1,16 +1,21 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentEvent.type
+
 
 ## Description
-The acknowledgment notes of the current alarm.
-
+      
+The type of event.
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentEvent.type
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the type of the current event. 
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
-
+const type = System.Context.currentEvent.type;
+console.log(type)
 
 ```   
+
+
+

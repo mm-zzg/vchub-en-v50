@@ -1,16 +1,22 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentAlarm.nodeName
+
 
 ## Description
-The acknowledgment notes of the current alarm.
 
+The name of the node where the current alarm is located.
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentAlarm.nodeName
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the name of the node where the current alarm is located.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
+const node = System.Context.currentAlarm.nodeName;
+console.log(node);
 
 ```   
+
+
+

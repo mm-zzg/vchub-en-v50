@@ -1,16 +1,17 @@
-# System.Context.currentAlarm.ackNotes
+
+# System.Context.currentAlarm.notificationRule
+
 
 ## Description
-The acknowledgment notes of the current alarm.
 
+The notification rule of the current alarm.
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentAlarm.notificationRule
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the notification rule of the current alarm.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
-
+const rule = System.Context.currentAlarm.notificationRule;
+console.log(rule);
 ```   

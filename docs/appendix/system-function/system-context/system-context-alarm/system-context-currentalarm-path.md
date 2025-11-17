@@ -1,16 +1,22 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentAlarm.path
+
 
 ## Description
-The acknowledgment notes of the current alarm.
 
+The path of the alarm.
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentAlarm.path
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the path of the alarm.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
+const path = System.Context.currentAlarm.path;
+console.log(path);
 
 
 ```   
+
+
+

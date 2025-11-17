@@ -1,16 +1,22 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentAlarm.statusChangeTime
+
 
 ## Description
-The acknowledgment notes of the current alarm.
 
+The timestamp of the current alarm's status change.
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentAlarm.statusChangeTime
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the timestamp of the current alarm's status change.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
+const time = System.Context.currentAlarm.statusChangeTime;
+console.log(time);
 
 ```   
+
+
+

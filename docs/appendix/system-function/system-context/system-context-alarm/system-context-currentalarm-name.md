@@ -1,16 +1,22 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentAlarm.name
+
 
 ## Description
-The acknowledgment notes of the current alarm.
 
+The name of the current alarm.
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentAlarm.name
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the name of the current alarm.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
+const name = System.Context.currentAlarm.name;
+console.log(name);
 
 ```   
+
+
+

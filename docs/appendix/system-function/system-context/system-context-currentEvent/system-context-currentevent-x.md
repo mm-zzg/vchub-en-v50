@@ -1,16 +1,21 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentEvent.x
+
 
 ## Description
-The acknowledgment notes of the current alarm.
+The horizontal coordinate of the event relative to the page.
 
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentEvent.x
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Obtain the horizontal coordinates of the current triggering event. 
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
-
+const x = System.Context.currentEvent.x;
+console.log(x)
 
 ```   
+
+
+

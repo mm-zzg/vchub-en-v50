@@ -1,16 +1,21 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentEvent.offsetY
+
 
 ## Description
-The acknowledgment notes of the current alarm.
+Obtain the vertical offset of the event target relative to the element that triggers the event.
 
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentEvent.offsetY
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Obtain the horizontal offset of the current triggering event. 
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
-
+const offsetY = System.Context.currentEvent.offsetY;
+console.log(offsetY)
 ```   
+
+
+

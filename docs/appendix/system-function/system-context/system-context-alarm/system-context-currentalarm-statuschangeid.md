@@ -1,16 +1,15 @@
-# System.Context.currentAlarm.ackNotes
-
+# System.Context.currentAlarm.statusChangeId
 ## Description
-The acknowledgment notes of the current alarm.
+The id of the current alarm's status change.
 
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentAlarm.statusChangeId
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the id of the current alarm's status change.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
+const id = System.Context.currentAlarm.statusChangeId;
+console.log(id);
 
-```   
+```  

@@ -1,16 +1,22 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentAlarm.ackUser
+
 
 ## Description
-The acknowledgment notes of the current alarm.
 
+The user who acknowledged the current alarm.
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentAlarm.ackUser
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the user who acknowledged the current alarm.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
+const user = System.Context.currentAlarm.ackUser;
+console.log(user);
 
 ```   
+
+
+

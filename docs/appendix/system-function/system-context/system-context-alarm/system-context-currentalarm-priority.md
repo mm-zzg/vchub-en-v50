@@ -1,16 +1,22 @@
-# System.Context.currentAlarm.ackNotes
+
+
+# System.Context.currentAlarm.priority
+
 
 ## Description
-The acknowledgment notes of the current alarm.
 
+The priority of the current alarm.
 ## Grammar
-System.Context.currentAlarm.ackNotes
+System.Context.currentAlarm.priority
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
-Get the acknowledgment notes of the current alarm.
+Get the priority of the current alarm.
 ```typescript 
-const notes = System.Context.currentAlarm.ackNotes;
-console.log(notes);
 
+const priority = System.Context.currentAlarm.priority;
+console.log(priority);
 
 ```   
+
+
+

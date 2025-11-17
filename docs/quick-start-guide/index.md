@@ -102,9 +102,8 @@ Note: For more information on binding, please refer to the Property Binding page
 
 Click the preview button in the page tool bar to view the preview effect. You can also click the run button for the project in the project list to view the running page.
 
-<img width="829" height="306" alt="image" src="https://github.com/user-attachments/assets/f05861b0-0411-444f-a1e1-a96d0e8974cb" />
 
-
+![quick-start-guide](../assets/images/quick-start-guide.gif)
 
 
 
