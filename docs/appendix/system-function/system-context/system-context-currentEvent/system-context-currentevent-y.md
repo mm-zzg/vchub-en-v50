@@ -11,7 +11,7 @@ System.Context.currentEvent.y
 Obtain the vertical coordinates of the current triggering event. 
 ```typescript 
 const y = System.Context.currentEvent.y;
-console.log(x)
+console.log(y)
 
 ```   
 
