@@ -13,7 +13,7 @@ path - The path of the image
 
 Return
 
-base64`
+base64
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
 Obtain"Sun. svg" from the local library under "Scenery".
