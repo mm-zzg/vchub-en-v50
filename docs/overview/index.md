@@ -28,7 +28,7 @@
 
  VC Hub is fully implemented based on web standards, so you can directly run and operate your VC Hub application using a web browser. For example, you can connect and configure PLC or historical storage directly through a web browser, and you can also use a web browser to configure your VC Hub application. Another benefit of being based on web standards is that it can make your configuration screen easier to create and more aesthetically pleasing than traditional desktops.
 
-<img width="2931" height="1065" alt="image" src="https://github.com/user-attachments/assets/29f93d9b-ded3-4813-bb85-7d0f58bc17aa" />
+![alt text](1.png)
 
 
 **High Performance**
@@ -39,14 +39,14 @@
 
  VC Hub has a built-in online report designer, allowing you to complete report design through drag-and-drop. Report data can be seamlessly integrated with the VC Hub historical database and the company's SQL databases. It comes with a rich set of report controls, helping users easily design various report styles and export to multiple mainstream file formats, including Excel, Word, PDF, HTML, images, and JSON.
 
-<img width="3018" height="1065" alt="image" src="https://github.com/user-attachments/assets/87ed4b7f-72cf-4ec2-bd0d-2512002208ec" />
+![alt text](2.png)
 
 
-**Alarm**
+**Alarm**   
 
  VC Hub has built-in standardized alarm tools that you can use at any time to build your on-site alarm application. All alarms can be displayed and stored in real-time, and you can also confirm and suspend alarms at any time.
 
-<img width="981" height="756" alt="image" src="https://github.com/user-attachments/assets/43b4ad86-9dff-4f85-a1b8-6131828ae974" />
+![alt text](3.png)
 
 
 
@@ -55,7 +55,7 @@
 
  VC Hub supports multiple data protocols, allowing you to easily connect on-site data to VC Hub. And we are also constantly increasing and expanding these data protocols to enable VC Hub to be applied to a wider range of fields.
 
-<img width="967" height="381" alt="image" src="https://github.com/user-attachments/assets/68b59819-f8bd-42a9-8421-f3ccf7178311" />
+![alt text](4.png)
 
 
 
