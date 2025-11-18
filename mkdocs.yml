@@ -346,12 +346,7 @@ nav:
                             - System-Page:
                                       - appendix/system-function/system-page/index.md
                                       - appendix/system-function/system-page/system-page-getpropertyvalue.md
-                                      - appendix/system-function/system-page/system-page-setpropertyvalue.md
-                        #     - System-PTZControl:
-                        #               - appendix/system-function/system-ptzcontrol/index.md
-                        #               - appendix/system-function/system-ptzcontrol/system-ptzcontrol-move.md
-                        #               - appendix/system-function/system-ptzcontrol/system-ptzcontrol-stop.md
-                        #               - appendix/system-function/system-ptzcontrol/system-ptzcontrol-setposition.md
+                                      - appendix/system-function/system-page/system-page-setpropertyvalue.md  
                             - System-Security:
                                       - appendix/system-function/system-security/index.md
                                       - appendix/system-function/system-security/system-security-changepassword.md
@@ -380,9 +375,9 @@ nav:
                                       - appendix/system-function/system-ui/system-ui-openpopup.md
                                       - appendix/system-function/system-ui/system-ui-redirect.md
                             - System-Utils:
-                                      - appendix/system-function/system.utils/index.md
-                                      - appendix/system-function/system.utils/system-utils-importscript.md
-                                      - appendix/system-function/system.utils/system-utils-importstyle.md
+                                      - appendix/system-function/system-utils/index.md
+                                      - appendix/system-function/system-utils/system-utils-importscript.md
+                                      - appendix/system-function/system-utils/system-utils-importstyle.md
 
                   - Demo Workspace:
                             - appendix/demo-workspace/index.md
