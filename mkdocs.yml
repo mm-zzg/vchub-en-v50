@@ -338,7 +338,7 @@ nav:
                                       - appendix/system-function/system-datatable/system-datatable-todatatable.md
                             - System-Db:
                                       - appendix/system-function/system-db/index.md
-                                        - appendix/system-function/system-db/system-db-runsqlquery.md
+                                      - appendix/system-function/system-db/system-db-runsqlquery.md
                             - System-Event:
                                       - appendix/system-function/system-event/index.md
                                       - appendix/system-function/system-event/system-event-fail.md
@@ -359,6 +359,8 @@ nav:
                                       - appendix/system-function/system-tag/system-tag-getpropertyvalues.md
                                       - appendix/system-function/system-tag/system-tag-mock.md
                                       - appendix/system-function/system-tag/system-tag-querypropertyvalues.md
+                                      - appendix/system-function/system-tag/system-tag-read.md
+                                      - appendix/system-function/system-tag/system-tag-readhistory.md
                                       - appendix/system-function/system-tag/system-tag-readvalue.md
                                       - appendix/system-function/system-tag/system-tag-subscribe.md
                                       - appendix/system-function/system-tag/system-tag-writevalue.md
