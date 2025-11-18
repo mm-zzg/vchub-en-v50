@@ -2,16 +2,16 @@
 
  VC Hub is constantly evolving and being updated, with each new version bringing new features and bug fixes. Here, you can quickly preview the new features and resolved issues of the corresponding versions.
 
-### Determining Your Current Version
+## Determining Your Current Version
 
  You can find out the version number of VC Hub you are currently using in the following two ways:
 
 1.  In the bottom right corner of the management platform, you can find the corresponding VC Hub version number.
 2.  In the top right corner ofthe configuration editing interface, there is an exclamation mark icon. You can click on this icon to get the corresponding VC Hub version number information.
 
-<img width="1919" height="314" alt="image" src="https://github.com/user-attachments/assets/82b76b6c-fdc5-478e-b107-09f4466ca8f1" />
+![alt text](5.png)
 
-<img width="1917" height="333" alt="image" src="https://github.com/user-attachments/assets/52c1ff48-efb8-47e1-82f3-ee3e328dbb0a" />
+![alt text](6.png)
 
 -  WYSIWYG Configuration Editor：VC Hub provides a WYSIWYG (What You See Is What You Get) configuration editor, allowing you to preview the configuration effects in real-time.
 -  Standardized Alarms：VC Hub offers standardized alarm functions, including various limit alarms, rate of change alarms, and equal value alarms, and provides corresponding real-time and historical configuration controls.
@@ -20,13 +20,13 @@
 -  Networking and Redundancy: VC Hub supports large-scale configurations and high-availability scenarios. You can build your complexfield configuration projects through multiple SCADA networking.
 -  3D Digital Twin: VC Hub supports 3D configuration, like 2D configuration. You can build your digital twin scenarios, and it provides many 3D API for you to configure more advanced and complex digital twin applications.
 
-#### New Features
+## New Features
 
-###### 4.4.X
+#### 4.4.X
 
 - **Logo and Name Modification**: The product logo has been replaced, and the product name has been changed from WAGO SCADA to Visualization and Control Hub, abbreviated as VC Hub.
 
-###### 4.3.X
+#### 4.3.X
 
 - **SVG Editor**: Through the SVG editor, users can modify and save attributes of SVG images in the library, such as color, size, text content, and visibility.
 - **Toggle Button**: Switches between ON and OFF states when clicked. Commonly used to control Boolean-type devices, such as start/stop or on/off switches.
@@ -36,7 +36,7 @@
 - **Screen Functions and Expression Functions**: By defining screen functions or expression functions, common logic can be centralized and reused. This avoids writing the same logic repeatedly in each component, allowing one modification to take effect globally, reducing maintenance costs.
 - **Binding Support for Enabling/Disabling Animations**: When configuring animations for components, the enabling and disabling of animations can be controlled through property bindings.
 
-###### 4.2.X
+#### 4.2.X
 
 - **Permissions**：Supports single sign-on; allows setting permissions for projects and pages.
 - **SQL Query**：Enables querying data from third-party databases. It is a pre-configured query that can be later bound to controls. When executing SQL statements, parameters can be passed to return dynamic result sets.
@@ -49,7 +49,7 @@
 - **Camera**: Configure WebRTC Streamer to set up the camera, enabling camera streaming while keeping it separate from the VC Hub server.
 - **WeCom and DingTalk support to receive alarm notification**: Support to send alarm notification to WeCom group, WeCom account, DingTalk group , DingTalk account.
 
-###### 4.1.X
+#### 4.1.X
 
 - **Alarm Notifications**: VC Hub can send alarm notifications to specific users when a system alarm occurs. Notifications can be sent via email or SMS.
 - **Symbols**: Symbols can be used to create detailed models of devices or systems, supporting combinations of multiple components and sub-symbols. This allows users to easily monitor the overall system operation. VC Hub supports user-defined symbols, enhancing operational efficiency.
