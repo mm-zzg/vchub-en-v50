@@ -16,36 +16,35 @@ Recommended Systems for Installation:
 1. Run the installation package program as an administrator.
 2. Select the installation language.
 
-<img width="372" height="179" alt="image" src="https://github.com/user-attachments/assets/dba75d4c-342f-4dbb-a1af-23b34ac46509" />
-
+![alt text](5.png)
 
 3. Perform a port check, if the port is occupied, the installation cannot proceed. 
 
-<img width="601" height="465" alt="image" src="https://github.com/user-attachments/assets/94a6df97-6d65-4520-8886-83bb8de76ae5" />
+![alt text](6.png)
 
 
 4. Read and accept the license agreement.
 
-<img width="599" height="467" alt="image" src="https://github.com/user-attachments/assets/fa502ccd-9bb1-4931-a3ff-5e3234fb5c9b" />
+![alt text](7.png)
 
 5. Choose the installation location; the default path is: "C:\Program Files\WAGO Visualization And Control Hub".
 
-<img width="598" height="465" alt="image" src="https://github.com/user-attachments/assets/c99f75c0-98e9-48ad-93c8-33c36dac6f75" />
+![alt text](8.png)
 
 
 6. Select the VC Hub application data directory.
 
-<img width="600" height="465" alt="image" src="https://github.com/user-attachments/assets/32bc1467-86c0-4ed4-a827-7f29ecfd8347" />
+![alt text](9.png)
 
 
 7. Prepare for installation.
 
-<img width="600" height="466" alt="image" src="https://github.com/user-attachments/assets/5dde45db-1db1-405c-ba39-726cd30703e5" />
+![alt text](10.png)
 
 
 8. The installation is complete.
 
-<img width="602" height="469" alt="image" src="https://github.com/user-attachments/assets/8eb83193-602e-48e4-8e0e-a9b178d7ad51" />
+![alt text](11.png)
 
 
 9.  After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
@@ -54,12 +53,12 @@ Recommended Systems for Installation:
 
 1. Create an administrator user. Remember this username and password, as you will use them to log in for the first time. 
 
-<img width="731" height="626" alt="image" src="https://github.com/user-attachments/assets/b0b7fb2e-de45-4074-ac2b-5d47574719b7" />
+![alt text](12.png)
 
 
 2. Port configuration, configure HTTP, HTTPS ports, and remember the access port. 
 
-<img width="727" height="623" alt="image" src="https://github.com/user-attachments/assets/a1416428-c526-4635-8dc1-6cd0cb858acb" />
+![alt text](13.png)
 
 
 3. After completing the above steps, wait for the program to load, and then you can log in to the default-created workspace with the user created in step 1.
@@ -74,7 +73,7 @@ To further enhance system security, it is recommended to perform the following s
 
       Create a dedicated account in Windows local users and groups (e.g., VCHubSvc):
 
-<img width="931" height="684" alt="image" src="https://github.com/user-attachments/assets/4145b04f-2443-4fe4-93f7-d28cd4143492" />
+![alt text](14.png)
 
 
 2. Set service installation directory permissions
@@ -109,12 +108,11 @@ Navigate to the service installation directory (e.g., C:\Program Files\WAGO Visu
 
 1. Enter the software uninstall list from the Control Panel. Find VC Hub and proceed with the uninstallation.
 
-<img width="1018" height="244" alt="image" src="https://github.com/user-attachments/assets/7f9cdd5b-ce60-4557-b81b-c4f9e3143c8b" />
-
+![alt text](15.png)
 
 2. Confirm the uninstallation to complete the removal of the application.
 
-<img width="476" height="173" alt="image" src="https://github.com/user-attachments/assets/8c147bbc-49e8-4529-9b3f-8b0401d59dea" />
+![alt text](16.png)
 
 
 

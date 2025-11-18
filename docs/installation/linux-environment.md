@@ -7,40 +7,40 @@ VC Hub provides an installation package for the Linux environment, with the file
 1. Copy the installation package to a directory on the Linux server.
 2. Grant the file owner the permission to execute the installation file 
 
-<img width="1566" height="27" alt="image" src="https://github.com/user-attachments/assets/23201de1-fe7c-478a-9c7c-c1525d69d1ce" />
+![alt text](17.png)
 
 
 3. Run the installation package in the directory using the command ./ followed by the file name. 
 
-<img width="1362" height="30" alt="image" src="https://github.com/user-attachments/assets/22535401-5edd-45f3-a72d-c9fb91aeee59" />
+![alt text](18.png)
 
 
 4. Select the installation language.
 
-<img width="1371" height="120" alt="image" src="https://github.com/user-attachments/assets/733ba351-aa04-4873-bb50-178ae88ec4aa" />
+![alt text](19.png)
 
 
 5. Customize the installation directory or use the default directory. If the installation directory does not exist, the installer will create it automatically.
 
-<img width="1197" height="207" alt="image" src="https://github.com/user-attachments/assets/f9cd8ceb-48ab-40d8-a8f0-41f06437af48" />
+![alt text](20.png)
 
 
-<img width="1344" height="153" alt="image" src="https://github.com/user-attachments/assets/13b29be6-f23c-4914-8f28-1a7fa06ba3a3" />
+![alt text](21.png)
 
 
 6. Customize the data directory or use the default directory.
 
-<img width="1143" height="81" alt="image" src="https://github.com/user-attachments/assets/c32df722-01b5-4803-acab-8c7416e90c9d" />
+![alt text](22.png)
 
 
 7. Wait for the installation to complete. This process may take some time, so please be patient. 
 
-<img width="1869" height="177" alt="image" src="https://github.com/user-attachments/assets/d69959c6-4183-441b-93d5-a3a8182d3565" />
+![alt text](23.png)
 
 
 8. The installation is complete.
 
-<img width="1254" height="102" alt="image" src="https://github.com/user-attachments/assets/c321674b-0302-4870-afc6-8077c6aa79f0" />
+![alt text](24.png)
 
 9. After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
 
@@ -55,12 +55,12 @@ VC Hub provides an installation package for the Linux environment, with the file
 
 2. Create an administrator user. Remember this username and password, as you will use them to log in for the first time. 
 
-<img width="990" height="831" alt="image" src="https://github.com/user-attachments/assets/b0ca6757-e573-4ea1-8f33-c4f1c509c160" />
+![alt text](25.png)
 
 
 3. Port configuration, configure HTTP, HTTPS ports, and remember the access port. 
 
-<img width="984" height="827" alt="image" src="https://github.com/user-attachments/assets/8f4e1688-8cfb-40f6-8f63-5fb87d371806" />
+![alt text](26.png)
 
 
 
@@ -145,12 +145,12 @@ systemctl status visualizationandcontrolhub.service
 1. Go to the parent directory of the installation directory.
 2. Grant the file owner the permission to execute the file "visualizationandcontrolhub-uninstall.sh"
 
-<img width="1314" height="30" alt="image" src="https://github.com/user-attachments/assets/24bed512-59fd-4b17-8f71-80218ad1a1cd" />
+![alt text](27.png)
 
 
 3. Run the script "visualizationandcontrolhub-uninstall.sh".
 
-<img width="1278" height="408" alt="image" src="https://github.com/user-attachments/assets/175c0ceb-813a-41b3-88c8-e3998aa9c1b5" />
+![alt text](28.png)
 
 
 4. After these operations, all program-related files will be removed, and the process supervisory service will also be removed.

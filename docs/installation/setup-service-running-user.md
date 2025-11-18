@@ -28,8 +28,7 @@ Changing the service login identity requires administrator privileges.
    - Select **This account**, then enter the account name and password.
    - Click **OK** to save the settings.
      
-<img width="409" height="471" alt="image" src="https://github.com/user-attachments/assets/ff6f4bcc-a4e5-4775-8f11-1d7cbe36eed0" />
-
+![alt text](29.png)
 
 
 
