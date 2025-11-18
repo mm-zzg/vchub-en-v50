@@ -12,26 +12,26 @@
 - Databases: Used to configure the connection information between the system and external databases, through which connection tags, alarm history data can be recorded into the databases supported by VC Hub, such as Influx DB, MySQL, etc.
 - Security: Configuration of roles and user information for individual workspaces, which is mainly used to manage the use of the system's functional privileges. The configuration of permissions only takes effect in the current workspace. In a multi-workspace scenario, each workspace will have a separate permission system.
 
-#### **Initial workspace**
+## **Initial workspace**
 
  The startup of a VC Hub system is based on a workspace, which is an important basis for the operation of the system. The existence of a complete workspace folder in the server system is a prerequisite for the normal operation of the system.
 
  Therefore, when running the VC Hub system for the first time, the system will check whether any workspace files exist on the server system, and if they do not, then the system will initialize a workspace named Default in the data directory of the server system as the working directory of the system. In subsequent system operations, the data of the above mentioned modules will be stored in this initialized workspace folder.
 
-#### **Workspace Data Storage**
+## **Workspace Data Storage**
 
-###### **Storage directory**
+#### **Storage directory**
 
  All workspace data will be stored in the form of files in the data directory location on theserver system. Currently, the VC Hub system deployment server only supports Windows and Linux, and the storage location of the workspace directory differs between the two:
 
 -  Windows: Usually points to C:\ProgramData\WAGOVisualizationAndControlHub \Workspaces\, which is a specific system directory for storing application data on Windows systems.
 -  Linux: Fixed to /usr/share/WAGOVisualizationAndControlHub/ Workspaces.
 
-###### **Directory structure**
+#### **Directory structure**
 
  A complete root directory for workspace data should contain at least one .ini file and a workspace folder named with a random GUID. The following figure shows the workspace data directory in Windows.
 
-<img width="724" height="241" alt="image" src="https://github.com/user-attachments/assets/01286a34-f9aa-46e8-8dbb-17abc9c3b084" />
+![alt text](1.png)
 
 
 - Current Workspace Configure File: The current workspace configuration file is a .ini suffix configuration file containing configuration information that serves as the basis for the startup of the VC Hub service.

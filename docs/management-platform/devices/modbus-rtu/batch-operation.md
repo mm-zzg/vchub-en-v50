@@ -14,8 +14,7 @@ When exporting Modbus RTU devices, the exported file will include frame informat
 
 **Example of an Exported File:**
 
-<img width="1363" height="315" alt="image" src="https://github.com/user-attachments/assets/ef152c2c-59df-4fbb-80b3-5b17e43f976b" />
-
+<![alt text](7.png)
 
 - The content inside the red box represents the field information.
 - If it is a device, the "IsDevice" field is set to **True**.
@@ -45,7 +44,7 @@ For the COM port, manually convert its format to a number. After that, during th
 
 Click the "Import" button in the upper right corner of the list to import the exported content. After importing, the newly added devices will have their enabled status set to "Disabled" by default.
 
-<img width="1902" height="330" alt="image" src="https://github.com/user-attachments/assets/3d01f482-a2e9-4a55-b029-e2647e8342b2" />
+![alt text](8.png)
 
 
 ## Batch Modification
@@ -61,7 +60,7 @@ You can batch modify device information through the exported Excel. After making
 
 After selecting the devices to be deleted, click the **Delete** button at the top of the list to perform batch deletion.
 
-<img width="1896" height="341" alt="image" src="https://github.com/user-attachments/assets/ca20dc68-1fe8-4d53-ba3e-9ce964c520e4" />
+![alt text](9.png)
 
 
 

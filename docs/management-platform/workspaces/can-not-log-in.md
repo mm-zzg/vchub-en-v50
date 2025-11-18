@@ -20,7 +20,7 @@ If you have other workspaces in your system and have the login information for t
 
       Go to the root directory of a specific workspace folder, where you can check the **“.ini”** file to view information such as the workspace name.
 
-<img width="1191" height="533" alt="image" src="https://github.com/user-attachments/assets/09fe4129-18d2-46fa-b1d7-1ab368955e21" />
+![alt text](21.png)
 
 
 4. **Modify the ".ini" file in the root directory of the workspace folder**

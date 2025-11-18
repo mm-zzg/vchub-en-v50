@@ -14,7 +14,7 @@
 - SIEMENS S7
 - WAGO Protocol
 
-<img width="239" height="339" alt="image" src="https://github.com/user-attachments/assets/0931e11e-da69-4ea1-91ad-bbde09197e53" />
+![alt text](1.png)
 
 
 ## **How do I get data from my PLC?**
@@ -25,6 +25,5 @@
 2.  Add the I/O tag in the Assets window of the editor. Bind a data source to the tag and select the device you added in step 1 in the data source. See the "Creating Tags" page.
 3.  Bind a data source to the tag and select the device you added in step 1 in the data source. See the "I/O Tag Binding Data Source" page.
 
-<img width="1075" height="637" alt="image" src="https://github.com/user-attachments/assets/57ab478d-e756-4616-85ed-04ecefb01f53" />
-
+![alt text](2.png)
 

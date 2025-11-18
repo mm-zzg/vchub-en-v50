@@ -14,7 +14,7 @@ When exporting Modbus TCP devices, the exported file will include frame informat
 
 **Example of an Exported File:**
 
-<img width="1364" height="340" alt="image" src="https://github.com/user-attachments/assets/30f005d7-68cd-4a74-b003-6bc444287101" />
+![alt text](7.png)
 
 
 - The content inside the red box represents the field information.
@@ -44,7 +44,7 @@ Click the "**Import**" button in the upper right corner of the list to import th
 
 After importing, the newly added devices will have their enabled status set to "Disabled" by default.
 
-<img width="1897" height="334" alt="image" src="https://github.com/user-attachments/assets/e8b4d116-ee5b-4412-bd50-e602ccd8f29c" />
+![alt text](8.png)
 
 
 ## Batch Modification
@@ -60,7 +60,7 @@ You can batch modify device information through the exported Excel. After making
 
 After selecting the devices to be deleted, click the **Delete** button at the top of the list to perform batch deletion.
 
-<img width="1898" height="338" alt="image" src="https://github.com/user-attachments/assets/59325666-3c2b-459c-ace2-83254911c86c" />
+![alt text](9.png)
 
 
 Notes:

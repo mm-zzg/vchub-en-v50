@@ -4,8 +4,7 @@
 
 After successfully log in, users can enter the workspace management list by clicking the workspace menu on the left menu bar.
 
-<img width="1907" height="734" alt="image" src="https://github.com/user-attachments/assets/12a0db17-a397-4497-8724-9af6ee51e7eb" />
-
+![alt text](2.png)
 
 ## **Function Description**
 
@@ -21,7 +20,7 @@ Users can do fuzzy query on workspace name through the input box in the upper ri
 
 Users can add new workspaces by clicking the "**Add**" button at the upper right corner and filling in the workspace information.
 
-<img width="797" height="409" alt="image" src="https://github.com/user-attachments/assets/099de3d1-8ba7-49f2-84b2-0544f838cfed" />
+![alt text](3.png)
 
 
 **Configuration items**
@@ -38,7 +37,7 @@ Users can add new workspaces by clicking the "**Add**" button at the upper right
 
 Users can click the **Edit** button on the right side of any workspace in the workspace list to edit the name and description of the workspace.
 
-<img width="797" height="265" alt="image" src="https://github.com/user-attachments/assets/0e452924-b102-44ef-b8f4-6b81fe231f83" />
+![alt text](4.png)
 
 
 #### **Open**
@@ -53,14 +52,14 @@ Users can click the "**Copy**" button on the right side of any workspace in the 
 
 After successful copying, a brand-new workspace will be generated, the internal data is exactly the same as the copied Default workspace: 
 
-<img width="1779" height="161" alt="image" src="https://github.com/user-attachments/assets/ca3268e0-4526-48df-a9c8-d63ff983271e" />
+![alt text](5.png)
 
 
 #### **Delete**
 
 Users can move their mouse over any of the workspace "**More**" buttons to display more drop-down menu options. 
 
-<img width="1793" height="202" alt="image" src="https://github.com/user-attachments/assets/5356e590-644d-4613-96ce-403e70360ad5" />
+![alt text](6.png)
 
 
 After clicking the "**Delete**" button, a deletion prompt box will pop up, click on the **OK**, the selected workspace data will be deleted.
@@ -72,19 +71,18 @@ Note: Deletion is not recoverable after deletion, please be careful; the delete 
 The "More" dropdown menu under any project data includes an **Export** option, allowing users to export and download workspace data as needed.
 During the export process, users can optionally **set a password** for the exported file to enhance data security.
 
-<img width="576" height="275" alt="image" src="https://github.com/user-attachments/assets/81a578aa-01d1-4c39-84fa-09ccfb11dbd8" />
+![alt text](7.png)
 
 
 The exported file is saved in `.wsbk`** **format to the local Downloads directory. It can be used for workspace backup and synchronization across multiple nodes.
 
-<img width="520" height="30" alt="image" src="https://github.com/user-attachments/assets/d2cf3ea8-bfa1-4631-9573-b08ddb4b2367" />
-
+![alt text](8.png)
 
 #### **Import**
 
 The user can click the **Import** button in the upper-right corner to import a previously exported* .wsbk* file into the VC Hub system.
 
-<img width="746" height="602" alt="image" src="https://github.com/user-attachments/assets/dbcd5f46-2727-4592-b7f4-578a0b8f38d0" />
+![alt text](9.png)
 
 
 Select a local *.wsbk* file. If a password was set during export, you must enter the correct password to proceed with the import. Workspaces without a password can be imported directly.
@@ -98,7 +96,6 @@ If the name of the imported workspace is the same as an existing workspace in th
 
 For a newly imported workspace, a **“** **New** **”** icon will be displayed after the workspace name for 30 minutes following the import.
 
-<img width="1645" height="157" alt="image" src="https://github.com/user-attachments/assets/fa4633fb-e676-4f13-9e6c-b18051e8e28a" />
-
+![alt text](10.png)
 
 

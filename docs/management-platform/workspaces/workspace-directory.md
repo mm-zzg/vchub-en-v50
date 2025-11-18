@@ -8,14 +8,14 @@
 
  Each workspace directory contains two parts, the workspace basic information file and the workspace data file. The workspace basic information file has the same naming and file format as the **Current Workspace Configure File** , and the workspace data file is used to store business data and files within the current workspace and is used to store part of the system's business data, and the structure of the directory is as follows:
 
-<img width="374" height="157" alt="image" src="https://github.com/user-attachments/assets/d55be487-b684-43ce-95bf-35a13ccc1b10" />
+![alt text](12.png)
 
 
 #### **Workspace basic information file**
 
  The workspace basic information file is a configuration file with. ini as the suffix, and the standard content is shown in the following figure:
 
-<img width="536" height="200" alt="image" src="https://github.com/user-attachments/assets/9e400d5f-b611-4cc0-9d64-1be929506315" />
+![alt text](13.png)
 
 
 - **Id** : workspace catalog identification, the same as the workspace catalog name.
