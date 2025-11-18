@@ -36,7 +36,7 @@ For cloud-based VC Hub nodes, communication with device sites can be achieved vi
 
 Users can utilize the built-in networking feature of VC Hub to establish communication between cloud-based VC Hub nodes and other VC Hub nodes, as shown with Station1 in the diagram. Station1 can be deployed in the cloud or locally, and users need to enable port 8060 on Azure Virtual Machine for communication. This port can be customized within the VC Hub website.
 
-<img width="3416" height="1645" alt="image" src="https://github.com/user-attachments/assets/47800807-ac68-40a1-84b2-51c6e037e170" />
+![alt text](10.png)
 
 
 ###### Service Level Agreements Analysis
@@ -61,8 +61,7 @@ Simultaneously, both VC Hub nodes connect to the same Azure Database. Devices ne
 
 For local VC Hub nodes, they only need to configure networking connections with the primary VC Hub node in the cloud. In the event of primary node failure, the local VC Hub will automatically switch its connection to the backup VM.
 
-<img width="3416" height="1645" alt="image" src="https://github.com/user-attachments/assets/8a99c3c3-6772-480e-a8ba-b38fcd7870c8" />
-
+![alt text](11.png)
 
 ###### Service Level Agreements Analysis
 
@@ -105,7 +104,7 @@ Azure provides the  [Azure Backup](https://azure.microsoft.com/en-us/products/ba
 
 The specific location of the application data directory can be configured during the installation process, as shown in the following image.
 
-<img width="600" height="465" alt="image" src="https://github.com/user-attachments/assets/f1472c48-8222-4815-ba4c-a0a4fdaa4bea" />
+![alt text](12.png)
 
 
 ## Data Monitor
@@ -118,8 +117,7 @@ System administrators can use the monitoring dashboard to observe the server's s
 
 By enabling the Azure Monitor agent in Azure VMs hosting VC Hub services, real-time data can be received in the Azure Monitor center.
 
-<img width="1417" height="737" alt="image" src="https://github.com/user-attachments/assets/d1fae880-be72-4e51-af74-58f0c2569b72" />
-
+![alt text](13.png)
 
 #### Azure Monitor Url
 
