@@ -2,7 +2,7 @@
 
 VC Hub provides an installation package for the Linux environment, with the file name wagovisualizationandcontrolhub-x.x.x-linux-x64-installer.run.
 
-#### **Installation Steps:**
+## **Installation Steps:**
 
 1. Copy the installation package to a directory on the Linux server.
 2. Grant the file owner the permission to execute the installation file 
@@ -70,7 +70,7 @@ VC Hub provides an installation package for the Linux environment, with the file
 **Note**: If you perform an upgrade installation, a new empty workspace will be created by default. To return to the original workspace, you need to log in to the new workspace first and then manually open the original workspace from the workspace list. 
 
 
-#### Security Configuration (Optional)
+## Security Configuration (Optional)
 
 To further enhance system security, it is recommended to perform the following steps after configuration to set permissions on the **service directory **and** application data directory**, allowing only specific users to access or modify them. This ensures that sensitive data is well protected and potential risks are minimized.
 
@@ -140,7 +140,7 @@ systemctl status visualizationandcontrolhub.service
  
   Open a browser and visit the VC Hub site (e.g., `http://localhost:8066`) to verify it is running correctly.
 
-#### **Uninstallation Steps:**
+## **Uninstallation Steps:**
 
 1. Go to the parent directory of the installation directory.
 2. Grant the file owner the permission to execute the file "visualizationandcontrolhub-uninstall.sh"
