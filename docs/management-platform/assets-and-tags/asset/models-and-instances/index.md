@@ -6,7 +6,7 @@ In VC Hub, tags in the model do not perform any operations and the model can be 
 
 ## **What types of data can be included under models and instances**
 
-Model instances, sets and tags are also included under models and instances.
+Model instances, sets and tags are also included under models and instances.  
 
 A complete model usually contains many complex components that are built through subsets. When a model is referenced and created as an instance, the instance references all the subsets under the model. Changes made to the configuration of these subsets in the model will also affect the corresponding instance.
 
@@ -130,7 +130,6 @@ Simply create a model named "Arm" in the **Model tab**, add an I/O tag named "Di
 Under the **Instances tab**, you will see that under Line 1, Line 2, and Line 3, instances of the Arm are displayed, and the Distance tag is displayed under the instances.
 
 <img width="318" height="667" alt="image" src="https://github.com/user-attachments/assets/55b8e601-0139-4744-bef6-b7adfda17d6d" />
-
 
 
 
