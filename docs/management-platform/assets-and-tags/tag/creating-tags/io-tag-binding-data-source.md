@@ -33,7 +33,9 @@ I/O tags can be bound to data sources. You can either bind a fixed data source p
 
 ## Parameterized Binding
 
-I/O tags created under a model or instance support parameterized binding. You can select the parameters that need to be replaced.
+I/O tags created under a model or instance support parameterized binding. After the data source text box, a settings button will be displayed. From the settings popup, you can select the parameters that need to be replaced.
+
+![alt text](16.png)
 
 #### Example
 
@@ -52,23 +54,23 @@ For batch creation of devices, please refer to the following section.
 1. In the **"Devices" -> Modbus TCP list**, batch create 10 Modbus TCP devices with names from **Device1** to **Device10**. Only the **DeviceName** and **Host** will differ, while other configurations remain the same.
 2. On the **"Models"** tab, create a new model called **"Motor"**, which includes one custom parameter, **"No"**, representing the motor number.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/EJgG7UWS/resources/E0VZ2JwUFYJ8wRfsyv_u5NNTDhf4CsBlpkaLq58m9bY.png?token=W.z2JrHmDwoF0ZFNh-c46R5rD6fnAU9J2P50ip16Ntfr7QSL76mNnXG91_deHvN2hjXqblq1ttJvoFW25pDwxzxduzMA)
+![alt text](17.png)
 
 3. Right-click on the **"Motor"** model and create an I/O tag named **"Power"**.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/EJgG7UWS/resources/KgQPjNsS6nIuacYbd_cRk5UQzxwS1Vts2FCgUSy_t6Q.png?token=W.z2JrHmDwoF0ZFNh-c46R5rD6fnAU9J2P50ip16Ntfr7QSL76mNnXG91_deHvN2hjXqblq1ttJvoFW25pDwxzxduzMA)
+![alt text](18.png)
 
 4. After binding a data source to the tag, click the settings button for the data source parameters. This will display the list of custom parameters for the tag's associated model, **"Motor"**.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/EJgG7UWS/resources/s7d7fxLmOfxPchL4fY2sEl6-g70p8AMkZwK5234RAIk.png?token=W.z2JrHmDwoF0ZFNh-c46R5rD6fnAU9J2P50ip16Ntfr7QSL76mNnXG91_deHvN2hjXqblq1ttJvoFW25pDwxzxduzMA)
+![alt text](19.png)
 
 You can replace the parameter values with the model's custom property, which are referenced using `{}`. When creating an instance, the custom property values will replace the parameters in the path.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/EJgG7UWS/resources/n1dRodFQqhBoB7XOwjY3gAWjy0E26uvhX3iq-0BfxaY.png?token=W.z2JrHmDwoF0ZFNh-c46R5rD6fnAU9J2P50ip16Ntfr7QSL76mNnXG91_deHvN2hjXqblq1ttJvoFW25pDwxzxduzMA)
+![alt text](20.png)
 
 5. After the tag is created, switch to the **"Instance"** tab. Create a folder named **"Motor"** and then add instances under this folder using the **"Motor"** model.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/EJgG7UWS/resources/uAZks32KsKUUjRPg04E49GuAo3JPzJMJmoMkHd6bTbY.png?token=W.z2JrHmDwoF0ZFNh-c46R5rD6fnAU9J2P50ip16Ntfr7QSL76mNnXG91_deHvN2hjXqblq1ttJvoFW25pDwxzxduzMA)
+![alt text](21.png)
 
 6. In the **Add** window, select the **Motor** model. Click the **"Batch Generate"** setting button, set the **"Quantity"** to 10, and set the **"Starting Index"** to 1.
 
