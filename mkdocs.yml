@@ -271,7 +271,7 @@ nav:
                             - management-platform/alarming/history-storage.md
                             - management-platform/alarming/alarm-group.md
                             - Alarm Notification:
-                                      - management-platform/alarming/alarm-notification/rules.md
+                                      - management-platform/alarming/alarm-notification/index.md
                                       - management-platform/alarming/alarm-notification/acknowledge-alarm.md
                                       - management-platform/alarming/alarm-notification/failed.md
                                       - management-platform/alarming/alarm-notification/rules.md
