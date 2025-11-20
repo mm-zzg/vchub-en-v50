@@ -16,7 +16,7 @@ Assumption:
 
 The relationship of each object is shown in the figure below:
 
-<img width="781" height="291" alt="image" src="https://github.com/user-attachments/assets/759f03a0-fbc3-4342-aa9b-8d5554d15f50" />
+![alt text](29.png)
 
 
 #### **Motor**
@@ -53,7 +53,7 @@ When the "Instantaneous power" under the "Motor" model is deleted, the "Instanta
 
 ## **Override**
 
-<img width="781" height="291" alt="image" src="https://github.com/user-attachments/assets/4bc01346-f770-4bc7-a790-82c4b74fb9dd" />
+![alt text](30.png)
 
 
 In the above, the definition of reference is introduced, and the concept of rewriting occurs between the reference and the referenced node.
@@ -74,16 +74,16 @@ In summary, override only exists between the reference and the referenced, when 
 
 When a reference object is overridden, a "green dot" is displayed on the right side of the input box, as shown in the initial value in the following figure.
 
-<img width="1090" height="718" alt="image" src="https://github.com/user-attachments/assets/4963f34b-b988-497b-a88d-9c3656189965" />
+![alt text](31.png)
 
 Users need to lift the override, directly click on the "green dot" will be grayed out, the initial value will be reset to the initial value of the referenced object, the following figure is the initial value of the referenced object is 0, then it will be reset to 0. 
 
-<img width="1094" height="722" alt="image" src="https://github.com/user-attachments/assets/f098920f-9401-4837-84c5-0c35ce47cef5" />
+![alt text](32.png)
 
 
 There is a special case where the initial value of "Instantaneous Power Out" is inherited from the initial value of "Instantaneous Power Middle", which is 100, and we want to rewrite the initial value of "Instantaneous Power Out" to 100. We want to rewrite the initial value of "Instantaneous Power Out" to 100, so how do we uninherit the relationship between them?
 
 In this case, it is not effective to change the initial value of "Instantaneous Power Out" to 100. The rewrite flag in the configuration popup window - "gray dot on the right side of the configuration item" provides an active rewrite status change function. Users can click on the "Gray Dot" to change it to green.
 
-<img width="380" height="38" alt="image" src="https://github.com/user-attachments/assets/181db015-488c-410d-898a-fe6ea1b46a7b" />
+![alt text](33.png)
 

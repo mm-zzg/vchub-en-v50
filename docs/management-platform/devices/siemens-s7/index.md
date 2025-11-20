@@ -27,12 +27,11 @@ The Siemens driver in VC Hub supports the basic connection to S7 devices. Curren
 
 3. Click on the **"OK"** button. The data will now be displayed in the device list page of the SIEMENS S7. The status column only indicates the start/stop status of the driver, it does not represent the real connection status with the device. 
 
-<img width="1897" height="375" alt="image" src="https://github.com/user-attachments/assets/aaa7d6ce-2499-49c5-ba7e-7f04408fd04c" />
+![alt text](1.png)
 
 4. Click the Enable button in the Enable Status column to enable the device.
 
-<img width="1898" height="332" alt="image" src="https://github.com/user-attachments/assets/3daeb334-e3fb-41c9-aa16-471ecac622ca" />
-
+![alt text](2.png)
 
 
 
@@ -61,11 +60,11 @@ The Siemens driver in VC Hub supports the basic connection to S7 devices. Curren
 
 - Optimized block access must be turned off.
 
-<img width="733" height="388" alt="image" src="https://github.com/user-attachments/assets/f79c440c-9df3-4701-9d85-ac2bfd064179" />
+![alt text](3.png)
 
 - The access level must be "full" and the "connection mechanism" must allow GET/PUT.
 
-<img width="736" height="518" alt="image" src="https://github.com/user-attachments/assets/1a4e9e3b-32db-48c6-9be3-757272f5897a" />
+![alt text](4.png)
 
 - Only the Global DB can be accessed.
 - Reads and writes are not supported in the Timer (TM) and Counter (CT) areas.
@@ -76,12 +75,12 @@ Bind tags to data in the Siemens PLC.
 
 1. Creating an I/O tag.
 
-<img width="380" height="412" alt="image" src="https://github.com/user-attachments/assets/324ccdce-54a3-44e3-aea9-bbf6e7393456" />
+![alt text](5.png)
 
 
 2. On the add window, click the binding button for the data source.
 
-<img width="799" height="621" alt="image" src="https://github.com/user-attachments/assets/f3c5d937-1d23-4788-803c-2ff66c37719c" />
+![alt text](6.png)
 
 3. In the pop-up data source window, select the created Siemens device and enter the following information in the following fields (Note: The following data is only an example, please fill in according to the actual situation).
 
@@ -93,7 +92,7 @@ Bind tags to data in the Siemens PLC.
 
    Address Offset: 4
 
-<img width="1089" height="321" alt="image" src="https://github.com/user-attachments/assets/0970304a-cfbc-4bdf-9560-5e3641deb99f" />
+![alt text](7.png)
 
 4. Click the **"** **OK** **"** button to complete the setup.
 

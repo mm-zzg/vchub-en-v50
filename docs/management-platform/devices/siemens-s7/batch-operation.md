@@ -11,7 +11,7 @@ Click the "Export" button in the upper right corner of the list to export all de
 
 **Example of an Exported File:**
 
-<img width="890" height="150" alt="image" src="https://github.com/user-attachments/assets/d8066786-05e0-40fc-98e3-7c6b13db6291" />
+![alt text](8.png)
 
 
 - The content inside the red box represents the field information.
@@ -25,7 +25,7 @@ Select the devices , then drag the mouse to quickly copy.
 
 When batch creating devices, the model number does not need to increment. Instead, set the fill method to "Copy Cells" to fill the values.
 
-<img width="853" height="454" alt="image" src="https://github.com/user-attachments/assets/4f3bf5d6-3c6e-4e21-9c35-23ea4e02b0d4" />
+![alt text](9.png)
 
 
 
@@ -33,7 +33,7 @@ When batch creating devices, the model number does not need to increment. Instea
 
 Click the "Import" button in the upper right corner of the list to import the exported content. After importing, the newly added devices will have their enabled status set to "Disabled" by default.
 
-<img width="1891" height="675" alt="image" src="https://github.com/user-attachments/assets/91bc5605-d616-4564-9412-9d36c5387478" />
+![alt text](10.png)
 
 
 ## Batch Modification
@@ -48,8 +48,7 @@ You can batch modify device information through the exported Excel. After making
 
 After selecting the devices to be deleted, click the **Delete** button at the top of the list to perform batch deletion.
 
-<img width="1898" height="675" alt="image" src="https://github.com/user-attachments/assets/43b32628-b780-4b9b-ace5-adc9b8f49314" />
-
+![alt text](11.png)
 
 Notes:
 

@@ -9,12 +9,12 @@ Supports WAGO Protocol version 1.5.0.
 1. On the "**Devices**" -> "**WAGO Protocol**" screen, click the "Add" button.
 2. Enter the device name in the Add window. 
 
-<img width="1907" height="332" alt="image" src="https://github.com/user-attachments/assets/8564a444-f359-4165-a96b-c54d8694b476" />
+![alt text](1.png)
+
 
 3. Click on the "**OK**" button. The data will now be displayed in the device list of the WAGO Protocol. Please note that the status column only indicates the start/stop status of the driver, not the actual connection status of the device. 
 
-<img width="1906" height="295" alt="image" src="https://github.com/user-attachments/assets/ba6f5ba0-79e6-4674-9199-e41ebe1628f3" />
-
+![alt text](2.png)
 
 **Configuration Fields**
 
@@ -55,7 +55,7 @@ Before you can use the WAGO Protocol driver, you need to connect to the MQTT Bor
 
 3. Connect to MQTT Broker: After confirming a successful connection, you can start transferring device data with the WAGO Protocol driver using the configured client. 
 
-<img width="885" height="910" alt="image" src="https://github.com/user-attachments/assets/6e6f5526-ce6c-4c37-a2cd-7af1659aec92" />
+![alt text](3.png)
 
 
 ## **Enabling TLS Secure Connections**
@@ -71,7 +71,7 @@ Configure the client: Modify the connection configuration in the configuration p
 
 **Note**: Replace [server IP] with the server IP deployed by VC Hub.
 
-<img width="975" height="1082" alt="image" src="https://github.com/user-attachments/assets/ced1c942-a7b3-4947-902c-6cc9b4125615" />
+![alt text](4.png)
 
 
 
@@ -86,16 +86,16 @@ Bind a tag to a client measurement point.
 
 1. Create an I/O tag
 
-<img width="380" height="412" alt="image" src="https://github.com/user-attachments/assets/5b334fe3-1abe-4f13-9059-d70a75293e6a" />
+![alt text](5.png)
 
 
 2. On the add window, click the binding button of the data source.
 
-<img width="922" height="626" alt="image" src="https://github.com/user-attachments/assets/c0cbbbca-2eed-4c59-b4dd-eebcbd8e95e0" />
+![alt text](6.png)
 
 3. Select the  points to be bound.
 
-<img width="1279" height="415" alt="image" src="https://github.com/user-attachments/assets/04a352dc-f7ad-43eb-960f-a65885db4747" />
+![alt text](7.png)
 
 
 4. Click the "**OK**" button to complete the configuration.

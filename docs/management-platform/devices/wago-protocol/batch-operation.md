@@ -12,7 +12,7 @@ Click the "Export" button in the upper right corner of the list to export all de
 
 **Example of an Exported File:**
 
-<img width="216" height="101" alt="image" src="https://github.com/user-attachments/assets/9b6e739c-d035-4524-99bf-9c912bff22ac" />
+![alt text](8.png)
 
 
 - The content inside the red box represents the field information.
@@ -28,7 +28,7 @@ Select the devices, then drag the mouse to quickly copy.
 
 Click the "Import" button in the upper right corner of the list to import the exported content. After importing, the newly added devices will have their enabled status set to "Disabled" by default.
 
-<img width="1897" height="432" alt="image" src="https://github.com/user-attachments/assets/1d6b31ce-0464-4b5f-8c86-b4a85fed9ec0" />
+![alt text](9.png)
 
 
 ## Batch Modification
@@ -43,7 +43,7 @@ You can batch modify device information through the exported Excel file. After m
 
 After selecting the devices to be deleted, click the **Delete** button at the top of the list to perform batch deletion.
 
-<img width="1900" height="429" alt="image" src="https://github.com/user-attachments/assets/f17c0e46-974c-45ca-8c61-a15f0066c401" />
+![alt text](10.png)
 
 
 Notes:

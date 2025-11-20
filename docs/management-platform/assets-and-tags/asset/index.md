@@ -14,7 +14,7 @@ There are two types of assets to choose from : local assets, and remote assets.
 
  Local assets are owned by the current VC Hub node, which has all configuration rights for local assets. A local asset named "Default" is automatically created for each new workspace, and the user can create as many assets as needed.
 
-<img width="792" height="359" alt="image" src="https://github.com/user-attachments/assets/43d1b884-2ed0-4801-8232-ef396ddd3339" />
+![alt text](1.png)
 
 
 
@@ -34,7 +34,7 @@ There are two types of assets to choose from : local assets, and remote assets.
  Remote asset works by forwarding the read request to the remote node through the network, and the remote node receives the request and returns the result through the network.
  Currently, the remote asset only has the permission to read the asset data in the remote node, and any update operation can only be realized in the local asset.
 
-<img width="794" height="569" alt="image" src="https://github.com/user-attachments/assets/756ccac2-28c6-4fc9-b6bf-c25f906d2d6a" />
+![alt text](2.png)
 
 
 **Configuration items**

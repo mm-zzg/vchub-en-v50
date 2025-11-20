@@ -20,7 +20,7 @@ The following is a brief description of several subsets:
 
 Users can manage models and instances in the Asset Tree, which is divided into two tabs as shown in the figure below, and users can manage them in their respective tab lists.
 
-<img width="303" height="408" alt="image" src="https://github.com/user-attachments/assets/2e4fb549-0432-4161-9025-b44b6539d2c1" />
+![alt text](1.png)
 
 
 #### **Example**
@@ -37,68 +37,68 @@ The data to be monitored for the motors: switching status, instantaneous power.
 
 1. Under the "Models" tab, click "➕" in the upper right corner, select the model in the drop-down box, and create a model named "Line.
 
-<img width="336" height="580" alt="image" src="https://github.com/user-attachments/assets/6c2f319b-0b50-4300-82cc-9e098aeb293e" />
+![alt text](2.png)
 
 
-<img width="897" height="443" alt="image" src="https://github.com/user-attachments/assets/5582a51a-e922-454b-ad0e-e9ef0351dc96" />
+![alt text](3.png)
 
 
 2. Repeat the above steps to create another model named "Motor".
 
-<img width="308" height="214" alt="image" src="https://github.com/user-attachments/assets/a1f6423d-aa69-4585-90d0-3a41a3b3550a" />
+![alt text](4.png)
 
 
 3. Right-click on the motor to create two I/O tags : status, power. 
 
-<img width="301" height="258" alt="image" src="https://github.com/user-attachments/assets/dd69d016-907a-4898-a692-58e6bca2849b" />
+![alt text](5.png)
 
 
 4. Since the number of motor is different for each Line, we use the motor as a set in the model. Right-click on the Line model and select "Add Set" in the popup menu.
 
-<img width="303" height="465" alt="image" src="https://github.com/user-attachments/assets/e6d6df3b-2c6a-4c1b-b61d-9013e8168f59" />
+![alt text](6.png)
 
 
 5. In the add window, the name is set to motor and Default:Motor is selected in Model. 
 
-<img width="896" height="264" alt="image" src="https://github.com/user-attachments/assets/ade2e546-65f8-44a7-94e0-ba8a20ea04e9" />
+![alt text](7.png)
 
 
 6. You can see all the information about the motor under the Line, and the motor acts as a sub-node of the Line.
 
-<img width="324" height="235" alt="image" src="https://github.com/user-attachments/assets/b5a5ed1b-494b-489a-8a6d-041a18d0de85" />
+![alt text](8.png)
 
 
 7. Switch to the "Instance" tab, click the "➕" button on the right, and select "Instance" in the pop-up menu. 
 
-<img width="372" height="231" alt="image" src="https://github.com/user-attachments/assets/96078e18-b723-4afb-abcd-2c7920032277" />
+![alt text](9.png)
 
 
 8. In the Add pop-up window, set the name to Line, select "Line" for model,  In the batch generate, click "Generate." In the popup, set the batch instance quantity to 3 and the starting index to 1.
 
-<img width="890" height="489" alt="image" src="https://github.com/user-attachments/assets/bf42a92e-1edc-40d4-aa4a-61457d41bdc0" />
+![alt text](10.png)
 
 Click the ”OK“ button of ”Setting“ window.
 
-<img width="894" height="742" alt="image" src="https://github.com/user-attachments/assets/52c2956d-abb1-4bd1-8aba-731027761f4c" />
+![alt text](11.png)
 
 9. Setting is complete, click the OK button, you can see the information of 3 Line after instantiation in the instance list. 
 
-<img width="308" height="238" alt="image" src="https://github.com/user-attachments/assets/ab4a2bae-da7a-47ce-9bf5-b1e8a5fa88af" />
+![alt text](12.png)
 
 
 10. For each Line, generate the corresponding number of motors. Right-click on the model and select "Generate" in the pop-up menu. 
 
-<img width="323" height="394" alt="image" src="https://github.com/user-attachments/assets/ed4fe5b4-eb10-4931-b550-9b1842c5b45b" />
+![alt text](13.png)
 
 
 11. Set the name prefix and quantity. As an example, Line 1 has 3 motor, so we set the quantity to 3.
 
-<img width="893" height="267" alt="image" src="https://github.com/user-attachments/assets/8b13a1ae-3ba7-4280-bde1-90f1e6c261d1" />
+![alt text](14.png)
 
 
 12. The setup is complete, click the OK button, and under the Line 1 instance, you can see 3 motors. The 2 tags status and power are included under each motor. 
 
-<img width="316" height="826" alt="image" src="https://github.com/user-attachments/assets/ce640ea7-c3c2-49b0-81eb-c1fdbe9440f0" />
+![alt text](15.png)
 
 
 13. Repeat the above steps to complete Line 2 and Line 3. This instantiates 3 Lines, each with a different number of motor, from a single Line model.
@@ -107,20 +107,20 @@ Click the ”OK“ button of ”Setting“ window.
 
 - Scenario 1: A new Line is added to the scene, with the same structure as the previous 3 Line, we just need to create another Line instance in the Instances tab. 
 
-<img width="896" height="578" alt="image" src="https://github.com/user-attachments/assets/a9a6179a-7836-4d69-8c29-1adb3daa7c51" />
+![alt text](16.png)
 
 
-<img width="322" height="274" alt="image" src="https://github.com/user-attachments/assets/990510e4-cc71-450f-baa1-e63f49ca0261" />
+![alt text](17.png)
 
 
 - Scenario 2: In the actual operation, you need to remove all the data readings of the status, switch to the Model tab, select the "status" tag of the "motor" model under the Model tab, and right-click to delete it.
 
-<img width="306" height="395" alt="image" src="https://github.com/user-attachments/assets/27df6f6f-5470-4d87-825b-ecae804806f4" />
+![alt text](18.png)
 
 
 Then, under the Instances tab, the " status" tag will be deleted from all instances that refer to the "motor" model. 
 
-<img width="322" height="612" alt="image" src="https://github.com/user-attachments/assets/4adb0b42-c0b7-4eb2-9ffa-e092ca8f2db4" />
+![alt text](19.png)
 
 
 - Scenario 3: You need to add an "Arm" device to each Line. 
@@ -129,7 +129,7 @@ Simply create a model named "Arm" in the **Model tab**, add an I/O tag named "Di
 
 Under the **Instances tab**, you will see that under Line 1, Line 2, and Line 3, instances of the Arm are displayed, and the Distance tag is displayed under the instances.
 
-<img width="318" height="667" alt="image" src="https://github.com/user-attachments/assets/55b8e601-0139-4744-bef6-b7adfda17d6d" />
+![alt text](20.png)
 
 
 
