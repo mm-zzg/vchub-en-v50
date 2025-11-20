@@ -58,6 +58,25 @@ System.Tag.readHistory(
 Parameter
 
 
+<div style="overflow-x: auto;">
+
+
+
+| start                             | Date string                            | Start Time                                                                                                                                                                                                                                                                |
+|:-----------------------------------|:------------------------------------------|:---------------------------------------------------------|
+| end                               | Date  string                            | End Time                                                                     |
+| tag                               | string Array<string>                   | Tag(s) to query                                                            |
+| queryMode                         | QueryMode                                | Query Mode                                                                       |
+| aggregationMode                   | AggregationMode Array<AggregationMode> | Aggregation mode(s)  required for "FixedPoints" and "Periodic" query modes                                                                                                                                                                                                |
+| points                            | number                                   | Points,required for "FixedPoints" query modes                                                                                                                                                                                                                             |
+| period                            | number                                   | Period,required for "Periodic" query modes                                                                                                                                                                                                                                |
+| periodMode                        | PeriodMode                               | Period mode,required for "Periodic" query modes                                                                                                                                                                                                                           |
+| extraOption.timeout               | number                                   | The timeout duration for the query, measured in seconds                                                                                                                                                                                                                   |
+| extraOption.noInterpolation       | boolean                                  | Interpolation enabled? (true to disable)                                                                                                                                                                                                                                  |
+| extraOption.ignoreBadQuality      | boolean                                  | Ignore bad quality samples in data query                                                                                                                                                                                                                                  |
+| extraOption.includeBoundingValues | boolean                                  | Whether to include bounding values during interpolation.  If there is no data at the start or end of the query time range,  the system will retrieve the last value within one day before the start,  and the first value within one day after the end, for interpolation |
+
+</div>
 
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
