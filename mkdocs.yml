@@ -463,7 +463,7 @@ nav:
                                       - 2d-visualization/report/report-designer/design-report.md
                             - 2d-visualization/report/create-data-source.md
                             - 2d-visualization/report/view-report.md
-                            - 2d-visualization/report/export/import-report.md
+                            - 2d-visualization/report/export/export-and-import-report.md
                   - Function:
                             - 2d-visualization/function/index.md
                             - 2d-visualization/function/expression-function.md
