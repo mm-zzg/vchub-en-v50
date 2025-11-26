@@ -349,8 +349,20 @@ nav:
                             - 2d-visualization/project-properties/index.md
         - 3D Visualization:
                   - 3d-visualization/index.md
+                  - 3d-visualization/introduction-to-scene-editor.md
+                  - 3d-visualization/introduction-to-model-editor.md
+                  - 3d-visualization/page-visualization.md
+                  - 3d-visualization/animation.md
+                  - 3d-visualization/event.md
+                  - 3d-visualization/convert-3d-models-to-glb-format.md
+                  - 3d-visualization/lighting-settings.md
                   - 3d Low Code Example:
                             - 3d-visualization/3d-low-code-example/index.md
+                            - 3d-visualization/3d-low-code-example/find-3dview.md
+                            - 3d-visualization/3d-low-code-example/getscene.md
+                            - Scenario Operation:
+                            - Object models in the scene:
+                                      - 3d-visualization/3d-low-code-example/object-models-in-the-scene/index.md
         - Appendix:
                   - appendix/index.md
                   - System-Function:
