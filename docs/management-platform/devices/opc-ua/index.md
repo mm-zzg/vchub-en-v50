@@ -6,7 +6,7 @@ Used for communication with the OPC UA server. Only UA TCP is supported,  UA HTT
 
 ![alt text](1.png)
 
-1. On the "**Devices**" ->" **OPC UA**" page, click the “**Add" **button ，open the " Server Discovery" popup.
+1. On the "**Devices**" ->" **OPC UA**" page, click the “**Add"** button ，open the " Server Discovery" popup.
 
 ![alt text](2.png)
 
@@ -89,7 +89,7 @@ For more detailed information on advanced properties, please refer to the offici
 
 ## **Note**
 
-1. **Enable All** and **Disable All **are to enable or disable all data in the list.
+1. **Enable All** and **Disable All** are to enable or disable all data in the list.
 2. The **MaxNodesPerBrowse** configuration item on the server side affects the loading performance of the driver node, and it is recommended to set this configuration item to a larger value when more measurement points are configured on the server side.
 3. In the device list, The **Enabled Status** indicates whether the device has been enabled or not, unenabled devices will not connect and enabled devices will try to connect; the **Connection Status** indicates whether the device has successfully established a communication connection with the system.
 ## **Connection Example**
@@ -142,7 +142,7 @@ Configure the OPC client connection:
 
 ![alt text](18.png)
 
-3. Trust WagoScada certificate in Codesys
+3. Trust VCHub certificate in Codesys
 
 ![alt text](19.png)
 

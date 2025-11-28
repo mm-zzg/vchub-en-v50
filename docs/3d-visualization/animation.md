@@ -24,7 +24,7 @@ Create a sphere model that represents an alarm light that flashes when the value
 ![alt text](3d_Animation3.png)
 
 
-| **Name**   | **Value**                                                                                                                                                                                                 |
+| **Name**   | **Value**   |
 |:------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enable     | Enable                                                                                                                                                                                                    |
 | Bool value | Expression: tag('@Default:temperature) > 40;  | Note: This animation only takes effect when the value is a Boolean value. | |---------------------------------------------------------------------------| |
@@ -61,21 +61,21 @@ The model rotates as the value changes.
 ![3d_Animation6](../assets/images/3d_Animation6.gif)
 
 ![alt text](3d_Animation7.png)
-| **Name**          | **Value**                                                                                                                                                                                                                                                                                                                                                                                 |
-|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Enabled           | Enable                                                                                                                                                                                                                                                                                                                                                                                    |
-| value             | Tag: Default:Express                                                                                                                                                                                                                                                                                                                                                                      |
-| Type              | The result type of the value. Divided into Number type and Bool type.  Number type:  ![alt text](3d_Animation8.png)  Bool type:  ![alt text](3d_Animation9.png)
-| Min Value         | When the type is number, this parameter is displayed. Used in combination with the "angle" . Set the min value at which the animation takes effect, and the rotation angle of the model at the min value.  ![alt text](3d_Animation10.png)
-| Max Value         | When the type is number, this parameter is displayed. Used in combination with the "angle" . Set the max value at which the animation takes effect, and the rotation angle of the model at the max value. ![alt text](3d_Animation11.png)
-| X Axis Offset(px) | Used to set the offset distance of the rotation center point to the X-axis.                                                                                                                                                                                                                                                                                                               |
-| Y Axis Offset(px) | Used to set the offset distance of the rotation center point to the Y axis.                                                                                                                                                                                                                                                                                                               |
-| Z Axis Offset(px) | Used to set the offset distance of the rotation center point to the Z axis.                                                                                                                                                                                                                                                                                                               |
-| Direction         | When the type is Bool, this parameter is displayed. Indicates the direction of rotation.                                                                                                                                                                                                                                                                                                  |
-| Rotation Angle    | When the type is Bool, this parameter is displayed. Indicates how many degrees to rotate.                                                                                                                                                                                                                                                                                                 |
-| Executions        | When the type is Bool, this parameter is displayed. Indicates how many times it needs to be rotated.                                                                                                                                                                                                                                                                                      |
-| Duration(ms)      | When the type is Bool, this parameter is displayed. Indicates the duration of each spin.                                                                                                                                                                                                                                                                                                  |
-| Reverse Play      | When the type is Bool, this parameter is displayed. Indicates whether to reversely rotate back after rotating to a specified angle.                                                                                                                                                                                                                                                       |
+| **Name**          | **Value**   |
+|:-------------------|:-------------|
+| Enabled           | Enable  |
+| value             | Tag: Default:Express |
+| Type              | The result type of the value. Divided into Number type and Bool type.  <br>Number type:  <br>![alt text](3d_Animation8.png)  <br>Bool type:  <br>![alt text](3d_Animation9.png)|
+| Min Value         | When the type is number, this parameter is displayed. Used in combination with the "angle" . Set the min value at which the animation takes effect, and the rotation angle of the model at the min value.  <br>![alt text](3d_Animation10.png)|
+| Max Value         | When the type is number, this parameter is displayed. Used in combination with the "angle" . Set the max value at which the animation takes effect, and the rotation angle of the model at the max value. <br>![alt text](3d_Animation11.png)|
+| X Axis Offset(px) | Used to set the offset distance of the rotation center point to the X-axis.   |
+| Y Axis Offset(px) | Used to set the offset distance of the rotation center point to the Y axis.   |
+| Z Axis Offset(px) | Used to set the offset distance of the rotation center point to the Z axis.  |
+| Direction         | When the type is Bool, this parameter is displayed. Indicates the direction of rotation. |
+| Rotation Angle    | When the type is Bool, this parameter is displayed. Indicates how many degrees to rotate.  |
+| Executions        | When the type is Bool, this parameter is displayed. Indicates how many times it needs to be rotated.  |
+| Duration(ms)      | When the type is Bool, this parameter is displayed. Indicates the duration of each spin.  |
+| Reverse Play      | When the type is Bool, this parameter is displayed. Indicates whether to reversely rotate back after rotating to a specified angle.  |
 
 **Scale**
 

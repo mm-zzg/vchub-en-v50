@@ -2,7 +2,7 @@
 
  In VC Hub, tags refer to measurable and actionable data or states of the monitoring and control process. These tags can be various types of information,such as temperature, pressure, flow, current, voltage, switching status, etc.,which are used to reflect the real-time status or performance of the monitored object.
 
- In a VC Hub system, tags are the basic building blocks of the system, and their values can be collected by sensors, meters or other data sources. Real-time  data from these tags are collected, stored, displayed and analyzed by the SCADA system, enabling operators to effectively monitor and control the monitored objects.
+ In a VC Hub system, tags are the basic building blocks of the system, and their values can be collected by sensors, meters or other data sources. Real-time data from these tags are collected, stored, displayed and analyzed by the VC Hub system, enabling operators to effectively monitor and control the monitored objects.
 
  Tags can be created in the Asset window of the designer. Each tag has a number of properties , such as alarms, history, etc. After you create tags, you can use them in controls, scripts, or reports.
 

@@ -111,7 +111,7 @@ The specific location of the application data directory can be configured during
 
 #### Overview
 
-In a production environment, when Azure VM experiences a complete outage, system administrators typically receive abnormal report information. However, in some scenarios, it may be a specific service within the server that experiences an interruption, such as SCADA service or database service. In such cases, Azure Monitor can be introduced to monitor the performance of VC Hub and database services within the server.
+In a production environment, when Azure VM experiences a complete outage, system administrators typically receive abnormal report information. However, in some scenarios, it may be a specific service within the server that experiences an interruption, such as VC Hub service or database service. In such cases, Azure Monitor can be introduced to monitor the performance of VC Hub and database services within the server.
 
 System administrators can use the monitoring dashboard to observe the server's status, promptly receive alerts on abnormal states, and address issues. Additionally, they can configure Azure Backup to monitor backup failures and abnormalities.
 

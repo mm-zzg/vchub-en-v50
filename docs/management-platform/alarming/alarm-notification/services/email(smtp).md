@@ -55,7 +55,7 @@ To use an app-specific password, the Gmail account must have two-step verificati
 **Important Note: To create an app-specific password, you must enable two-step verification for your Google account**
 
 1. Visit the app-specific password creation webpage: https://myaccount.google.com/apppasswords.
-2. Enter the name of the application that requires the password, such as "WagoScada"
+2. Enter the name of the application that requires the password, such as "VCHub"
 3. Copy and save the app-specific password for future use
 
 ![alt text](5.png)

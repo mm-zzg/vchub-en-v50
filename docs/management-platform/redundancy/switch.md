@@ -1,4 +1,4 @@
-# Automatic switch between master and backup server on the runnin​
+# Automatic Runtime Page Switchover Between Primary and Backup
 
 If a browser opens the configuration screen after a redundant node has been configured, the configuration screen checks the operating status of the current node and the redundant node and issues a heartbeat packet to both nodes. If the running status of the current node is Standby and the running status of the redundant node is Running, the current running screen will trigger a master/standby switchover, and the address of the real-time screen will be switched to the address of the redundant node automatically.
 
@@ -28,7 +28,7 @@ If the public address is configured, the public address will be prioritized for 
 1. Server A serves as the primary server with the address `http://pc-test-serverA:8060`
 2. Server B serves as the primary server, and the address is `http://pc-test-serverB:8060`.
 3. Server A and Server B form a redundancy
-4. View the SCADA operation screen on Server A. At this time, Server A is down, Server B is running, and the address of the operation screen is displayed as `http://pc-test-serverB:8060`
+4. View the VC Hub operation spage on Server A. At this time, Server A is down, Server B is running, and the address of the operation screen is displayed as `http://pc-test-serverB:8060`
 
 ###### **Scenario 2: A public address is configured, and when the master and backup are switched over, the public address set by the current running node is used as the URL after the switchover.**
 
@@ -36,5 +36,5 @@ If the public address is configured, the public address will be prioritized for 
 2. Server B acts as the master server with the address `http://pc-test-serverB:8060`
 3. Server A and Server B form redundancy
 4. The public address of Server A and Server B is set to `https://testserver.com:8066`
-5. View the SCADA operation screen on Server A. At this time, Server A is down, Server B is running, and the address of the operation screen is displayed as `https://testserver.com:8066`.
+5. View the VC Hub operation page on Server A. At this time, Server A is down, Server B is running, and the address of the operation screen is displayed as `https://testserver.com:8066`.
 

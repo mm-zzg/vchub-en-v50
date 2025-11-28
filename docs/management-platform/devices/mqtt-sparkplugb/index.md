@@ -79,7 +79,7 @@ Before you can use the MQTT SparkplugB driver, you need to connect to the system
 2. Configure Client: In your application or device, configure the edge node (SparkplugB Node) to connect to the system's Sparkplug Application:
 
    - Broker Address: Fill in the address of the system MQTT Broker.
-   - Broker Port: Fill in the port number of the system MQTT Broker. The default is 1884.
+   - Broker Port: Fill in the port number of the system MQTT Broker. The default is 1883.
    - Client ID: Fill in a unique client identifier that identifies your connection on the system MQTT Broker.
    - Username and Password: Use the account and password you obtained in the system.
    - ScadaHostIdentifier: WagoScada

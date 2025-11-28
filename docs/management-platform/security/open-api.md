@@ -31,8 +31,8 @@ Click the "Register" button to add new  OpenId Client.
 | Grant Type                 | OIDC authorization modes include Authorization Code Flow, Client Credentials Flow, Implicit Flow, and Refresh Token Flow. Supports multiple selections. When the Client Credentials mode is selected, the required APIs must be configured. For the other three modes, configuring APIs is not necessary. |
 |Refresh Token                 | Optional, default not selected.Use in combination with the Grant Type.|
 | Scope                      | The scopes of user info. The scope includes: address,email,phone,profile,roles                                                                                                                                                                                                                            |
-| Redirect URL               | The redirect URL. When login on SCADA OIDC login page, the user will be redirected the Redirect URL.                                                                                                                                                                                                      |
-| Logout Redirect URL        | When user logout from SCADA OIDC endpoint, the user will be redirected the Logout Redirect URL.                                                                                                                                                                                                           |
+| Redirect URL               | The redirect URL. When login on VC Hub OIDC login page, the user will be redirected the Redirect URL.                                                                                                                                                                                                      |
+| Logout Redirect URL        | When user logout from VC Hub OIDC endpoint, the user will be redirected the Logout Redirect URL.                                                                                                                                                                                                           |
 | OpenID Connect MetaAddress | A URL for auto-discovery of Identity Provider (IdP) configurations.                                                                                                                                                                                                                                       |
 | Description                | The description the client credential                                                                                                                                                                                                                                                                     |
 
@@ -45,21 +45,21 @@ Click the "Register" button to add new  OpenId Client.
 
      Take VC Hub as an example:
 
-     The **Redirect URL: **http://{client-applicatoin-host}/api/oidc/callback/signin 
+     The **Redirect URL:** http://{client-applicatoin-host}/api/oidc/callback/signin 
 
-     The **Logout Redirect URL: **http://{server-host}/.well-known/openid-configuration
+     The **Logout Redirect URL:** http://{server-host}/.well-known/openid-configuration
 
 ![alt text](36.png)
 
-3. Open the **Identity Provider **configuration interface in the client application.Enter the following information:Client ID,Client Secret.
+3. Open the **Identity Provider** configuration interface in the client application.Enter the following information:Client ID,Client Secret.
 
-If SCADA is the client application, you should fill in the identity provider configuration page with the client information you previously registered.
+If VC Hub is the client application, you should fill in the identity provider configuration page with the client information you previously registered.
 
 ![alt text](37.png)
 
 #### Scenario 2:  The client application interacts with VC Hub by making Open API requests from its backend
 
-1. When registering an **OpenID client**, you should select only the **Client Credentials** **Flow **as grant type.
+1. When registering an **OpenID client**, you should select only the **Client Credentials Flow** as grant type.
 
 In this mode, the **client application** can request an **access token** directly by using its:
 
@@ -98,12 +98,12 @@ Clicking the "Delete" button will remove the API authorization. Once deleted, th
 
 Given the differing use cases and security considerations of these flows, we stongly recommend registering clients that only support only one authorization flow, based on your specific application needs. Avoding registerting a client that supports mutiple flows simultaneously.
 
-**Reason: **Supporting both flows in the same client might lead to security risks or configuration conflict. For example, tokens issued using client credential could bypass user authentication, potentially inroducing authorization vulnerabilities. 
+**Reason:** Supporting both flows in the same client might lead to security risks or configuration conflict. For example, tokens issued using client credential could bypass user authentication, potentially inroducing authorization vulnerabilities. 
 
 **Best Practices:**
 
-- If your application is intended for end-user  interactions, select the **Authorzation Code Flow.**
-- If your application is designed for server-to-sever comunication (e.g.,Open API), select the **Client Credential Flow. **The Open API of SCADA is designed for server-to-server, as the its permissions of APIs are tied to the client ID.
+- If your application is intended for end-user  interactions, select the **Authorzation Code Flow**.
+- If your application is designed for server-to-sever comunication (e.g.,Open API), select the **Client Credential Flow**.The Open API of VC Hub is designed for server-to-server, as the its permissions of APIs are tied to the client ID.
 
 By selecting the appropriate authorization flow, you can enhance the security of your client while ensuring your application operates in compliance with beset practices.
 

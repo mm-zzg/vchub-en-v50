@@ -38,7 +38,7 @@ Use a custom chart to display a bar chart that displays the production line's ca
 
 ![alt text](52.png)
 
-3. Insert a "custom chart" control on the WAGO SCADA screen.
+3. Insert a "custom chart" control on the desgner page.
 4. Set the action properties for the control and add a "load" action.
 
 ![alt text](53.png)

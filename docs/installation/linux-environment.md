@@ -63,8 +63,6 @@ VC Hub provides an installation package for the Linux environment, with the file
 ![alt text](26.png)
 
 
-
-
 4. After completing the above steps, wait for the program to load, and then you can log in to the default workspace with the administrator user created in step 2.
 
 **Note**: If you perform an upgrade installation, a new empty workspace will be created by default. To return to the original workspace, you need to log in to the new workspace first and then manually open the original workspace from the workspace list. 
@@ -145,12 +143,12 @@ systemctl status visualizationandcontrolhub.service
 1. Go to the parent directory of the installation directory.
 2. Grant the file owner the permission to execute the file "visualizationandcontrolhub-uninstall.sh"
 
-![alt text](27.png)
+   ![alt text](27.png)
 
 
 3. Run the script "visualizationandcontrolhub-uninstall.sh".
 
-![alt text](28.png)
+   ![alt text](28.png)
 
 
 4. After these operations, all program-related files will be removed, and the process supervisory service will also be removed.
