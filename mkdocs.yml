@@ -552,6 +552,15 @@ nav:
                                       - 3d-visualization/3d-low-code-example/scenario-operation/stopfirstpersoncontrols.md
                                       - 3d-visualization/3d-low-code-example/scenario-operation/skybox.md
                                       - 3d-visualization/3d-low-code-example/scenario-operation/creatediffusion.md
+                            - Camera:          
+                                      - 3d-visualization/3d-low-code-example/camera/index.md
+                                      - 3d-visualization/3d-low-code-example/camera/flypath.md
+                                      - 3d-visualization/3d-low-code-example/camera/lookat.md
+                                      - 3d-visualization/3d-low-code-example/camera/position.md
+                                      - 3d-visualization/3d-low-code-example/camera/reset.md
+                                      - 3d-visualization/3d-low-code-example/camera/rotate-around.md
+                                      - 3d-visualization/3d-low-code-example/camera/pause.md
+                                      - 3d-visualization/3d-low-code-example/camera/resume.md
                             - Object-models-in-the-scene:
                                       - 3d-visualization/3d-low-code-example/object-models-in-the-scene/index.md
                                       - Basic Model:
