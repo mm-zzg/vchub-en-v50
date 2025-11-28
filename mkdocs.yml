@@ -498,7 +498,7 @@ nav:
                   - 3d-visualization/event.md
                   - 3d-visualization/convert-3d-models-to-glb-format.md
                   - 3d-visualization/lighting-settings.md
-                  - 3d-Low Code Example:
+                  - 3D Low Code Example:
                             - 3d-visualization/3d-low-code-example/index.md
                             - 3d-visualization/3d-low-code-example/find-3dview.md
                             - 3d-visualization/3d-low-code-example/getscene.md
