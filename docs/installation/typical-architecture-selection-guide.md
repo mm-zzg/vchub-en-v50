@@ -44,7 +44,7 @@
 | Line 2 - I/O Tags           | 1                |
 | Line 2 - Historical Data    | 1                |
 | Plant - I/O Tags            | 1                |
-| Plant - Historical Data     | 1                |
+
 
 ## High Availability Networking Architecture
 

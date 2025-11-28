@@ -1,14 +1,14 @@
 # Animation
 
-By rationally applying animation effects, WAGO SCADA can bring users a more efficient, intuitive and pleasant interface interaction experience.
+By rationally applying animation effects, VC Hub can bring users a more efficient, intuitive and pleasant interface interaction experience.
 
-In WAGO SCADA, when the model has animation attributes, the "Animation" column will be displayed in the attribute bar on the right. Click the setting button to set the animation.
+In VC Hub, when the model has animation attributes, the "Animation" column will be displayed in the attribute bar on the right. Click the setting button to set the animation.
 
 ![alt text](3d_Animation1.png)
 
 #### **Animation type**
 
-WAGO SCADA's 3D models support the following animation types:
+VC Hub's 3D models support the following animation types:
 
 ###### Blink
 

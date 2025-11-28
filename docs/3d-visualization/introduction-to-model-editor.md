@@ -5,6 +5,7 @@ Models uploaded to the model library can be modified in the model editor. The op
 In the model editor, you can right-click the model through the model library in the property bar on the right side of the scene editor. Click modify to enter the model editor.
 
 ![alt text](3d_MEditor1.png)
+
 ![alt text](3d_MEditor2.png)
 #### **Edit model**
 

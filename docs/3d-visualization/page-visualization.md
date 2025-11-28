@@ -59,6 +59,7 @@ You can also delete and rename the model name. If the model is being edited in t
 
 Each model has a  structure tree
 
+
 ![alt text](3d_PVisualization10.png)
 
 After selecting the model, the structure will have a lock and hide icon. After the model is locked, the model will be prohibited from editing. After hiding, the model will not be visible at any time.

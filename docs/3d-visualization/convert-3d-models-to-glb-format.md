@@ -2,7 +2,7 @@
 
 3D models can be converted to glb format by third party tools.
 
-#### Tool 1： blender
+#### Tool 1: blender
 
 I nstallation address: ***[blender.org- Home of the Blender project - Free and Open 3D Creation Software](https://www.blender.org/)***
 
@@ -19,7 +19,8 @@ I nstallation address: ***[blender.org- Home of the Blender project - Free and O
 4.  Select the  imported model and perform the following operations to export the GLB file.
 
 ![alt text](3d_Format3.png)
-#### Tool 2： **online three.js editor** 
+
+#### Tool 2: online three.js editor
 
 **FBX**  and **OBJ** files are recommended.
 
