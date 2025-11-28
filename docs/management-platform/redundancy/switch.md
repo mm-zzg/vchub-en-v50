@@ -1,4 +1,4 @@
-# Automatic switch between master and backup server on the runnin​
+# Automatic Runtime Page Switchover Between Primary and Backup
 
 If a browser opens the configuration screen after a redundant node has been configured, the configuration screen checks the operating status of the current node and the redundant node and issues a heartbeat packet to both nodes. If the running status of the current node is Standby and the running status of the redundant node is Running, the current running screen will trigger a master/standby switchover, and the address of the real-time screen will be switched to the address of the redundant node automatically.
 
