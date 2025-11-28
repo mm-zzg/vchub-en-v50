@@ -2,6 +2,6 @@
 
 The following function can retrieve the event triggered at that time:
 
-[System.Context.alarm](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/6ttZrifB)
+- [System.Context.alarm](system-context/system-context-alarm/index.md)
 
-[System.Context.currentEvent](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/4N2oiGsW)
+- [System.Context.currentEvent](system-context/system-context-currentevent/index.md)

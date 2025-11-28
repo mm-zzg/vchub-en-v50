@@ -1,99 +1,76 @@
 # System Function
 
-In this chapter, we will introduce all the built-in script functions available in WAGO SCADA.
+In this chapter, we will introduce all the built-in script functions available in VC Hub.
 
 System functions are named after System, and you can see many different categories of system functions below.
 
 **System.Alarm**
-
-[System.Alarm.query](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/8qQPEgsD)
-
-[System.Alarm.queryHistory](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/TrFwxWmr)
+- [System.Alarm.query](system-alarm/system-alarm-query.md) 
+- [System.Alarm.queryHistory](system-alarm/system-alarm-queryhistory.md)
 
 **System.Context**
 
-[System.Context.currentEvent](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/4N2oiGsW)
+- [System.Context.alarm](system-context/system-context-alarm/index.md)
+
+- [System.Context.currentEvent](system-context/system-context-currentevent/index.md)
 
 **System.Datatable**
 
-[System.Datatable.toDatatable](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/XgeLdreH)
+- [​System.Datatable.toDatatable​](system-datatable/system-datatable-todatatable.md)
 
 **System.Db**
 
-[System.Db.runSqlQuery](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4#/page/YX8eRsqz/P3TdH1Bh)
+- [​System.Db.runSqlQuery​](system-db/system-db-runsqlquery.md)
 
 **System.Event**
 
-[System.Event.fail](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/978dM1fW)
-
-[System.Event.success](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/DLScakms)
+- [​System.Event.fail​](system-event/system-event-fail.md) 
+- [​System.Event.success​](system-event/system-event-success.md)
 
 **System.Library**
+- [​System.Library.getLocalImage​](system-library/system-library-getlocalimage.md) 
+- [​System.Library.getSystemImage​](system-library/system-library-getsystemimage.md)
 
-[System.Library.getLocalImage](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Ry39aqyF)
-
-[System.Library.getSystemImage](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/6dV2J5BG)
 
 **System.Page**
 
-[System.Page.getPropertyValue](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/8ncmjUdp)
-
-[System.Page.setPropertyValue](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Jfjkae6K)
+- [​System.Page.getPropertyValue​](system-page/system-page-getpropertyvalue.md) 
+- [​System.Page.setPropertyValue​](system-page/system-page-setpropertyvalue.md)
 
 **System.Security**
 
-[System.Security.changePassword](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/DcMHQD8m)
+- [​System.Security.changePassword​](system-security/system-security-changepassword.md) 
+- [​System.Security.getRoles​](system-security/system-security-getroles.md) 
+- [​System.Security.getUsername​](system-security/system-security-getusername.md) 
+- [​System.Security.login​](system-security/system-security-login.md) 
+- [​System.Security.logout​](system-security/system-security-logout.md)
 
-[System.Security.getRoles](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/JB5qEpML)
-
-[System.Security.getUsername](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/JdhzxXE5)
-
-[System.Security.login](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/5nHUw7Wr)
-
-[System.Security.logout](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/DAyboHm9)
 
 **System.Tag**
+- [​System.Tag.getPropertyValues​](system-tag/system-tag-getpropertyvalues.md) 
+- [​System.Tag.mock​](system-tag/system-tag-mock.md) 
+- [​System.Tag.queryPropertyValues​](system-tag/system-tag-querypropertyvalues.md) 
+- [​System.Tag.read​ ](system-tag/system-tag-read.md) 
+- [​System.Tag.readHistory​](system-tag/system-tag-readhistory.md) 
+- [​System.Tag.readValue​](system-tag/system-tag-readvalue.md) 
+- [​System.Tag.subscribe​](system-tag/system-tag-subscribe.md) 
+- [​System.Tag.writeValue​](system-tag/system-tag-writevalue.md)
 
-[System.Tag.getPropertyValues](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/C5kUSeDq)
-
-[System.Tag.mock](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/W8XXgAmc)
-
-[System.Tag.queryPropertyValues](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/6xb8wh48)
-
-[System.Tag.read](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/GhYKfHZF)
-
-[System.Tag.readHistory](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/R3wY44A9)
-
-[System.Tag.readValue](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/33prCNUj)
-
-[System.Tag.subscribe](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/RZ2xh5Cw)
-
-[System.Tag.writeValue](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/2NKDBcQy)
 
 **System.UI**
 
-[System.UI.applyChanges](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/EueHkJQm)
-
-[System.UI.back](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/SZNfGd7p)
-
-[System.UI.close](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/BUywgFdx)
-
-[System.UI.findControl](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/35eXJacf)
-
-[System.UI.forward](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/4sCn6LTQ)
-
-[System.UI.goHome](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Fef3nWJe)
-
-[System.UI.open](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/6DqUJNEe)
-
-[System.UI.openNewTab](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/6hdWPwZ9)
-
-[System.UI.openPopup](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/FB4Po6Q5)
-
-[System.UI.redirect](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/HWPmKV8z)
+- [​System.UI.applyChanges​](system-ui/system-ui-applychanges.md) 
+- [​System.UI.back​](system-ui/system-ui-back.md) 
+- [​System.UI.close​](system-ui/system-ui-close.md) 
+- [​System.UI.findControl​](system-ui/system-ui-findcontrol.md) 
+- [​System.UI.forward​](system-ui/system-ui-forward.md) 
+- [​System.UI.goHome​](system-ui/system-ui-gohome.md) 
+- [​System.UI.open​ ](system-ui/system-ui-open.md) 
+- [​System.UI.openNewTab​](system-ui/system-ui-opennewtab.md) 
+- [​System.UI.openPopup​](system-ui/system-ui-openpopup.md) 
+- [​System.UI.redirect​](system-ui/system-ui-redirect.md)
 
 **System.Utils**
 
-[System.Utils.importScript](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Jss4AUwP)
-
-[System.Utils.importStyle](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/TBys7tVW)
+- [​System.Utils.importScript​](system-utils/system-utils-importscript.md) 
+- [​System.Utils.importStyle​](system-utils/system-utils-importstyle.md)

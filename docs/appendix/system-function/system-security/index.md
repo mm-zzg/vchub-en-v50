@@ -2,15 +2,11 @@
 
 Operateon users
 
-[System.Security.changePassword](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/DcMHQD8m)
-
-[System.Security.getRoles](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/JB5qEpML)
-
-[System.Security.getUsername](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/JdhzxXE5)
-
-[System.Security.login](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/5nHUw7Wr)
-
-[System.Security.logout](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/DAyboHm9)
+- [​System.Security.changePassword​](system-security/system-security-changepassword.md) 
+- [​System.Security.getRoles​](system-security/system-security-getroles.md) 
+- [​System.Security.getUsername​](system-security/system-security-getusername.md) 
+- [​System.Security.login​](system-security/system-security-login.md) 
+- [​System.Security.logout​](system-security/system-security-logout.md)
 
 
 

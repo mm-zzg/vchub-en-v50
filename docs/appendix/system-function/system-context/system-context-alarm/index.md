@@ -2,40 +2,22 @@
 
 Provides access to the triggering alarm's data.
 
-[System.Context.currentAlarm.ackMode](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/7oz9z8e9)
-
-[System.Context.currentAlarm.ackNotes](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/21FpbEsu)
-
-[System.Context.currentAlarm.ackTime](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/5rzkMHAU)
-
-[System.Context.currentAlarm.description](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/9N4L6X5s)
-
-[System.Context.currentAlarm.statusChangeId](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/XZ9KtuTp)
-
-[System.Context.currentAlarm.statusChangeTime](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/RyHL1S8v)
-
-[System.Context.currentAlarm.name](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Rvvhh1Cy)
-
-[System.Context.currentAlarm.nodeName](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Dd7cafz3)
-
-[System.Context.currentAlarm.ackUser](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/BV1Pv268)
-
-[System.Context.currentAlarm.path](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/SMF7bTUZ)
-
-[System.Context.currentAlarm.priority](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/WgWyrL7Z)
-
-[System.Context.currentAlarm.state](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/XP1LZrsL)
-
-[System.Context.currentAlarm.type](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Gvhy9ZEN)
-
-[System.Context.currentAlarm.alarmValue](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/NyHwnFCb)
-
-[System.Context.currentAlarm.dataType](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Ro7ZRjgS)
-
-[System.Context.currentAlarm.activeTime](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/2byfJgmJ)
-
-[System.Context.currentAlarm.alarmGroups](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/8y4jKeDD)
-
-[System.Context.currentAlarm.clearTime](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/Lmtb4z7V)
-
-[System.Context.currentAlarm.notificationRule](https://docs.wagoscada.cn/wiki/external/org/Vm8TaFZ4/#/page/YX8eRsqz/VZcY6zGr)
+- [​System.Context.currentAlarm.ackMode​](system-context-currentalarm-ackmode.md) 
+- [​System.Context.currentAlarm.ackNotes​](system-context-currentalarm-acknotes.md) 
+- [​System.Context.currentAlarm.ackTime​](system-context-currentalarm-acktime.md) 
+- [​System.Context.currentAlarm.ackUser​](system-context-currentalarm-ackuser.md) 
+- [​System.Context.currentAlarm.activeTime​](system-context-currentalarm-activetime.md) 
+- [​System.Context.currentAlarm.alarmGroups​](system-context-currentalarm-alarmgroups.md) 
+- [​System.Context.currentAlarm.alarmValue​](system-context-currentalarm-alarmvalue.md) 
+- [​System.Context.currentAlarm.clearTime​](system-context-currentalarm-cleartime.md) 
+- [​System.Context.currentAlarm.dataType​](system-context-currentalarm-datatype.md) 
+- [​System.Context.currentAlarm.description​ ](system-context-currentalarm-description.md) 
+- [​System.Context.currentAlarm.name​](system-context-currentalarm-name.md) 
+- [​System.Context.currentAlarm.nodeName​](system-context-currentalarm-nodename.md) 
+- [​System.Context.currentAlarm.notificationRule​](system-context-currentalarm-notificationrule.md) 
+- [​System.Context.currentAlarm.path​](system-context-currentalarm-path.md) 
+- [​System.Context.currentAlarm.priority​](system-context-currentalarm-priority.md) 
+- [​System.Context.currentAlarm.state​](system-context-currentalarm-state.md) 
+- [​System.Context.currentAlarm.statusChangeId​](system-context-currentalarm-statuschangeid.md) 
+- [​System.Context.currentAlarm.statusChangeTime​](system-context-currentalarm-statuschangetime.md) 
+- [​System.Context.currentAlarm.type​](system-context-currentalarm-type.md)
