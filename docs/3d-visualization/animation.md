@@ -6,17 +6,19 @@ In VC Hub, when the model has animation attributes, the "Animation" column will 
 
 ![alt text](3d_Animation1.png)
 
-#### **Animation type**
+## **Animation type**
 
 VC Hub's 3D models support the following animation types:
 
-###### Blink
+#### Blink
 
 The blink effect is easy to attract attention and is often used to alarm when abnormal conditions occur.
 
 **Example**
 
 Create a sphere model that represents an alarm light that flashes when the value of Temperature is greater than 40.
+
+
 ![3d_Animation2](../assets/images/3d_Animation2.gif)
 
 ![alt text](3d_Animation3.png)
@@ -38,6 +40,9 @@ Let the model perform dynamic effects of displacement through paths.
 The model is displaced according to the path on the conveyor belt.
 ![3d_Animation4](../assets/images/3d_Animation4.gif)
 ![alt text](3d_Animation5.png)
+
+
+
 
 | **Name**                             | **Value**                                                                                                                                                                  |
 |:--------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -72,7 +77,7 @@ The model rotates as the value changes.
 | Duration(ms)      | When the type is Bool, this parameter is displayed. Indicates the duration of each spin.                                                                                                                                                                                                                                                                                                  |
 | Reverse Play      | When the type is Bool, this parameter is displayed. Indicates whether to reversely rotate back after rotating to a specified angle.                                                                                                                                                                                                                                                       |
 
-###### Scale
+**Scale**
 
 Change the model through changes in values.
 
@@ -83,6 +88,9 @@ The cube determines whether to scale based on a Bool value.
 ![3d_Animation11](../assets/images/3d_Animation11.gif)
 
 ![3d_Animation12](3d_Animation12.png)
+
+
+
 | **Name**     | **Value**                                                                                                                                                                 |
 |:--------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enabled      | Enable                                                                                                                                                                    |

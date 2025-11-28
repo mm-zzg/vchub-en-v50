@@ -21,5 +21,6 @@ console.log(mash)
 **Example:**
 
 Write the above code on the button, click the button to query the information of the created cube
+
 ![1](../../../assets/images/3d_lowcode_SOperation_query1.gif)
 

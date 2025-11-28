@@ -12,7 +12,7 @@ size: 100//Flame size(default of 5)
 });
 ```
  
-Example:
+**Example:**
 
 Write the above code on the button, click the button, and you can create a flame effect at the specified location
 

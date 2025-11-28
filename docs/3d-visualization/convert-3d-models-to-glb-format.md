@@ -15,7 +15,6 @@ I nstallation address: ***[blender.org- Home of the Blender project - Free and O
 3.  After the export file is finished, import blender software as shown in the picture.
 
 ![alt text](3d_Format2.png)
-
 4.  Select the  imported model and perform the following operations to export the GLB file.
 
 ![alt text](3d_Format3.png)
@@ -31,6 +30,8 @@ three.js editor address: ***[three.js editor (threejs.org)](https://threejs.org/
 1.  Import the file into **three.js.**
 
 ![alt text](3d_Format4.png)
+
+
 2.  Select Export **GLB**  format.
 
 ![alt text](3d_Format5.png)

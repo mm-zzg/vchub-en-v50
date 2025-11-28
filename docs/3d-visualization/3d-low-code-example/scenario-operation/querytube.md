@@ -20,6 +20,7 @@ console.log(mash)//Output all queried results
 Write the above code on the button, click the button, and you can query the models in the scene with names including tubes, including groups
 
 ![1](../../../assets/images/3d_lowcode_SOperation_querytube1.gif)
+
 The queried model can use all its methods and properties:
 
 ![alt text](3d_lowcode_SOperation_querytube2.png)

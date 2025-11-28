@@ -20,6 +20,7 @@ console.log(mash)//Output all queried results
 Write the above code on the button, click the button, and you can search for text annotations with names containing text in the scene
 
 ![1](../../../assets/images/3d_lowcode_SOperation_querytextlabel1.gif)
+
 The queried model can use all its methods and properties:
 
 ![alt text](3d_lowcode_SOperation_querytextlabel2.png)

@@ -1,6 +1,6 @@
 # findLine
 
-**Description: **Query the first line that meets the criteria in the scene
+**Description:** Query the first line that meets the criteria in the scene
 
 Find Line:
 

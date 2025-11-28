@@ -18,7 +18,9 @@ console.log(mash)
 Write the above code on the button, click the button, and you can query the model named chariot in the scene, including groups
 
 ![1](../../../assets/images/3d_lowcode_SOperation_querymesh1.gif)
+
 The queried model can use all its methods and properties:
+
 ![alt text](3d_lowcode_SOperation_querymesh2.png)
 
 

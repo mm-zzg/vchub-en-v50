@@ -19,6 +19,7 @@ chariot.forEach((ele) =>scene.remove(ele))// Traverse the array and perform a de
 Write the above code on the button, click on the button, and delete all models with names containing charts
 
 ![1](../../../assets/images/3d_lowcode_SOperation_remove1.gif)
+
 3D scene model:
 
 ![alt text](3d_lowcode_SOperation_remove2.png)

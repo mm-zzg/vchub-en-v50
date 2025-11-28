@@ -33,6 +33,7 @@ The editor comes with many windows. You can confirm the window you want to open 
 The window display mode shows:
 
 Form 1:
+
 ![alt text](3d_SEditor5.png)
 
 Form two:
