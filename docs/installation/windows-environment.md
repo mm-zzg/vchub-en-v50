@@ -11,7 +11,7 @@ Recommended Systems for Installation:
 - Windows 10  (Not supported in Home Edition)
 - Windows 11  (Not supported in Home Edition)
 
-## **Installation Steps:**
+## **Installation Steps**
 
 1. Run the installation package program as an administrator.
 2. Select the installation language.
