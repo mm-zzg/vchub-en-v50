@@ -60,6 +60,7 @@ sudo chown -R wago_vc_hub:wago_vc_hub /usr/local/bin/wagovisualizationandcontrol
 sudo chmod -R 750 /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
 ```
    **Note:** Perform this step before changing the service run account, otherwise the service may lose access.
+   
 3. Modify Service Run Account
   Configure the service to run under the wago_vc_hub account:
 ```

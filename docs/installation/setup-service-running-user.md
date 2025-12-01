@@ -14,20 +14,16 @@ Changing the service login identity requires administrator privileges.
 **Method 1: Using the Services Console**
 
 1. **Open the Services Console:**
-
-   - Press `Win + R` to open the Run dialog.
-   - Type `services.msc` and press Enter.
+    - Press `Win + R` to open the Run dialog.
+    - Type `services.msc` and press Enter.
 2. **Find and Right-Click the Target Service (WAGO Visualization And Control Hub):**
-
-   - In the list of services, locate the service you want to modify (WAGO Visualization And Control Hub).
-   - Right-click on the service and select **Properties**.
+    - In the list of services, locate the service you want to modify (WAGO Visualization And Control Hub).
+    - Right-click on the service and select **Properties**.
 3. **Set the Log On Information:**
-
-   - In the Properties window, switch to the **Log On** tab.
-   - Select **This account**, then enter the account name and password.
-   - Click **OK** to save the settings.
-     
-![alt text](29.png)
+    - In the Properties window, switch to the **Log On** tab.
+    - Select **This account**, then enter the account name and password.
+    - Click **OK** to save the settings.    
+   ![alt text](29.png)
 
 
 
@@ -50,17 +46,12 @@ sc config "WAGO_Visualization_And_Control_Hub" obj= "Domain\Username" password= 
 VC Hub only supports configuring services using `systemd`. Most Linux distributions use `systemd`, and you can set the startup and running user for a service by editing the service unit file.
 
 1. Edit the Service Unit File:
-
 Typically, service unit files are located in the `/etc/systemd/system/` or `/lib/systemd/system/` directories.
-
 ```bash
 sudo nano /etc/systemd/system/visualizationandcontrolhub.service
 ```
- 
 2. Specify the User in the Service Unit File: 
-
 Add or modify the `User` and `Group` options in the `[Service]` section to specify the user and group under which the service should run.
-
 ```plain
 [Unit]
 Description=WAGOVisualizationAndControlHub-Daemon
@@ -78,11 +69,8 @@ Group=mygroup
 [Install]
 WantedBy=multi-user.target graphical.target
 ```
- 
 3. Reload the systemd Configuration and Start the Service: 
-
 After editing the unit file, reload the systemd configuration and start the service.
-
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl start visualizationandcontrolhub
@@ -95,14 +83,14 @@ sudo systemctl start visualizationandcontrolhub
 - Ensure the account follows the principle of least privilege, granting only the permissions necessary for the service to operate. The VC Hub service requires read and write permissions for the **service installation directory** and the **service data directory**.
 - Default service installation directory:
 
-   Windows: `"C:\Program Files\WAGO Visualization And Control Hub"`
+    Windows: `"C:\Program Files\WAGO Visualization And Control Hub"`
 
-   Linux: `"/usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64"`
+    Linux: `"/usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64"`
 
 - Default data directory:
 
-   Windows: `"C:\ProgramData\WAGOVisualizationAndControlHub"`
+    Windows: `"C:\ProgramData\WAGOVisualizationAndControlHub"`
 
-   Linux: `"/usr/share/wagovisualizationandcontrolhub"`
+    Linux: `"/usr/share/wagovisualizationandcontrolhub"`
 
 

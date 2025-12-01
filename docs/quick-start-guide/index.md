@@ -72,30 +72,15 @@ At the top of the tag editing page, enable history recording to store the value 
 Bind tags to controls on the page.
 
 1. Set the display content of the text label to: "Liquid level:"
-
-![alt text](9.png)
-
-
-
+    ![alt text](9.png)
 2.  In the animation of the rectangle, select the fill animation. Click the value binding button and bind the created tag:liquid.
-
-![alt text](10.png)
-
-
-
+    ![alt text](10.png)
 3. In the value display control, click the value binding button and bind the created tag:liquid. Afte binding, the binding icon will turn from gray to green.
-
-![alt text](11.png)
-
-
-
+    ![alt text](11.png)
 4. In the historical chart control, click the value binding button and bind the created tag:liquid. 
-
-![alt text](12.png)
-
-
-
-Note: For more information on binding, please refer to the Property Binding page. 
+    ![alt text](12.png)
+    
+**Note:** For more information on binding, please refer to the Property Binding page. 
 
 ## 9.Preview/Run
 
