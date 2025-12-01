@@ -31,7 +31,7 @@ There is a subset of "Motor Instance" instances under the "Line" model, and sinc
 
 The Instantaneous Power tag under the Motor instance is referenced from the Instantaneous Power object under the Motor model.
 
-Production Line Instances and Production Lines
+**Production Line Instances and Production Lines**
 
 The "Line Instance" instance is referenced from the "Line" model, and there will be a "Motor Instance" under the "Line Instance". The "Motor Instance" will exist under the "Line Instance" and will reference the "Instantaneous Power" tag under the "Motor Instance".
 

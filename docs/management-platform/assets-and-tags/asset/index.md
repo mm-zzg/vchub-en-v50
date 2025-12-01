@@ -44,8 +44,8 @@ There are two types of assets to choose from : local assets, and remote assets.
 | Name                     | The name of the asset, the name is not repeatable and required.                                                                                                                                                                                                                          |
 | Description              | Description of the asset,optional.                                                                                                                                                                                                                                                       |
 | Type                     | The type of the asset,categorized into local and remote assets, the type cannot be changed after the asset is created.                                                                                                                                                                   |
-| R emote N ode            | Configurable when the asset type is remote asset. Select the node name of other nodes that form a network with the current node.                                                                                                                                                         |
-| Remote Asset N ame       | Configurable when the asset type is Remote Asset. Displays all assets under the selected remote node.When a remote asset name is selected, all information under that remote asset name is displayed under the currently created asset name.                                             |
+| Remote Node            | Configurable when the asset type is remote asset. Select the node name of other nodes that form a network with the current node.                                                                                                                                                         |
+| Remote Asset Name       | Configurable when the asset type is Remote Asset. Displays all assets under the selected remote node.When a remote asset name is selected, all information under that remote asset name is displayed under the currently created asset name.                                             |
 | Show Advances Properties | By default, this option is not selected. When selected, the "History Database" configuration is displayed.  **Note:** Selecting or not selecting this option only controls the visibility of the history database configuration and does not indicate whether it is enabled or disabled. |
 | History Database         | Select a local history database. If the "remote history database" of the selected "remote asset" is stored on the current node, you can directly choose the history database here to enhance query performance.                                                                          |
 
@@ -53,7 +53,7 @@ There are two types of assets to choose from : local assets, and remote assets.
 
  Click "**Tags** "->"**Asset** "menu to enter the asset management page.
 
-<img width="1905" height="287" alt="image" src="https://github.com/user-attachments/assets/deebbd29-e359-423d-9ebe-5a0d363aab72" />
+![alt text](3.png)
 
 
 #### **Query**

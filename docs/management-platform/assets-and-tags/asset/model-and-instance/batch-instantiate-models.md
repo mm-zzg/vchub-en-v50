@@ -3,18 +3,11 @@
 You can batch instantiate models in the following way.
 
 1. In the "Instances" tab, click the "Add" button and select "Instance."
-
-![alt text](21.png)
-
-
+    ![alt text](21.png)
 2. In the "Instances" tab, right-click on the folder and select "Add Instance" from the context menu.
-
-![alt text](22.png)
-
-
+    ![alt text](22.png)
 3. In the "Models" tab, right-click on the model and select "Add Instance" from the context menu.
-
-![alt text](23.png)
+    ![alt text](23.png)
 
 
 ## Modify instance properties through the page
@@ -45,7 +38,9 @@ After the export is successful, edit the file in Excel according to the exported
 ![alt text](27.png)
 
 
-**Notes:**  1. Columns created manually in Excel will not appear in the custom list after import. 2. If a custom property column is deleted in Excel, the corresponding values in the custom list will be empty after import. 
+**Notes:**  
+1. Columns created manually in Excel will not appear in the custom list after import. 
+2. If a custom property column is deleted in Excel, the corresponding values in the custom list will be empty after import. 
 
 
 #### Import 

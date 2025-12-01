@@ -6,30 +6,16 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 
 1. On the "**Devices**" -> "**Modbus TCP**" page, click the "**Add**" button.
 2. On the Add page, leave the default values and enter the following information in the following fields (Note: The following data is only an example, please fill in the fields according to the actual situation).
-
-   Device Name: Test1
-
-   Address: 10.160.100.33
-
-   Port: 502
-
-   Connection timeout (ms): 10000
-
-   Read data timeout(ms): 5000
-
-   Write Data Timeout (ms): 2000
-
+    - Device Name: Test1
+    - Address: 10.160.100.33
+    - Port: 502
+    - Connection timeout (ms): 10000
+    - Read data timeout(ms): 5000
+   -- Write Data Timeout (ms): 2000
 3. Click the **"** **OK** **" **button. The data will be displayed in the device list page of Modbus TCP.
-
-![alt text](1.png)
-
-
+   ![alt text](1.png)
 4. Click the Enable button in the Enable Status column to enable the device.
-
-![alt text](2.png)
-
-
-
+   ![alt text](2.png)
 **Configuration Fields**
 
 | **Name**                | **Description**                                   |
@@ -46,28 +32,15 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
    **Frame**: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the VC Hub program.
 
 6. In the Add Frame page, leave the default values and enter the following information in the following fields (Note: The following data is only an example, please fill in the fields according to the actual situation).
-
-   Name: HoldingRegister1
-
-   Slave Address: 1
-
-   Function: Holding register
-
-   Start Address: 1
-
-   Ending Address: 10
-
-   Data Encoding: Big Endian
-
-   Frequency (ms): 1000
-
+    - Name: HoldingRegister1
+    - Slave Address: 1
+    - Function: Holding register
+    - Start Address: 1
+    - Ending Address: 10
+    - Data Encoding: Big Endian
+    - Frequency (ms): 1000
 7. Click the **"OK"** button. The data will be displayed under the previously created device.
-
-![alt text](3.png)
-
-
-
-
+   ![alt text](3.png)
 **Configuration Fields**
 
 | **Name**     | **Description**                                                                                                              |
@@ -83,7 +56,7 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 **Note**
 
 1. In the device list, The **Enabled Status** indicates whether the device has been enabled or not, unenabled devices will not connect and enabled devices will try to connect; the **Connection Status** indicates whether the device has successfully established a communication connection with the system.
-2. **Enable All** and **Disable All**are to enable or disable all data in the list.
+2. **Enable All** and **Disable All** are to enable or disable all data in the list.
 3. The data code is not required when the storage area is a single coil and discrete volume input.
 4. Connections are not shared between all devices.
 
@@ -92,28 +65,16 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 Binds tags to the data from a ModbusTCP device.
 
 1. Create an I/O tag.
-
-![alt text](4.png)
-
-
+   ![alt text](4.png)
 2. On the edit screen of the tag, click the binding button of the data source.
-
-![alt text](5.png)
-
+   ![alt text](5.png)
 3. In the Data Source pop-up window, select the frame under the created ModbusTCP device and enter the following information in the following fields (Note: The following data is only an example, please fill in according to the actual situation).
-
-   Function: Holding register
-
-   Address Range: 1 ~ 10
-
-   Data Type: UINT16
-
-   Address: 1
-
+    - Function: Holding register
+    - Address Range: 1 ~ 10
+    - Data Type: UINT16
+    - Address: 1
 4. Click the "OK" button to complete the binding.
-
-![alt text](6.png)
-
+   ![alt text](6.png)
 **Configuration Fields**
 
 | **Function**             |                                                                                                                                     |

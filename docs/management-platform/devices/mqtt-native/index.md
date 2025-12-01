@@ -5,35 +5,18 @@ The MQTT Native driver in VC Hub is designed and developed based on the MQTT pro
 ## **Driver Connection to MQTT Broker**
 
 1. On the "**Devices**" -> "**MQTT Native**" page, click the "Add Group" button.
-
-Groups: Groups are a way to organize devices into groups for easier management and operation.
-
+    Groups: Groups are a way to organize devices into groups for easier management and operation.
 2. Enter a **group name** in the Add page.
-
-![alt text](1.png)
-
-
+    ![alt text](1.png)
 3. Click the "**OK**" button. The data will be displayed in the device list page of MQTT Native.
-
-![alt text](2.png)
-
-
+    ![alt text](2.png)
 4. Click "**Add Node**" in the Operation column, enter the node name and add a new node for the current group.
-
 **Node**: Node represents the entity of a specific device, and has a unique identifier, which is used to distinguish each device.
-
-![alt text](3.png)
-
-
+    ![alt text](3.png)
 5. Click the "**OK**" button. The data will be displayed in the node list page of the current group. Please note that the Status column only indicates the start/stop status of the current node, not the connection status.
-
-![alt text](4.png)
-
+    ![alt text](4.png)
 6. Click the Enable button in the  Enabled Status column to enable the node.
-
-![alt text](5.png)
-
-
+    ![alt text](5.png)
 
 **Configuration Fields**
 
@@ -56,11 +39,10 @@ Before using the MQTT Native driver, you need to connect to the system's MQTT Br
 
 1. Get account and password: Click the "View" button on the node to see the username and password provided by the system.
 2. Configure Client: In your application or device, configure the MQTT client to connect to the system's MQTT Broker:
-
-   - Broker Address: Fill in the address of the system MQTT Broker.
-   - Broker Port: Fill in the port number of the system MQTT Broker. The default is 1884.
-   - Client ID: Fill in a unique client identifier that identifies your connection on the MQTT Broker.
-   - Username and Password: Use the account and password you obtained.
+     - Broker Address: Fill in the address of the system MQTT Broker.
+     - Broker Port: Fill in the port number of the system MQTT Broker. The default is 1884.
+     - Client ID: Fill in a unique client identifier that identifies your connection on the MQTT Broker.
+     - Username and Password: Use the account and password you obtained.
 3. Connect to MQTT Broker: Use the MQTT client to connect to the system's MQTT Broker in your application or device. After confirming that the connection is successful, you can start transferring device data with the MQTT Native driver using the configured client.
 
 ## **Publishing and Subscribing to Device Data**
@@ -71,9 +53,9 @@ Subject: Topic
 
 **wsV1.0/group_name/message_type/node_name/[device_name]**
 
-| **Elements** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ws1.0         | Root element for fixed content.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Elements** | **Description**                                     |
+|---------------|----------------------------|
+| ws1.0         | Root element for fixed content.  |
 | group_name    | This element is a logical grouping identifier for the client, corresponding to the group name in the system, which can be grouped according to logical or practical usage requirements, such as distinguishing A/B workshops, a/b production lines, etc. This element can be any legal string, but cannot contain special characters, such as */+#, etc., and its content is as simple as possible. This element can be any legal string, but must not contain special characters, such as */+#, etc., and must be as short as possible. |
 | message_type  | This element describes how the payload message should be handled. The system defines the following message_type:   1. **NBIRTH** - device point information, initializes all device information and point information under a Node  2. **NDATA** - point data, sends the point data under a device  3. **NCMD** - point command, writes back the point data under a device NCMD - Measurement point data, writes back measurement point data under a device.                                                                             |
 | node_name     | This element is a client-unique identifier that corresponds to a node name in the system. This element can be any legal string, but must not contain special characters such as */+# and must be as short as possible.                                                                                                                                                                                                                                                                                                                   |
@@ -82,29 +64,17 @@ Subject: Topic
 **message_type explanation**
 
 1. **NBIRTH** - Transport Device Configuration Information
-
    **Topic:** wsV1.0/**{group_name}**/NBIRTH/**{node_name}**
-  
    **Permission:** Write
-
    After successfully connecting to VC Hub, the client can push all device configuration information and measurement point configuration information under the current node_name to the system through this Topic.
-
 2. **NDATA** - Transmission of measurement point data
-
-   **Topic**：wsV1.0/**{group_name}**/NDATA/**{node_name}**/**[{device_name}]**
-  
+   **Topic**：wsV1.0/**{group_name}**/NDATA/**{node_name}**/**[{device_name}]** 
    **Permission:** Write
-
    After successfully pushing the measurement point configuration information, the client can push the measurement point data to the system through this Topic.
-
 3. **NCMD** - Return Measurement Point Data
-
-   **Topic:** wsV1.0/**{group_name}**/NCMD/**{node_name}**/**[{device_name}]**
-  
-   **Permission:** Read
-  
+   **Topic:** wsV1.0/**{group_name}**/NCMD/**{node_name}**/**[{device_name}]**  
+   **Permission:** Read  
    Clients can subscribe to this Topic to receive data when they need and allow certain points to receive values from the system.
-
 - Square brackets `[]` indicate that the path segment is **optional**.
 - Curly braces `{}` indicate that the content is a **placeholder** (to be replaced with an actual value).
 - Therefore, combining them as `[{group_name}]` means it is an "**optional placeholder**".
@@ -112,7 +82,6 @@ Subject: Topic
 **payload Structure**
 
 1. Topic: wsV1.0/group_name/NBIRTH/node_name
-
 payload Structure:
 
 | **Attribute** | **Type** | **Description**               |
@@ -189,7 +158,6 @@ Sample Message:
     }
 ]
 ```
- 
 2. Topic：wsV1.0/group_name/NDATA/node_name/[device_name]
 
 payload Structure:
@@ -218,9 +186,6 @@ payload Structure:
     ]
 }
 ```
- 
-
-
 Considering the bandwidth saving and improving the transmission performance, the timestamps of all measurement points can be represented by a separate attribute, prioritizing the use of the Timestamp of the measurement point, or the Timestamp of the top-level object if the Timestamp of the measurement point doesn't exist, as shown in the following example.
 
 ```json
@@ -237,7 +202,6 @@ Considering the bandwidth saving and improving the transmission performance, the
 	]
 }
 ```
- 
 3. Subscribe Topic：wsV1.0/group_name/NCMD/node_name/[device_name]
 
 Your received payload Structure:
@@ -256,20 +220,11 @@ Sample Message:
 ## **Binding to tags**
 
 Bind the tag to the client measurement point.
-
 1. Create an I/O tag.
-
-![alt text](6.png)
-
-
+    ![alt text](6.png)
 2. On the add window, click the binding button of the data source.
-
-![alt text](7.png)
-
-
+    ![alt text](7.png)
 3. Select the groups, nodes, devices and directories to be bound, and check the data types to match the measurement points.
-
-![alt text](8.png)
-
+    ![alt text](8.png)
 4. Click the "**OK**" button to complete the configuration.
 

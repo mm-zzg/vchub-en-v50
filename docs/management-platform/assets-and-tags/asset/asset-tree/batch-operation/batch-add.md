@@ -4,7 +4,7 @@ In the **Instance** and **Model** tabs, only basic information is added initiall
 
 ## Download "New Template"
 
-1. In the **Instance** or **Model** tab, click the **More** button and then select **Batch Operation**.
+In the **Instance** or **Model** tab, click the **More** button and then select **Batch Operation**.
 
 ![alt text](7.png)
 ![alt text](8.png)
