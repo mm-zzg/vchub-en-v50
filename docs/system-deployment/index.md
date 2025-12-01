@@ -4,10 +4,11 @@
 
  Common deployment methods:
 
-- Standalone Deployment
-- Network Deployment 
-- Hybrid Cloud and Local Deployment 
-- Redundant Deployment 
-- Azure Cloud Deployment
+- [Standalone Deployment](standalone-deployment.md)
+- [Network Deployment](network-deployment.md) 
+- [Hybrid Cloud and Local Deployment](hybrid-cloud-and-local-deployment.md)
+- [Redundant Deployment](redundant-deployment.md)
+- [Azure Cloud Deployment](azure-cloud-deployment.md) 
+
 
 
