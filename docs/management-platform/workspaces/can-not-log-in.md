@@ -9,20 +9,18 @@ If you are unable to log into the current workspace, you can try switching works
 If you have other workspaces in your system and have the login information for those workspaces, you can manually switch to one of them.
 
 1. **Log in to the VC Hub installation server.**
-2. **Go to the user data directory.**
+1. **Go to the user data directory.**
       - For Windows installation, the default user data directory is: “%ProgramData%\WAGOVisualizationAndControlHub”, usually located at “C:\ProgramData\WAGOVisualizationAndControlHub”.
       - For Linux installation, the default user data directory is: `/usr/share/`wagovisualizationandcontrolhub.
       - If you changed the user data directory during installation, go to the directory you modified.
-3. **Navigate to the \Workspaces folder.**
+1. **Navigate to the \Workspaces folder.**
 
       This directory contains all the workspaces, with each workspace stored in its own separate folder.
       Go to the root directory of a specific workspace folder, where you can check the **“.ini”** file to view information such as the workspace name.
       ![alt text](21.png)
-4. **Modify the ".ini" file in the root directory of the workspace folder.**  Change the **Current** field to the **target workspace ID**.
-
-5. **Restart the service.**
-
-6. **Log in using the switched workspace user information.** 
+1. **Modify the ".ini" file in the root directory of the workspace folder.**  Change the **Current** field to the **target workspace ID**.
+1. **Restart the service.**
+1. **Log in using the switched workspace user information.** 
 
 # **Method 2: Create a New Workspace**
 
