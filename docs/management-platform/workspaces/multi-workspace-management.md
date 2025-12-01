@@ -74,27 +74,27 @@ During the export process, users can optionally **set a password** for the expor
 ![alt text](7.png)
 
 
-The exported file is saved in `.wsbk`** **format to the local Downloads directory. It can be used for workspace backup and synchronization across multiple nodes.
+The exported file is saved in `.wsbk` format to the local Downloads directory. It can be used for workspace backup and synchronization across multiple nodes.
 
 ![alt text](8.png)
 
 #### **Import**
 
-The user can click the **Import** button in the upper-right corner to import a previously exported* .wsbk* file into the VC Hub system.
+The user can click the **Import** button in the upper-right corner to import a previously exported *.wsbk* file into the VC Hub system.
 
 ![alt text](9.png)
 
 
 Select a local *.wsbk* file. If a password was set during export, you must enter the correct password to proceed with the import. Workspaces without a password can be imported directly.
 
-Users can choose whether to retain the current system’s **node settings, redundancy **and **networking **information during import.
+Users can choose whether to retain the current system’s **node settings, redundancy** and **networking** information during import.
 
 - If **Keep** is selected, the current node settings, redundancy and networking settings will remain unchanged after the import.
 - If **Replace** is selected, the workspace data will be successfully imported. The node settings, redundancy, and networking information from the import file will overwrite the corresponding configuration of the current node. After the import is completed, the system will automatically restart, and the login page will be displayed after the restart.
 
 If the name of the imported workspace is the same as an existing workspace in the list, the system will automatically append **_Copy** to the imported workspace’s name.
 
-For a newly imported workspace, a **“** **New** **”** icon will be displayed after the workspace name for 30 minutes following the import.
+For a newly imported workspace, a **“New”** icon will be displayed after the workspace name for 30 minutes following the import.
 
 ![alt text](10.png)
 
