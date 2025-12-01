@@ -15,7 +15,7 @@ If you have other workspaces in your system and have the login information for t
       - If you changed the user data directory during installation, go to the directory you modified.
 1. **Navigate to the \Workspaces folder.**
 
-      This directory contains all the workspaces, with each workspace stored in its own separate folder.
+      - This directory contains all the workspaces, with each workspace stored in its own separate folder.
       Go to the root directory of a specific workspace folder, where you can check the **“.ini”** file to view information such as the workspace name.
    ![alt text](21.png)
 4. **Modify the ".ini" file in the root directory of the workspace folder.** Change the **Current** field to the **target workspace ID**.
