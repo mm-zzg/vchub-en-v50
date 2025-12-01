@@ -18,30 +18,30 @@ After creating a new scene, it is recommended to first adjust the default parall
 **Steps:**
 
 1. After adjusting the default directional light, add **three additional parallel lights**: **Parallel Light 2**, **Parallel Light 3**, and **Parallel Light 4**.
+
 2. Parallel Light 2 – *Key Light (Main Light Source)*
 
-   a. **Position**: Lower right side of the scene, slightly centered.
+     a. **Position**: Lower right side of the scene, slightly centered.
 
-   b. **Intensity**: Recommended to set **4 or higher** (example: **7**).
+     b. **Intensity**: Recommended to set **4 or higher** (example: **7**).
    
-   c. **Purpose**: Provides the main lighting direction, creating a clear light–dark contrast.
-
+     c. **Purpose**: Provides the main lighting direction, creating a clear light–dark contrast.
 
 3. Parallel Light 3 – *Fill Light (Secondary Light Source)*
 
-   a. **Position**: Diagonally opposite the key light, slightly lower in height.
+     a. **Position**: Diagonally opposite the key light, slightly lower in height.
    
-   b. **Intensity**: Recommended to set **below 1** (example: **0.5**).
+     b. **Intensity**: Recommended to set **below 1** (example: **0.5**).
    
-   c. **Purpose**: Softens the model’s shadowed areas, creating smoother light transitions.
-
+     c. **Purpose**: Softens the model’s shadowed areas, creating smoother light transitions.
+     
 4. Parallel Light 4 – *Balance Light*
 
-   a. **Position**: Upper left side, slightly lower than the key light.
+     a. **Position**: Upper left side, slightly lower than the key light.
 
-   b. **Intensity**: Can remain at the default value (e.g., **1**).
+     b. **Intensity**: Can remain at the default value (e.g., **1**).
 
-   c. **Purpose**: Further balances overall lighting, preventing excessive darkness in some areas.
+     c. **Purpose**: Further balances overall lighting, preventing excessive darkness in some areas.
 
 
 
@@ -52,7 +52,7 @@ After creating a new scene, it is recommended to first adjust the default parall
 
 ## Usage Recommendations and Notes
 
-- **Number of Lights**: ：It is recommended to keep the total number of light sources **≤ 50** to avoid performance issues or scene lag.
+- **Number of Lights**: It is recommended to keep the total number of light sources **≤ 50** to avoid performance issues or scene lag.
 - **Direction and Intensity Adjustments** ：After adding lights, you must manually adjust their direction and intensity to achieve the desired effect.
 - **Skybox Influence**: Enabling a skybox may affect the overall lighting ambiance. You should adjust the light intensity accordingly based on the actual visual effect.
 
