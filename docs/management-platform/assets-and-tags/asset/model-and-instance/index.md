@@ -35,32 +35,32 @@ The data to be monitored for the motors: switching status, instantaneous power.
 
 **Steps**
 
-1. Under the "Models" tab, click "➕" in the upper right corner, select the model in the drop-down box, and create a model named "Line.
-    ![alt text](2.png)
+1. Under the "Models" tab, click "➕" in the upper right corner, select the model in the drop-down box, and create a model named "Line.<br>
+    ![alt text](2.png)<br>
     ![alt text](3.png)
-2. Repeat the above steps to create another model named "Motor".
+2. Repeat the above steps to create another model named "Motor".<br>
     ![alt text](4.png)
-3. Right-click on the motor to create two I/O tags : status, power. 
+3. Right-click on the motor to create two I/O tags : status, power. <br>
     ![alt text](5.png)
-4. Since the number of motor is different for each Line, we use the motor as a set in the model. Right-click on the Line model and select "Add Set" in the popup menu.
+4. Since the number of motor is different for each Line, we use the motor as a set in the model. Right-click on the Line model and select "Add Set" in the popup menu.<br>
     ![alt text](6.png)
-5. In the add window, the name is set to motor and Default:Motor is selected in Model. 
+5. In the add window, the name is set to motor and Default:Motor is selected in Model. <br>
     ![alt text](7.png)
-6. You can see all the information about the motor under the Line, and the motor acts as a sub-node of the Line.
+6. You can see all the information about the motor under the Line, and the motor acts as a sub-node of the Line.<br>
     ![alt text](8.png)
-7. Switch to the "Instance" tab, click the "➕" button on the right, and select "Instance" in the pop-up menu. 
+7. Switch to the "Instance" tab, click the "➕" button on the right, and select "Instance" in the pop-up menu. <br>
     ![alt text](9.png)
-8. In the Add pop-up window, set the name to Line, select "Line" for model,  In the batch generate, click "Generate." In the popup, set the batch instance quantity to 3 and the starting index to 1.
+8. In the Add pop-up window, set the name to Line, select "Line" for model,  In the batch generate, click "Generate." In the popup, set the batch instance quantity to 3 and the starting index to 1.<br>
     ![alt text](10.png)
-    Click the ”OK“ button of ”Setting“ window.
+    Click the ”OK“ button of ”Setting“ window.<br>
     ![alt text](11.png)
-9. Setting is complete, click the OK button, you can see the information of 3 Line after instantiation in the instance list. 
+9. Setting is complete, click the OK button, you can see the information of 3 Line after instantiation in the instance list. <br>
     ![alt text](12.png)
-10. For each Line, generate the corresponding number of motors. Right-click on the model and select "Generate" in the pop-up menu. 
+10. For each Line, generate the corresponding number of motors. Right-click on the model and select "Generate" in the pop-up menu. <br>
     ![alt text](13.png)
-11. Set the name prefix and quantity. As an example, Line 1 has 3 motor, so we set the quantity to 3.
+11. Set the name prefix and quantity. As an example, Line 1 has 3 motor, so we set the quantity to 3.<br>
     ![alt text](14.png)
-12. The setup is complete, click the OK button, and under the Line 1 instance, you can see 3 motors. The 2 tags status and power are included under each motor. 
+12. The setup is complete, click the OK button, and under the Line 1 instance, you can see 3 motors. The 2 tags status and power are included under each motor. <br>
     ![alt text](15.png)
 13. Repeat the above steps to complete Line 2 and Line 3. This instantiates 3 Lines, each with a different number of motor, from a single Line model.
 
