@@ -31,7 +31,7 @@ Create a sphere model that represents an alarm light that flashes when the value
 | Executions | The number of times to flash when the value is true                                                                                                                                                       |
 | Duration   | The execution time of each flash, unit ms.                                                                                                                                                                |
 
-###### Translocation
+#### Translocation
 
 Let the model perform dynamic effects of displacement through paths.
 
@@ -55,12 +55,15 @@ The model is displaced according to the path on the conveyor belt.
 | Bool value                           | Tag: @Default:roll   |  Note: This animation only takes effect when the value is a Bool value. | |------------------------------------------------------------------------| |
 | The world position of current object | Show the world position of current object                                                                                                                                  |
 
-###### **Rotation**
+#### **Rotation**
 
 The model rotates as the value changes.
+
 ![3d_Animation6](../assets/images/3d_Animation6.gif)
 
 ![alt text](3d_Animation7.png)
+
+
 | **Name**          | **Value**   |
 |:------------------|:-------------|
 | Enabled           | Enable  |
@@ -77,7 +80,7 @@ The model rotates as the value changes.
 | Duration(ms)      | When the type is Bool, this parameter is displayed. Indicates the duration of each spin.  |
 | Reverse Play      | When the type is Bool, this parameter is displayed. Indicates whether to reversely rotate back after rotating to a specified angle.  |
 
-**Scale**
+#### Scale
 
 Change the model through changes in values.
 
