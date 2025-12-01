@@ -59,7 +59,7 @@ The Modbus RTU driver in VC Hub communicates data with devices (typically PLCs, 
 **Note:**
 
 1. In the device list, The **Enabled Status** indicates whether the device has been enabled or not, unenabled devices will not connect and enabled devices will try to connect; the **Connection Status** indicates whether the device has successfully established a communication connection with the system.
-2. **Enable All** and **Disable All**are to enable or disable all data in the list.
+2. **Enable All** and **Disable All** are to enable or disable all data in the list.
 3. The data code is not required when the function is a **coil status** and **input status**.
 4. Connections are not shared between all devices.
 
@@ -67,8 +67,8 @@ The Modbus RTU driver in VC Hub communicates data with devices (typically PLCs, 
 
 Bind a tag to the data of a Modbus RTU device.
 
-1. Create an I/O tag.
-   <br>![alt text](4.png)
+1. Create an I/O tag.<br>
+   ![alt text](4.png)
 2. On the add window, click the binding button of data source.
    ![alt text](5.png)
 3. In the pop-up data source window, select the frame under the created Modbus RTU device and enter the following information in the following fields (Note: The following data is only an example, please fill in according to the actual situation).
