@@ -19,20 +19,19 @@ The Modbus RTU driver in VC Hub communicates data with devices (typically PLCs, 
    ![alt text](1.png)
 4. Click the Enable button in the Enable Status column to enable the device.
    ![alt text](2.png)
-**Configuration Fields**
+    **Configuration Fields**
 
-| **Name**              | **Description**        |
-|-------------------------|-----------------------------|
-| Name                    | The name of the device connection.                    |
-| COM                     | The COM port (name of the serial port) of the device. |
-| Baud Rate               | The baud rate of the device.                          |
-| Data Bits               | The data bits of the device.                          |
-| Stop Bits               | The stop bit of the device.                           |
-| Parity                  | The parity of the device.                             |
-| Connection Timeout (ms) | Connection timeout of the device in milliseconds.     |
-| Read Data Timeout (ms)  | Read data timeout of the device in milliseconds       |
-|Write Data Timeout (ms) | The device's write data timeout in milliseconds.      |
-
+      | **Name**              | **Description**        |
+      |-------------------------|-----------------------------|
+      | Name                    | The name of the device connection.                    |
+      | COM                     | The COM port (name of the serial port) of the device. |
+      | Baud Rate               | The baud rate of the device.                          |
+      | Data Bits               | The data bits of the device.                          |
+      | Stop Bits               | The stop bit of the device.                           |
+      | Parity                  | The parity of the device.                             |
+      | Connection Timeout (ms) | Connection timeout of the device in milliseconds.     |
+      | Read Data Timeout (ms)  | Read data timeout of the device in milliseconds       |
+      |Write Data Timeout (ms) | The device's write data timeout in milliseconds.      |
 5. Click on the "**Add Frame**" button on the created device to add a frame to the current device.
     - **Frame**: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the VC Hub program.
 6. In the Add Frame screen, leave the default values and enter the following information in the following fields (Note: The following data is only an example, please fill in the fields according to the actual situation).
@@ -69,7 +68,7 @@ The Modbus RTU driver in VC Hub communicates data with devices (typically PLCs, 
 Bind a tag to the data of a Modbus RTU device.
 
 1. Create an I/O tag.
-   ![alt text](4.png)
+   <br>![alt text](4.png)
 2. On the add window, click the binding button of data source.
    ![alt text](5.png)
 3. In the pop-up data source window, select the frame under the created Modbus RTU device and enter the following information in the following fields (Note: The following data is only an example, please fill in according to the actual situation).

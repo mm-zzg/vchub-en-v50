@@ -26,6 +26,7 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 | Connection Timeout (ms) | Connection timeout for the device, in milliseconds. |
 | Read Data Timeout (ms)  | Read data timeout for the device, in milliseconds.  |
 | Write Data Timeout (ms) | The device's write data timeout in milli.seconds    |
+
 5. In the action bar of the created device, click on the "**Add Frame**" button to add a frame to the current device.
 
    **Frame**: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the VC Hub program.
@@ -55,7 +56,7 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 **Note**
 
 1. In the device list, The **Enabled Status** indicates whether the device has been enabled or not, unenabled devices will not connect and enabled devices will try to connect; the **Connection Status** indicates whether the device has successfully established a communication connection with the system.
-2. **Enable All** and **Disable All**are to enable or disable all data in the list.
+2. **Enable All** and **Disable All** are to enable or disable all data in the list.
 3. The data code is not required when the storage area is a single coil and discrete volume input.
 4. Connections are not shared between all devices.
 
