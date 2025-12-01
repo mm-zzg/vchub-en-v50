@@ -26,11 +26,11 @@ three.js editor address: ***[three.js editor (threejs.org)](https://threejs.org/
 
 **Steps：**
 
-1.  Import the file into **three.js.**
+1.Import the file into **three.js.**
 
 ![alt text](3d_Format4.png)
   
-2.  Select Export **GLB**  format.
+2.Select Export **GLB**  format.
 
 ![alt text](3d_Format5.png)
 
