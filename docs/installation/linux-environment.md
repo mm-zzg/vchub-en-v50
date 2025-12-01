@@ -2,7 +2,7 @@
 
 VC Hub provides an installation package for the Linux environment, with the file name wagovisualizationandcontrolhub-x.x.x-linux-x64-installer.run.
 
-## **Installation Steps:**
+## **Installation Steps**
 
 1. Copy the installation package to a directory on the Linux server.
 1. Grant the file owner the permission to execute the installation file 
@@ -49,7 +49,7 @@ VC Hub provides an installation package for the Linux environment, with the file
 1. The program is supervised and managed by the systemd service manager that comes with the Linux system. Ensure that the systemd on the server is running properly.
 2. The installation script includes operations such as creating scripts, so make sure you have sufficient permissions.
 
-## Configuration:
+## Configuration
 
 1. Read and agree the license agreement
 
@@ -138,7 +138,7 @@ systemctl status visualizationandcontrolhub.service
  
   Open a browser and visit the VC Hub site (e.g., `http://localhost:8066`) to verify it is running correctly.
 
-## **Uninstallation Steps:**
+## **Uninstallation Steps**
 
 1. Go to the parent directory of the installation directory.
 2. Grant the file owner the permission to execute the file "visualizationandcontrolhub-uninstall.sh"
