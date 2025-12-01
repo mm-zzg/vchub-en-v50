@@ -62,7 +62,7 @@ The model rotates as the value changes.
 
 ![alt text](3d_Animation7.png)
 | **Name**          | **Value**   |
-|:-------------------|:-------------|
+|:------------------|:-------------|
 | Enabled           | Enable  |
 | value             | Tag: Default:Express |
 | Type              | The result type of the value. Divided into Number type and Bool type.  <br>Number type:  <br>![alt text](3d_Animation8.png)  <br>Bool type:  <br>![alt text](3d_Animation9.png)|
