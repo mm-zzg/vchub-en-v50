@@ -6,20 +6,22 @@ When entering the scene editor, you can see the current scene page visualization
 
 There are model libraries, structures, and properties in the scene visualization.
 
-#### **Model library**
+## **Model library**
 
 The model library is divided into system model and local model library
 
-###### **System model**
+#### **System model**
 
 The system model library is always on top of the local model library. The built-in basic models of cube, sphere, cylinder, Torus and Plane are included.
 
 
 
 ![alt text](3d_PVisualization2.png)
+
+
 Double-click the system model to add the model to the scene. The system model does not support editing and modification operations. It can only be added to the scene. It is added to the default position x:0, y:0,z:0 in the scene.
 
-###### **Local model library**
+#### **Local model library**
 
 You can add models according to your preferences and actual needs. After clicking "Add" in the library window, a local model library will be automatically created, and the library name will be in editing state.
 
@@ -34,7 +36,7 @@ The Open dialog window will appear. Just find the model you need to upload on th
 
 ![alt text](3d_PVisualization5.png)
 
-#### **Use model**
+## **Use model**
 
 ![alt text](3d_PVisualization6.png)
 
@@ -62,7 +64,7 @@ You can also modify the model, and the model modification operation will enter t
 
 You can also delete and rename the model name. If the model is being edited in the model editor, renaming, deletion, and re-uploading are not allowed. Only by closing the corresponding model editor can the model be renamed, deleted, or re-uploaded.
 
-#### **Structure**
+## **Structure**
 
 Each model has a  structure tree
 
@@ -71,13 +73,13 @@ Each model has a  structure tree
 
 After selecting the model, the structure will have a lock and hide icon. After the model is locked, the model will be prohibited from editing. After hiding, the model will not be visible at any time.
 
-#### **Appearance**
+##  **Appearance**
 
 The appearance shows the basic information of the currently selected model, and the basic information can be edited.
 
 ![alt text](3d_PVisualization11.png)
 
-#### **Run**
+## **Run**
 
 After the model is added to the scene, you can go to the 2D screen and add the "3D Viewer" control to run the scene.
 

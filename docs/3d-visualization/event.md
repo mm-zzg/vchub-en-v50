@@ -42,7 +42,7 @@ When the mouse is clicked and the model is lifted, the value of tag 1 will be mo
 
 ![3d_Event5](../assets/images/3d_Event5.gif)
 
- **Script**
+#### **Script**
 
 Allows you to write custom scripts for more flexible configuration.
 
@@ -52,7 +52,7 @@ Allows you to write custom scripts for more flexible configuration.
 When the mouse enters the model range, a script will be executed.
 ![3d_Event7](../assets/images/3d_Event7.gif)
 
- **Security Group**
+#### **Security Group**
 
 To set the required security group, click the Security Group drop-down button and select one or more roles in the expanded list. After selecting characters, they will be displayed in the selection box.
 
