@@ -2,7 +2,7 @@
 
 VC Hub provides an installation package for the Linux environment, with the file name wagovisualizationandcontrolhub-x.x.x-linux-x64-installer.run.
 
-## **Installation Steps** test
+## **Installation Steps** 
 
 1. Copy the installation package to a directory on the Linux server.
 1. Grant the file owner the permission to execute the installation file 
@@ -30,17 +30,10 @@ VC Hub provides an installation package for the Linux environment, with the file
 ## Configuration
 
 1. Read and agree the license agreement
-
 2. Create an administrator user. Remember this username and password, as you will use them to log in for the first time. 
-
    ![alt text](25.png)
-
-
 3. Port configuration, configure HTTP, HTTPS ports, and remember the access port. 
-
    ![alt text](26.png)
-
-
 4. After completing the above steps, wait for the program to load, and then you can log in to the default workspace with the administrator user created in step 2.
 
 **Note**: If you perform an upgrade installation, a new empty workspace will be created by default. To return to the original workspace, you need to log in to the new workspace first and then manually open the original workspace from the workspace list. 
@@ -60,7 +53,7 @@ sudo useradd -r -s /sbin/nologin wago_vc_hub
  
 Then, configure passwordless sudo for this account via the sudoers file:
 
-```Plain Text
+```
 wago_vc_hub ALL=(ALL) NOPASSWD: ALL
 ```
  
@@ -68,7 +61,7 @@ wago_vc_hub ALL=(ALL) NOPASSWD: ALL
 
     Assign ownership of the service installation directory (e.g., /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64) to wago_vc_hub and restrict access to other users:
 
-```Plain Text
+```
 sudo chown -R wago_vc_hub:wago_vc_hub /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
 sudo chmod -R 750 /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
 ```
@@ -79,20 +72,20 @@ sudo chmod -R 750 /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
 
   Configure the service to run under the wago_vc_hub account:
 
-```Plain Text
+```
 sudo systemctl edit visualizationandcontrolhub.service
 ```
  
 Add the following lines under the [Service] section:
 
-```Plain Text
+```
 User=wago_vc_hub
 Group=wago_vc_hub
 ```
  
 Then reload the systemd configuration and restart the service:
 
-```Plain Text
+```
 sudo systemctl daemon-reexec
 sudo systemctl restart visualizationandcontrolhub.service
 ```
@@ -101,7 +94,7 @@ sudo systemctl restart visualizationandcontrolhub.service
 
     Assign ownership of the data directory (e.g., /usr/share/wagovisualizationandcontrolhub) to wago_vc_hub and ensure read/write access while restricting other users:
 
-```Plain Text
+```
 sudo chown -R wago_vc_hub:wago_vc_hub /usr/share/wagovisualizationandcontrolhub
 sudo chmod -R 750 /usr/share/wagovisualizationandcontrolhub
 ```
@@ -110,7 +103,7 @@ sudo chmod -R 750 /usr/share/wagovisualizationandcontrolhub
 
    Check that the service is running under the wago_vc_hub account and confirm the site is accessible:
 
-```Plain Text
+```
 systemctl status visualizationandcontrolhub.service
 ```
  
@@ -120,15 +113,9 @@ systemctl status visualizationandcontrolhub.service
 
 1. Go to the parent directory of the installation directory.
 2. Grant the file owner the permission to execute the file "visualizationandcontrolhub-uninstall.sh"
-
    ![alt text](27.png)
-
-
 3. Run the script "visualizationandcontrolhub-uninstall.sh".
-
    ![alt text](28.png)
-
-
 4. After these operations, all program-related files will be removed, and the process supervisory service will also be removed.
 
 **Notes:**
