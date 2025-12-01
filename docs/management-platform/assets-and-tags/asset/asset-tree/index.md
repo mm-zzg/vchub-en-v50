@@ -47,7 +47,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 
 ![alt text](25.png)
 
-- Add Folder: Click on 'Add Folder' to open the folder creation window.
+- Add Folder: Click on "Add Folder" to open the folder creation window.
 - Add Model: Clickon "Add Model" to open the model creation window.
 - Copy: Click the Copy button, the paste button on the top of the list will become clickable, and the paste option will be displayed in the context menu of all folders. You can paste the contents of the current folder and all its children into the target path.
 - Paste: When a copy operation has been performed on a folder or model, the paste button is displayed in the right-click menu of the folder.
