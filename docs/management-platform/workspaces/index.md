@@ -4,13 +4,13 @@
 
  Except for the certificate and network-related modules, all other modules can be considered a subset of the workspace, which VC Hub can, so that a single workspace can be considered as an independent configuration container, where configuration items include:
 
-- Projects: The project manages the configuration pages. A project can have multiple page s, including 2D and 3D configurations, so that the user can draw the target industrial scenario in the project module according to the requirements.
-- Devices: VC Hub systems can be interfaced with a wide range of industrial protocols. The device module is used to manage the industrial protocol connection information to ensure that the system interacts with the actual industrial production equipment.
-- Assets and Tags: The medium used by the system to display and process industrial data. Tags can be bound to the protocol information in the device module and configured in a specific way, and after successful configuration, the tags will receive data from the actual device and issue commands to the device via the corresponding protocol.
-- Alarming: Mainly to configure the alarm history storage related information and stale alarm processing.
-- Scripts: In relatively complex data processing scenarios, the user can edit JavaScript code through the script module to read and write values to some of the system data.
-- Databases: Used to configure the connection information between the system and external databases, through which connection tags, alarm history data can be recorded into the databases supported by VC Hub, such as Influx DB, MySQL, etc.
-- Security: Configuration of roles and user information for individual workspaces, which is mainly used to manage the use of the system's functional privileges. The configuration of permissions only takes effect in the current workspace. In a multi-workspace scenario, each workspace will have a separate permission system.
+- [Projects](../projects/index.md): The project manages the configuration pages. A project can have multiple page s, including 2D and 3D configurations, so that the user can draw the target industrial scenario in the project module according to the requirements.
+- [Devices](../devices/index.md): VC Hub systems can be interfaced with a wide range of industrial protocols. The device module is used to manage the industrial protocol connection information to ensure that the system interacts with the actual industrial production equipment.
+- [Assets and Tags](../assets-and-tags/index.md): The medium used by the system to display and process industrial data. Tags can be bound to the protocol information in the device module and configured in a specific way, and after successful configuration, the tags will receive data from the actual device and issue commands to the device via the corresponding protocol.
+- [Alarming](../alarming/index.md): Mainly to configure the alarm history storage related information and stale alarm processing.
+- [Scripts](../scripts/index.md): In relatively complex data processing scenarios, the user can edit JavaScript code through the script module to read and write values to some of the system data.
+- [Databases](../databases/index.md): Used to configure the connection information between the system and external databases, through which connection tags, alarm history data can be recorded into the databases supported by VC Hub, such as Influx DB, MySQL, etc.
+- [Security](../security/index.md): Configuration of roles and user information for individual workspaces, which is mainly used to manage the use of the system's functional privileges. The configuration of permissions only takes effect in the current workspace. In a multi-workspace scenario, each workspace will have a separate permission system.
 
 ## **Initial workspace**
 
@@ -34,7 +34,7 @@
 ![alt text](1.png)
 
 
-- Current Workspace Configure File: The current workspace configuration file is a .ini suffix configuration file containing configuration information that serves as the basis for the startup of the VC Hub service.
-- Workspace Directory: A single workspace directory stores all the workspace data of a workspace and contains the basic information of the workspace, named with a random GUID string, which also serves as aunique identifier of a workspace. A VC Hub node can contain several workspaces, and the workspace names must be different from one workspace to another.
+- [Current Workspace Configure File](current-workspace-configure-file.md): The current workspace configuration file is a .ini suffix configuration file containing configuration information that serves as the basis for the startup of the VC Hub service.
+- [Workspace Directory](workspace-directory.md): A single workspace directory stores all the workspace data of a workspace and contains the basic information of the workspace, named with a random GUID string, which also serves as aunique identifier of a workspace. A VC Hub node can contain several workspaces, and the workspace names must be different from one workspace to another.
 
 

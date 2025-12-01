@@ -90,7 +90,7 @@ We recommend users to regularly back up important data within VC Hub. Users can 
 
 ###### Historical database
 
-In the cloud deployment scenario, we recommend using Azure Database to store VC Hub historical data (including collected historical data and alarm history data). Azure Database also provides data backup functionality. Users can refer to the technical documentation provided by Azure, specifically [Change automated backup settings for  [Change automated backup settings for Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-change-settings?view=azuresql-db&preserve-view=true&tabs=azure-portal), to configure regular backups for the VC Hub historical database.
+In the cloud deployment scenario, we recommend using Azure Database to store VC Hub historical data (including collected historical data and alarm history data). Azure Database also provides data backup functionality. Users can refer to the technical documentation provided by Azure, specificall [Change automated backup settings for Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/automated-backups-change-settings?view=azuresql-db&preserve-view=true&tabs=azure-portal), to configure regular backups for the VC Hub historical database.
 
 When it comes to restoring historical data, Azure Database also offers an automatic recovery feature. You can refer to the documentation on how to  [Restore a database from a backup in Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/recovery-using-backups?view=azuresql-db&tabs=azure-portal) for guidance on restoring data from backups in Azure SQL Database.
 
@@ -100,7 +100,7 @@ All data in VC Hub, apart from historical data, is stored in a fixed directory i
 
 Users can manually copy the application data directory to another storage device for backup purposes on a regular basis. When restoration is needed, users can manually stop the VC Hub service on Azure VM, replace the application data directory on Azure VM with the backup directory, and then restart the VC Hub service.
 
-Azure provides the  [Azure Backup](https://azure.microsoft.com/en-us/products/backup) service, which allows for configuring automatic backups at regular intervals and provides cloud storage space. Azure Backup also offers restoration functionality, as detailed in  [Restore files to an Azure virtual machine](https://learn.microsoft.com/en-us/azure/backup/tutorial-restore-files) (Note: Before restoration, the VC Hub service still needs to be manually stopped).
+Azure provides the [Azure Backup](https://azure.microsoft.com/en-us/products/backup) service, which allows for configuring automatic backups at regular intervals and provides cloud storage space. Azure Backup also offers restoration functionality, as detailed in [Restore files to an Azure virtual machine](https://learn.microsoft.com/en-us/azure/backup/tutorial-restore-files) (Note: Before restoration, the VC Hub service still needs to be manually stopped).
 
 The specific location of the application data directory can be configured during the installation process, as shown in the following image.
 

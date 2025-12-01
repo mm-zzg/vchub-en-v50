@@ -45,19 +45,10 @@ After activation, the license key will be **bound to the installation server**, 
 Activation Steps:
 
 1. Click ”Node“->"License", and click on the "Activate License" button.
-
 ![alt text](38.png)
-
-
-
 2. Fill in the key and click the "Activate" button.
-
 ![alt text](39.png)
-
-
-
 3. After successful activation, the license list will show the license information. For activated keys, you can perform deactivate and refresh operation.
-
 ![alt text](40.png)
 
 ## Deactivation
