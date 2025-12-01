@@ -5,43 +5,29 @@ VC Hub provides an installation package for the Linux environment, with the file
 ## **Installation Steps**
 
 1. Copy the installation package to a directory on the Linux server.
+
 1. Grant the file owner the permission to execute the installation file 
 
    ![alt text](17.png)
-
-
 1. Run the installation package in the directory using the command ./ followed by the file name. 
 
    ![alt text](18.png)
-
-
 1. Select the installation language.
 
    ![alt text](19.png)
-
-
 1. Customize the installation directory or use the default directory. If the installation directory does not exist, the installer will create it automatically.
 
    ![alt text](20.png)
-
-
    ![alt text](21.png)
-
-
 1. Customize the data directory or use the default directory.
 
    ![alt text](22.png)
-
-
 1. Wait for the installation to complete. This process may take some time, so please be patient. 
 
    ![alt text](23.png)
-
-
 1. The installation is complete.
 
    ![alt text](24.png)
-
 1. After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
 
 **Notes:** 
