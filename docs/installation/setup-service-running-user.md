@@ -14,19 +14,15 @@ Changing the service login identity requires administrator privileges.
 **Method 1: Using the Services Console**
 
 1. **Open the Services Console:**
-
-   - Press `Win + R` to open the Run dialog.
-   - Type `services.msc` and press Enter.
+    - Press `Win + R` to open the Run dialog.
+    - Type `services.msc` and press Enter.
 2. **Find and Right-Click the Target Service (WAGO Visualization And Control Hub):**
-
-   - In the list of services, locate the service you want to modify (WAGO Visualization And Control Hub).
-   - Right-click on the service and select **Properties**.
+    - In the list of services, locate the service you want to modify (WAGO Visualization And Control Hub).
+    - Right-click on the service and select **Properties**.
 3. **Set the Log On Information:**
-
-   - In the Properties window, switch to the **Log On** tab.
-   - Select **This account**, then enter the account name and password.
-   - Click **OK** to save the settings.
-     
+    - In the Properties window, switch to the **Log On** tab.
+    - Select **This account**, then enter the account name and password.
+    - Click **OK** to save the settings.    
    ![alt text](29.png)
 
 
