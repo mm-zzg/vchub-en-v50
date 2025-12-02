@@ -35,4 +35,5 @@ You can create a custom function by clicking the "Add" button on the upper right
     userDefined.getTagValue()
     ```
 3. Click the "Preview" button on the screen, and this script will be executed when the button is pressed on the running screen, and then the value of the lookup tag will be printed on the console.
+
     ![custom](../../assets/images/custom.gif)
