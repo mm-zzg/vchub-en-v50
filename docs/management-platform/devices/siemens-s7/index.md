@@ -10,29 +10,17 @@ The Siemens driver in VC Hub supports the basic connection to S7 devices. Curren
 
 1. On the "**Devices**" -> "**SIEMENS S7**" screen, click the "Add" button.
 2. On the Add page, leave all the default values and enter the following information in the following fields (Note: The following data is only an example, please fill in according to the actual situation).
-
-   Device Name: Siemens 1200
-
-   Model: S7-1200
-
-   Host: Enter the IP or domain name of the device, e.g. 100.10.4.12
-
-   Port: 102
-
-   Rack: 0
-
-   Slot: 2
-
-   Frequency: 1000
-
+    - Device Name: Siemens 1200
+    - Model: S7-1200
+    - Host: Enter the IP or domain name of the device, e.g. 100.10.4.12
+    - Port: 102
+    - Rack: 0
+    - Slot: 2
+    - Frequency: 1000
 3. Click on the **"OK"** button. The data will now be displayed in the device list page of the SIEMENS S7. The status column only indicates the start/stop status of the driver, it does not represent the real connection status with the device. 
-
-![alt text](1.png)
-
+   ![alt text](1.png)
 4. Click the Enable button in the Enable Status column to enable the device.
-
-![alt text](2.png)
-
+   ![alt text](2.png)
 
 
 **Configuration Fields**
@@ -74,26 +62,15 @@ The Siemens driver in VC Hub supports the basic connection to S7 devices. Curren
 Bind tags to data in the Siemens PLC.
 
 1. Creating an I/O tag.
-
-![alt text](5.png)
-
-
+   ![alt text](5.png)
 2. On the add window, click the binding button for the data source.
-
-![alt text](6.png)
-
+   ![alt text](6.png)
 3. In the pop-up data source window, select the created Siemens device and enter the following information in the following fields (Note: The following data is only an example, please fill in according to the actual situation).
-
-   Parameter Type: DB
-
-   DB No.: 2
-
-   Data Type: Int
-
-   Address Offset: 4
-
-![alt text](7.png)
-
+    - Parameter Type: DB
+    - DB No.: 2
+    - Data Type: Int
+    - Address Offset: 4
+   ![alt text](7.png)
 4. Click the **"** **OK** **"** button to complete the setup.
 
 **Configuration Fields**

@@ -5,37 +5,18 @@ The MQTT SparkplugB driver in VC Hub is designed and developed based on the MQTT
 ## **Driver Connection to MQTT Broker**
 
 1. On the "**Devices**" -> "**MQTT SparkplugB** page, click the "**Add Group**" button.
-
-Groups: Groups are a way to organize devices into groups for easier management and operation.
-
+   Groups: Groups are a way to organize devices into groups for easier management and operation.
 2. Enter a **group name** in the Add page. 
-
-![alt text](1.png)
-
-
+   ![alt text](1.png)
 3. Click the **"OK"** button. The data will be displayed in the device list page of MQTT SparkplugB. 
-
-![alt text](2.png)
-
-
-
+   ![alt text](2.png)
 4. Click "Add Node" in the Operation column, enter the node name and add a new node for the current group.
-
-Node: Node represents the entity of a specific device, and has a unique identifier, which is used to distinguish each device. 
-
-![alt text](3.png)
-
-
+   **Node:** Node represents the entity of a specific device, and has a unique identifier, which is used to distinguish each device. 
+   ![alt text](3.png)
 5. Click the **"OK"** button. The data will be displayed in the node list page of the current group. Please note that the status column only indicates the start/stop status of the current node, not the connection status. 
-
-![alt text](4.png)
-
-
-
+   ![alt text](4.png)
 6. Click the Enable button in the Enable Status column to enable the node.
-
-![alt text](5.png)
-
+   ![alt text](5.png)
 
 **Configuration Fields**
 
@@ -49,7 +30,7 @@ Node: Node represents the entity of a specific device, and has a unique identifi
 **Note:**
 
 1. In the node list, The **Enabled Status** indicates whether the device has been enabled or not, unenabled devices will not connect and enabled devices will try to connect; the **Connection Status** indicates whether the device has successfully established a communication connection with the system.
-2. **Enable All** and **Disable All**are to enable or disable all data in the list.
+2. **Enable All** and **Disable All** are to enable or disable all data in the list.
 3. Please keep the user name and password information in a safe place to avoid leakage to unauthorized personnel, and if leakage occurs, please reset the password in time.
 
 Data types currently supported by the system:
@@ -77,14 +58,13 @@ Before you can use the MQTT SparkplugB driver, you need to connect to the system
 
 1. Get account and password: Click the "View" button on the node to see the username and password provided by the system.
 2. Configure Client: In your application or device, configure the edge node (SparkplugB Node) to connect to the system's Sparkplug Application:
-
-   - Broker Address: Fill in the address of the system MQTT Broker.
-   - Broker Port: Fill in the port number of the system MQTT Broker. The default is 1883.
-   - Client ID: Fill in a unique client identifier that identifies your connection on the system MQTT Broker.
-   - Username and Password: Use the account and password you obtained in the system.
-   - ScadaHostIdentifier: WagoScada
-   - GroupName: corresponds to the group name in the driver list
-   - NodeName: corresponds to the node name in the driver list group
+      - Broker Address: Fill in the address of the system MQTT Broker.
+      - Broker Port: Fill in the port number of the system MQTT Broker. The default is 1883.
+      - Client ID: Fill in a unique client identifier that identifies your connection on the system MQTT Broker.
+      - Username and Password: Use the account and password you obtained in the system.
+      - ScadaHostIdentifier: WagoScada
+      - GroupName: corresponds to the group name in the driver list
+      - NodeName: corresponds to the node name in the driver list group
 3. Connecting to the MQTT Broker: Using an MQTT client that supports the SparkplugB protocol, connect to the system's MQTT Broker in your application or device, and after confirming that the connection is successful, you can start using the client to transfer device data with the MQTT SparkplugB driver.
 4. The messaging follows the SparkplugB protocol, for more information please refer to the official documentation at [ https://www.eclipse.org/tahu/spec/sparkplug_spec.pdf]( https://www.eclipse.org/tahu/spec/sparkplug_spec.pdf) .
 
@@ -93,18 +73,10 @@ Before you can use the MQTT SparkplugB driver, you need to connect to the system
 Bind a tag to a client measurement point.
 
 1. Create an I/O tag
-
-![alt text](6.png)
-
+   ![alt text](6.png)
 2. On the edit screen of the tag, click the binding button of the data source.
-
-![alt text](7.png)
-
-
+   ![alt text](7.png)
 3. Select the groups, nodes, devices, and directories to be bound, and check the measurement points with matching data types.
-
-![alt text](8.png)
-
-
+   ![alt text](8.png)
 4. Click the "**OK**" button to complete the configuration.
 

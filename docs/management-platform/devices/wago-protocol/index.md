@@ -8,13 +8,9 @@ Supports WAGO Protocol version 1.5.0.
 
 1. On the "**Devices**" -> "**WAGO Protocol**" screen, click the "Add" button.
 2. Enter the device name in the Add window. 
-
-![alt text](1.png)
-
-
+   ![alt text](1.png)
 3. Click on the "**OK**" button. The data will now be displayed in the device list of the WAGO Protocol. Please note that the status column only indicates the start/stop status of the driver, not the actual connection status of the device. 
-
-![alt text](2.png)
+   ![alt text](2.png)
 
 **Configuration Fields**
 
@@ -27,7 +23,7 @@ Supports WAGO Protocol version 1.5.0.
 **Note:**
 
 1. Please keep your username and password information in a safe place to avoid leakage to unauthorized personnel, and if leakage occurs, please reset your password in time.
-2. **Enable All** and **Disable All **are to enable or disable all data in the list.
+2. **Enable All** and **Disable All** are to enable or disable all data in the list.
 
 ## **Connecting to the System MQTT Broker**
 
@@ -35,27 +31,24 @@ Before you can use the WAGO Protocol driver, you need to connect to the MQTT Bor
 
 1. Get account and password: Click on the "View" button of the device to see the user name and password provided by the system.
 2. Configuration of Cloud Connectivity
-
-   - Use a web browser to open the WBM (Web-based Management) of your WAGO device.
-   - Enter the **Username** and **Password** to authenticate on the PFC, then click **Submit**.
-   - Under Configuration, select the **Cloud Connectivity** menu item and click on **Connection1**.
-   - In the configuration section on the right, check the **Enabled** box to enable the current connection.
-   - From the **Cloud platform** drop-down list, select MQTT AnyCloud.
-   - In the **Hostname** field, enter the IP address published by your VC Hub program.
-   - In the **Port** field, enter 1884.
-   - In the **Client ID** field, enter the device identifier, **which must match the device name added in the WAGO Protocol device list**. This is used to identify your connection on the MQTT Server.
-   - Check the Clean session box to enable session clearing.
-   - In the **User** field, enter the username for connecting to the MQTT Server, **using the username from the device information added in the WAGO Protocol device lis**t.
-   - In the **Password** field, enter the password for connecting to the MQTT Server, **using the password from the device information added in the WAGO Protocol device list**.
-   - From the **Data protocol** drop-down list, select WAGO Protocol 1.5.
-   - Click **Submit** and restart the device.
-   - After a short wait, check the connection status in **Cloud Connectivity** on the WBM. The Cloud connection will display "connected".
-   - *There is no need to configure other options, as the current VC Hub program does not implement them*.
-**Note**: Please do not check **Use Compression**, as this will cause the WAGO Protocol driver to fail in processing data. And for the fields not mentioned in the above list, checking these fields does not affect functionality, because VC Hub has not yet implemented the corresponding features.
-
+      - Use a web browser to open the WBM (Web-based Management) of your WAGO device.
+      - Enter the **Username** and **Password** to authenticate on the PFC, then click **Submit**.
+      - Under Configuration, select the **Cloud Connectivity** menu item and click on **Connection1**.
+      - In the configuration section on the right, check the **Enabled** box to enable the current connection.
+      - From the **Cloud platform** drop-down list, select MQTT AnyCloud.
+      - In the **Hostname** field, enter the IP address published by your VC Hub program.
+      - In the **Port** field, enter 1884.
+      - In the **Client ID** field, enter the device identifier, **which must match the device name added in the WAGO Protocol device list**. This is used to identify your connection on the MQTT Server.
+      - Check the Clean session box to enable session clearing.
+      - In the **User** field, enter the username for connecting to the MQTT Server, **using the username from the device information added in the WAGO Protocol device lis**t.
+      - In the **Password** field, enter the password for connecting to the MQTT Server, **using the password from the device information added in the WAGO Protocol device list**.
+      - From the **Data protocol** drop-down list, select WAGO Protocol 1.5.
+      - Click **Submit** and restart the device.
+      - After a short wait, check the connection status in **Cloud Connectivity** on the WBM. The Cloud connection will display "connected".
+      - *There is no need to configure other options, as the current VC Hub program does not implement them*.
+   **Note**: Please do not check **Use Compression**, as this will cause the WAGO Protocol driver to fail in processing data. And for the fields not mentioned in the above list, checking these fields does not affect functionality, because VC Hub has not yet implemented the corresponding features.
 3. Connect to MQTT Broker: After confirming a successful connection, you can start transferring device data with the WAGO Protocol driver using the configured client. 
-
-![alt text](3.png)
+   ![alt text](3.png)
 
 
 ## **Enabling TLS Secure Connections**
@@ -85,19 +78,11 @@ Refer to the WAGO Messaging Protocol , official documentation at  [https://www.w
 Bind a tag to a client measurement point.
 
 1. Create an I/O tag
-
-![alt text](5.png)
-
-
+   ![alt text](5.png)
 2. On the add window, click the binding button of the data source.
-
-![alt text](6.png)
-
+   ![alt text](6.png)
 3. Select the  points to be bound.
-
-![alt text](7.png)
-
-
+   ![alt text](7.png)
 4. Click the "**OK**" button to complete the configuration.
 
 ## WAGO Protocol PLC Program Command Request and Response Processing
