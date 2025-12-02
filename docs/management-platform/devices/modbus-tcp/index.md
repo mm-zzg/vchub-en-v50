@@ -31,7 +31,8 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 
    **Frame**: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the VC Hub program.
 
-6.In the Add Frame page, leave the default values and enter the following information in the following fields (Note: The following data is only an example, please fill in the fields according to the actual situation).
+6.In the Add Frame page, leave the default values and enter the following information in the following fields 
+   **Note:** The following data is only an example, please fill in the fields according to the actual situation).
 
     - Name: HoldingRegister1
     - Slave Address: 1
@@ -78,7 +79,7 @@ Binds tags to the data from a ModbusTCP device.
     - Address: 1
 4. Click the "OK" button to complete the binding.
    ![alt text](6.png)
-   
+
 **Configuration Fields**
 
 | **Function**             |                                                                                                                                     |
