@@ -52,7 +52,7 @@ The master and backup nodes synchronize real-time data at runtime, including tag
 3. Machine A goes down during operation, at which time Machine B becomes Running and the state of Machine A becomes Faulted.
 4. Machine A returns to normal, but the state of Machine A is still Standby and Machine B is Running.
 5. On the "Networking" -> "Redundancy" page of Machine A, click the "Switch" button.
-    ![alt text](3.png)
+    ![alt text](3.png)<br>
     After the switchover, machine A returns to the Running state and machine B returns to the Standby state.
 6. If you continue to click the "Switch" button at this point, Machine A will change back to Standby state and Machine B will change back to Running state.
 

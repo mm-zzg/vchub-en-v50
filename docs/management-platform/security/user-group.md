@@ -7,12 +7,9 @@ Used to group users who receive alarm notifications. Each group contains specifi
 #### Add
 
 1. On the "Security" -> "User Group" page, click the "Add" button to create a new user group.
-
-![alt text](4.png)
-
+    ![alt text](4.png)
 2. In the pop-up window, set the name of the user group and click the "Add" button to add users to the group.
-
-![alt text](5.png)
+    ![alt text](5.png)
 
 | **Configuration** | **Description**                                                             |
 |-------------------|-----------------------------------------------------------------------------|
@@ -20,7 +17,7 @@ Used to group users who receive alarm notifications. Each group contains specifi
 | Description       | Optional field for describing the user group.                               |
 | Users             | Assign users to this user group. A user can belong to multiple user groups. |
 
-3. Once all settings are completed, click the "OK" button to complete the creation.
+3.Once all settings are completed, click the "OK" button to complete the creation.
 
 #### Search
 
