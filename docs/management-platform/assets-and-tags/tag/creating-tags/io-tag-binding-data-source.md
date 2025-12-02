@@ -12,9 +12,11 @@ I/O tags can be bound to data sources. You can either bind a fixed data source p
     ![alt text](13.png)
 
 **Notes**：  
+
 1. Binding to different data sources will display different data source path parameters. 
 2. In the data source text box, the left side of the "=" represents the parameter name, and the right side represents the parameter value. You can modify the parameter value, but it is not recommended to modify the parameter name, as changing the parameter name will invalidate the binding path. 
 3. Please ensure that the content on both sides of the "=" in the data source input field matches the case of the fields on the configuration page. Otherwise, the data source binding may fail. It is recommended not to modify the parameter name on the left side of the "=". 
+
 Example: Data Source Parameter Field: <br>
 ![alt text](14.png) <br>
 Configuration Page Field: <br>
@@ -23,8 +25,8 @@ Configuration Page Field: <br>
 
 #### Data Source Binding Path Parameters
 
-| **DataSource Type** | **Paremeters**                                                                                               |
-|---------------------|--------------------------------------------------------------------------------------------------------------|
+| **DataSource Type** | **Paremeters**  |
+|---------------------|-----------|
 | **OPC UA**          | - DataSourceType <br>- Path <br>- NodeId <br>- DisplayName <br>- DeviceName <br>- GroupName <br>- DataType <br>- IndexOfArrayStr         |
 | **Modbus TCP**      | - DataSourceType <br>- DeviceName <br>- FrameName <br>- DataType <br>- Address <br>- Bit (Only Bool tag displays this parameter) |
 | **Modbus RTU**      | - DataSourceType <br>- DeviceName <br>- FrameName <br>- DataType <br>- Address <br>- Bit (Only Bool tag displays this parameter) |
@@ -44,13 +46,14 @@ I/O tags created under a model or instance support parameterized binding. After 
 The factory has 10 motors, each with the same tags. The only difference is that each motor is connected to a different data source. We want Motor 1 to connect to Device 1, Motor 2 to connect to Device 2, and so on, up to Motor 10 connecting to Device 10.
 
 For batch creation of devices, please refer to the following section.
-    - [Batch operation of Modbus TCP Devices](../../../devices/modbus-tcp/batch-operation.md)
-    - [Batch operation of Modbus RTU Devices](../../../devices/modbus-rtu/batch-operation.md)
-    - [Batch operation of OPC UA Devices](../../../devices/opc-ua/batch-operation.md)
-    - [Batch operation of MQTT Native Devices](../../../devices/mqtt-native/batch-operation.md)
-    - [Batch operation of MQTT SparkplugB Devices](../../../devices/mqtt-sparkplugb/batch-operation.md)
-    - [Batch operation of SIEMENS S7 Devices](../../../devices/siemens-s7/batch-operation.md)
-    - [Batch operation of WAGO Protocol Devices](../../../devices/wago-protocol/batch-operation.md)
+
+- [Batch operation of Modbus TCP Devices](../../../devices/modbus-tcp/batch-operation.md)
+- [Batch operation of Modbus RTU Devices](../../../devices/modbus-rtu/batch-operation.md)
+- [Batch operation of OPC UA Devices](../../../devices/opc-ua/batch-operation.md)
+- [Batch operation of MQTT Native Devices](../../../devices/mqtt-native/batch-operation.md)
+- [Batch operation of MQTT SparkplugB Devices](../../../devices/mqtt-sparkplugb/batch-operation.md)
+- [Batch operation of SIEMENS S7 Devices](../../../devices/siemens-s7/batch-operation.md)
+- [Batch operation of WAGO Protocol Devices](../../../devices/wago-protocol/batch-operation.md)
 
 1. In the **"Devices" -> Modbus TCP list**, batch create 10 Modbus TCP devices with names from **Device1** to **Device10**. Only the **DeviceName** and **Host** will differ, while other configurations remain the same.
 2. On the **"Models"** tab, create a new model called **"Motor"**, which includes one custom parameter, **"No"**, representing the motor number.
