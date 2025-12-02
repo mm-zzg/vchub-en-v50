@@ -6,15 +6,15 @@ User attribute mapping allows you to map information from the Identity Provider 
 
 1. Click the **"Security" → "Identity Provider"** menu.
 
-  ![alt text](../1.png)
+   ![alt text](../1.png)
 
 2. In the Identity Provider list, click the "User Attribute Mapping" for a specific entry in the action column.
 
-  ![alt text](33.png)
+   ![alt text](33.png)
 
 3. In the pop-up window, set the source and mapping path. The system provides the following 5 properties that can be used for mapping:
 
-  ![alt text](34.png)
+   ![alt text](34.png)
 
 **Properties**
 
@@ -33,6 +33,7 @@ User attribute mapping allows you to map information from the Identity Provider 
 **Example**
 
 1. Assume the **ID Token** returned by the **Identity Provider** contains the following information:
+
   {
 
     "username": "alex",
@@ -44,13 +45,15 @@ User attribute mapping allows you to map information from the Identity Provider 
     "name": "Alex Zhang"
 
   }
-2. The mapping paths can be set as follows:：
+
+2. The mapping paths can be set as follows:
+
   ![alt text](35.png)
 
-- `username` → **The** **local username（username）**
-- `email` → **The** **local email（email）**
-- `user_roles` → **The** **local role（role）**
-- `name` → **The** **local name（name）**
+   - `username` → **The** **local username（username）**
+   - `email` → **The** **local email（email）**
+   - `user_roles` → **The** **local role（role）**
+   - `name` → **The** **local name（name）**
 
 3. In **VC Hub**, the end-user information is mapped as follows:
 
