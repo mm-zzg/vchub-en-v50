@@ -46,13 +46,13 @@ I/O tags created under a model or instance support parameterized binding. After 
 The factory has 10 motors, each with the same tags. The only difference is that each motor is connected to a different data source. We want Motor 1 to connect to Device 1, Motor 2 to connect to Device 2, and so on, up to Motor 10 connecting to Device 10.
 
 For batch creation of devices, please refer to the following section.<br>
-- [Batch operation of Modbus TCP Devices](../../../devices/modbus-tcp/batch-operation.md)
-- [Batch operation of Modbus RTU Devices](../../../devices/modbus-rtu/batch-operation.md)
-- [Batch operation of OPC UA Devices](../../../devices/opc-ua/batch-operation.md)
-- [Batch operation of MQTT Native Devices](../../../devices/mqtt-native/batch-operation.md)
-- [Batch operation of MQTT SparkplugB Devices](../../../devices/mqtt-sparkplugb/batch-operation.md)
-- [Batch operation of SIEMENS S7 Devices](../../../devices/siemens-s7/batch-operation.md)
-- [Batch operation of WAGO Protocol Devices](../../../devices/wago-protocol/batch-operation.md)
+     - [Batch operation of Modbus TCP Devices](../../../devices/modbus-tcp/batch-operation.md)
+     - [Batch operation of Modbus RTU Devices](../../../devices/modbus-rtu/batch-operation.md)
+     - [Batch operation of OPC UA Devices](../../../devices/opc-ua/batch-operation.md)
+     - [Batch operation of MQTT Native Devices](../../../devices/mqtt-native/batch-operation.md)
+     - [Batch operation of MQTT SparkplugB Devices](../../../devices/mqtt-sparkplugb/batch-operation.md)
+     - [Batch operation of SIEMENS S7 Devices](../../../devices/siemens-s7/batch-operation.md)
+     - [Batch operation of WAGO Protocol Devices](../../../devices/wago-protocol/batch-operation.md)
 
 1. In the **"Devices" -> Modbus TCP list**, batch create 10 Modbus TCP devices with names from **Device1** to **Device10**. Only the **DeviceName** and **Host** will differ, while other configurations remain the same.
 2. On the **"Models"** tab, create a new model called **"Motor"**, which includes one custom parameter, **"No"**, representing the motor number.<br>
