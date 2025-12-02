@@ -42,16 +42,12 @@ With the specific memory usage values in the graph, you can clearly see how many
 
 You can view the system logs recorded by the program on the System Logs page.
 
-| **Icon**                                                                                                                                                                                                                              | **Level** |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| ![alt text](27.png)
- | Debug     |
-| ![alt text](28.png)
- | Info      |
-| ![alt text](29.png)
- | Warn      |
-| ![alt text](30.png)
- | Error     |
+| **Icon**       | **Level** |
+|------------------|-----------|
+| ![alt text](27.png)| Debug     |
+| ![alt text](28.png)| Info      |
+| ![alt text](29.png)| Warn      |
+| ![alt text](30.png)| Error     |
 
 ![alt text](31.png)
 
