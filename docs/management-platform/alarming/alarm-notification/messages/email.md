@@ -5,17 +5,11 @@ This configuration is used to define what is included in the email notification 
 ## Create Notification Message Email(SMTP)
 
 1. Click "**Alarming** "->" **Alarm Notifications** "->"**Messages**" to enter the notification message list page.
-
-![alt text](2.png)
-
+    ![alt text](2.png)
 2. Click the "**Add**" button. In the new pop-up window, select "Email (SMTP)".
-
-![alt text](1.png)
-
+    ![alt text](1.png)
 3. Click "Next" to enter the detailed configuration window. 
-
-![alt text](3.png)
-
+    ![alt text](3.png)
 4. Once the setup is complete, click **"Send Test"** to check if the email is sent successfully.
 5. If the test is successful, click the **"OK"** button to add the data.
 
@@ -39,5 +33,5 @@ In the alarm notification rules, you will select the notification service.
 2. Click the **"New"** button in the upper right corner of the list.
 3. In the pop-up window, click the **'+Email'** button to add a new Email notification rule.In the notification message dropdown, select the previously created notification message.
 
-![alt text](6.png)
+    ![alt text](6.png)
 

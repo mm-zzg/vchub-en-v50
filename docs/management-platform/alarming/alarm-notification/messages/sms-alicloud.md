@@ -5,17 +5,11 @@ This configuration is used to define what is included in the SMS notification se
 ## Create Notification Content SMS(Ali Cloud)
 
 1. Click "**Alarming**"->" **Alarm Notifications** "->" **Messages**" to enter the notification message list page.
-
-![alt text](2.png)
-
+    ![alt text](2.png)
 2. Click the "**Add**" button. In the new pop-up window, select "SMS(Ali Cloud)".
-
-![alt text](12.png)
-
+    ![alt text](12.png)
 3. Click "Next" to enter the detailed configuration window. 
-
-![alt text](13.png)
-
+    ![alt text](13.png)
 4. Once the setup is complete, click **"Send Test"** to check if the sms is sent successfully.
 5. If the test is successful, click the **"OK"** button to add the data.
 
@@ -37,6 +31,7 @@ In the alarm notification rules, you will select the notification service.
 2. Click the **"New"** button in the upper right corner of the list.
 3. In the pop-up window, click the **'+SMS'** button to add a new sms notification rule.In the notification message dropdown, select the previously created notification message.
 
+    ![alt text](7.png)
+
 **Note:** Notification content and notification service must match. For example, when you select the notification **service** for SMS(Ali Cloud), you should also select SMS(Ali Cloud) as the notification **message**. 
 
-![alt text](7.png)

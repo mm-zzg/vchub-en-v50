@@ -5,17 +5,11 @@ Used to define the content of the notification that users receive on WeCom when 
 ## Create Notification Message 
 
 1. Click "**Alarming** "->" **Alarm Notifications** "->"**Messages**" to enter the notification message list page.
-
-![alt text](2.png)
-
+    ![alt text](2.png)
 2. Click the "**Add**" button. In the new pop-up window, select "WeCom".
-
-![alt text](17.png)
-
+    ![alt text](17.png)
 3. Click "Next" to enter the detailed configuration window. 
-
-![alt text](18.png)
-
+    ![alt text](18.png)
 4. Once the setup is complete, click **"Send Test"** to check if the email is sent successfully.
 5. If the test is successful, click the **"OK"** button to add the data.
 
@@ -36,4 +30,4 @@ In the alarm notification rules, you will select the notification service.
 2. Click the **"New"** button in the upper right corner of the list.
 3. In the pop-up window, click the **'+WeCom'** button to add a new sms notification rule.In the notification message dropdown, select the previously created notification message.
 
-![alt text](21.png)
+    ![alt text](21.png)

@@ -5,7 +5,7 @@ Used to configure sending alarm notifications via WeCom to specific groups or us
 ## Create WeCom Service
 
 1. Click "**Alarming**" -> "**Alarm Notifications**" -> "**Services**" to open the “**Services**” list page.
-    ![alt text](2.png
+    ![alt text](2.png)
 2. Click the "Add" button. In the new pop-up window, select "WeCom".
     ![alt text](16.png)
 3. Click "Next" to enter the detailed configuration window. 
