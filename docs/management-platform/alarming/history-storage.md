@@ -38,8 +38,9 @@ The following is displayed when “Remote” is selected as the type:
 | Remote Node          | Drop down to select a node name that forms a networking with the current node.                                                                                                                                                                                                                                                                            |
 | Remote Alarm Storage | Depending on the remote node selected, the alarm history storage created under that node is displayed.                                                                                                                                                                                                                                                    |
 | Query Only           | Default is turned off. When it is turned on, only remote alarms can be queried, and new alarms generated at the remote node will not be stored in the database; if it is turned off, new alarms generated at the remote node will be stored in the database. The database mentioned here refers to the database used by the remote alarm history storage. |
-| Description          | Description of the alarm history storage.                                                                                                                                                                                                                                                                                                                | <br>
-3. When the settings are complete, click the OK button.
+| Description          | Description of the alarm history storage.                                                                                                                                                                                                                                                                                                                | 
+
+3.When the settings are complete, click the OK button.
 
 ## **History Database Application**
 
