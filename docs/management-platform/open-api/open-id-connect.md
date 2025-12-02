@@ -8,7 +8,7 @@ The Open API integrates the standard OpenID Connect protocol. To call the Open A
 
 The third-party application sends the client ID and client secret to the `token_endpoint` URL (specifically by using a POST request, placing the `client_id`, `client_secret`, and `grant_type` parameters in the request body. The value of the `grant_type` parameter must be `client_credentials`, for example:
 
-```Plain Text
+```
 grant_type=client_credentials&client_id=your_client_id&client_secret=your_client_secret
 ```
  

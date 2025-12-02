@@ -4,7 +4,7 @@ User attribute mapping allows you to map information from the Identity Provider 
 
 ## Configuring User Attribute Mapping
 
-1. Click the **"Security" → "Identity Provider"** menu.
+1. Click the **"Security" → "Identity Provider"** menu.<br>
    ![alt text](../1.png)
 2. In the Identity Provider list, click the "User Attribute Mapping" for a specific entry in the action column.
    ![alt text](33.png)

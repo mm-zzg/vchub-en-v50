@@ -9,28 +9,16 @@ When you enter the VC Hub host address in the browser and append the suffix "swa
 We can use Swagger to invoke and test these Open APIs.
 
 1. Click the "Authorize" button to enter the access token. For access token, we can refer to the chapter **Open Id Connect**.  Please to noted when enter the access token, the access token should be formated as "Bearer  {access_token}".
-
-![alt text](3.png)
-
-![alt text](4.png)
-
+  ![alt text](3.png)
+  ![alt text](4.png)
 2. Click the down arrow icon to expand the API detail panel
-
-![alt text](5.png)
-
-![alt text](6.png)
-
-
-
+  ![alt text](5.png)
+  ![alt text](6.png)
 3. Click the "Try it out", then click the "Execute" button to invoke the API, the 
-
-![alt text](7.png)
-
-![alt text](8.png)
-
+  ![alt text](7.png)
+  ![alt text](8.png)
 4. The server response with data of API result.
-
-![alt text](9.png)
+  ![alt text](9.png)
 
 ## How to Specify the Response Language?
 
