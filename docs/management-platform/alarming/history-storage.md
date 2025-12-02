@@ -14,6 +14,7 @@ On the Historical Alarm control, you can select a history bank for data filterin
     ![alt text](7.png)
     The following is displayed when “Database” is selected as the type:
     ![alt text](8.png)
+
 **Properties of the Popup**
 
 | **Name**            | **Description**                  |
@@ -24,8 +25,10 @@ On the Historical Alarm control, you can select a history bank for data filterin
 | Description         | Description of the alarm history storage.                                                                                                                                                                                                                                                  |
 | Retention Days      | The number of days that the alarm data under this alarm history storage will be retained in the database.                                                                                                                                                                                  |
 | Min Priority        | Sets which levels of alarm data are stored. Only alarms with a priority level equal to or higher than the specified priority level are stored.                                                                                                                                             |
-    The following is displayed when “Remote” is selected as the type:
+
+The following is displayed when “Remote” is selected as the type:
     ![alt text](9.png)
+    
 **Properties of the Popup**
 
 | **Name**             | **Description**                                                                                                                                                                                                                                                                                                                                           |
