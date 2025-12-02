@@ -17,10 +17,10 @@ I/O tags can be bound to data sources. You can either bind a fixed data source p
 2. In the data source text box, the left side of the "=" represents the parameter name, and the right side represents the parameter value. You can modify the parameter value, but it is not recommended to modify the parameter name, as changing the parameter name will invalidate the binding path. 
 3. Please ensure that the content on both sides of the "=" in the data source input field matches the case of the fields on the configuration page. Otherwise, the data source binding may fail. It is recommended not to modify the parameter name on the left side of the "=". 
 
-Example: Data Source Parameter Field: <br>
-![alt text](14.png) <br>
-Configuration Page Field: <br>
-![alt text](15.png) 
+    Example: Data Source Parameter Field: <br>
+    ![alt text](14.png) <br>
+    Configuration Page Field: <br>
+    ![alt text](15.png) 
 
 
 #### Data Source Binding Path Parameters
@@ -45,8 +45,7 @@ I/O tags created under a model or instance support parameterized binding. After 
 
 The factory has 10 motors, each with the same tags. The only difference is that each motor is connected to a different data source. We want Motor 1 to connect to Device 1, Motor 2 to connect to Device 2, and so on, up to Motor 10 connecting to Device 10.
 
-For batch creation of devices, please refer to the following section.
-
+For batch creation of devices, please refer to the following section.<br>
 - [Batch operation of Modbus TCP Devices](../../../devices/modbus-tcp/batch-operation.md)
 - [Batch operation of Modbus RTU Devices](../../../devices/modbus-rtu/batch-operation.md)
 - [Batch operation of OPC UA Devices](../../../devices/opc-ua/batch-operation.md)
@@ -56,26 +55,26 @@ For batch creation of devices, please refer to the following section.
 - [Batch operation of WAGO Protocol Devices](../../../devices/wago-protocol/batch-operation.md)
 
 1. In the **"Devices" -> Modbus TCP list**, batch create 10 Modbus TCP devices with names from **Device1** to **Device10**. Only the **DeviceName** and **Host** will differ, while other configurations remain the same.
-2. On the **"Models"** tab, create a new model called **"Motor"**, which includes one custom parameter, **"No"**, representing the motor number.
+2. On the **"Models"** tab, create a new model called **"Motor"**, which includes one custom parameter, **"No"**, representing the motor number.<br>
     ![alt text](17.png)
-3. Right-click on the **"Motor"** model and create an I/O tag named **"Power"**.
+3. Right-click on the **"Motor"** model and create an I/O tag named **"Power"**.<br>
     ![alt text](18.png)
-4. After binding a data source to the tag, click the settings button for the data source parameters. This will display the list of custom parameters for the tag's associated model, **"Motor"**.
+4. After binding a data source to the tag, click the settings button for the data source parameters. This will display the list of custom parameters for the tag's associated model, **"Motor"**.<br>
     ![alt text](19.png)
-    You can replace the parameter values with the model's custom property, which are referenced using `{}`. When creating an instance, the custom property values will replace the parameters in the path.
+    You can replace the parameter values with the model's custom property, which are referenced using `{}`. When creating an instance, the custom property values will replace the parameters in the path.<br>
     ![alt text](20.png)
-5. After the tag is created, switch to the **"Instance"** tab. Create a folder named **"Motor"** and then add instances under this folder using the **"Motor"** model.
+5. After the tag is created, switch to the **"Instance"** tab. Create a folder named **"Motor"** and then add instances under this folder using the **"Motor"** model.<br>
     ![alt text](21.png)
-6. In the **Add** window, select the **Motor** model. Click the **"Batch Generate"** setting button, set the **"Quantity"** to 10, and set the **"Starting Index"** to 1.
+6. In the **Add** window, select the **Motor** model. Click the **"Batch Generate"** setting button, set the **"Quantity"** to 10, and set the **"Starting Index"** to 1.<br>
     ![alt text](22.png)
 7. Next, we will set the custom parameter **No** for each instance. We will bind **Motor_1** to **Device1**, set the **No** value of all **Motor_1** instances to 1, and so on for the other instances.
     For example:
     - **Motor_1** -> Device1, **No** = 1
     - **Motor_2** -> Device2, **No** = 2
-    - And so on, until **Motor_10** -> **Device10**, **No** = 10.
+    - And so on, until **Motor_10** -> **Device10**, **No** = 10.<br>
     ![alt text](23.png)
-8. Once the settings are complete, click the **"OK"** button. This will generate 10 instances under the **Motor** directory. Each instance will contain the same tag: **Power**.
+8. Once the settings are complete, click the **"OK"** button. This will generate 10 instances under the **Motor** directory. Each instance will contain the same tag: **Power**.<br>
     ![alt text](24.png)
-9. You can use a label control to bind the "Text" property to the tag's **DataSource** property and view the path. This allows you to dynamically display the data source path associated with the tag.
+9. You can use a label control to bind the "Text" property to the tag's **DataSource** property and view the path. This allows you to dynamically display the data source path associated with the tag.<br>
     ![io-binding](../../../../assets/images/io-binding.gif)
 10. The final result achieves batch binding of tags. All tags of Motor 1 are bound to Device 1, all tags of Motor 2 are bound to Device 2, and so on, with all tags of Motor 10 bound to Device 10.
