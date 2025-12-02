@@ -111,13 +111,13 @@ Click on the "Preview" button to enter preview mode，and display preview conten
 
 ![alt text](60.png)
 
-## Open Console Menu
+## **Open Console Menu**
 
 Clicking on it opens the console page in a new browser window.
 
 ![alt text](61.png)
 
-## Language Switch Menu
+## **Language Switch Menu**
 
 The language switch menu is used to switch between different language interfaces. It allows users to choose the language that suits their needs and makes it easier for them to understand and operate the software interface.
 

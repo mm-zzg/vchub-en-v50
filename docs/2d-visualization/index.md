@@ -48,12 +48,10 @@ Binding is a mechanism that allows properties on controls to change based on cha
 
 Binding types:
 
-- Tag
-- Property
-- Expression
-- Dynamic Tag
-- Dynamic Cell
-- SQL Query
-- Bidirectional Bindings
-
-
+- [SQL Query](property-binding/sql-query.md) 
+- [Tag](property-binding/tag.md)
+- [Property](property-binding/property.md)
+- [Expression](property-binding/expression.md) 
+- [Dynamic Tag](property-binding/dynamic-tag.md) 
+- [Dynamic Cell](property-binding/dynamic-cell.md)
+- [Bidirectional Bindings](property-binding/bidirectional-bindings.md)
