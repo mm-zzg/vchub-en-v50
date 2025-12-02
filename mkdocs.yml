@@ -273,7 +273,7 @@ nav:
                             - Alarm Notification:
                                       - management-platform/alarming/alarm-notification/index.md
                                       - Services:
-                                                - management-platform/alarming/alarm-notification/messages/index.md
+                                                - management-platform/alarming/alarm-notification/services/index.md
                                                 - management-platform/alarming/alarm-notification/services/email(smtp).md
                                                 - management-platform/alarming/alarm-notification/services/sms(twilio).md
                                                 - management-platform/alarming/alarm-notification/services/sms(alicloud).md
