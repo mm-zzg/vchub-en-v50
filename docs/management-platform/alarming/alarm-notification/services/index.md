@@ -2,9 +2,9 @@
 
 There are five types of alarm notification services in VC Hub.
 
-- [Email(SMTP)](email(smtp).md) 
-- [SMS(Twilio)](sms(twilio).md) 
-- [SMS(Ali Cloud)](sms(alicloud).md) 
+- [Email(SMTP)](email.md) 
+- [SMS(Twilio)](sms-twilio.md) 
+- [SMS(Ali Cloud)](sms-alicloud.md) 
 - [WeCom](wecom.md)
 - [DingTalk](dingtalk.md) 
 
