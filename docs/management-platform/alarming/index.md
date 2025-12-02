@@ -8,7 +8,7 @@ The following alarm types are supported:
 
 - Limit alarms: Alarms are generated when the value of the tag meets the set limit conditions. VC Hub has eight built-in limit values, four high limits and four low limits.  You can set several limit conditions at the same time. If a tag value meets more than one limit, an alarm is triggered for each limit.
 
-Example: The high limit value of temperature is 20, the hh limit value of temperature is 40, and the current value of tag is 50, then the tag will generate 2 limit alarms, one alarm for the high limit and one alarm for the hh limit.
+    **Example:** The high limit value of temperature is 20, the hh limit value of temperature is 40, and the current value of tag is 50, then the tag will generate 2 limit alarms, one alarm for the high limit and one alarm for the hh limit.
 
 - Rate of Change Alarm: An alarm is generated when the rate of change of the tag value exceeds the set rate of change.
 - Equivalent Alarm: Generates an alarm when the tag value is equal to the preset alarm value.
@@ -32,7 +32,7 @@ Alarm status consists of Active and Acknowledged.
 - Cleared, Unacked
 - Cleared, Acked
 
-###### **Active Status**
+#### **Active Status**
 
 All alarms start in the "Active" state and end in the "Cleared" state.
 
@@ -55,8 +55,7 @@ Manual (Requires Confirmation): After an alarm is generated, it must be manually
 
 Manual (No Confirmation): After the alarm is generated, it must be manually acknowledged manually and no acknowledgement information needs to be entered.
 
-| Note: Alarms that require manual acknowledgement will not disappear from the real-time alarm control until they are acknowledged, even if the current alarm value has returned to normal. |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+**Note:** Alarms that require manual acknowledgement will not disappear from the real-time alarm control until they are acknowledged, even if the current alarm value has returned to normal. 
 
 ## **Shelve Alarm**
 
@@ -66,7 +65,7 @@ Shelving alarm ignore alarms under the selected alarm path to prevent them from 
 
 Each shelved alarm needs to have a shelving time set. At the end of the shelving period, the latest value of the alarm will be determined, thereby displaying the alarm status of the alarm.
 
-In addition, the shelved alarms will disappear from the "real-time" list of the real-time alarm control and appear in the "shelved" list.** **
+In addition, the shelved alarms will disappear from the "real-time" list of the real-time alarm control and appear in the "shelved" list.
 
 ## **Alarm Deadband**
 
