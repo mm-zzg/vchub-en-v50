@@ -31,10 +31,14 @@ The Modbus RTU driver in VC Hub communicates data with devices (typically PLCs, 
    | Parity                  | The parity of the device.                             |
    | Connection Timeout (ms) | Connection timeout of the device in milliseconds.     |
    | Read Data Timeout (ms)  | Read data timeout of the device in milliseconds       |
-   |Write Data Timeout (ms) | The device's write data timeout in milliseconds.      |<br>
+   |Write Data Timeout (ms) | The device's write data timeout in milliseconds.      |
+
 5.Click on the "**Add Frame**" button on the created device to add a frame to the current device.
+
     - **Frame**: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the VC Hub program.
+
 6.In the Add Frame screen, leave the default values and enter the following information in the following fields (Note: The following data is only an example, please fill in the fields according to the actual situation).
+
     - Name: HoldingRegister1
     - Slave Address: 1
     - Function: Holding Register
@@ -42,9 +46,11 @@ The Modbus RTU driver in VC Hub communicates data with devices (typically PLCs, 
     - Endind Address: 11
     - Data Encoding: Big Endian
     - Frequency (ms): 1000
+
 7.Click the "**OK**" button. The data will be displayed under the previously created device.
    ![alt text](3.png)
-   **Configuration Fields**
+
+**Configuration Fields**
 
    | **Name**    | **Description**                  |
    |----------------|---------------------------------------|
@@ -78,7 +84,8 @@ Bind a tag to the data of a Modbus RTU device.
     - Address: 1
     - Bit: 1
    ![alt text](6.png)
-   **Configuration Fields**
+
+**Configuration Fields**
 
    | **Function**    |     |
    |--------------------------|------------------------|
