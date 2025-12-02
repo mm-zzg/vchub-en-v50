@@ -1,6 +1,6 @@
 # User Attribute Mapping
 
-User attribute mapping allows you to map information from the Identity Provider** **response document to easily understandable attributes. For this to work, VC Hub must already have a valid Identity Provider configuration that returns a response document when attempting to log in.
+User attribute mapping allows you to map information from the Identity Provider response document to easily understandable attributes. For this to work, VC Hub must already have a valid Identity Provider configuration that returns a response document when attempting to log in.
 
 ## Configuring User Attribute Mapping
 
