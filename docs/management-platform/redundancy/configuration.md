@@ -16,7 +16,7 @@ There are three modes: Independent, Master, Backup.
 - **Master**: Operates as the primary server, running all backend tasks by default and responding to heartbeat signals from the backup server.
 - **Backup**:Operates as the backup server, periodically sending heartbeat signals to the primary server. If the primary server is detected to be down, the backup server will take over its operations.
 
-## Independent** Mode**
+## **Independent Mode**
 
 ![alt text](4.png)
 
@@ -58,10 +58,10 @@ There are three modes: Independent, Master, Backup.
 1. On the "Networking"-> "Redundancy" page, select Master for the mode.
 2. Set the following parameters.
 
-- Standby Activity Level: Warm
-- Failover Time(ms): 10000
-- Connection wait time(ms): 10000
-- Recovery Mode: Manual
+     - Standby Activity Level: Warm
+      Failover Time(ms): 10000
+     - Connection wait time(ms): 10000
+     - Recovery Mode: Manual
 
 3. Click the "OK" button to save the settings.
 
@@ -70,14 +70,14 @@ There are three modes: Independent, Master, Backup.
 1. On the "Networking" -> "Redundancy" page, select Backup for the mode.
 2. Set the following parameters.
 
-- Master Node Host: The machine name or IP address of the primary server.
-- Master Node Port: Port of the primary server
-- Use SSL: Enable
-- Ping Rate(ms): 1000
-- Ping Timeout(ms): 3000
-- Missed Pings: 3
-- Http Connect Timeout(ms): 10000
-- Websocket Timeout(ms): 10000
+     - Master Node Host: The machine name or IP address of the primary server.
+     - Master Node Port: Port of the primary server
+     - Use SSL: Enable
+     - Ping Rate(ms): 1000
+     - Ping Timeout(ms): 3000
+     - Missed Pings: 3
+     - Http Connect Timeout(ms): 10000
+     - Websocket Timeout(ms): 10000
 
 3. Click the "OK" button to save the settings.
 4. Check the redundancy status of the master and backup servers.
@@ -101,17 +101,11 @@ After completing the general configuration for master and backup nodes, the redu
 You must first trust the peer node’s certificate by following these steps:
 
 1. On the backup node, go to the **Redundancy Connections** page. In the redundancy connection list, the master node's status will appear as **Faulted**.  In the certificates list, click the “Approve" button to trust it.
-
-![alt text](7.png)
-
+    ![alt text](7.png)
 2. At this point, on the **Redundancy Connections** page of the master node, the certificate list will display the backup node's certificate. Click the “Approve" button to trust the backup node's certificate.
-
-![alt text](8.png)
-
+    ![alt text](8.png)
 3. After approving the backup node’s certificate, the redundancy connection list on the master node will display the backup node’s information.
-
-![alt text](9.png)
-
+    ![alt text](9.png)
 4. Click the “Approve" button to complete the redundancy setup.
 
 #### View Redundancy Status
