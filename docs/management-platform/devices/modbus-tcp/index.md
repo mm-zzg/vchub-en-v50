@@ -11,8 +11,8 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
     - Port: 502
     - Connection timeout (ms): 10000
     - Read data timeout(ms): 5000
-   -- Write Data Timeout (ms): 2000
-3. Click the **"** **OK** **" **button. The data will be displayed in the device list page of Modbus TCP.
+    - Write Data Timeout (ms): 2000
+3. Click the **"OK"** button. The data will be displayed in the device list page of Modbus TCP.
    ![alt text](1.png)
 4. Click the Enable button in the Enable Status column to enable the device.
    ![alt text](2.png)
@@ -32,6 +32,7 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
    **Frame**: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the VC Hub program.
 
 6.In the Add Frame page, leave the default values and enter the following information in the following fields (Note: The following data is only an example, please fill in the fields according to the actual situation).
+
     - Name: HoldingRegister1
     - Slave Address: 1
     - Function: Holding register
@@ -39,8 +40,10 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
     - Ending Address: 10
     - Data Encoding: Big Endian
     - Frequency (ms): 1000
+
 7.Click the **"OK"** button. The data will be displayed under the previously created device.
    ![alt text](3.png)
+
 **Configuration Fields**
 
 | **Name**     | **Description**                                                                                                              |
@@ -64,9 +67,9 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 
 Binds tags to the data from a ModbusTCP device.
 
-1. Create an I/O tag.
+1. Create an I/O tag.<br>
    ![alt text](4.png)
-2. On the edit screen of the tag, click the binding button of the data source.
+2. On the edit screen of the tag, click the binding button of the data source.<br>
    ![alt text](5.png)
 3. In the Data Source pop-up window, select the frame under the created ModbusTCP device and enter the following information in the following fields (Note: The following data is only an example, please fill in according to the actual situation).
     - Function: Holding register
@@ -75,6 +78,7 @@ Binds tags to the data from a ModbusTCP device.
     - Address: 1
 4. Click the "OK" button to complete the binding.
    ![alt text](6.png)
+   
 **Configuration Fields**
 
 | **Function**             |                                                                                                                                     |
