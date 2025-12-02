@@ -12,7 +12,7 @@
 
  I/O tags contain the following properties:
 
--  Basic I nformation
+-  Basic Information
 -  Value
 -  Alarm
 -  History
