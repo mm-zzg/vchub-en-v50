@@ -33,13 +33,13 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 
 6.In the Add Frame page, leave the default values and enter the following information in the following fields 
    **Note:** The following data is only an example, please fill in the fields according to the actual situation).
-- Name: HoldingRegister1
-- Slave Address: 1
-- Function: Holding register
-- Start Address: 1
-- Ending Address: 10
-- Data Encoding: Big Endian
-- Frequency (ms): 1000
+ - Name: HoldingRegister1
+ - Slave Address: 1
+ - Function: Holding register
+ - Start Address: 1
+ - Ending Address: 10
+ - Data Encoding: Big Endian
+ - Frequency (ms): 1000
 
 7.Click the **"OK"** button. The data will be displayed under the previously created device.
    ![alt text](3.png)
