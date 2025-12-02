@@ -21,17 +21,17 @@ The steps below will guide you through the configuration process for networking.
 
 **Example 1: No root certificate uploaded to the Trust Store of Node A and Node B**
 
-Step 1: On Node A,** **go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
+Step 1: On Node A,go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 2: On Node A,** **navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*. Keep “Require Two Way Authentication“ disabled.
+Step 2: On Node A,navigate to "Node" → "Networking" → "General Settings", enable *Networking*. Keep "Require Two Way Authentication" disabled.
 
-Step 3: On Node B,** **go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
+Step 3: On Node B,go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 4: On Node B,** **navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*.
+Step 4: On Node B,navigate to "Node" → "Networking" → "General Settings", enable *Networking*.
 
-Step 5: On Node A, navigate to ”Node” → “Networking“ → ** **"Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
+Step 5: On Node A, navigate to "Node" → "Networking" → "Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
 
-Step 6: On Node B, navigate to ”Node” → “Networking“ → ** **"Incoming Connections", under the certificate list, approve Node A’s certificate. Once approved, Node A will appear in the incoming connections list.
+Step 6: On Node B, navigate to "Node" → "Networking" → "Incoming Connections", under the certificate list, approve Node A’s certificate. Once approved, Node A will appear in the incoming connections list.
 
 Step 7: On Node B, approve Node A’s connection from the incoming connection list. Once approved, the networking connection between Node A and Node B is established.
 
@@ -42,24 +42,26 @@ Step 7: On Node B, approve Node A’s connection from the incoming connection li
 
 Step1: On Node A, go to  "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 2: On Node A, navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*. Keep “Require Two Way Authentication“ disabled.
+Step 2: On Node A, navigate to "Node" → "Networking" → "General Settings", enable *Networking*. Keep "Require Two Way Authentication" disabled.
 
 Step 3: On Node B, go to  "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 4: On Node B, navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*.
+Step 4: On Node B, navigate to "Node" → "Networking" → "General Settings", enable *Networking*.
 
-Step 5: On Node A, navigate to ”Node” → “Networking“ →  "Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
+Step 5: On Node A, navigate to "Node" → "Networking" →  "Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
 
-Step 6: On Node B, navigate to ”Node” → “Networking“ →  "Incoming Connections",
+Step 6: On Node B, navigate to "Node" → "Networking" →  "Incoming Connections",
 
 - If the root certificate of Node A’s networking certificate exists in Node B’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. Node A will appear directly in the incoming connection list.
 - If the root certificate is not present, Node A’s certificate will appear in the certificate list. Approve it to establish trust and display Node A in the incoming connection list.
 
 Step 7: On Node B, approve Node A’s connection from the incoming connection list to complete the networking setup.
 
- **Note:** If “Require Two Way Authentication“  is enabled on Node A:     
-         - If Node B’s root certificate is not in Node A’s Trust Store, its certificate will appear in Node A’s *Outgoing Certificate List* after step 5. Approve it to proceed.    
-         - If Node B’s root certificate **is** in Node A’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. 
+ **Note:** 
+ 
+ If “Require Two Way Authentication“  is enabled on Node A:     
+    - If Node B’s root certificate is not in Node A’s Trust Store, its certificate will appear in Node A’s *Outgoing Certificate List* after step 5. Approve it to proceed.    
+    - If Node B’s root certificate **is** in Node A’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. 
 
 ## **Basic Network Configuration**
 
@@ -124,8 +126,8 @@ After the connection is added, the information displayed in the outgoing connect
    ![alt text](5.png)
    In this case, you must first **allow Node B’s certificate** in the certificate list on Node A’s outgoing connections page. Only after that will Node A appear in the incoming connection list on Node B.
    The status of Node A’s outgoing connection will be shown as **"Running"** only when all the following conditions are met:
-      1. On Node A’s “Outgoing Connections“ page, Node B’s  certificate in the “Certificate“** **list has been approved.
-      2. On Node B’s ”Incoming Connections” page:
+      1. On Node A’s "Outgoing Connections" page, Node B’s  certificate in the "Certificate" list has been approved.
+      2. On Node B’s "Incoming Connections" page:
          - Node A’s certificate has been approved .
          - Node A’s incoming connection has been approved.
 
