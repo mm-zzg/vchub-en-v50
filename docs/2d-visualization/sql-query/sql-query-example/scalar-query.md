@@ -42,7 +42,7 @@ There is a table named `person_management` in the database, which is used to sto
 
 ## **Use Scalar Query**
 
-1. Find '**Label**' and '**Button**' controls in the Tools window of the design page and drag them to the page.
+1. Find '**Label**' and '**Button**' controls in the Tools window of the design page and drag them to the page.<br>
     ![alt text](16.png)
 2. Select the button control and click the icon pointed by the arrow to open the configuration page of the action.
     ![alt text](17.png)
@@ -57,5 +57,5 @@ There is a table named `person_management` in the database, which is used to sto
     label.text = `Total number:${result}`;
     label.applyChanges();
     ```
-4. Click the preview button on the page, and press the button on the preview page to query the total number of people.
+4. Click the preview button on the page, and press the button on the preview page to query the total number of people.<br>
     ![scalar-query](../../../assets/images/scalar-query.gif)
