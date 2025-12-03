@@ -39,12 +39,13 @@ On the running page, there are 4 places where you can set filter.
 1. Enter the query content in the search box, fuzzy search for the input content in all columns of the control.
 2. Click the calendar control to set the time period for the query. You can query the data of the last 24 hours by default, and you can also set the query range by yourself.
 
-![alt text](17.png)
+    ![alt text](17.png)
 
 3. Click the filter button to filter the data. The filter conditions are the same as the design page, including: history storage, alarm status, alarm level, and alarm type. Click the reset button to restore the filter to the filter set on the design page.
 4. Filter the data in the panel. The options that have been enabled in the filter are displayed by default. You can quickly disable filters by clicking the option. For example, the following figure only shows an alarm whose status is "Cleared, Acked" and the alarm level is "Critical" .
 
-![alt text](18.png)
+    ![alt text](18.png)
 
-**Note:** The enable/disable of options in the filter panel only indicates whether data is displayed in the control, but does not mean that the data is not queried. It will not affect the enable/disable status of options in the filtering criteria.   For example, in the filtering criteria, only 'Active, Unacked' is enabled, but in the filtering panel, all options are enabled.  
+**Note:** The enable/disable of options in the filter panel only indicates whether data is displayed in the control, but does not mean that the data is not queried. It will not affect the enable/disable status of options in the filtering criteria.   For example, in the filtering criteria, only 'Active, Unacked' is enabled, but in the filtering panel, all options are enabled. 
+ 
 ![alt text](19.png)

@@ -8,5 +8,6 @@ Type of event
 
 Includethe following controls: 
 
-- [Historical Event](event/historical-event.md) 
+ 
 - [Real Time Event ](event/realtime-event.md)
+- [Historical Event](event/historical-event.md)

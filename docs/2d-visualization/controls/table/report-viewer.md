@@ -36,11 +36,10 @@ View the report.
 
 | **Property** | **Value**   |
 |--------------|-----|
-| Report List  | - Selected background: 99e699  <br>- Selected Font: Microsoft Yahei, 14, bold, f0672e | |
+| Report List  | - Selected background: 99e699  <br>- Selected Font: Microsoft Yahei, 14, bold, f0672e | 
 | Report       | Line 1   |
 
-2. Click the "Preview" button on the page.
-3. In the report viewer, click "Line 1" to view the data.
-
-![alt text](36.png)
+2.Click the "Preview" button on the page.
+3.In the report viewer, click "Line 1" to view the data.
+    ![alt text](36.png)
 

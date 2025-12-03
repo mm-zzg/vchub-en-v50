@@ -21,7 +21,7 @@ When multiple controls are selected, modifying or binding a property in the Appe
 3. In the Appearance section, change the font to *Microsoft YaHei* and set the font color to purple.
 4. The text appearance of both controls will be updated simultaneously.
 
-![modify-property](../../assets/images/modify-property.gif)
+    ![modify-property](../../assets/images/modify-property.gif)
 
 #### Batch Edit Animation and Event Properties
 
@@ -45,15 +45,15 @@ There are two ways to select elements under a group:
 
 1. In the Assets window, click on the element under the group
 
-![alt text](1.png)
+    ![alt text](1.png)
 
 2. Double-click on an element of the group directly on the page
 
-![alt text](2.png)
+    ![alt text](2.png)
 
-When an element under the group is selected, the element's properties are displayed in the Properties panel on the right, and you can make changes to the properties directly.
+    When an element under the group is selected, the element's properties are displayed in the Properties panel on the right, and you can make changes to the properties directly.
 
-![alt text](3.png)
+    ![alt text](3.png)
 
 
 
@@ -72,20 +72,20 @@ The system supports dynamically modifying the properties of controls through scr
 4. Set the text of the button to "Alarm", the background color to #ff0000, and the font color to #ffffff.
 5. Click the button, and in the event window, enable the mouse pressed event. Select "Script" as the option type.
 
-![alt text](4.png)
+    ![alt text](4.png)
 
 6. Enter the following content in the script editor and save it.
 
-```typescript
-const led = await System.UI.findControl('LED Display 1'); // Get the LED Display control on the page by its name.
-led.backgroundColor = '#ff0000'; // Modify the background color of LED Display control
-led.fontColor = '#fff'; // Modify the font color of LED Display control
-led.text = 'Error';  // Modify the text of LED Display control
-led.applyChanges();
-```
+    ```typescript
+    const led = await System.UI.findControl('LED Display 1'); // Get the LED Display control on the page by its name.
+    led.backgroundColor = '#ff0000'; // Modify the background color of LED Display control
+    led.fontColor = '#fff'; // Modify the font color of LED Display control
+    led.text = 'Error';  // Modify the text of LED Display control
+    led.applyChanges();
+    ```
  
 7. Click the preview button on the page, then click the  button on the preview page to see the style change of the LED display control.
 
-![modify-property1](../../assets/images/modify-property1.gif)
+    ![modify-property1](../../assets/images/modify-property1.gif)
 
 **Note:** After modifying control properties using a script, you need to call the **applyChanges()** method to apply the current modifications. 

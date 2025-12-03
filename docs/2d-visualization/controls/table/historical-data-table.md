@@ -40,6 +40,5 @@ View the average temperature per hour over the last 24 hours.
 | Aggregation Mode | Avg           |
 | Period           | 1 hour        |
 
-3. Click the "Preview" button on the page to see the preview effect.
-
-![alt text](29.png)
+3.Click the "Preview" button on the page to see the preview effect.
+    ![alt text](29.png)

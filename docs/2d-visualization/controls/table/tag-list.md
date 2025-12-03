@@ -41,7 +41,6 @@ Check the production line capacity.
 | Data              | Click the data binding button and double-click the binding tag.  <br>![alt text](31.png) |
 | Refresh Frequency | Turn on, set frequency to 1 second.  |
 
-3. Check the display effect.
-
-![alt text](32.png)
+3.Check the display effect.
+    ![alt text](32.png)
 
