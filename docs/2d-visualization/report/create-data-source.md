@@ -36,9 +36,9 @@ Data connection is the first step before any data analysis. The built-in report 
 **Note:**
 
 1. The dataset contains only 3 fields:  
-- path 
-- time 
-- value 
+     - path 
+     - time 
+     - value 
 2. When the data source is automatically created, two parameters are automatically created for each data source: start date and end date. The end date defaults to **today**; the start date is **(current date - 7 days)**. 
 
 ![alt text](14.png) 

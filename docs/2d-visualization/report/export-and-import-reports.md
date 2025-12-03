@@ -38,6 +38,7 @@ Import reports from workspace A to workspace B.
     ![alt text](21.png)
 
 3. Open workspace B in the workspace list, right-click the mouse under the report node of workspace B, and click Import to import the report in step 1.
+
 4. Import the tags used in the report into workspace B, and keep the tag paths consistent.
 
      - Create a new asset in the asset list of workspace B named ”Production Line 1”.
