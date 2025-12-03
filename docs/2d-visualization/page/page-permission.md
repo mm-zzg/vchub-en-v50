@@ -18,8 +18,8 @@ Once the page is created, there will be an initial permission: Authenticated.
 3. After selecting a page, configure permissions for the selected pages in the **Permissions** area on the right side of the pop-up window. <br>
    Clicking the **"Clear"** button in the permissions area will remove all selected permissions.
     - **Matching Strategy**：Single selection only. Default option: "Match All"，can be modified.
-       - **"Match All"**: The user must have **all** assigned permissions to view the page.
-       - **"Match Any"**: The user only needs **one** of the assigned permissions to view the page.
+          - **"Match All"**: The user must have **all** assigned permissions to view the page.
+          - **"Match Any"**: The user only needs **one** of the assigned permissions to view the page.
     - **Permissions**：Set permissions for these pages in the **Permissions Tree**. By default, no permissions are selected. **Multiple selections are supported**, but a parent node and its child nodes cannot be selected simultaneously.
 4. Once the configuration is complete, click the **"Save"** button to apply the changes.
    For example, in the image below, the **Authenticated/Roles/Aconfigurator** permission is assigned to the **Demo1, Alarms, and History** pages.
