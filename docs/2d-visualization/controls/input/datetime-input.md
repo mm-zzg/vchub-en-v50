@@ -43,7 +43,7 @@ Display the current system time with the Datetime Input control.
 | Border Thickness    | 2                                             |
 | Fonts               | Digital Numbers, 18, bold, font color: 12b5ac |
 | Picker Type         | Datetime                                      |
-| Formatting          | a h:mm:ss                                     |
+| Formatting          | a `h:mm:ss`                                     |
 
 3.Set event for the control, event type is "LifeCycle" -> "Loaded".
     ![alt text](22.png)
