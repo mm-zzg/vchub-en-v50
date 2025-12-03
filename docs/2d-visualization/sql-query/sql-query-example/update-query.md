@@ -27,53 +27,32 @@ There is a table named `person_management` in the database, which is used to sto
 
 1. Create the project, click the **Design** button in the action bar to enter the editor.
 2. Create an SQL Query by right-clicking on the SQL Query node in the 2D editor and selecting **Add** button.
-
-![alt text](19.png)
-
+    ![alt text](19.png)
 3. In this example, we set the name of this SQL Query to **UpdateQuery**.
-
-![alt text](20.png)
-
-**Database Connection:** Select an item whose status is "Connected "in the "Databases" ->"Database Connection" list. Here we select the **TestSQLQuery** already created in Step 1.
-
-**Query Type:** In this example, we want to update the table data, so we choose **Scalar Query **.
-
-**SQL Editor:** Write the following SQL statement that adds a new row to the`person_management` table with a parameter.
-
-```sql
-INSERT INTO person_management (name, email, gender, age) 
-VALUES (@name, @email, @gender, @age);
-```
- 
-**Parameters:** Create a parameter called age. Acts as a placeholder in an SQL statement to which you can pass concrete values when executing a query.
-
-![alt text](21.png)
-
+    ![alt text](20.png)
+     **Database Connection:** Select an item whose status is "Connected "in the "Databases" ->"Database Connection" list. Here we select the **TestSQLQuery** already created in Step 1.
+     **Query Type:** In this example, we want to update the table data, so we choose **Scalar Query **.
+     **SQL Editor:** Write the following SQL statement that adds a new row to the`person_management` table with a parameter.
+    ```sql
+    INSERT INTO person_management (name, email, gender, age) 
+    VALUES (@name, @email, @gender, @age);
+    ```
+    **Parameters:** Create a parameter called age. Acts as a placeholder in an SQL statement to which you can pass concrete values when executing a query.
+    ![alt text](21.png)
 4. Click the "Test" button.You can see that Result returns the data 1, which means that the execution was successful, affecting a row of data.
-
    **Note**：Executing statements of type '**Update Query**' via the test button will also actually modify the database contents. 
-
    ![alt text](22.png)
 
 #### Use Update Query
 
 1. In the Design Page **Tools** window, add 4 Label, 2 Text input, 1 DropDown, 1 NumberInput, and 1 Button to the page.
-
-![alt text](23.png)
-
-Compose a simple Add data page as follows.
-
-![alt text](24.png)
-
-
-
+    ![alt text](23.png)
+    Compose a simple Add data page as follows.
+    ![alt text](24.png)
 2. Select the button control and click the icon pointed by the arrow to open the configuration page of the action.
-
-![alt text](25.png)
-
+    ![alt text](25.png)
 3. Configure the **mouse pressed** event for the button.Each time the button is clicked, get the values for the input and drop-down fields, and add the values to the database.
-
-![alt text](26.png)
+    ![alt text](26.png)
 
 ```typescript
 // Get name
@@ -125,9 +104,9 @@ if (result) {
 
 ```
  
-4. Click the preview button on the page, and press the button on the preview page to add data to the database. When the new data is added, the table is reloaded and the new data is displayed.
+4.Click the preview button on the page, and press the button on the preview page to add data to the database. When the new data is added, the table is reloaded and the new data is displayed.
 
-![update-query](../../../assets/images/update-query.gif)
+    ![update-query](../../../assets/images/update-query.gif)
 
 
 
