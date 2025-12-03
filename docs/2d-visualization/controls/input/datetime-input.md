@@ -47,18 +47,18 @@ Display the current system time with the Datetime Input control.
 
 3. Set event for the control, event type is "LifeCycle" -> "Loaded".
 
-![alt text](22.png)
+    ![alt text](22.png)
 
 4. Turn on the "Enable" button and enter the following script into the Script Editor: 
 
-```typescript
-const data = await System.Tag.read('@System:Server.CurrentDateTime')
-const calendar = await System.UI.findControl('Datetime Input 1');
-calendar.value = data.value;
-calendar.applyChanges();
-```
+    ```typescript
+    const data = await System.Tag.read('@System:Server.CurrentDateTime')
+    const calendar = await System.UI.findControl('Datetime Input 1');
+    calendar.value = data.value;
+    calendar.applyChanges();
+    ```
  
 5. On the running page, view what the Datetime Input control displays.
 
-![alt text](23.png)
+    ![alt text](23.png)
 

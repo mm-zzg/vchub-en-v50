@@ -114,6 +114,7 @@ You can also set the style of the pipe in the property window.
 5. When the height of a pipe is 0, modifying its height through property values or scripts will not take effect.
 
     ![alt text](13.png)
+    
 6. When the width of a pipe is 0, modifying its width through property values or scripts will not take effect.
 
     ![alt text](14.png)

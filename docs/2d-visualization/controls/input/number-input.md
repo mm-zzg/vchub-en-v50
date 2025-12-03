@@ -45,6 +45,6 @@ Modify the factory workshop temperature via a input number control.
 | Out-of-bounds prompts | Enabled  , set the content of the out-of-bounds prompt: The temperature of plant 1 is out of range, please enter a value between -40 and 85. |
 | Font                  | Microsoft Black, 18, bold, font color fd9903, right align  |
 
-3.  Set the "Value Changed" -> "Set Value " in the event  property of the input number control to send a value to a tag to change the factory floor temperature. 
+3. Set the "Value Changed" -> "Set Value " in the event  property of the input number control to send a value to a tag to change the factory floor temperature. 
 
-![alt text](29.png)
+    ![alt text](29.png)

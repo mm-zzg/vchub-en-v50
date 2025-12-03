@@ -38,11 +38,11 @@ Use the slider to change the value of a tag. Dragging the slider manually change
 2. The value display control is bound to the tag: Level
 3. The value change event is set in the action property of the slider, and the value change is a tag assignment. Assign the value of the slider to the tag "Level".
 
-![alt text](13.png)
+    ![alt text](13.png)
 
 4. On the running page, change the slider value of the slider, and the value on the value display control is shown as the value when the slider is released.
 
-![alt text](14.png)
+    ![alt text](14.png)
 
 
 
