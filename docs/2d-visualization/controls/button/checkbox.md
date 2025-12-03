@@ -32,9 +32,9 @@ Automatic operation mode of the factory line can be enabled or disabled via chec
 1. Add a check box control on the page, and the control name is "Device1".
 2. To set mouse event for this control, write the following script.
 
-```typescript
-const device1 = await System.UI.findControl('Device1');
-const deviceStatus = device1.selected;
-System.Tag.writeValue('@device:deviceA', deviceStatus ? 1 : 0)
-```
+    ```typescript
+    const device1 = await System.UI.findControl('Device1');
+    const deviceStatus = device1.selected;
+    System.Tag.writeValue('@device:deviceA', deviceStatus ? 1 : 0)
+    ```
  

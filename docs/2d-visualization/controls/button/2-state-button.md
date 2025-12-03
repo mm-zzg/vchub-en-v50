@@ -29,8 +29,8 @@ Allows you to perform specific events based on certain conditions. See the full 
 The fan can be turned on or off by using the 2-State button control.
 
 1. Add a 2-State button control to the page.
-2. The current state value is bound to a boolean tag: @Demo:status
-3. The control value is also bound to the tag: @Demo:status
+2. The current state value is bound to a boolean tag: "Demo:status"
+3. The control value is also bound to the tag: "Demo:status"
 4. The button properties are as follows:
 
 | **State**       | **Property** |
@@ -38,9 +38,8 @@ The fan can be turned on or off by using the 2-State button control.
 | **State** **0** |  <br>- **State Value**: false <br>- **Control Value**: true <br>- **Text**: Off <br>- **Background**: d11404 <br>-**Font**: ffffff  <br>- **Hover**: db7f75  <br>- **Border**: d11804 |
 | **State** **1** |  <br>- **State Value**: true  <br>- **Control Value**: false  <br>- **Text**: On <br>- **Background**: 6ec800 <br>- **Font**:  ffffff  <br>- **Hover**: aad773 <br>- **Border**: 64c800 |
 
-5. On the running page, click the button to start and stop the fan, and view the button style.
-
-![2-state-button](../../../assets/images/2-state-button.gif)
+5.On the running page, click the button to start and stop the fan, and view the button style.
+    ![2-state-button](../../../assets/images/2-state-button.gif)
 
 
 

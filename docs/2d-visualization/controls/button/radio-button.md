@@ -41,5 +41,5 @@ Change the device's operating mode via radio buttons.
 1. Add a radio button control to the page.
 2. Set the value change event of the action attribute and enable tag assignment. Assign the value of the selected radio button to the tag and control the working mode of the device through the tag. 
 
-![alt text](30.png)
+    ![alt text](30.png)
 

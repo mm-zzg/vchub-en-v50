@@ -31,15 +31,15 @@ Allows you to perform specific events based on certain conditions. See the full 
 The running status of the device can be obtained through the Multi-State button control.
 
 1. Add a Multi-State button control to the page.
-2. The current value is bound to a numeric tag: @Demo:status. This tag is writable.
-3. The control value is also bound to the tag: @Demo:status.
+2. The current value is bound to a numeric tag: "Demo:status". This tag is writable.
+3. The control value is also bound to the tag: "Demo:status".
 4. Button properties are as follows: 
 
-![alt text](37.png)
+    ![alt text](37.png)
 
 5. Click the button on the running page to control the running status of the device and view the button style.
 
-![multi-state-button](../../../assets/images/multi-state-button.gif)
+    ![multi-state-button](../../../assets/images/multi-state-button.gif)
 
 
 

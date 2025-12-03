@@ -60,17 +60,17 @@ Use the navigation menu to display information about individual components of th
 1. Add a menu control to a page.
 2. The content of the menu in the setting control is: (only set as a primary menu) home page, photovoltaic panels, fans, combiner boxes, inverter boxes, energy storage boxes, and circuit diagrams.
 
-![alt text](16.png)
+    ![alt text](16.png)
 
 3. Set the navigation screen for each menu. Take the "Home" menu setting as an example to perform navigation settings.
 4. In the navigation window, select the page to be navigated and set the opening position to the replace.
 
-![alt text](17.png)
+    ![alt text](17.png)
 
 5. By analogy, set the navigation page of other menus.
 6. In the running page, click the home page menu in the menu control to jump to the content of "Home Page"; click the photovoltaic panel menu again to display the content of the "photovoltaic panel" screen.
 
-![menu-1](../../../assets/images/menu-1.gif)
+    ![menu-1](../../../assets/images/menu-1.gif)
 
 
 

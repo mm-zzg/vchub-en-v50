@@ -29,6 +29,6 @@ Allows you to perform specific events based on certain conditions. See the full 
 The fan can be turned on or off by using the Toggle Button control. When the Toggle Button is selected, the fan is activated; when the Toggle Button is deselected, the fan is stopped.
 
 1. Add a Toggle Button control to the page, with the control name being "Toggle Button1".
-2. Bind the "Selected" property to the tag: @Device:status, and enable two-way binding.
+2. Bind the "Selected" property to the tag "Device:status", and enable two-way binding.
 3. On the running page, press the Toggle Button to start the fan, and click the Toggle Button again to deselect, thereby stopping the fan.
 
