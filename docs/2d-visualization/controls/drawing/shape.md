@@ -97,24 +97,24 @@ You can also set the style of the pipe in the property window.
 
 1. Horizontal lines have a height of 0. Changing their height through property values or scripts will not have any effect.
 
-![alt text](9.png)
+    ![alt text](9.png)
 
 2. Vertical lines have a height of 0. Changing their weight through property values or scripts will not have any effect.
 
-![alt text](10.png)
+    ![alt text](10.png)
 
 3. When the height of a horizontal polyline is 0, modifying its height through property values or scripts will not take effect.
 
-![alt text](11.png)
+    ![alt text](11.png)
 
 4. When the width of a vertical polyline is 0, modifying its width through property values or scripts will not take effect.
 
-![alt text](12.png)
+    ![alt text](12.png)
 
 5. When the height of a pipe is 0, modifying its height through property values or scripts will not take effect.
 
-![alt text](13.png)
+    ![alt text](13.png)
 6. When the width of a pipe is 0, modifying its width through property values or scripts will not take effect.
 
-![alt text](14.png)
+    ![alt text](14.png)
 
