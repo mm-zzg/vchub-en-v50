@@ -35,39 +35,39 @@ In any event configuration interface that supports Script, you can access page f
 
 1. Create a page function named `controlPumpGroup` with the following script
 
-```typescript
-// @param {string} command - Start/Stop command (Start or Stop)
-// @param {array} pumpTags - Array of pump control tags
-// @returns {boolean} Whether the operation was successful
-export async function controlPumpGroup(command: 'Start' | 'Stop', pumpTags: Array<string>) {
-    let successCount = 0;
+    ```typescript
+    // @param {string} command - Start/Stop command (Start or Stop)
+    // @param {array} pumpTags - Array of pump control tags
+    // @returns {boolean} Whether the operation was successful
+    export async function controlPumpGroup(command: 'Start' | 'Stop', pumpTags: Array<string>) {
+        let successCount = 0;
 
-    for (const tag of pumpTags) {
-        try {
-            await System.Tag.writeValue(tag, command == 'Start');
-            successCount++;
-        } catch (error) {
-            console.error(`Failed to control pump ${tag}:`, error);
+        for (const tag of pumpTags) {
+            try {
+                await System.Tag.writeValue(tag, command == 'Start');
+                successCount++;
+            } catch (error) {
+                console.error(`Failed to control pump ${tag}:`, error);
+            }
         }
+        return successCount === pumpTags.length;
     }
-    return successCount === pumpTags.length;
-}
-```
+    ```
  
 2. Call this page function in a button's mouse down event script.
 
-```typescript
-const pumpTags = [
-    '@Default:Pump1_Control',
-    '@Default:Pump2_Control', 
-    '@Default:Pump3_Control'
-];
+    ```typescript
+    const pumpTags = [
+        '@Default:Pump1_Control',
+        '@Default:Pump2_Control', 
+        '@Default:Pump3_Control'
+    ];
 
-const result = await PageFunction.controlPumpGroup("Start", pumpTags);
+    const result = await PageFunction.controlPumpGroup("Start", pumpTags);
 
-if (result) {
-    console.log("All pumps started successfully");
-} else {
-    console.log("Some pumps failed to start");
-}
-```
+    if (result) {
+        console.log("All pumps started successfully");
+    } else {
+        console.log("Some pumps failed to start");
+    }
+    ```
