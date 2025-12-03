@@ -36,11 +36,11 @@ After selecting the alarm, click the confirmation button to complete the confirm
 
 1. On the real-time alarm control, after checking the alarm, click the “Acknowledge” button at the bottom right corner of the control to acknowledge it.
 
-![alt text](23.png)
+    ![alt text](23.png)
 
 2. Acknowledge by clicking directly on the "Priority" button.
 
-![alt text](24.png)
+    ![alt text](24.png)
 
 
 

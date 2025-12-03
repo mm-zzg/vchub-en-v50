@@ -42,7 +42,7 @@ Use real time chart to display water temperature.
 | Y Axis       | Turn off the display of the grid.  |
 | Data         | Bind tags and set the style of the curve.  ![alt text](7.png) <br>- **Tag**: @Demo:temperature <br>- **Name**: Water Temperature <br>- **Y Axis**: Y-Axis1     <br>- **Line Color**: #6ec800           <br>- **Line Type**: Line              <br>- **Line Style**: Solid line        <br>- **Line Width**: 1                 <br>- **Area**: Uncheck           <br>- **Alarm Line**: Uncheck           <br>- **Symbol Style**: None              <br>- **Symbol Size**: 6              <br>- **Decimals**: 2           |
 
-3.Click the Preview button to preview.
+3.Click the Preview button to preview.<br>
     ![alt text](8.png)
 
 **Example 2**
@@ -58,7 +58,7 @@ Use real time chart to display water temperature, and display the water temperat
 | Y Axis       | Turn off the display of the grid. |
 | Data         | Bind tags and set the style of the curve. <br>![alt text](9.png)<br>- **Tag**: @Demo:temperature  <br>- **Name**: temperature   <br>- **Y Axis**: Y-Axis1  <br>- **Line Color**: #6ec800  <br>- **Line Type**: Line  <br>- **Line Style**: Solid line  <br>- **Line Width**: 1    <br>- **Area**: False  <br>- **Alarm Line**: Checked. Select High Temperature Alarm, set Line Color to Red and Style to Dashed.  <br>![alt text](10.png)   <br>- **Symbol Style**: None    <br>- **Symbol Size**: 6    <br>- **Decimals**:2  |
 
-3.Click on the preview button to preview. The red dotted line is the alarm line for the water temperature. The alarm line allows you to determine only at which moment the tag generates an alarm.
+3.Click on the preview button to preview. The red dotted line is the alarm line for the water temperature. The alarm line allows you to determine only at which moment the tag generates an alarm.<br>
     ![alt text](11.png)
 
 

@@ -73,9 +73,11 @@ Use a custom chart to display a bar chart that displays the production line's ca
 
 1. The actual display effect of custom charts can only be seen on the preview or run page. 
 2. Custom charts only support the following three methods in echarts:  
-- setOption(option); 
-- clear() 
-- dispose()  
+
+     - setOption(option); 
+     - clear() 
+     - dispose()  
 
 Not all 3D class charts in echarts are supported. 
+
 ![alt text](56.png)

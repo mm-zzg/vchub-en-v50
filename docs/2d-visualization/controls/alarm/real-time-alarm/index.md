@@ -31,7 +31,7 @@ You can set the columns to be displayed by clicking the "Column Setting" button 
 | Tab                      | Set the style of active and shelved tabs.   <br>- **Indicator bar**: After selecting the tab, the color of the indicator bar displayed below the tab.   <br>- **Active**: Set the background color, border color, font type, font size, bold, italic, font color for active tab.  <br>- **Shelved**: Set the background color, border color, font type, font size, bold, italic, font color for shelved tab. | |
 | Alarm Sound              | Set the alarm sound.  <br>- **Enable**: Used to turn the alarm sound on or off.  <br>- **Sound**: With a built-in beep, users can also manually upload alarm sounds, and up to 5 can be uploaded. <br>- **Critical**: Set the alarm sound of the alarm priority of "Critical".                                <br>- **High**: Set the alarm sound of the alarm priority of "High".                                <br>- **Medium**: Set the alarm sound of the alarm priority of "Medium".                                        <br>- **Low**: Set the alarm sound of the alarm priority of "Low".  |
 | Filter Panel             | Set the style of the filter panel. <br>- **Background**: Background color of the filter panel. <br>- **Title Font**: Set the font type, font size, bold, italic, and font color of the panel name.  <br>- **Tag**: After the filter panel is expanded, the style of the tab displayed.  <br>![alt text](3.png) <br>Including the background color, border color, font type, font size, bold, italic, font color displayed when the tab is selected and not selected. | 
-| Button Style             | Set the style of the buttons used on the control. Click the button style settings button to set it up.  <br>![alt text](4.png) Sound Button.Set the color of the sound button.    <br>![alt text](5.png) Setting Button.Set the color of the setting button.        <br>![alt text](6.png) Reset Button.Set the color of the reset button.    <br>![alt text](7.png) Filter Button.Set the color of the filter button.    <br> ![alt text](8.png) Search box.Set the background color, border color of the search box, and the font type, font size, bold, italic, and font color of the search box. <br>![alt text](9.png) Acknowledge Button.Set the background color, border color, font type, font size, bold, italic, font color of the acknowledge button.         ![alt text](10.png) Shelve Button  ![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/14nRfi8u/resources/lnK23dArksjeoMnCmWU2b9Ss1nIG5nCpE04ebB6RsFE.png?token=W.MpWsamD6X30_sgXuaXLENgHsx9owygIDYmV4kqQzgRBLcLjvFY8sUGZI1NAD509dWsqegw9LKoYNv9ZHkFq3mKsGFQ)      | Set the background color, border color, font type, font size, bold, italic, font color of the shelve button.                        | | Unshelve Button  ![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/14nRfi8u/resources/RglwhrzmTMtDtFLNrIB7JXg04VQTI62uOjwniILiorc.png?token=W.MpWsamD6X30_sgXuaXLENgHsx9owygIDYmV4kqQzgRBLcLjvFY8sUGZI1NAD509dWsqegw9LKoYNv9ZHkFq3mKsGFQ)    | Set the background color, border color, font type, font size, bold, italic, font color of the unshelve button.                      | |
+| Button Style             | Set the style of the buttons used on the control. Click the button style settings button to set it up.  <br>![alt text](4.png) Sound Button.Set the color of the sound button.    <br>![alt text](5.png) Setting Button.Set the color of the setting button.        <br>![alt text](6.png) Reset Button.Set the color of the reset button.    <br>![alt text](7.png) Filter Button.Set the color of the filter button.    <br> ![alt text](8.png) Search box.Set the background color, border color of the search box, and the font type, font size, bold, italic, and font color of the search box. <br>![alt text](9.png) Acknowledge Button.Set the background color, border color, font type, font size, bold, italic, font color of the acknowledge button.         <br>![alt text](10.png) Shelve Button: Set the background color, border color, font type, font size, bold, italic, font color of the shelve button.  <br>![alt text](29.png) Unshelve Button: Set the background color, border color, font type, font size, bold, italic, font color of the unshelve button.                      | 
 | Filter                   | Check the required filter criteria.  |
 | Column                   | Set the column  that need to be displayed in the active tab and shelved tab.  |
 | Action                   | Set the operation button and set the trigger operation to be executed when the alarm is triggered.  |
@@ -45,38 +45,23 @@ Allows you to perform a specific event based on certain conditions. See the full
 
 In the designer, you can configure the background color to other colors. In this example, set the color of the Medium alarm to green.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/14nRfi8u/resources/nQV3OSd095KjaQYL9K2Nj3orKJFmUo00cV1r3MZRBMM.png?token=W.MpWsamD6X30_sgXuaXLENgHsx9owygIDYmV4kqQzgRBLcLjvFY8sUGZI1NAD509dWsqegw9LKoYNv9ZHkFq3mKsGFQ)
+![alt text](30.png)
 
 **Example 2**
 
 On the running page, set the filter criteria in the filter button to filter only the alarm data with high alarm type.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/14nRfi8u/resources/oFDiehHSuZjoMk58yQPHiojuhr0-qbOIaRbKeZA4Q7E.png?token=W.MpWsamD6X30_sgXuaXLENgHsx9owygIDYmV4kqQzgRBLcLjvFY8sUGZI1NAD509dWsqegw9LKoYNv9ZHkFq3mKsGFQ)
+![alt text](31.png)
 
 **Example 3**
 
 No buttons are displayed, only alarm information is displayed. In the "Appearance Display" of the property, all options are not selected.
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/14nRfi8u/resources/yGgLksq0uRY6UGaYCBHbN2-ZZmPXnet4MnlqU4rgLf4.png?token=W.MpWsamD6X30_sgXuaXLENgHsx9owygIDYmV4kqQzgRBLcLjvFY8sUGZI1NAD509dWsqegw9LKoYNv9ZHkFq3mKsGFQ)
+![alt text](32.png)
 
 The display effect is as follows:
 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/14nRfi8u/resources/PJNop1Pek6-sjpzVOXuUhs6e7fH4dbx3ijHhlKkX8Z8.png?token=W.MpWsamD6X30_sgXuaXLENgHsx9owygIDYmV4kqQzgRBLcLjvFY8sUGZI1NAD509dWsqegw9LKoYNv9ZHkFq3mKsGFQ)
+![alt text](33.png)
 
-**Example** **4**
 
-When an alarm occurs on a tag, a popup camera window is displayed to view the devices currently monitored by the camera.
-
-Pre-configure a popup window: DeviceMonitoring. Place a Camera control on the popup window to bind a Camera device. See[known-link] for detailed operations.
-
-In the action property of the Alarm control, set the Text to: View Monitor.
-
-Click the Script button and write the following script:
-
-```typescript
-const alarm = System.Context.currentAlarm
-await System.UI.openPopup('DeviceMonitoring') 
-```
- 
-![img](https://docs.wagoscada.cn/wiki/api/wiki/editor/QHXVK91b/14nRfi8u/resources/4jfQw-_nY5coSBKjCAFguuE2yVhpLi9SOLTjzspmmFo.gif?token=W.MpWsamD6X30_sgXuaXLENgHsx9owygIDYmV4kqQzgRBLcLjvFY8sUGZI1NAD509dWsqegw9LKoYNv9ZHkFq3mKsGFQ)
 

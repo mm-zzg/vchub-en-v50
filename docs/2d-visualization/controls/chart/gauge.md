@@ -40,7 +40,7 @@ Display the current device temperature through the gauge.
 |--------------|---------|
 | Start Angle  | 180°   |
 | End Angle    | 0°    |
-| Pointer      | - **Value**: Tag(@Device:Temperature)                  <br>- **Unit**: ℃                <br>- **Pointer Length(%)**: 50                       <br>- **Background**: rgba(112,193,117,100)               <br>- **Border**: rgba(112,193,117,60)                   <br>- **Border Width**: 2   | Font              | Calibri, 18 , Bold，Italic，rgba(51,51,51,100) | |
+| Pointer      | - **Value**: Tag(Device:Temperature)                  <br>- **Unit**: ℃                <br>- **Pointer Length(%)**: 50                       <br>- **Background**: rgba(112,193,117,100)               <br>- **Border**: rgba(112,193,117,60)                   <br>- **Border Width**: 2   | Font              | Calibri, 18 , Bold，Italic，rgba(51,51,51,100) | |
 | Dial         | - **Color**: rgba(234,235,246,100)    <br>- **Width**: 18       <br>- **Display Progress**: Turn on          <br>- **Progress Color**: rgba(110,200,0,80)         <br>- **Font**: Calibri, 14, rgba(78,89,105,100) <br>- **Dial Interval Color**: None  |
 
 **Example 2 Range gauge**
@@ -51,7 +51,7 @@ Display the current device temperature through the gauge.
 |--------------|-----|
 | Start Angle  | 225° |
 | End Angle    | 315° |
-| Pointer      | - **Value**:Tag(@Device:Temperature)           <br>- **Unit**: ℃             <br>- **Pointer Length(%)**: 50                             <br>- **Background**: rgba(112,193,117,100)                <br>- **Border**: rgba(112,193,117,60)                    <br>- **Border Width**: 2              <br>- **Font**: Calibri, 18 , Bold，Italic，rgba(51,51,51,100) |
+| Pointer      | - **Value**:Tag(Device:Temperature)           <br>- **Unit**: ℃             <br>- **Pointer Length(%)**: 50                             <br>- **Background**: rgba(112,193,117,100)                <br>- **Border**: rgba(112,193,117,60)                    <br>- **Border Width**: 2              <br>- **Font**: Calibri, 18 , Bold，Italic，rgba(51,51,51,100) |
 | Tick         | - **Major Color**: The color of the major ticks. <br>- **Minor Color**: The color of the minor ticks. |  
 | Dial         | - **Color**: rgba(234,235,246,100)    <br>- **Width**: 25  <br>- **Font**: Calibri, 14, rgba(78,89,105,100)  <br>- **Dial Interval Color**: <br>0-30 rgba(128,128,128,100)；  <br>30-40 rgba(110,200,0,100)；  <br>40-100 rgba(255,0,0,100)；  <br>![alt text](64.png) |
 
