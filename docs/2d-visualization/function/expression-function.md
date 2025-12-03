@@ -35,33 +35,32 @@ In any property binding interface that supports **Expression**, you can access e
 
 1. Create an expression function named `getTankAlarmLevel` with the following script
 
-  ```typescript
-  // @param {number} level - Current level
-  // @param {number} maxLevel - Maximum level
-  // @returns {number} Alarm level: 0-Normal, 1-Warning, 2-Alarm
-  export function getTankAlarmLevel(level: number, maxLevel: number) {
-      if (level >= maxLevel * 0.9 || level <= maxLevel * 0.1) {
-          return 2; // Alarm
-      } else if (level >= maxLevel * 0.8 || level <= maxLevel * 0.2) {
-          return 1; // Warning
-      }
-      return 0; // Normal
-  }
-  ```
- 
+    ```typescript
+    // @param {number} level - Current level
+    // @param {number} maxLevel - Maximum level
+    // @returns {number} Alarm level: 0-Normal, 1-Warning, 2-Alarm
+    export function getTankAlarmLevel(level: number, maxLevel: number) {
+        if (level >= maxLevel * 0.9 || level <= maxLevel * 0.1) {
+            return 2; // Alarm
+        } else if (level >= maxLevel * 0.8 || level <= maxLevel * 0.2) {
+            return 1; // Warning
+        }
+        return 0; // Normal
+    }
+    ```
 2. Add a rectangular control to the page, click the bind button of background color, and bind the expression property. The script is as follows:
 
-  ```typescript
-  const currentLevel = tag('@Default:currentLevel');
-  const alarmLevel = ExpressionFunction.getTankAlarmLevel(currentLevel, 10);
+    ```typescript
+    const currentLevel = tag('@Default:currentLevel');
+    const alarmLevel = ExpressionFunction.getTankAlarmLevel(currentLevel, 10);
 
-  if(alarmLevel === 2){
-    return "#FF0000";// Red - Alarm
-  }
+    if(alarmLevel === 2){
+      return "#FF0000";// Red - Alarm
+    }
 
-  if(alarmLevel === 1){
-    return "#FFFF00";// Yellow - Warning
-  }
+    if(alarmLevel === 1){
+      return "#FFFF00";// Yellow - Warning
+    }
 
-  return "#00FF00";//  Green - Normal
-  ```
+    return "#00FF00";//  Green - Normal
+    ```
