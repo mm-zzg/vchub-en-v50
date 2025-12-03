@@ -38,7 +38,7 @@ After uploading, the name of the uploaded zip file will be used as the library n
 
 ![alt text](8.png)
 
-**Note:**Only pictures directly displayed at the next level of the zip will be imported. For example, all the contents in the “others“ directory as shown below will not be imported.
+**Note:** Only pictures directly displayed at the next level of the zip will be imported. For example, all the contents in the “others“ directory as shown below will not be imported.
 
 ![alt text](9.png)
 
@@ -82,16 +82,16 @@ For the **Run** button: When pressed, modify the tag `@Region:Motor1.RunningStat
 
 For the **Stop** button: When pressed, modify the tag `@Region:Motor1.RunningStatus` to `0`, indicating that the device is stopped.
 
-![alt text](14.png)
+    ![alt text](14.png)
 
 3. Add a label to the page, set its “Text” to **"Running Status:"**.
 4. Insert an Image from the System Library to the page. Click the **binding button** for the image path and write the following expression:
 
-![alt text](15.png)
+    ![alt text](15.png)
 
 5. Click the **Preview** button to open the preview page.When clicking the **Run** button, it will appear **green**.When clicking the **Stop** button, it will appear **red**.
 
-![library](../../assets/images/library.gif)
+    ![library](../../assets/images/library.gif)
 
 **Check Reference**
 
@@ -117,6 +117,7 @@ You can modify the image's path. To move the image to another library, click and
 ![library3](../../assets/images/library3.gif)
 
 **Notes：**  
+
 1. Moving images into the system library is not supported. 
 2. Images in the system library can be dragged into user-created libraries. Dragging an image is equivalent to copying it to the target library, and the original image in the system library remains unaffected.
 

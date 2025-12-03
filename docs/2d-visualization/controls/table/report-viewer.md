@@ -40,6 +40,7 @@ View the report.
 | Report       | Line 1   |
 
 2.Click the "Preview" button on the page.
+
 3.In the report viewer, click "Line 1" to view the data.
     ![alt text](36.png)
 
