@@ -186,7 +186,7 @@ Element types that are not supported for editing will be displayed in gray color
 
     ![alt text](38.png)
 
-**Example 2：**By using property binding, the color of elements in the SVG image can be dynamically changed.
+**Example 2** By using property binding, the color of elements in the SVG image can be dynamically changed.
 
 1. Add an SVG image from the library to the page.
 

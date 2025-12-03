@@ -71,26 +71,19 @@ If the image is from the system library, a `$` symbol will appear at the beginni
 
 Image paths support binding.
 
-**Example: Display different images based on device operating status**
+**Example:** Display different images based on device operating status
 
 **Steps:**
 
 1. Draw two buttons on the page,name them **"Run"** and **"Stop"**.
 2. Set mouse pressed event for the buttons. 
-
-For the **Run** button: When pressed, modify the tag `@Region:Motor1.RunningStatus` to `1`, indicating that the device is turned on.
-
-For the **Stop** button: When pressed, modify the tag `@Region:Motor1.RunningStatus` to `0`, indicating that the device is stopped.
-
+     - For the **Run** button: When pressed, modify the tag `@Region:Motor1.RunningStatus` to `1`, indicating that the device is turned on.
+     - For the **Stop** button: When pressed, modify the tag `@Region:Motor1.RunningStatus` to `0`, indicating that the device is stopped.
     ![alt text](14.png)
-
 3. Add a label to the page, set its “Text” to **"Running Status:"**.
 4. Insert an Image from the System Library to the page. Click the **binding button** for the image path and write the following expression:
-
     ![alt text](15.png)
-
 5. Click the **Preview** button to open the preview page.When clicking the **Run** button, it will appear **green**.When clicking the **Stop** button, it will appear **red**.
-
     ![library](../../assets/images/library.gif)
 
 **Check Reference**
