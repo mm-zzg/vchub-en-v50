@@ -7,16 +7,18 @@ Executing the script will bring you back to the startup page for the current pro
 ## Grammar
 System.UI.goHome(): void
 
-Parameter
+     - Parameter
 
-Nothing
+        Nothing
 
-Return
+     - Return
 
-Nothing
+        Nothing
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example
+
 Returns the startup page for the current project.
+
 ```typescript 
 System.UI.goHome();
 

@@ -11,17 +11,20 @@ System.Tag.writeValue(path: string, newValue: any): Promise<void>
 
 System.Tag.writeValue(path: string[], newValue: Array<any>): Promise<void>
 
-Parameter
+     - Parameter
 
-path - Tag path(s) 
+        path - Tag path(s) 
 
-newValue - Tag new value(s)
+        newValue - Tag new value(s)
 
-Return
+     - Return
 
-Nothing
-## Code Example                                                                                                                                                                                                                                                                                                          
+        Nothing
+
+## Code Example 
+
 Set 'Device:Start ' to true. 
+
 ```typescript 
 
 await System.Tag.writeValue('@Device:Start', true);

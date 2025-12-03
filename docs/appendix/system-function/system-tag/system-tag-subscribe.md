@@ -6,6 +6,7 @@
 
 Subscribing to a tag will retrieve its value, path, quality, and time when the tag changes.
 ## Grammar
+
 System.Tag.subscribe(paths: Array<string>, callback: (value: {
   
 Time: string;
@@ -18,20 +19,24 @@ Quality: number;
 
 }=>void): () => void
 
-Parameter
+     - Parameter
 
-paths - Tag paths 
+        paths - Tag paths 
 
-callback - A callback function used to handle notifications of changes in tag values 
+        callback - A callback function used to handle notifications of changes in tag values 
 
-Return
+     - Return
 
-Unsubscription function
-## Code Example                                                                                                                                                                                                                                                                                                          
+        Unsubscription function
+
+## Code Example 
+
 First create a tag group and select the refresh type of the tag group as "Value Change".
 
 ![alt text](a_sf_st-subscribe1.png)
+
 Then create a tag and check the tag group you just created.
+
 ![alt text](a_sf_st-subscribe2.png)
 
 Finally, when you subscribe to the "Device: Rotate" tag, you will receive the pushed data and print out the new value when the tag changes.

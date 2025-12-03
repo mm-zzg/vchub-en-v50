@@ -7,15 +7,18 @@ Find the control instance in the page.
 ## Grammar
 System.UI.findControl(name: string): any
 
-Parameter
+     - Parameter
 
-name - The name of thecontrol to be queried, and the control type can be inferred directly from thecontrol name.
+        name - The name of thecontrol to be queried, and the control type can be inferred directly from thecontrol name.
 
-Return
+     - Return
 
-Control instance
-## Code Example                                                                                                                                                                                                                                                                                                          
+        Control instance
+
+## Code Example
+
 When the boiler temperature is too high, display the alarm message on label1.
+
 ```typescript 
 
 const label1 = await System.UI.findControl('Label1');

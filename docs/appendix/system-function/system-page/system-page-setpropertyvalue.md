@@ -8,15 +8,15 @@ Set the value of the current page's custom property or control property.
 ## Grammar
 System.Page.setPropertyValue(path: string,value: any): void 
 
-Parameter 
+     - Parameter 
 
-path - Path of the page's custom property or control property 
+        path - Path of the page's custom property or control property 
 
-value - New value 
+        value - New value 
 
-Return 
+     - Return 
 
-Nothing
+        Nothing
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
 Get the value of the custom property "no" on the page, and add 1 to its value each time.

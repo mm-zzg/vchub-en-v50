@@ -9,15 +9,18 @@ System.Tag.getPropertyValues(path: string): Promise<{ path: string; property: st
 
 System.Tag.getPropertyValues(path: Array<string>): Promise<Array<{ path: string; property: string; value: any }>>
 
-Parameter
+     - Parameter
 
-path - The path of a single or multiple node properties
+        path - The path of a single or multiple node properties
 
-Return
+     - Return
 
-The path, property name, and value of a single or multiple node properties
-## Code Example                                                                                                                                                                                                                                                                                                          
+        The path, property name, and value of a single or multiple node properties
+
+## Code Example        
+
 Get the path of the node "Device: Temperature" and the value of the Name property.
+
 ```typescript 
 const tagProperty = await System.Tag.getPropertyValues('@Device:Temperature#Name');
 console.log(tagProperty);

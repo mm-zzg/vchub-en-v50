@@ -7,16 +7,18 @@ Import a JavaScript file.
 ## Grammar
 System.Utils.importScript(scriptFileUrl: string): Promise<void> 
 
-Parameter 
+     - Parameter 
 
-scriptFileUrl - Script file path  
+        scriptFileUrl - Script file path  
 
-Return 
+     - Return 
 
-Nothing
+        Nothing
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example
+
 Create a table using vue+element-ui.
+
 ```typescript 
 
 await System.Utils.importStyle('https://unpkg.com/element-ui/lib/theme-chalk/index.css');

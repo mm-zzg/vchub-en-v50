@@ -6,13 +6,13 @@ Get the value of the current page's custom property or control property.
                                                                                                                                
 System.Page.getPropertyValue(path: string): any 
 
-Parameter 
+     - Parameter 
 
-path - Path of the page's custom property or control property 
+        path - Path of the page's custom property or control property 
 
-Return 
+    - Return 
 
-Property value
+        Property value
 
 
 ## Code Example                                                                                                                                                                                                                                                                                                          

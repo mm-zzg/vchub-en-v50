@@ -7,16 +7,18 @@ Call this function to return to the previous page after System.UI.back().
 ## Grammar
 System.UI.forward(): void
 
-Parameter
+     - Parameter
 
-Nothing
+        Nothing
 
-Return
+     - Return
 
-Nothing
+        Nothing
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example 
+
 Execute the script System.UI.open('B') on Page A to open Page B.
+
 ```typescript 
 
 System.UI.open('B');

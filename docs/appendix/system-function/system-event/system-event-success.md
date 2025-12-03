@@ -7,15 +7,15 @@ Add a successful operation event to the system event, which can be queried in re
 ## Grammar
 System.Event.success(message:string,...args: any): Promise<void> 
 
-Parameter 
+     - Parameter 
 
-message - Description of the successful event 
+        message - Description of the successful event 
 
-args - Detail of the successful event 
+        args - Detail of the successful event 
 
-Return 
+     - Return 
 
-Nothing
+        Nothing
 
 ## Code Example                                                                                                                                                                                                                                                                                                          
 Add a successful operation event.

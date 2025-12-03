@@ -8,16 +8,18 @@ Give a simulated value to the tag.
 
 System.Tag.mock(path:string, value:any): void
 
-Parameter
+     - Parameter
 
-path - Tag path
+        path - Tag path
 
-value - Simulated value 
+        value - Simulated value 
 
-Return
+     - Return
 
-Nothing
-## Code Example                                                                                                                                                                                                                                                                                                          
+        Nothing
+
+## Code Example 
+
 Generate a random integer between 0 and 99 and assign it to the tag "Device:Temperature".
 ```typescript 
 const value = parseInt(`${Math.random() * 100}`);

@@ -7,16 +7,18 @@ Import a CSS style file.
 ## Grammar
 System.Utils.importStyle(styleFileUrl: string): Promise<void> 
 
-Parameter 
+     - Parameter 
 
-styleFileUrl - Style file path  
+        styleFileUrl - Style file path  
 
-Return 
+     - Return 
 
-Nothing
+        Nothing
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example
+
 Create a table using Vue+element-ui.
+
 ```typescript 
 await System.Utils.importStyle('https://unpkg.com/element-ui/lib/theme-chalk/index.css');
 await System.Utils.importScript('https://unpkg.com/vue@2/dist/vue.js');

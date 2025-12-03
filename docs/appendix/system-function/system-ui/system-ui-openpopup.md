@@ -38,56 +38,58 @@ Open a pop-up page.
 
        }): Promise<any>
 
-      Parameter
+         - Parameter
 
-      page - The name of the pop-up window that needs to be opened
+            page - The name of the pop-up window that needs to be opened
 
-      options - {
-      
-      pageProperties - Properties of page
-      
-      position - {
-      
-      type- pop up properties center screen, follow mouse, custom user-defined, 
-      
-      left- only needs to be filled in when type is custom, default 0 if not filled in,
-      
-      top- only needs to be filled in when type is custom, default 0 if not filled in
-      
-      }
-      
-      titleBar - {
-      
-      title - title content，
-      
-      backgroundColor - the background color of  title bar，
-      
-      height - the height of  title bar,
-      
-      position - title position：left/center/right，
-      
-      font - title font，
-      
-      fontSize - title font size，
-      
-      fontColor - title font color，
-      
-      bold - whether to use bold，
-      
-      italic - whether to use italics
-      
-      }
+            options - {
+            
+            pageProperties - Properties of page
+            
+            position - {
+            
+            type- pop up properties center screen, follow mouse, custom user-defined, 
+            
+            left- only needs to be filled in when type is custom, default 0 if not filled in,
+            
+            top- only needs to be filled in when type is custom, default 0 if not filled in
+            
+            }
+            
+            titleBar - {
+            
+            title - title content，
+            
+            backgroundColor - the background color of  title bar，
+            
+            height - the height of  title bar,
+            
+            position - title position：left/center/right，
+            
+            font - title font，
+            
+            fontSize - title font size，
+            
+            fontColor - title font color，
+            
+            bold - whether to use bold，
+            
+            italic - whether to use italics
+        
+        }
 
-     }
+        }
 
-       Return
+         - Return
 
-        Wait for pop-up closure and get the return value.
+            Wait for pop-up closure and get the return value.
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example 
+
 Scenario 1: Open the pop-up without waiting for it to close.
 
 Open a pop-up window named 'Details' at the center of the page, change the pop-up title to 'A0003 Details', and set the pop-up page property ID to 'A0003'.
+
 ```typescript 
 System.UI.openPopup('Details', {
     pageProperties:{

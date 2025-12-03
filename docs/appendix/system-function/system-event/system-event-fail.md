@@ -6,19 +6,21 @@
 Add a failed operation event to the system event, which can be queried in the real-time event control or historical event control.
 
 ## Grammar
+
 System.Event.fail(message:string,...args: any): Promise<void> 
 
-Parameter 
+     - Parameter 
 
-message - Description of the failed event 
+        message - Description of the failed event 
 
-args - Details of the failed event 
+        args - Details of the failed event 
 
-Return 
+     - Return 
 
 Nothing
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example   
+
 Add a failed operation event.
 ```typescript 
 
