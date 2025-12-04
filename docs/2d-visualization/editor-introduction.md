@@ -123,15 +123,8 @@ The language switch menu is used to switch between different language interfaces
 
 ![alt text](62.png)
 
-##  **Help Menu**
-
-View the help documentation in a new browser window.
-
-![alt text](63.png)
-
 ## **About Menu**
 
 Provides information about VC Hub, e.g. versions, copyrights, etc.
 
 ![alt text](64.png)
-
