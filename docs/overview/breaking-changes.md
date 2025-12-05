@@ -16,7 +16,7 @@ Configure permissions under the Permission page.
 
  Please refer to: **Management->Paltform->Security->Permission**，**Management->Paltform->Security->Access Level**
 
- ###### **Breaking Change 2: Permission control added for project creation**
+ #### Breaking Change 2: Permission control added for project creation
 
 - **Impact** : Users without Admin or Configurator roles.
 - **Change** : From version 4.2, only Admin or Configurator roles can create, copy, or import projects.
