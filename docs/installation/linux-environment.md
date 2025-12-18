@@ -74,7 +74,7 @@ To further enhance system security, it is recommended to perform the following s
    sudo systemctl daemon-reexec
    sudo systemctl restart visualizationandcontrolhub.service
    ``` 
-4. Set Application Data Directory Permissions
+4. Set Application Data Directory Permissions<br>
     Assign ownership of the data directory (e.g., /usr/share/wagovisualizationandcontrolhub) to wago_vc_hub and ensure read/write access while restricting other users:
    ```
    sudo chown -R wago_vc_hub:wago_vc_hub /usr/share/wagovisualizationandcontrolhub
