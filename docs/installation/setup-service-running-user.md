@@ -37,7 +37,6 @@ sc config "WAGO_Visualization_And_Control_Hub" obj= "Domain\Username" password= 
 - **Password:** The password for the account.
 
 
-
 ## Setup Running User for Linux Services
 
 VC Hub only supports configuring services using `systemd`. Most Linux distributions use `systemd`, and you can set the startup and running user for a service by editing the service unit file.
