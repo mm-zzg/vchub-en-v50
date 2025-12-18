@@ -70,7 +70,7 @@ System stability is enhanced. In the event of a VM failure, the VC Hub service o
 ## Port Configuration
 
 | Port | Function                  | Description                                                                                                                                   |
-|------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+|:------|:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
 | 8066 | HTTP Service              | Provides the VC Hub HTTP service. Users can customize it during the installation process or modify it in the management platform.             |
 | 8043 | HTTPS Service             | Provides the VC Hub HTTPS service. Users can customize it during the installation process or modify it in the management platform.            |
 | 8060 | Networking and Redundancy | Used for communication in networking and redundancy functions. Default is 8060, which can be modified in the management platform by the user. |
