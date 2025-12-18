@@ -53,14 +53,12 @@ To further enhance system security, it is recommended to perform the following s
     wago_vc_hub ALL=(ALL) NOPASSWD: ALL
     ```
 2. Set Service Installation Directory Permissions
-
     Assign ownership of the service installation directory (e.g., /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64) to wago_vc_hub and restrict access to other users:
     ```
     sudo chown -R wago_vc_hub:wago_vc_hub /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
     sudo chmod -R 750 /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
     ```
-   **Note:** Perform this step before changing the service run account, otherwise the service may lose access.
-   
+   **Note:** Perform this step before changing the service run account, otherwise the service may lose access.  
 3. Modify Service Run Account
   Configure the service to run under the wago_vc_hub account:
    ```
