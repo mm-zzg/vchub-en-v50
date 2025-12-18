@@ -33,7 +33,7 @@ You can use the `sc config` command to configure the login information for a ser
 sc config "WAGO_Visualization_And_Control_Hub" obj= "Domain\Username" password= "Password"
 ```
  
-- **Domain\Username:** This represents the account name, which can be in the format `. \Username` (for local accounts) or `Domain\Username` (for domain accounts). <br>Using a domain account may be more appropriate if the service needs to access network resources or resources on other computers.
+- **Domain\Username:** This represents the account name, which can be in the format  `.\Username` (for local accounts) or `Domain\Username` (for domain accounts). <br>Using a domain account may be more appropriate if the service needs to access network resources or resources on other computers.
 - **Password:** The password for the account.
 
 
@@ -77,7 +77,7 @@ sudo systemctl start visualizationandcontrolhub
 
 - Use the correct account and password to ensure the service can start and run properly.
 - Avoid using weak passwords.
-- Ensure the account follows the principle of least privilege, granting only the permissions necessary for the service to operate. The VC Hub service requires read and write permissions for the **service installation directory** and the **service data directory**.
+- Ensure the account follows the principle of least privilege, granting only the permissions necessary for the service to operate. The VC Hub service requires read and write permissions for the service **installation directory** and the service **data directory**.
 - Default service installation directory:
 
     Windows: `"C:\Program Files\WAGO Visualization And Control Hub"`
