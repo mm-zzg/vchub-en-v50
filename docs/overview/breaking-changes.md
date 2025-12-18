@@ -1,5 +1,25 @@
 # Breaking Changes
 
+## Breaking changes in 4.5
+
+#### Breaking Change 1: Change in license authentication method
+
+- **Impact**: After upgrading to version 4.5, existing licenses will become invalid.
+- **Change**: This is due to a change in the license authentication mechanism.
+- **Solution**: New licenses must be purchased. Please contact our sales team to obtain licenses for version 4.5.
+
+#### Breaking Change 2: The "Camera" removed from the device list
+
+- **Impact**: All camera devices.
+- **Change**: From version 4.5, camera removed from device list.
+- **Solution**: The camera management feature has been discontinued. For video-related functions, please adjust your workflow accordingly.
+
+#### Breaking Change 3: Camera control removed
+
+- **Impact** : Pages using camera control.
+- **Change** : From version 4.5, camera removed from the tools.
+- **Solution** : The camera management feature has been discontinued. For video-related functions, please adjust your workflow accordingly.
+
 ## Breaking changes in 4.2
 
 #### Breaking Change 1: Permissions are no longer set on roles

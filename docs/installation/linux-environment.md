@@ -45,61 +45,61 @@ To further enhance system security, it is recommended to perform the following s
 
 1.  Create a Dedicated Service Account
     Create a dedicated system account (e.g., wago_vc_hub) with no interactive login, used only to run service processes:
-```
-sudo useradd -r -s /sbin/nologin wago_vc_hub
-```
-Then, configure passwordless sudo for this account via the sudoers file:
-```
-wago_vc_hub ALL=(ALL) NOPASSWD: ALL
-```
+    ```
+    sudo useradd -r -s /sbin/nologin wago_vc_hub
+    ```
+    Then, configure passwordless sudo for this account via the sudoers file:
+    ```
+    wago_vc_hub ALL=(ALL) NOPASSWD: ALL
+    ```
 2. Set Service Installation Directory Permissions
 
     Assign ownership of the service installation directory (e.g., /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64) to wago_vc_hub and restrict access to other users:
-```
-sudo chown -R wago_vc_hub:wago_vc_hub /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
-sudo chmod -R 750 /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
-```
+    ```
+    sudo chown -R wago_vc_hub:wago_vc_hub /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
+    sudo chmod -R 750 /usr/local/bin/wagovisualizationandcontrolhub-x.x.x-linux-x64
+    ```
    **Note:** Perform this step before changing the service run account, otherwise the service may lose access.
    
 3. Modify Service Run Account
   Configure the service to run under the wago_vc_hub account:
-```
-sudo systemctl edit visualizationandcontrolhub.service
-```
-Add the following lines under the [Service] section:
-```
-User=wago_vc_hub
-Group=wago_vc_hub
-```
-Then reload the systemd configuration and restart the service:
-```
-sudo systemctl daemon-reexec
-sudo systemctl restart visualizationandcontrolhub.service
-``` 
+   ```
+   sudo systemctl edit visualizationandcontrolhub.service
+   ```
+   Add the following lines under the [Service] section:
+   ```
+   User=wago_vc_hub
+   Group=wago_vc_hub
+   ```
+   Then reload the systemd configuration and restart the service:
+   ```
+   sudo systemctl daemon-reexec
+   sudo systemctl restart visualizationandcontrolhub.service
+   ``` 
 4. Set Application Data Directory Permissions
 
     Assign ownership of the data directory (e.g., /usr/share/wagovisualizationandcontrolhub) to wago_vc_hub and ensure read/write access while restricting other users:
-```
-sudo chown -R wago_vc_hub:wago_vc_hub /usr/share/wagovisualizationandcontrolhub
-sudo chmod -R 750 /usr/share/wagovisualizationandcontrolhub
-``` 
+   ```
+   sudo chown -R wago_vc_hub:wago_vc_hub /usr/share/wagovisualizationandcontrolhub
+   sudo chmod -R 750 /usr/share/wagovisualizationandcontrolhub
+   ``` 
 5. Verify Configuration
    Check that the service is running under the wago_vc_hub account and confirm the site is accessible:
-```
-systemctl status visualizationandcontrolhub.service
-``` 
-  Open a browser and visit the VC Hub site (e.g., `http://localhost:8066`) to verify it is running correctly.
+   ```
+   systemctl status visualizationandcontrolhub.service
+   ``` 
+   Open a browser and visit the VC Hub site (e.g., `http://localhost:8066`) to verify it is running correctly.
 
 ## **Uninstallation Steps**
 
 1. Go to the parent directory of the installation directory.
-2. Grant the file owner the permission to execute the file "visualizationandcontrolhub-uninstall.sh"
+2. Grant the file owner the permission to execute the file "`visualizationandcontrolhub-uninstall.sh`"
    ![alt text](27.png)
-3. Run the script "visualizationandcontrolhub-uninstall.sh".
+3. Run the script "`visualizationandcontrolhub-uninstall.sh`".
    ![alt text](28.png)
 4. After these operations, all program-related files will be removed, and the process supervisory service will also be removed.
 
-**Notes:**
+**Notes:**  
 
 The uninstallation script includes operations such as deleting files, so ensure you have sufficient permissions.
 

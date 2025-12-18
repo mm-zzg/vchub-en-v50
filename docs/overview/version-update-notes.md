@@ -22,13 +22,18 @@
 
 ## New Features
 
+#### 5.0.X
+
+- **License Management**: Support license activation, deactivation, refresh, update and deletion.
+- **Force logout online user**: If the number of concurrent users reaches the license limit, the system will automatically force the earliest logged-in user to log out when a user with security permission logs in. Ensure that users with security permission can always access the system, or release the login slots for other users to use.
+
 #### 4.5.X
 
 - **License Management**: Activate the license using DRM. This version only supports the trial mode of the license.
 
 #### 4.4.X
 
-- **Logo and Name Modification**: The product logo has been replaced, and the product name has been changed from WAGO SCADA to Visualization and Control Hub, abbreviated as VC Hub.
+- **Logo and Name Modification**: The product logo has been replaced, and the product name has been changed from WAGO SCADA to WAGO Visualization and Control Hub, abbreviated as VC Hub.
 
 #### 4.3.X
 
