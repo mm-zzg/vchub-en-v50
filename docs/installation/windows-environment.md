@@ -44,12 +44,12 @@ After each installation, a new empty workspace will be created by default. To re
 
 ## **Security Configuration (Optional)**
 
-To further enhance system security, it is recommended to perform the following steps after configuration to set permissions on the **service directory and application data directory**, allowing only specific users to access or modify them. This ensures that sensitive data is well protected and potential risks are minimized.
+To further enhance system security, it is recommended to perform the following steps after configuration to set permissions on the **installation directory and application data directory**, allowing only specific users to access or modify them. This ensures that sensitive data is well protected and potential risks are minimized.
 
 1. Create a dedicated service account<br>
       Create a dedicated account in Windows local users and groups (e.g., VCHubSvc):
       ![alt text](14.png)
-2. Set service installation directory permissions<br>
+2. Set service **installation directory** permissions<br>
       Navigate to the service installation directory (e.g., C:\Program Files\WAGO Visualization And Control Hub), right-click the mouse, select "Properties" → "Security"
        - Based on the actual security requirements, select the users or groups to be retained, and delete the unnecessary ones (such as Users, Everyone).
        - Add the VCHubSvc user and grant Read, Write, and Modify permissions.
@@ -58,8 +58,8 @@ To further enhance system security, it is recommended to perform the following s
 3. Modify the service logon account<br>
       In Services (services.msc), locate the VC Hub service → right-click → Properties → Log On → select "This account":
        - Enter .\VCHubSvc and the password.
-        Save and restart the service.
-4. Set application data directory permissions<br>
+       - Save and restart the service.
+4. Set application **data directory** permissions<br>
      Navigate to the application data directory chosen during installation (e.g., C:\ProgramData\WAGOVisualizationAndControlHub), in the right-click menu, click "Properties"→ "Security":
        - Based on the actual security requirements, select the users or groups to be retained, and delete the unnecessary ones (such as Users, Everyone).
        - Add the VCHubSvc user and grant Read, Write, and Modify permissions.
