@@ -1,4 +1,4 @@
-# Multi-workspace management
+# Multi-workspace Management
 
 ## **Workspace Management Menu**
 
@@ -25,8 +25,8 @@ Users can add new workspaces by clicking the "**Add**" button at the upper right
 
 **Configuration items**
 
-| **Configuration**      | **Description**                                                                          |
-|------------------------|------------------------------------------------------------------------------------------|
+| **Configuration**      | **Description** |
+|------------------------|-----------------|
 | Name                   | The name of the workspace.                                                               |
 | Description            | The description of the workspace.                                                        |
 | Username               | The username used to initialize the system when switching workspaces for the first time. |

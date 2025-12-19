@@ -2,7 +2,11 @@
 
 ## Overview
 
-When workspaces in the system are on versions lower than the current system version, users won’t be able to open, copy, or edit them. To address this, an upgrade is necessary to ensure compatibility and access. Users can initiate the upgrade by clicking the green upgrade arrow button next to the corresponding version number. The process is handled server-side, where the workspace is seamlessly updated to match the current system version. This upgrade retains all existing data from the older version, ensuring that no information is lost while enabling full functionality in the latest system environment.
+When workspaces in the system are on versions lower than the current system version, users won’t be able to open, copy, or edit them. To address this, an upgrade is necessary to ensure compatibility and access. 
+
+Users can initiate the upgrade by clicking the green upgrade arrow button next to the corresponding version number. 
+
+The upgrade process is performed on the server side. After a successful upgrade, the workspace will be compatible with the current system version while retaining all data from the previous version.
 
 ## How to Operate
 

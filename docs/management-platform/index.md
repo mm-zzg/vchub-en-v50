@@ -22,8 +22,8 @@ Notes:
 1. VC Hub only has a built-in SQLite database for storing the necessary system configuration information, etc. Therefore, VC Hub does not provide any databases of its own, but only connectivity and access to these databases, so you will need to configure these third-party databases, such as MySQL, SQL Server, etc., on your own.
 
 
- 2. A project is a collection of projects, a project can contain several projects, which share the same system configuration, such as device configuration, tag configuration, database configuration, etc.
+ 2. A workspace is a collection of projects, a workspace can contain several projects, which share the same system configuration, such as device configuration, tag configuration, database configuration, etc.
 
 
- 3. After switching projects manually, you may need to re-login to the system, because the users between different projects are independent, even if you have a user UserA in Project A, and there is a UserA with the same name in Project B, there is no correlation between these two users.
+ 3. After switching workspace manually, you need to re-login to the system, because the users between different workspaces are independent, even if you have a user **UserA** in **Workspace A**, and there is a **UserA** with the same name in **Workspace B**, there is no correlation between these two users.
 

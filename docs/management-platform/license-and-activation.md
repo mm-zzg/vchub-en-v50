@@ -1,4 +1,4 @@
-# License and Activation
+# License
 
 VC Hub uses licenses to activate features on the VC Hub server. At the moment, only **online activation** is supported.
 
@@ -14,8 +14,8 @@ When the trial period expires:
 
 After the trial expires, you may:
 
-1. **Enter a trial license again** to start another 30-day trial, or
-2. **Purchase the appropriate feature licenses** to restore full functionality.
+-  **Enter a trial license again** to start another 30-day trial, or
+-  **Purchase the appropriate feature licenses** to restore full functionality.
 
 ## Trial Countdown
 
@@ -31,7 +31,6 @@ After the trial period expires, the preview and the running page will be forced 
 ![alt text](37.png)
 
 
-
 ## Trial Extension
 
 After the trial expires, you can enter another trial license (please contact Sales to obtain one) to extend the trial period for an additional 30 days.
@@ -42,18 +41,24 @@ You can also enter a new trial license **before** the current trial ends. Regard
 
 After activation, the license key will be **bound to the installation server**, and the same key cannot be activated on multiple servers.
 
-Activation Steps:
+**Activation Steps:**
 
-1. Click ”Node“->"License", and click on the "Activate License" button.
+1. Click the menu "Node"->"License", and click on the "Activate License" button at the top right corner of the list.
 ![alt text](38.png)
-2. Fill in the key and click the "Activate" button.
+2. Fill in the key and click the "Activate" button.You can input one or more keys at a time.
 ![alt text](39.png)
-3. After successful activation, the license list will show the license information. For activated keys, you can perform deactivate and refresh operation.
+3. After successful activation, the license list will show the license information. For activated keys, you can perform deactivate and update operation.
 ![alt text](40.png)
 
 ## Deactivation
 
-When you need to change the server, you must first perform a **deactivation**. After deactivation, the corresponding license will be removed from the current server. Unless necessary, please avoid using the deactivation function frequently.
+If you wish to remove the license from the current machine and use it on another machine instead, you must first perform a **deactivation** action. After deactivation, the corresponding license will be removed from the current machine. 
+
+You can reactivate it on another machine or on the current one again.
+
+After reactivation, the validity period of this license remains unchanged and is still the same as it was before deactivation.
+
+Unless necessary, please avoid using the deactivation function frequently.
 
 ## Refresh
 

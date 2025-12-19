@@ -18,14 +18,14 @@
 ![alt text](13.png)
 
 
-- **Id** : workspace catalog identification, the same as the workspace catalog name.
-- **Code** : workspace number, two identical workspaces, workspace number is the same, such as a workspace is exported, and then imported, the workspace number remains unchanged, but Id will change.
-- **Name** : name of the workspace.
-- **Description** : description of the workspace.
+- **Id** : Workspace catalog identification, the same as the workspace catalog name.
+- **Code** : Workspace number, two identical workspaces, workspace number is the same, such as a workspace is exported, and then imported, the workspace number remains unchanged, but Id will change.
+- **Name** : The name of the workspace.
+- **Description** : Description of the workspace.
 - **Version** : Version number of the workspace, used to record the VC Hub version of the workspace.
 - **CreationTime** : The time when the workspace was created.
-- **UserName** : The user name used for initializing the workspace, which is used as the initial username for logging in after switching to the workspace for the first time. After switching to the workspace for the first time and completing the workspace initialization, the user name will be blank.
-- **Password** : The password used for workspace initialization, encrypted and temporarily stored in the workspace base information file when the user successfully creates the workspace, and used together with the User Name for login after switching to the workspace for the first time. After switching to the workspace for the first time and completing the workspace initialization, the password will be blank.
+- **UserName** : The user name used for initializing the workspace, which is used as the initial username for logging in after switching to the workspace for the first time. Once the workspace is switched to and initialized, the username will be deleted from this file.
+- **Password** : The password used for workspace initialization, encrypted and temporarily stored in the workspace base information file when the user successfully creates the workspace, and used together with the User Name for login after switching to the workspace for the first time. Once the workspace is switched to and initialized, the password will be deleted from this file.
 
 #### **Workspace Data File**
 
