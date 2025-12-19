@@ -11,7 +11,7 @@ After batch creating data on the **Model** or **Instance** page, you can update 
     ![alt text](16.png)
 3. After clicking, a tag selector will pop up, allowing you to add the tags to be exported into the "Selected List". If a directory or instance is selected, it means that all tags under that directory or instance node (including the current node and all its child nodes) are selected. When a directory or instance is selected, an asterisk (*) is used to indicate all tags under it.
     ![alt text](17.png)
-4. Click the "OK" button to open the property selection window, where you can choose the tag properties to be exported. The exported file will be in Excel format. Please refer to the **Tag Configuration Excel**.
+4. Click the "OK" button to open the property selection window, where you can choose the tag properties to be exported. The exported file will be in Excel format. 
     ![alt text](18.png)
 
 ## Import Tags
