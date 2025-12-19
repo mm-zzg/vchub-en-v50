@@ -4,7 +4,7 @@ The WAGO Protocol driver in VC Hub supports the basic connection to WAGO PLCs. T
 
 Supports WAGO Protocol version 1.5.0.
 
-## **Drive Connection to WAGO Protocol**
+## **Driver Connection to WAGO Protocol**
 
 1. On the "**Devices**" -> "**WAGO Protocol**" screen, click the "Add" button.
 2. Enter the device name in the Add window. 
@@ -48,7 +48,7 @@ Before you can use the WAGO Protocol driver, you need to connect to the MQTT Bor
       - *There is no need to configure other options, as the current VC Hub program does not implement them*.
 
     **Note**: Please do not check **Use Compression**, as this will cause the WAGO Protocol driver to fail in processing data. And for the fields not mentioned in the above list, checking these fields does not affect functionality, because VC Hub has not yet implemented the corresponding features.
-3.Connect to MQTT Broker: After confirming a successful connection, you can start transferring device data with the WAGO Protocol driver using the configured client. 
+3. Connect to MQTT Broker: After confirming a successful connection, you can start transferring device data with the WAGO Protocol driver using the configured client. 
    ![alt text](3.png)
 
 
