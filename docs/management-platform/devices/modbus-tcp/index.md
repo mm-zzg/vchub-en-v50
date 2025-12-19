@@ -16,6 +16,7 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
    ![alt text](1.png)
 4. Click the Enable button in the Enable Status column to enable the device.
    ![alt text](2.png)
+
 **Configuration Fields**
 
 | **Name**                | **Description**                                   |
@@ -31,9 +32,7 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 
    **Frame**: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the VC Hub program.
 
-6.In the Add Frame page, leave the default values and enter the following information in the following fields. 
-
- **Note:** The following data is only an example, please fill in the fields according to the actual situation.
+6.In the Add Frame page, leave the default values and enter the following information in the following fields. (**Note:** The following data is only an example, please fill in the fields according to the actual situation.)
 
  - Name: HoldingRegister1
  - Slave Address: 1
@@ -58,7 +57,7 @@ The Modbus TCP driver in VC Hub communicates data with devices (typically PLCs, 
 | Data Encoding  | The data encoding method of the frame                                                                                        |
 | Frequency (ms) | The frequency of data acquisition in milliseconds. (Displayed only when the memory area is an input register, hold register) |
 
-**Note**
+**Notes:**
 
 1. In the device list, The **Enabled Status** indicates whether the device has been enabled or not, unenabled devices will not connect and enabled devices will try to connect; the **Connection Status** indicates whether the device has successfully established a communication connection with the system.
 2. **Enable All** and **Disable All** are to enable or disable all data in the list.

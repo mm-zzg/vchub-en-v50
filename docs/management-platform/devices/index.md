@@ -6,13 +6,13 @@
 
 ## **Supported Device Types**
 
-- Modbus TCP
-- Modbus RTU
-- OPC UA
-- MQTT Native
-- MQTT SparkplugB
-- SIEMENS S7
-- WAGO Protocol
+- [Modbus TCP](modbus-tcp/index.md)
+- [Modbus RTU](modbus-rtu/index.md)
+- [OPC UA](opc-ua/index.md)
+- [MQTT Native](mqtt-native/index.md)
+- [MQTT SparkplugB](mqtt-sparkplugb/index.md)
+- [SIEMENS S7](siemens-s7/index.md)
+- [WAGO Protocol](wago-protocol/index.md)
 
 ![alt text](1.png)
 
@@ -23,7 +23,7 @@
 
 1.  Add the device.
 2.  Add the I/O tag in the Assets window of the editor. Bind a data source to the tag and select the device you added in step 1 in the data source. See the "Creating Tags" page.
-3.  Bind a data source to the tag and select the device you added in step 1 in the data source. See the "I/O Tag Binding Data Source" page.
+3.  Bind a data source to the tag and select the device you added in step 1 in the data source. See the "[I/O Tag Binding Data Source](../assets-and-tags/tag/creating-tags/io-tag-binding-data-source.md)" page.
 
 ![alt text](2.png)
 

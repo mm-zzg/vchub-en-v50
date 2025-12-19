@@ -2,12 +2,12 @@
 
 ## **What is a project?**
 
-Projects are used to manage the visualization elements of the **VC Hub** system, and through multi-project management, it is possible to clearly differentiate between the presentation and design of configuration screens in several industrial application scenarios. In a project, **configuration controls**, **tag** **s** and **scripts** allow the user to freely configure a variety of digital visualization interfaces in order to cope with different industrial production scenarios.
+Projects are used to manage the visualization elements of the VC Hub system, and through multi-project management, it is possible to clearly differentiate between the presentation and design of configuration screens in several industrial application scenarios. In a project, **configuration controls**, **tag** **s** and **scripts** allow the user to freely configure a variety of digital visualization interfaces in order to cope with different industrial production scenarios.
 
 In the VC Hub system, the project is a configuration unit that contains:
 
-- 2D Configuration: A rich graphical configuration editor.
-- 3D Configuration: A three-dimensional graphical configuration editor, which, once configured, can be displayed on the screen by means of the 3D controls in the **2D Configuration**.
+- [2D Configuration](../../2d-visualization/index.md): A rich graphical configuration editor.
+- [3D Configuration](../../3d-visualization/index.md): A three-dimensional graphical configuration editor, which, once configured, can be displayed on the screen by means of the 3D controls in the **2D Configuration**.
 
 In a single project, multiple configuration pages can be managed at the same time, the project can be seen as a folder of multiple related configuration screens. Through this mechanism, in an industrial generation environment with relatively more scenes, users can create multiple projects, each managing a production scene in the project, and a production scene consists of multiple screens to achieve the goal of clear management of configuration screens, and to make the later maintenance easier.
 
@@ -35,21 +35,23 @@ After successfully logging in to the system, users will be taken to the project 
 
 ![alt text](2.png)
 
-Projects are presented in both lists and charts, which are switched via the icon in the upper left corner.Default list mode.
+Projects are presented in both lists and charts, which are switched via the icon in the upper left corner.
+
+The default mode is list view.
 
 ![alt text](3.png)
 
 
-| Icon        |  Description   |                                                                                                                                                                                                                                                                                                                                                                                                         
+| Icon        |  Description   |                                  
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![alt text](4.png)| Use chart mode to display. <br> ![alt text](5.png)|
 | ![alt text](6.png)| Use list mode to display. <br> ![alt text](7.png)|
 
 #### **Query**
 
-Users in the main page of the project, you can view all the projects in the current system, the default **creation time** in reverse order, users can customize the order, currently only supports**, creation time, name** of the reverse order of the positive order of the arrangement.
+Users in the main page of the project, you can view all the projects in the current system. By default, projects are sorted in descending order by creation time. Users can also customize the sorting as needed. Currently, sorting by creation time or project name in both ascending and descending order is supported.
 
-Users can switch the factory to display in list or arrangement mode through the button on the upper left corner, the default is to display in list mode, after clicking the arrangement mode on the left side, as shown in the figure below, only the project name and project picture are displayed.
+Users can switch the project to display in list or arrangement mode through the button on the upper left corner, the default is to display in list mode, after clicking the arrangement mode on the left side, as shown in the figure below, only the project name and project picture are displayed.
 
 Users can input the keywords of the **project name** through the input box at the upper right corner to filter out the projects to be displayed by fuzzy filtering.
 
@@ -79,7 +81,7 @@ Select any project and click Design button to open the project design page.
 ![alt text](11.png)
 
 
-Please refer to: 2D Configuration, 3D Configuration, Assets and Tags for specific function introduction of the design page.
+Please refer to: [2D Configuration](../../2d-visualization/index.md), [3D Configuration](../../3d-visualization/index.md), [Assets and Tags](../assets-and-tags/index.md) for specific function introduction of the design page.
 
 #### **Run**
 
