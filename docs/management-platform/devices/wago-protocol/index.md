@@ -47,7 +47,7 @@ Before you can use the WAGO Protocol driver, you need to connect to the MQTT Bor
       - After a short wait, check the connection status in **Cloud Connectivity** on the WBM. The Cloud connection will display "connected".
       - *There is no need to configure other options, as the current VC Hub program does not implement them*.
 
-    **Note**: Please do not check **Use Compression**, as this will cause the WAGO Protocol driver to fail in processing data. And for the fields not mentioned in the above list, checking these fields does not affect functionality, because VC Hub has not yet implemented the corresponding features.
+    **Note**: Please do not check **Use Compression**, as this will cause the WAGO Protocol driver to fail in processing data. And for the fields not mentioned in the above list, checking these fields does not affect functionality, because VC Hub has not yet implemented the corresponding features.<br>
 3. Connect to MQTT Broker: After confirming a successful connection, you can start transferring device data with the WAGO Protocol driver using the configured client. 
    ![alt text](3.png)
 
