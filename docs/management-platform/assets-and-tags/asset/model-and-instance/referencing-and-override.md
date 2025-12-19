@@ -53,10 +53,9 @@ When the "Instantaneous power" under the "Motor" model is deleted, the "Instanta
 
 ## **Override**
 
-![alt text](30.png)
-
-
 In the above, the definition of reference is introduced, and the concept of rewriting occurs between the reference and the referenced node.
+
+![alt text](30.png)
 
 As shown in the figure, the "instantaneous power" under the "line instance" is referenced from the "instantaneous power" under the "line" model, and the "instantaneous power" under the "line" model is referenced from the "motor" model. The "instantaneous power" under the "line" model is referenced from the "instantaneous power" under the "motor" model, which, in general, realizes a 2-tier referencing Overall, a 2-layer referencing relationship is realized.
 

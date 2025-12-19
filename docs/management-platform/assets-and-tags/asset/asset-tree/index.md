@@ -7,8 +7,8 @@ Within the editor, click on the Assets window to switch to the asset tree list. 
 
 Icon description of the node type：
 
-| **Icon**                                                                                                                                                                                                                              | **Description** |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| **Icon**   | **Description** |
+|---------|-----------------|
 | ![alt text](2.png)| Folder          |
 | ![alt text](3.png)| Model           |
 | ![alt text](4.png)| Instance        |
@@ -23,15 +23,15 @@ Icon description of the node type：
 ![alt text](10.png)
 
 | Icon |Description |
-|----------------------------------|-----------------------------------------|
+|-----------|------------------|
 | ![alt text](11.png) | When this icon is clicked, the top toolbar converts to a query box. <br> ![alt text](12.png) <br>After entering the search keyword in the query box, the list below will filter out all nodes with this keyword in their name.   Nodes at different levels will be displayed flat in the list. <br>![alt text](13.png) <br> Click on the left side of the "All" behind the drop-down button to display the filter conditions, you can filter by conditions.  <br>![alt text](14.png)  |
-| ![alt text](15.png) | The asset drop-down box allows you to toggle the assets in the current project at will                                                                                                                                                               |
+| ![alt text](15.png) | Using the asset drop-down list, users can freely switch between assets within the current project. |
 | ![alt text](16.png) | The Refresh button, when clicked, reloads the list in the Asset Selection box on the left, and the data in the Asset Tree list below.  |
-|![alt text](17.png) | Add button, when clicked it will bring up the Add menu, in which you can select what you need to add. The data added here will be displayed in the root node.  Instances and Models tabs, different categories for additions.   <br>**Instance tab**   <br>![alt text](18.png)   <br>**Model tab**  <br> ![alt text](19.png)  |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| |
-| ![alt text](20.png) | Click and select the export and import operations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|![alt text](21.png) | Set the columns that are displayed in the asset tree.  Instances and Models tabs, the columns that can be displayed are different. <br> **Instance tab** <br> ![alt text](22.png) <br> **Model tab** <br> ![alt text](23.png)  |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                                                                                        |
+|![alt text](17.png) | Add button, when clicked it will bring up the Add menu, in which you can select what you need to add. The data added here will be displayed in the root node.  Instances and Models tabs, different categories for additions.   <br>**Instance tab**   <br>![alt text](18.png)   <br>**Model tab**  <br> ![alt text](19.png) |
+| ![alt text](20.png) | Click and select the export and import operations.  |
+|![alt text](21.png) | Set the columns that are displayed in the asset tree.  Instances and Models tabs, the columns that can be displayed are different. <br> **Instance tab** <br> ![alt text](22.png) <br> **Model tab** <br> ![alt text](23.png) |
 
-## Batch Operation
+## **Batch Operation**
 
 The user can click the "More" button in the upper right corner of the editor and select "Batch Operation".
 
@@ -43,7 +43,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 
 #### **Model tab**
 
-###### **Folder right-click menu**
+##### **Folder right-click menu**
 
 ![alt text](25.png)
 
@@ -55,7 +55,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Rename: Click on this button to change the current node to edit status. The renamed folder cannot be renamed with other nodes under the current hierarchy. It should be noted that after renaming a folder, the paths of the child nodes under it will be changed.
 - Copy Path: Click to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 
-###### **Model right-click menu**
+##### **Model right-click menu**
 
 ![alt text](26.png)
 
@@ -70,7 +70,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Rename: After clicking this button, the current node will be changed to edit status and you can rename the model. The renamed model cannot be renamed with other nodes under the current hierarchy. It should be noted that after renaming, the paths of the child nodes under it will be changed.
 - Copy Path: Click to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 
-###### **Right-click menu for tags under the model**
+##### **Right-click menu for tags under the model**
 
 ![alt text](27.png)
 
@@ -79,7 +79,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Rename: After clicking the button, the node will change to edit status and you can rename the tag. The renamed tag cannot be renamed with other nodes under the current hierarchy. It should be noted that the path of the tag will be changed after renaming.
 - Copy Path: Click to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 
-###### **Right-click menu for set under model**
+##### **Right-click menu for set under model**
 
 ![alt text](28.png)
 
@@ -87,7 +87,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Rename: After clicking, the node changes to edit status and you can rename the set. The renamed name cannot be renamed with other nodes under the current hierarchy. It should be noted that the path of the set will be changed after renaming.
 - Copy Path: Click to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 
-###### **Right-click menu for instances under model**
+##### **Right-click menu for instances under model**
 
 ![alt text](29.png)
 
@@ -96,14 +96,14 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Rename: Click on this node to change to edit status, you can rename the instance. The renamed instance cannot be renamed with other nodes under the current hierarchy. It should be noted that the path of the instance will be changed after renaming.
 - Copy Path: Click to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 
-######  **Right-click menu for tags under instance**
+#####  **Right-click menu for tags under instance**
 
 ![alt text](30.png)
 
 - Edit: Click it to bring up the edit window of the tag. The content is the same as the Add window. In the editing window, the name and data type can not be modified, while others can be modified.
 - Copy Path: click it to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 
-###### **Right-click menu for set under instance**
+##### **Right-click menu for set under instance**
 
 ![alt text](31.png)
 
@@ -111,7 +111,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 
 #### **Instance tab**
 
-###### **Folder right-click menu**
+##### **Folder right-click menu**
 
 ![alt text](32.png)
 
@@ -127,7 +127,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Copy Path: Click to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 - Export Tag Configuration: Click this button to export the configuration information of all tags under the current node. Each configuration item is divided into one sheet, for example, one sheet for basic attributes, one sheet for events, and one sheet for alarms, including limit alarms, equal alarms, rate of change alarms, and switch alarms.
 
-###### **Instance right-click menu**
+##### **Instance right-click menu**
 
 ![alt text](33.png)
 
@@ -139,7 +139,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Copy Path: Click to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 - Export Tag Configuration: Click this button to export the configuration information of all tags under the current node. Each configuration item is divided into one sheet, for example, one sheet for basic attributes, one sheet for events, and one sheet for alarms, including limit alarms, equal alarms, rate of change alarms, and switch alarms.
 
-###### **Right-click menus for tags not under an instance**
+##### **Right-click menus for tags not under an instance**
 
 ![alt text](34.png)
 
@@ -150,7 +150,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Copy Path: Click to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 - Export Tag Configuration: Click this button to export the configuration information of all tags under the current node. Each configuration item is divided into one sheet, for example, one sheet for basic attributes, one sheet for events, and one sheet for alarms, including limit alarms, equal alarms, rate of change alarms, and switch alarms.
 
-###### **Right-click menu for tag under instances**
+##### **Right-click menu for tag under instances**
 
 ![alt text](35.png)
 
@@ -158,7 +158,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Copy Path: click it to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 - Export Tag Configuration: click it to export the configuration information of all tags under the current node. Each configuration item is divided into one sheet, for example, one sheet for basic attributes, one sheet for events, and one sheet for alarms, including limit alarms, equal alarms, rate of change alarms, and switch alarms.
 
-###### **Right-click menu for instances under instances**
+##### **Right-click menu for instances under instances**
 
 ![alt text](36.png)
 
@@ -166,7 +166,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Copy Path: click it to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 - Export Tag Configuration: click it to export the configuration information of all tags under the current node. Each configuration item is divided into one sheet, for example, one sheet for basic attributes, one sheet for events, and one sheet for alarms, including limit alarms, equal alarms, rate of change alarms, and switch alarms.
 
-###### **Right-click menu for sets under instances** 
+##### **Right-click menu for sets under instances** 
 
 ![alt text](37.png)
 
@@ -174,7 +174,7 @@ You can right-click on individual nodes in the asset tree to perform various ope
 - Copy Path: Click it to copy the path of the current node. After copying, you can paste the path directly into the text input box.
 - Export Tag Configuration: click to export the configuration information of all tags under the current node. Each configuration item is divided into one sheet, for example, one sheet for basic attributes, one sheet for events, and one sheet for alarms, including limit alarms, equal alarms, rate of change alarms, and switch alarms.
 
-###### **Right-click menu for instances under sets**
+##### **Right-click menu for instances under sets**
 
 ![alt text](38.png)
 
@@ -185,11 +185,11 @@ You can right-click on individual nodes in the asset tree to perform various ope
 
 ## **Shortcuts**
 
-#### Double-click the node to open the edit window
+#### **Double-click the node to open the edit window**
 
 Double-click on the Tag, Model, and Instance nodes in the asset tree to open the corresponding edit window.
 
-#### Double-click to change value
+#### **Double-click to change value**
 
 Double click on the value of a tag in the asset tree, the value will be changed to edit status, you can modify the value of the tag, input the value and then press the Enter key or click on the area outside the input box to complete the saving of the value.
 
@@ -234,8 +234,8 @@ The status column of a tag will visualize the status of the tag's partial config
 
 The status icons are described below:
 
-| **Icon**                                                                                                                                                                                                                              | **Description**                                                                           |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| **Icon**  | **Description**  |
+|---|--------|
 | ![alt text](44.png) | This icon is displayed when the tag has alarm configuration turned on.                    |
 | ![alt text](45.png) | This icon is displayed when history storage is enabled for the tag.                       |
 | ![alt text](46.png) | This icon is displayed when range conversion is enabled for the tag.                      |
