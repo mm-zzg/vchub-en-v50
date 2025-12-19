@@ -1,6 +1,6 @@
 # Cannot Log In
 
-**Note:** If you forget all administrator user passwords for the current workspace you will not have any opportunity to log back into the current workspace. Please make sure to securely store the password.
+**Note:** If you forget all user passwords for the current workspace you will not have any opportunity to log into the current workspace. Please make sure to securely store the password.
 
 If you are unable to log into the current workspace, you can try switching workspaces or creating a new workspace.
 
@@ -18,7 +18,7 @@ If you have other workspaces in your system and have the login information for t
       ![alt text](23.png)
       - Open each workspace folder and check the worspace name in the **.ini** file. Find the workspace where you know the username and password, and record its Id.
       ![alt text](21.png)
-4. **Modify the .ini file in the root directory of the workspace folder.**<br> Change the **Current** field to the Id recorded in the previous step.
+4. **Modify the ".ini" file in the root directory of the workspace folder.**<br> Change the **Current** field to the Id recorded in the previous step.
       ![alt text](22.png)
 5. **Restart the service.**
 6. **Log in with the switched workspace user.**
