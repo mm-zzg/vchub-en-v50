@@ -249,6 +249,7 @@ nav:
                                       - Tag Type:
                                                 - management-platform/assets-and-tags/tag/tag-type/index.md
                                                 - management-platform/assets-and-tags/tag/tag-type/system-tag.md
+                                                - management-platform/assets-and-tags/tag/tag-type/remote-tag.md
                                       - Creating Tags:
                                                 - management-platform/assets-and-tags/tag/creating-tags/index.md
                                                 - management-platform/assets-and-tags/tag/creating-tags/io-tag-binding-data-source.md

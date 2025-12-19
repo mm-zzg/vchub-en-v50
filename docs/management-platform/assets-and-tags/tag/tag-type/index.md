@@ -11,8 +11,8 @@ Of these, memory tags, I/O tags, and expression tags are allowed to be created, 
 
 The types of tags that can be created by the user have their own icons in the asset tree:
 
-| Icon                                                                                                                                                                                                                                  | Tag Type       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| Icon   | Tag Type       |
+|------|----------------|
 | ![alt text](1.png) | Memory tag     |
 | ![alt text](2.png) | I/O tag        |
 | ![alt text](3.png) | Expression tag |

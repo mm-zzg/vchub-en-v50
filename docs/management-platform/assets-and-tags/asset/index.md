@@ -32,7 +32,6 @@ There are two types of assets to choose from : local assets, and remote assets.
  Remote assets can be configured with the asset name of a remote node in the group network, and through this binding information, access to the tags of other nodes.
 
  Remote asset works by forwarding the read request to the remote node through the network, and the remote node receives the request and returns the result through the network.
- Currently, the remote asset only has the permission to read the asset data in the remote node, and any update operation can only be realized in the local asset.
 
 ![alt text](2.png)
 
