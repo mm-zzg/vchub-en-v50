@@ -2,7 +2,7 @@
 
 Before testing the Open API, we should first acquire the access token.
 
-1. Log in VC Hub, navigate to the **Security->OIDC Server(Open API)** page, and create a new pair of client ID and client secret.  For details about the API credential management page, refer to chapter **"Secutity -> OIDC Server(Open API) Registrations"**. 
+1. Log in VC Hub, navigate to the **Security->OIDC Server(Open API)** page, and create a new pair of client ID and client secret.  For details about the API credential management page, refer to chapter [OIDC Server(Open API) Registrations](../../security/open-api.md). 
 
     ![alt text](1.png)
 
@@ -41,11 +41,11 @@ Before testing the Open API, we should first acquire the access token.
 
     ![alt text](8.png)
 
-| **Key**       | **Description**                                                                         |
-|---------------|-----------------------------------------------------------------------------------------|
-| client_id     | The client id registered in the API credentials management page                         |
-| client_secret | The client secret registered in the API credentials management page                     |
-| grant_type    | The grant type of the open id request. Only the "client_credentials" value is supported |
+    | **Key**       | **Description**|
+    |---------------|---------------|
+    | client_id     | The client id registered in the API credentials management page                         |
+    | client_secret | The client secret registered in the API credentials management page                     |
+    | grant_type    | The grant type of the open id request. Only the "client_credentials" value is supported |
 
 
 
