@@ -8,7 +8,7 @@ The following alarm types are supported:
 
 - **Limit Alarm**: Alarms are generated when the value of the tag meets the set limit conditions. VC Hub has eight built-in limit values, four high limits and four low limits.  You can set several limit conditions at the same time. If a tag value meets more than one limit, an alarm is triggered for each limit.
 
-    Example: The high limit value of temperature is 20, the hh limit value of temperature is 40, and the current value of tag is 50, then the tag will generate 2 limit alarms, one alarm for the high limit and one alarm for the hh limit.
+    *Example*: The high limit value of temperature is 20, the hh limit value of temperature is 40, and the current value of tag is 50, then the tag will generate 2 limit alarms, one alarm for the high limit and one alarm for the hh limit.
 
 - **Rate of Change Alarm**: An alarm is generated when the rate of change of the tag value exceeds the set rate of change.
 - **Equivalent Alarm**: Generates an alarm when the tag value is equal to the preset alarm value.
@@ -97,7 +97,7 @@ When alarm configuration is enabled on a tag, the corresponding chart will be di
 
 **View Real-Time Alarm Data**
 
-You can use the [Realtime Alarm](docs/2d-visualization/controls/alarm/real-time-alarm/index.md) control to view alarm data. 
+You can use the [Realtime Alarm](../../2d-visualization/controls/alarm/real-time-alarm/index.md) control to view alarm data. 
 
 ![alt text](3.png)
 
