@@ -61,9 +61,10 @@ Step 7: On Node B, approve Node A’s connection from the incoming connection li
 
  **Note:** 
  
- If "Require Two Way Authentication" is enabled on Node A:     
-   - If Node B’s root certificate is not in Node A’s Trust Store, its certificate will appear in Node A’s *Outgoing Certificate List* after step 5. Approve it to proceed.    
-   - If Node B’s root certificate is in Node A’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. 
+ If "Require Two Way Authentication" is enabled on Node A: 
+     
+- If Node B’s root certificate is not in Node A’s Trust Store, its certificate will appear in Node A’s *Outgoing Certificate List* after step 5. Approve it to proceed.    
+- If Node B’s root certificate is in Node A’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. 
 
 ## **Basic Network Configuration**
 
