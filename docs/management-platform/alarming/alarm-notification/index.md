@@ -28,6 +28,6 @@ The notification scheduling is the fifth step in sending alarm notifications, us
 
 The notification rule is the sixth step in sending alarm notifications, used to set the conditions for sending alarms, selecting the notification service, recipients, and scheduling.
 
-#### Add Alarm Rule To A Tag
+#### Add Alarm Rule To a Tag
 
 The last step of the alarm notification is to select the notification rule for each alarm of the tag. When an alarm occurs for the tag, the alarm content will be generated according to this notification rule.
