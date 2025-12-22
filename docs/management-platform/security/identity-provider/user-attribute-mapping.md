@@ -28,22 +28,38 @@ User attribute mapping allows you to map information from the Identity Provider 
 **Example**
 
 1. Assume the **ID Token** returned by the **Identity Provider** contains the following information:
-   {
-   "username": "alex",
-   "email": `alex@example.com`,
-   "user_roles": "admin"
-   "name": "Alex Zhang"
-   }
-2. The mapping paths can be set as follows:
+
+{
+
+"username": "alex",
+
+"email": `alex@example.com`,
+
+"user_roles": "admin"
+
+"name": "Alex Zhang"
+
+}
+
+2.The mapping paths can be set as follows:
+
   ![alt text](35.png)
+
    - `username` → The local username（username）
    - `email` → The local email（email）
    - `user_roles` → The local role（role）
    - `name` → The local name（name）
-3. In **VC Hub**, the end-user information is mapped as follows:
-{
+
+3.In **VC Hub**, the end-user information is mapped as follows:
+
+   {
+
    "username": "alex",
+
    "email": `alex@example.com`,
+
    "role": "admin"
+
    "name": "Alex Zhang"
+
 }
