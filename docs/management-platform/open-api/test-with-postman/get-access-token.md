@@ -37,7 +37,7 @@ Before testing the Open API, we should first acquire the access token.
 
 
 
-6.  Enter the client ID and client secret registered on API credentials page,  as shown in the example below. Set the grant_type to "client_credentials", then click the send button. The access token can be extracted from the HTTP response. Note that the request body format must be  **x-www-form-urlencoded.**
+6. Enter the client ID and client secret registered on API credentials page, as shown in the example below. Set the grant_type to "client_credentials", then click the send button. The access token can be extracted from the HTTP response. Note that the request body format must be **x-www-form-urlencoded.**
 
     ![alt text](8.png)
 
