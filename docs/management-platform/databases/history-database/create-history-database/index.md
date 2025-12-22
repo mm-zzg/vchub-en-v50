@@ -15,15 +15,15 @@
 
 **Configuration description**
 
-| **Configuration items** | **Description**                                                                                                              |
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Name                                 | Name of the history database.                                                                                                  |
-| Description                          | Description Information of the history database.                                                                               |
-| Database Connection                  | The database connection used for this configuration, derived from data created by the Database Connections page.               |
-| Enable Partitioning                  | Whether or not to partition the stored historical data for storage.                                                            |
+| **Configuration items** | **Description** |
+|-------------------------|------------|
+| Name                                 | Name of the history database.  |
+| Description                          | Description Information of the history database. |
+| Database Connection                  | The database connection used for this configuration, derived from data created by the Database Connections page. |
+| Enable Partitioning                  | Whether or not to partition the stored historical data for storage. |
 | Partition Size                       | The size of the data storage partition. According to the partitioning rules, data with the same rules will be stored together. |
-| Enable Pre-Processed                 | Whether to enable preprocessing.                                                                                               |
-| Pre-Processing Window Size(min)      | The time window interval for preprocessing historical data.                                                                    |
-| Enable Data Pruning                  | Whether or not to delete historical data that exceeds the data purge time configuration.                                       |
-| Prune Range                          | Data retention time, data exceeding this configuration will be deleted.                                                        |
+| Enable Pre-Processed                 | Whether to enable preprocessing.   |
+| Pre-Processing Window Size(min)      | The time window interval for preprocessing historical data. |
+| Enable Data Pruning                  | Whether or not to delete historical data that exceeds the data purge time configuration. |
+| Prune Range                          | Data retention time, data exceeding this configuration will be deleted.  |
 

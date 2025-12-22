@@ -1,6 +1,10 @@
 # Data Partitioning and Deletion
 
-The history database will partition data into separate tables based on time settings so that a table does not grow indefinitely, and then delete old data to ensure that the system maintains query performance. When creating a configuration, partitioning will be enabled by default to improve query performance. Only when the query time range includes partitioned data will the appropriate partition be queried, thus avoiding querying inapplicable partitions and reducing database processing. On the other hand, the system must execute a query for each partition hit, so it is best to avoid using very large partitions, as well as partitions that are too small and have too much data fragmentation. When creating a configuration, choosing the right partition size based on the amount of business analytics data available will improve query and storage efficiency.
+The history database will partition data into separate tables based on time settings so that a table does not grow indefinitely, and then delete old data to ensure that the system maintains query performance. 
+
+When creating a configuration, partitioning will be enabled by default to improve query performance. Only when the query time range includes partitioned data will the appropriate partition be queried, thus avoiding querying inapplicable partitions and reducing database processing. 
+
+On the other hand, the system must execute a query for each partition hit, so it is best to avoid using very large partitions, as well as partitions that are too small and have too much data fragmentation. When creating a configuration, choosing the right partition size based on the amount of business analytics data available will improve query and storage efficiency.
 
 The data cleanup feature will delete partitioned data (raw and preprocessed partitioned tables) whose data is older than a specific period of time
 
