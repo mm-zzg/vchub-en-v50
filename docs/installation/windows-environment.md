@@ -28,7 +28,7 @@ Recommended Systems for Installation:
       ![alt text](10.png)
 8. The installation is complete.
       ![alt text](11.png)
-9.  After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.d
+9.  After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
 
 ## **Configuration Steps**
 
