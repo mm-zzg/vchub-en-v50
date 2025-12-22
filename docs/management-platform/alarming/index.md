@@ -97,13 +97,14 @@ When alarm configuration is enabled on a tag, the corresponding chart will be di
 
 **View Real-Time Alarm Data**
 
-You can use the [Realtime Alarm](../../2d-visualization/controls/alarm/real-time-alarm/index.md) control to view alarm data. 
+The [Realtime Alarm](../../2d-visualization/controls/alarm/real-time-alarm/index.md) control can be used to view the real-time alarm data.
+
 
 ![alt text](3.png)
 
 **View Historical Alarm Data**
 
-You can view alarm data using the [Historical Alarm](../../2d-visualization/controls/alarm/historical-alarm/index.md) control.
+The [Historical Alarm](../../2d-visualization/controls/alarm/historical-alarm/index.md) control can be used to view the historical alarm data.
 
 ![alt text](4.png)
 
