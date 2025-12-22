@@ -20,6 +20,7 @@ In **Realtime Alarm control**, users can filter or sort alarms based on these al
     | Name        | The name of the alarm group. The name must be unique and is required. |
     | Description | Description of the alarm group. It is optional.   |
     | Tag         | Assign tags to this alarm group.    |
+    
 3.After completing the configuration, click the "OK" button to finish adding the item.
 
 #### Search
