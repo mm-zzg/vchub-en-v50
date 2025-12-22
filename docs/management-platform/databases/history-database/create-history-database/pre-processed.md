@@ -14,9 +14,9 @@
 
 **Note**: When InfluxDB is selected , there is no configuration for partitioning, pre-processing, and data cleaning (InfluxDB itself has the above configurations,  VC Hub does not provide this configuration). 
 
-**ConfigurationDescription**
+**Configuration Description**
 
-| **ConfigurationItem** | **Description**   |
+| **Item** | **Description**   |
 |-----------------------|--------------|
 | Enable  Pre-processed  | Enables or disables preprocessing.   |
 | Pre-Processing Window Size(min)    | The interval of time window when preprocessing historical data. <br>For example, if the time is set to 1 min, the preprocessing table will summarize the raw data of 1min, calculate the maximum, minimum and average values within this 1 min,and store them to the preprocessing partition. |
