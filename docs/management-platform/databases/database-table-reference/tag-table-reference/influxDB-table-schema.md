@@ -26,15 +26,15 @@ the resulting Measurement name in InfluxDB would be: **tag_InfluxDbHistory_PC-SZ
 
 ![alt text](1.png)
 
-| Column Type | Column Type | Value Type | Description                                                                                                                                                                                                                            |
-|-------------|-------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| P           | Tag         | string     | Tag name                                                                                                                                                                                                                               |
-| T           | Tag         | string     | Value-type numeric string  1: Integer  2: String  3: Double  4: Boolean  5: DateTime                                                                                                                                                   |
-| Q           | Field       | Integer    | The value of Quality                                                                                                                                                                                                                   |
-| IV          | Field       | Integer    | When T = "1", the column stores the corresponding value; otherwise, it is set to Null.                                                                                                                                                 |
-| DV          | Field       | float      | When T = "3", the column stores the corresponding value; otherwise, it is set to Null.                                                                                                                                                 |
-| BV          | Field       | boolean    | When T = "4", the column stores the corresponding value; otherwise, it is set to Null.                                                                                                                                                 |
-| BIV         | Field       | integer    | When T = "4", the column stores the corresponding value: true is stored as 1, false as 0; otherwise, the column is set to Null.                                                                                                        |
+| Column Type | Column Type | Value Type | Description |
+|-------------|-------------|------------|-------------|
+| P           | Tag         | string     | Tag name   |
+| T           | Tag         | string     | Value-type numeric string  1: Integer  2: String  3: Double  4: Boolean  5: DateTime |
+| Q           | Field       | Integer    | The value of Quality |
+| IV          | Field       | Integer    | When T = "1", the column stores the corresponding value; otherwise, it is set to Null.|
+| DV          | Field       | float      | When T = "3", the column stores the corresponding value; otherwise, it is set to Null. |
+| BV          | Field       | boolean    | When T = "4", the column stores the corresponding value; otherwise, it is set to Null. |
+| BIV         | Field       | integer    | When T = "4", the column stores the corresponding value: true is stored as 1, false as 0; otherwise, the column is set to Null. |
 | DTV         | Field       | string     | When T = "5", the column stores the corresponding value; otherwise, it is set to Null.  The time will be converted to UTC and then formatted as a string in the `yyyy-MM-ddTHH:mm:ss.fffZ` format; otherwise, it will be stored as Null. |
-| SV          | Field       | string     | When T = "2", the column stores the corresponding value; otherwise, it is set to Null.                                                                                                                                                 |
+| SV          | Field       | string     | When T = "2", the column stores the corresponding value; otherwise, it is set to Null.  |
 

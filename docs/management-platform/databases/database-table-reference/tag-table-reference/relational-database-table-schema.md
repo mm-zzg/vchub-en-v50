@@ -1,6 +1,6 @@
 # Relational Database Table Schema
 
-The VC Hub system employs a shared table structure definition for four traditional relational databases: SQLite, SQL Server, PostgreSQL, and MySQL. This unified schema ensures consistent data management and simplifies integration across different database platforms.
+The VC Hub system employs a shared table structure definition for four traditional relational databases: **SQLite, SQL Server, PostgreSQL, and MySQL**. This unified schema ensures consistent data management and simplifies integration across different database platforms.
 
 By adopting a common structure, users can seamlessly switch between supported relational databases without needing to adjust their historical or event data configurations.
 
@@ -12,8 +12,8 @@ The Tag History Repository typically utilizes at least three distinct database t
 |--------------------|-----------|----------------------|
 | ScadaProviderMapping                                                | Registry of historical data source nodes and repository names, used to identify the origins of historical data. | ScadaTagMapping.ProviderId = ScadaProviderMapping.Id  ScadaTagHistory.ProviderId = ScadaProviderMapping.Id  ScadaTagHistory_X_X_X.ProviderId = ScadaProviderMapping.Id |
 | ScadaTagMapping                                                     | Registry of historical data tags and tag value types, used to register tags and provide tag IDs. | ScadaTagHistory.TagId = ScadaTagMapping.Id  ScadaTagHistory_X_X_X.TagId = ScadaTagMapping.Id |
-| ScadaTagHistory                                                     | This table stores raw tag historical data. When the historical database configuration is set to non-partitioned mode, the data is saved in this table. |                                                                                                                                                                        |
-| ScadaTagHistory_{**ProvideId**}_{**PartitonSize**}_{**DateKey**}    | This table stores raw tag historical data. When the historical database configuration is set to partitioned mode, the data is saved in this table.  There will be multiple tables that fit this format depending on:   <br>**ProviderId** (ScadaProviderMapping.Id)  <br>**PartitonSize**(day、week、month、quarter、halfyear、year)  <br>**DateKey**(DateKey calculated based on the current time and partition size.) |                                                                                                                                                                        |
+| ScadaTagHistory                                                     | This table stores raw tag historical data. When the historical database configuration is set to non-partitioned mode, the data is saved in this table. |    |
+| ScadaTagHistory_{**ProvideId**}_{**PartitonSize**}_{**DateKey**}    | This table stores raw tag historical data. When the historical database configuration is set to partitioned mode, the data is saved in this table.  There will be multiple tables that fit this format depending on:   <br>**ProviderId** (ScadaProviderMapping.Id)  <br>**PartitonSize**(day、week、month、quarter、halfyear、year)  <br>**DateKey**(DateKey calculated based on the current time and partition size.) |     |
 | ScadaTagPreProcessed_{**ProvideId**}_{**WindowSize**}_{**DateKey**} | This table stores preprocessed data. When the historical repository configuration enables preprocessing, the raw data is stored in this table according to the preprocessing settings. Multiple tables may follow this format, depending on the specific configuration <br> **ProviderId**(ScadaProviderMapping.Id)  <br>**WindowSize**  (Historical database configuration)  <br>**DateKey** (Grouped by original data timestamp using the `yyyyMM` format) ||
 
 ![alt text](2.png)
@@ -25,25 +25,25 @@ The Tag History Repository typically utilizes at least three distinct database t
 The tag is associated with an asset, and the asset is linked to a historical repository. The name of the historical repository, combined with the node name of the current historical data source, forms the structure of this table.
 A registry of historical data source node names and repository names is used to identify the origin of historical data.
 
-| **Column Name** | **Data Type** | **Description**                                                                                                   |
-|-----------------|---------------|-------------------------------------------------------------------------------------------------------------------|
-| Id              | BigInt        | Auto-incrementing ID. Referenced by the tables `ScadaTagMapping`, `ScadaTagHistory`, and `ScadaTagHistory_X_X_X`. |
-| Node            | String        | Node name of the data source.                                                                                     |
-| Provider        | String        | The name of the historical database bound to the asset.                                                           |
+| **Column Name** | **Data Type** | **Description**   |
+|-----------------|---------------|-----------|
+| Id              | BigInt        | Auto-incrementing ID. <br>Referenced by the tables `ScadaTagMapping`, `ScadaTagHistory`, and `ScadaTagHistory_X_X_X`. |
+| Node            | String        | Node name of the data source. |
+| Provider        | String        | The name of the historical database bound to the asset.   |
 
 ## ScadaTagMapping
 
 Registry of historical data tags and tag value types, used to register tags and provide tag IDs.
 
-| **Column Name** | **Data Type** | **Description**                                                                               |
-|-----------------|---------------|-----------------------------------------------------------------------------------------------|
-| Id              | BigInt        | Auto-incrementing ID. Referenced by the tables `ScadaTagHistory` and `ScadaTagHistory_X_X_X`. |
-| Tag             | String        | The name of tag                                                                               |
+| **Column Name** | **Data Type** | **Description**  |
+|-----------------|---------------|-------------|
+| Id              | BigInt        | Auto-incrementing ID. <br>Referenced by the tables `ScadaTagHistory` and `ScadaTagHistory_X_X_X`. |
+| Tag             | String        | The name of tag   |
 | Type            | TinyInt       | Data type used for tag storage 1: Integer 2: String 3: Double 4: Boolean 5: DateTime          |
-| ProviderId      | BigInt        | Source of ScadaProviderMapping ID                                                             |
-| NormalizedName  | String        | String After Tag Is Converted to Chinese Pinyin                                               |
+| ProviderId      | BigInt        | Source of ScadaProviderMapping ID |
+| NormalizedName  | String        | String After Tag Is Converted to Chinese Pinyin   |
 
-## ScadaTagHistory
+## ScadaTagHistory or ScadaTagHistory_{ProvideId}_ {PartitonSize}_ {DateKey}
 
 **Raw Tag History Storage**
 

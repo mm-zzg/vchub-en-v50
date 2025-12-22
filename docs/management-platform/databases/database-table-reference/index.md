@@ -4,7 +4,8 @@ VC Hub integrates multiple built-in systems that automatically query data withou
 
 Since historical data is stored within database tables, users have the option to manually access and query the data, enabling customized data views as needed.
 
-**Important Note**
+**Notes**
+
 These tables follow specific structural definitions. Unintended modifications to table structures may lead to unpredictable issues. It is strongly advised not to alter or delete existing table structures.
 
 Although direct manual querying of table data is technically possible, we recommend performing a full database backup prior to making any changes or executing operations. Please note that any risks resulting from modifications to data or table structure will be the responsibility of the user.
@@ -30,7 +31,7 @@ The node primarily serves as a unique identifier, enabling other VC Hub instance
 
 ## Asset
 
-Within the **Asset** page, users can configure the repository for **Tag History**. When a tag associated with the asset is enabled for historical recording, the system will write data to the designated historical database either upon changes to the database or at predefined intervals.
+On the "Tags → Asset" page, you can configure the historical storage for tags. When "History" is enabled for a tag, its historical data will be stored in the corresponding history database.
 
 ![alt text](2.png)
 
@@ -38,7 +39,7 @@ Within the **Asset** page, users can configure the repository for **Tag History*
 
 ## History Database
 
-Within the **History Database** page, users can configure both the **storage medium** and **storage format** for tag history. This flexibility allows tailored data archiving solutions that align with system requirements and performance preferences.
+On the "Database → History Database" page, you can configure the storage medium and storage format for tag history data.
 
 ![alt text](3.png)
 
@@ -48,7 +49,7 @@ Within the **History Database** page, users can configure both the **storage med
 
 The VC Hub system currently supports five types of databases: **MySQL**, **SQL Server**, **PostgreSQL**, **SQLite**, and **InfluxDB**.
 
-Users can configure the database connection by specifying the appropriate **connection URL**, **username**, and other relevant credentials. These configured databases are then utilized for storing **alarm history** and **tag history** data.
+Users can configure the database connection by specifying the appropriate connection URL, username, and other relevant credentials. These configured databases are then utilized for storing alarm history and tag history data.
 
 ![alt text](4.png)
 
