@@ -36,7 +36,10 @@ JS is used in many locations within VC Hub. Each location has its own events tha
 The following are common usage scenarios:
 
 - Controls: Add actions to controls such as buttons, customize the appearance of charts and tables, and even set up custom navigation architectures.
-- Lifecycle: Trigger scripts to run when controls or screens are loaded/unloaded.
+- Lifetime Event: Trigger scripts to run when controls or pages are loaded/unloaded.
 - Schedule: Execute scripts at regular intervals.
 - Custom Functions: Allow users to define their own functions to be used as shortcut selections in scripts.
+- Expression Functions: Expression functions are predefined functions that can be called in multiple places within a project. When you execute an expression function, you can pass parameters to it to get the execution result, which helps avoid writing the same logic repeatedly.  
+- Page Functions: Page functions are predefined functions that can be called in multiple places within a project. When you execute an page function, you can pass parameters to it to get the execution result, which helps avoid writing the same logic repeatedly.
+
 

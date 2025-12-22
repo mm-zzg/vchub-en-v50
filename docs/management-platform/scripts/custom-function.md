@@ -21,7 +21,7 @@ You can create a custom function by clicking the "Add" button on the upper right
 
 **Example**
 
-1. Create a custom function named : getTagValue.
+1. Create a custom function named: getTagValue.<br>
     The script is as follows: 
     ```typescript
     export async function getTagValue() {
@@ -30,10 +30,10 @@ You can create a custom function by clicking the "Add" button on the upper right
     console.log(data.value)
     }
     ```   
-2. Draw a button control on the screen and write the following script in the control's mouse down action: 
+2. Draw a button control on the page and write the following script in the control's mouse pressed action: 
     ```typescript
     userDefined.getTagValue()
     ```
-3. Click the "Preview" button on the screen, and this script will be executed when the button is pressed on the running screen, and then the value of the lookup tag will be printed on the console.
+3. Click the "Preview" button on the page, and this script will be executed when the button is pressed on the running page, and then the value of the tag will be printed on the console.
 
     ![custom](../../assets/images/custom.gif)
