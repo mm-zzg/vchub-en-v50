@@ -15,8 +15,8 @@ Used to configure the email sending service for alarm notifications.
 
 **Properties**
 
-| **Name**          | **Description**                                                                  |
-|-------------------|----------------------------------------------------------------------------------|
+| **Name**          | **Description**   |
+|-------------------|-------------------|
 | Name              | Notification service name.                                                       |
 | Description       | Notification service description.                                                |
 | From Address      | Email account required for sending emails.                                       |
@@ -38,14 +38,14 @@ To use an app-specific password, the Gmail account must have two-step verificati
 
 1. Open your  [Google Account](https://myaccount.google.com/).
 2. In the navigation panel, select **Security**.
-3. Under “How you sign in to Google,” select **Turn on** **2-Step Verification**.
+3. Under "How you sign in to Google", select **Turn on 2-Step Verification**.
 4. Follow the steps.
 
     ![alt text](4.png)
 
 **Sign in with app passwords**
 
-**Important Note: To create an app-specific password, you must enable two-step verification for your Google account**
+**Important Note:** To create an app-specific password, you must enable two-step verification for your Google account.
 
 1. Visit the app-specific password creation webpage: https://myaccount.google.com/apppasswords.
 2. Enter the name of the application that requires the password, such as "VCHub"
@@ -59,14 +59,15 @@ To use an app-specific password, the Gmail account must have two-step verificati
 
 
 
-**Enable Smtp**
+**Enable SMTP**
 
 1. On your computer, open  [Gmail](https://mail.google.com/)
-2. In the top right, click Settings   **See all settings.**
-    ![alt text](7.png)
+2. Click the "Settings" icon in the upper-right corner to view all settings.
+    ![alt text](7.png)  
 3. Click the **Forwarding and POP/IMAP** tab.
     ![alt text](8.png)
 4. In the "POP download" section, select **Enable POP for mail that arrives from now on.**
+    ![alt text](64.png)
 
 **Test Gmail**
 
