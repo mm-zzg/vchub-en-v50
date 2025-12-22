@@ -6,13 +6,13 @@ Alarms are used to monitor and notify the system of abnormal conditions. Configu
 
 The following alarm types are supported:
 
-- Limit alarms: Alarms are generated when the value of the tag meets the set limit conditions. VC Hub has eight built-in limit values, four high limits and four low limits.  You can set several limit conditions at the same time. If a tag value meets more than one limit, an alarm is triggered for each limit.
+- **Limit Alarm**: Alarms are generated when the value of the tag meets the set limit conditions. VC Hub has eight built-in limit values, four high limits and four low limits.  You can set several limit conditions at the same time. If a tag value meets more than one limit, an alarm is triggered for each limit.
 
-    **Example:** The high limit value of temperature is 20, the hh limit value of temperature is 40, and the current value of tag is 50, then the tag will generate 2 limit alarms, one alarm for the high limit and one alarm for the hh limit.
+    Example: The high limit value of temperature is 20, the hh limit value of temperature is 40, and the current value of tag is 50, then the tag will generate 2 limit alarms, one alarm for the high limit and one alarm for the hh limit.
 
-- Rate of Change Alarm: An alarm is generated when the rate of change of the tag value exceeds the set rate of change.
-- Equivalent Alarm: Generates an alarm when the tag value is equal to the preset alarm value.
-- Boolean Alarm: Generates an alarm when the state of a Boolean quantity changes. For example, an alarm is generated when it changes from true to false.
+- **Rate of Change Alarm**: An alarm is generated when the rate of change of the tag value exceeds the set rate of change.
+- **Equivalent Alarm**: Generates an alarm when the tag value is equal to the preset alarm value.
+- **On/Off Alarm**: Generates an alarm when the state of a bool value changes. For example, an alarm is generated when it changes from true to false.
 
 ## **Alarm Priority**
 
@@ -49,11 +49,11 @@ You can acknowledge an alarm that has been generated. Acknowledgement is simply 
 
 #### **Alarm Acknowledgement Method**
 
-Automation: If an alarm is generated and then returns to normal, the system will automatically acknowledge the alarm. The alarm disappears from the real-time alarm control after auto acknowledgement. However, you can also manually acknowledge an automatically acknowledged alarm at any time before the alarm returns to normal.
+- Automation: If an alarm is generated and then returns to normal, the system will automatically acknowledge the alarm. The alarm disappears from the real-time alarm control after auto acknowledgement. However, you can also manually acknowledge an automatically acknowledged alarm at any time before the alarm returns to normal.
 
-Manual (Requires Confirmation): After an alarm is generated, it must be manually acknowledged and the acknowledgement information needs to be entered when the alarm is acknowledged.
+- Manual (Requires Confirmation): After an alarm is generated, it must be manually acknowledged and the acknowledgement information needs to be entered when the alarm is acknowledged.
 
-Manual (No Confirmation): After the alarm is generated, it must be manually acknowledged manually and no acknowledgement information needs to be entered.
+- Manual (No Confirmation): After the alarm is generated, it must be manually acknowledged manually and no acknowledgement information needs to be entered.
 
 **Note:** Alarms that require manual acknowledgement will not disappear from the real-time alarm control until they are acknowledged, even if the current alarm value has returned to normal. 
 
@@ -89,7 +89,7 @@ Activation delay means that when an alarm condition is met, instead of generatin
 
 ## **Configuring Alarms**
 
-Configure alarms on tags. See "Management->Assets and Tags->Tag->Tag Properties->Alarm" for details.
+Configure alarms on tags. See "[Alarm configuration](../assets-and-tags/tag/tag-properties/alarm.md)" for details.
 
 When alarm configuration is enabled on a tag, the corresponding chart will be displayed in the tag tree, so you can quickly identify which tags have alarm configuration enabled.
 
@@ -97,13 +97,13 @@ When alarm configuration is enabled on a tag, the corresponding chart will be di
 
 **View Real-Time Alarm Data**
 
-You can use the **Realtime Alarm** control to view alarm data. 
+You can use the [Realtime Alarm](docs/2d-visualization/controls/alarm/real-time-alarm/index.md) control to view alarm data. 
 
 ![alt text](3.png)
 
 **View Historical Alarm Data**
 
-You can view alarm data using the **Historical Alarm** control.
+You can view alarm data using the [Historical Alarm](../../2d-visualization/controls/alarm/historical-alarm/index.md) control.
 
 ![alt text](4.png)
 
