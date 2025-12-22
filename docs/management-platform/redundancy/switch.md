@@ -23,14 +23,14 @@ If the public address is configured, the public address will be prioritized for 
 
 #### **Scenarios for Master-Backup Switchover**
 
-###### **Scenario 1: No public address is configured, and the address of the currently running server is used as the URL after the switchover when the master and backup are switched over.**
+**Scenario 1:** No public address is configured, and the address of the currently running server is used as the URL after the switchover when the master and backup are switched over.
 
 1. Server A serves as the primary server with the address `http://pc-test-serverA:8060`
 2. Server B serves as the primary server, and the address is `http://pc-test-serverB:8060`.
 3. Server A and Server B form a redundancy
 4. View the VC Hub operation spage on Server A. At this time, Server A is down, Server B is running, and the address of the operation screen is displayed as `http://pc-test-serverB:8060`
 
-###### **Scenario 2: A public address is configured, and when the master and backup are switched over, the public address set by the current running node is used as the URL after the switchover.**
+**Scenario 2:** A public address is configured, and when the master and backup are switched over, the public address set by the current running node is used as the URL after the switchover.
 
 1. Server A acts as the master server, and the address is `http://pc-test-serverA:8060`
 2. Server B acts as the master server with the address `http://pc-test-serverB:8060`

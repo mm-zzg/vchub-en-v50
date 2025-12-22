@@ -1,6 +1,6 @@
 # Redundancy
 
-VC Hub supports master and backup, which means that two identical devices are running at the same time, one device is the master node and the other is the backup node. The configuration of the two nodes needs to be identical (you need to manually import the data from the master node to the backup node), see **Redundancy->Redundant configuration synchronization** for details.
+VC Hub supports master and backup, which means that two identical devices are running at the same time, one device is the master node and the other is the backup node. The configuration of the two nodes needs to be identical (you need to manually import the data from the master node to the backup node), see [configuration redundancy](configuration.md) for details.
 
 ## **Network communication between master and backup nodes**
 
@@ -16,18 +16,18 @@ You can see the real-time redundancy status in the redundancy configuration inte
 
 The status of the current node and the redundant nodes includes the following categories.
 
-| **Node Status** | **Description**                                                                                                                                               |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Running             | Running, the default state of the master node.                                                                                                                |
-| Standby             | Standby state, the default state of the standby node, when the master node is down, the standby node will switch to Running state.                            |
+| **Node Status** | **Description** |
+|-----------------|-----------|
+| Running             | Running, the default state of the master node.  |
+| Standby             | Standby state, the default state of the standby node, when the master node is down, the standby node will switch to Running state.  |
 | Faulted             | Faulted state, the state of the redundant node on the standby node when the standby node cannot establish a redundant connection with the master node.        |
-| Unknown             | Unknown state, the state of the redundant node is not obtained, for example, the redundant node is in the startup state.                                      |
+| Unknown             | Unknown state, the state of the redundant node is not obtained, for example, the redundant node is in the startup state.  |
 | Disconnected        | The status of the redundant node on the master node will be displayed as 'Disconnected' when the master node starts up and no backup node is connected to it. |
 
 Redundant node authorization:
 
-| **Node Authorization** | **Description**                                                                         |
-|------------------------|-----------------------------------------------------------------------------------------|
+| **Node Authorization** | **Description**|
+|------------------------|----------------|
 | Unknown                | No authorization information for the redundant node has been obtained.                  |
 | Match                  | The authorization modules of the licenses of the primary and backup nodes match.        |
 | Mismatch               | The authorization modules of the licenses of the primary and backup nodes do not match. |

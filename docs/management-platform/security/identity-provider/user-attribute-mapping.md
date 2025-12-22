@@ -13,53 +13,37 @@ User attribute mapping allows you to map information from the Identity Provider 
 
 **Properties**
 
-| **Name**     | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Username     | Mapping for username.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Role         | Mapping for role.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Name         | Mapping for name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Email        | Mapping for email.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Phone        | Mapping for phone.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Name**     | **Description**  |
+|--------------|----------------|
+| Username     | Mapping for username.  |
+| Role         | Mapping for role.   |
+| Name         | Mapping for name.   |
+| Email        | Mapping for email.  |
+| Phone        | Mapping for phone.  |
 | Source       | The mapping includes the following:  <br>- **ID Token Claims**: These are the claims in the ID token used to represent the user's identity information. They typically include attributes like, `name`, `email`, etc. <br>- **Token Endpoint Response**: This is the response from the token endpoint, which typically includes the Access Token, ID Token, and Refresh Token. These tokens are used to authenticate and authorize the user. <br>- **User Info Claims**: These claims contain detailed user attributes such as name, email, profile picture, and other personal information. These are usually returned by the Identity Provider when querying the UserInfo Endpoint. |
-| Mapping Path | It is typically used to map the user information returned by the **Identity Provider** to the local system's user model, ensuring that the application can correctly identify and authorize the user.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Mapping Path | It is typically used to map the user information returned by the Identity Provider to the local system's user model, ensuring that the application can correctly identify and authorize the user.  |
 
 4.Click the **"OK"** button to complete the setup.
 
 **Example**
 
 1. Assume the **ID Token** returned by the **Identity Provider** contains the following information:
-
-{
-
-  "username": "alex",
-
-  "email": "alex@example.com",
-
-  "user_roles": "admin"
-
-  "name": "Alex Zhang"
-
-}
-
+   {
+   "username": "alex",
+   "email": `alex@example.com`,
+   "user_roles": "admin"
+   "name": "Alex Zhang"
+   }
 2.The mapping paths can be set as follows:
-
   ![alt text](35.png)
-
    - `username` → The local username（username）
    - `email` → The local email（email）
    - `user_roles` → The local role（role）
    - `name` → The local name（name）
-
 3.In **VC Hub**, the end-user information is mapped as follows:
-
 {
-
    "username": "alex",
-
-   "email": "alex@example.com",
-
+   "email": `alex@example.com`,
    "role": "admin"
-
    "name": "Alex Zhang"
-
 }
