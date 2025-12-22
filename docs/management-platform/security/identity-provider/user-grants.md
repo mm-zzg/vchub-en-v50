@@ -4,7 +4,7 @@ User Grants is a method of directly assigning users to access levels. It essenti
 
 You can authorize users through the **Security-> Identity Provider** list by clicking the **User Grants** button. Users can be added, allowing you to later assign them specific access levels.
 
-**Note:** Adding or removing users in User Grants does not affect the users within the **Identity Provider**.
+**Note:** Adding or removing users in User Grants does not affect the users within the Identity Provider.
 
 You can assign any number of access levels to these users by their **username**. Selecting a level will automatically select all levels above it.
 

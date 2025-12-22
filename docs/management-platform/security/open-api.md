@@ -23,22 +23,24 @@ Click the "Register" button to add new  OpenId Client.
 
 **Properties**
 
-| **Name**                   | **Description**                                                                                                                                                                                                                                                                                           |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client Id                  | The id of client credential                                                                                                                                                                                                                                                                               |
-| Client Secret              | The secret of client credential                                                                                                                                                                                                                                                                           |
-| Repeat Secret              | The repeat secret of client credential used to ensure user enter two same secret                                                                                                                                                                                                                          |
-| Grant Type                 | OIDC authorization modes include Authorization Code Flow, Client Credentials Flow, Implicit Flow, and Refresh Token Flow. Supports multiple selections. When the Client Credentials mode is selected, the required APIs must be configured. For the other three modes, configuring APIs is not necessary. |
+| **Name**                   | **Description**  |
+|----------------------------|-----------|
+| Client Id                  | The id of client credential  |
+| Client Secret              | The secret of client credential  |
+| Repeat Secret              | The repeat secret of client credential used to ensure user enter two same secret  |
+| Grant Type                 | OIDC authorization modes include Authorization Code Flow, Client Credentials Flow, Implicit Flow, and Refresh Token Flow. Supports multiple selections. When the **Client Credentials Flow** is selected, the required Open APIs **need** to be configured. For the other three modes, Open APIs is not necessary. |
 |Refresh Token                 | Optional, default not selected.Use in combination with the Grant Type.|
-| Scope                      | The scopes of user info. The scope includes: address,email,phone,profile,roles                                                                                                                                                                                                                            |
-| Redirect URL               | The redirect URL. When login on VC Hub OIDC login page, the user will be redirected the Redirect URL.                                                                                                                                                                                                      |
-| Logout Redirect URL        | When user logout from VC Hub OIDC endpoint, the user will be redirected the Logout Redirect URL.                                                                                                                                                                                                           |
-| OpenID Connect MetaAddress | A URL for auto-discovery of Identity Provider (IdP) configurations.                                                                                                                                                                                                                                       |
-| Description                | The description the client credential                                                                                                                                                                                                                                                                     |
+| Scope                      | The scopes of user info. The scope includes: address,email,phone,profile,roles  |
+| Redirect URL               | The redirect URL. When login on VC Hub OIDC login page, the user will be redirected the Redirect URL. |
+| Logout Redirect URL        | When user logout from VC Hub OIDC endpoint, the user will be redirected the Logout Redirect URL.  |
+| OpenID Connect MetaAddress | A URL for auto-discovery of Identity Provider (IdP) configurations.|
+| Description                | The description the client credential |
 
- **Note**：**When registerating a new open client,  the content should be based on purpose of the client application.** 
+ **Note**：When registerating a new open client,  the content should be based on purpose of the client application.
 
-#### Scenario 1:  A client application configurated to use VC Hub as its identity provider to authenticate its end user.
+#### Scenarios
+
+**Scenario 1:**  A client application configurated to use VC Hub as its identity provider to authenticate its end user.
 
 1. When registering an OpenID client, select the **Authorization Code Flow** or **Implicit Flow**. It is recommended to use **Authorization Code Flow** for better security.
 2. Enter the redirect url and logout redirect url of the client application. 
@@ -57,7 +59,7 @@ If VC Hub is the client application, you should fill in the identity provider co
 
 ![alt text](37.png)
 
-#### Scenario 2:  The client application interacts with VC Hub by making Open API requests from its backend
+**Scenario 2:**  The client application interacts with VC Hub by making Open API requests from its backend
 
 1. When registering an **OpenID client**, you should select only the **Client Credentials Flow** as grant type.
 

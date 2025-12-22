@@ -21,7 +21,7 @@ By default, the **TLS certificate** option is selected.
 
 Once the certificate is configured, click the "View" button to view the detailed information.
 
-## **Redundancy and Networking Certificate**
+## Redundancy and Networking Certificate
 
 By default, the **TLS Certificate** option is selected.
 
