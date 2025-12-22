@@ -59,10 +59,10 @@ Step 6: On Node B, navigate to "Node" → "Networking" →  "Incoming Connection
 
 Step 7: On Node B, approve Node A’s connection from the incoming connection list to complete the networking setup.
 
- **Note:** 
+**Note:** 
  
- If "Require Two Way Authentication" is enabled on Node A: 
-     
+If "Require Two Way Authentication" is enabled on Node A: 
+
 - If Node B’s root certificate is not in Node A’s Trust Store, its certificate will appear in Node A’s *Outgoing Certificate List* after step 5. Approve it to proceed.    
 - If Node B’s root certificate is in Node A’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. 
 
