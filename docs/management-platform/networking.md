@@ -17,7 +17,9 @@ In a network setup, server A and server B are connected, and server B and server
 
 ## Networking Configuration Steps
 
-The steps below will guide you through the configuration process for networking. We'll use Node A and Node B as an example.
+The steps below will guide you through the configuration process for networking. 
+
+We'll use Node A and Node B as an example.
 
 **Example 1: No root certificate uploaded to the Trust Store of Node A and Node B**
 
@@ -59,9 +61,9 @@ Step 7: On Node B, approve Node A’s connection from the incoming connection li
 
  **Note:** 
  
- If “Require Two Way Authentication“  is enabled on Node A:     
-    - If Node B’s root certificate is not in Node A’s Trust Store, its certificate will appear in Node A’s *Outgoing Certificate List* after step 5. Approve it to proceed.    
-    - If Node B’s root certificate **is** in Node A’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. 
+ If "Require Two Way Authentication" is enabled on Node A:     
+   - If Node B’s root certificate is not in Node A’s Trust Store, its certificate will appear in Node A’s *Outgoing Certificate List* after step 5. Approve it to proceed.    
+   - If Node B’s root certificate is in Node A’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. 
 
 ## **Basic Network Configuration**
 
@@ -119,25 +121,25 @@ After the connection is added, the information displayed in the outgoing connect
 
 1. If "Require Two Way Authentication" is disabled on **Node A**, only the  “Outgoing Connections“ list is displayed.
    ![alt text](4.png)
-   Just after creating an outgoing connection, the status of the node's outgoing connection is shown as **Faulted**.
-   The status of the data in the "Outgoing Connections" list depends on the operations performed on the ”Incoming Connections” page of **Node B**  for both certificates and incoming connections.
+   Just after creating an outgoing connection, the status of the node's outgoing connection is shown as **Faulted**.<br>
+   The status of the data in the "Outgoing Connections" list depends on the operations performed on the ”Incoming Connections” page of **Node B**  for both certificates and incoming connections.<br>
    The status of the outgoing address is displayed as **Running** only if the certificate and the incoming connection are all approved on **Node B's** "Incoming Connections" page.
 1. If "Require Two Way Authentication" is enabled on **Node A** , both the  “Outgoing Connections“ list and the "Certificate" list will be shown.
    ![alt text](5.png)
-   In this case, you must first **allow Node B’s certificate** in the certificate list on Node A’s outgoing connections page. Only after that will Node A appear in the incoming connection list on Node B.
+   In this case, you must first **allow Node B’s certificate** in the certificate list on Node A’s outgoing connections page. Only after that will Node A appear in the incoming connection list on Node B.<br>
    The status of Node A’s outgoing connection will be shown as **"Running"** only when all the following conditions are met:
       1. On Node A’s "Outgoing Connections" page, Node B’s  certificate in the "Certificate" list has been approved.
       2. On Node B’s "Incoming Connections" page:
          - Node A’s certificate has been approved .
          - Node A’s incoming connection has been approved.
 
-**Outgoing Connection Actions:** On the **outgoing connections list**, the following actions are available for each outgoing connection:
+**Outgoing Connection Actions:** On the outgoing connections list, the following actions are available for each outgoing connection:
 
    - **Enable**: Activates the outgoing connection.
    - **Edit**: Opens a dialog window to modify the outgoing connection configuration.
    - **Delete**: Removes the outgoing connection.After deletion, if this node was part of a connected network with other nodes, the connection will be terminated.
 
-**Certificate Actions:** On the **certificate list**, the following actions are available for each certificate:
+**Certificate Actions:** On the certificate list, the following actions are available for each certificate:
 
    - **Allow**: Accepts the certificate and enables connection with the corresponding outgoing node.
    - **Reject**: Denies the certificate.Once rejected, the node will no longer be able to establish a network connection with this node.
