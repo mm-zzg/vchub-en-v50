@@ -1,4 +1,4 @@
-# Introduction to the Editor
+# Editor Introduction
 
 All pages need to be drawn within an editor. VC Hub has a built-in WYSIWYG(What you see is what you get) editor. The WYSIWYG editor offers the benefits of real-time preview, intuitive operation, reduced errors, and improved consistency, making it easier for users to create and edit content with faster, more intuitive feedback.
 
@@ -40,7 +40,7 @@ There is a toolbar at the top of the editor. When the mouse is placed over any b
 
 
 
-## **Window Menu**
+## **View Menu**
 
 The editor comes with a number of windows. You can check which window you want to open and adjust the display position and size of the window according to your usage habits. 
 
@@ -111,9 +111,9 @@ Click on the "Preview" button to enter preview mode，and display preview conten
 
 ![alt text](60.png)
 
-## **Open Console Menu**
+## **Open "Admin Console" Menu**
 
-Clicking on it opens the console page in a new browser window.
+Clicking on it opens the admin console page in a new browser window.
 
 ![alt text](61.png)
 

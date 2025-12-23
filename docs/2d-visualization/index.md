@@ -16,9 +16,9 @@ The 2D visualization editor has a variety of built-in controls, such as drawing 
 
 There are two basic window configurations to define the behavior of the window:
 
-Page : A page that fills the entire window.
+- Page: A page that fills the entire window.
 
-Popup : A popup window is a window that appears (pops up) when the user performs an action such as clicking the mouse. Pop-ups typically remain at the top of the current window until it closes, allowing the user to quickly select options or settings before returning to the previous window.
+- Popup: A popup window is a window that appears (pops up) when the user performs an action such as clicking the mouse. Pop-ups typically remain at the top of the current window until it closes, allowing the user to quickly select options or settings before returning to the previous window.
 
 ![alt text](3.png)
 
