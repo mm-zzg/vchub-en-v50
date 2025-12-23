@@ -38,13 +38,13 @@ Sets the loading effect for the running page when navigating from Page1 to Page 
 1. Create two pages, Page1 and Page2.
 2. Place a button on Page1 that when clicked navigation to Page2.
 
-| **Property**               | **Value**    |
-|----------------------------|-----------------------------------------------------|
-| Running Page Loading Style | Enable.  |
-| Loading Background Color   | 02023b      |
-| Loading Style              | ![alt text](4.png)|
+    | **Property**               | **Value**    |
+    |----------------------------|-----------------------------------------------------|
+    | Running Page Loading Style | Enable.  |
+    | Loading Background Color   | 02023b      |
+    | Loading Style              | ![alt text](4.png)|
 
-Run the page and click the "Open Page 2" button on page 1. The page is loading. When the loading is completed, Page 2 is displayed.
+    Run the page and click the "Open Page 2" button on page 1. The page is loading. When the loading is completed, Page 2 is displayed.
 
     ![page1](../../assets/images/page1.gif)
 

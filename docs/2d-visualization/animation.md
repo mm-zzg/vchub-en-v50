@@ -30,7 +30,7 @@ Create a circular control that represents an alarm indicator light that blinks w
 | Border Color   | ff0000    |
 | Enabled Blink  | Enable   |
 | Interval       | 500 ms    |
-| Value          | Expression: tag('Default:Temper')>40;   <br>**Note:** This animation only takes effect when the value is a Bool value. |
+| Value          | Expression: tag(`'@Default:Temper'`)>40;   <br>**Note:** This animation only takes effect when the value is a Bool value. |
 
 #### Translocation
 
