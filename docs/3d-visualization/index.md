@@ -34,5 +34,5 @@ In a 3D scene, you can use independent models to build your entire 3D scene, so 
 
 #### **3D Low Code**
 
-Through the visualization functions provided by the scene editor and model editor, you can configure various 3D digital twin monitoring applications just like 2D visualization. But if you need to use some more advanced 3D functions, such as dynamically creating a 3D model into the scene and dynamically setting the 3D model according to some on-site real-time conditions, then VC Hub also opens a wide variety of 3D control APIs to you, and you can use these API builds richer 3D scenes. For details, you can refer to the 3D low-code example .
+Through the visualization functions provided by the scene editor and model editor, you can configure various 3D digital twin monitoring applications just like 2D visualization. But if you need to use some more advanced 3D functions, such as dynamically creating a 3D model into the scene and dynamically setting the 3D model according to some on-site real-time conditions, then VC Hub also opens a wide variety of 3D control APIs to you, and you can use these API builds richer 3D scenes. For details, you can refer to the [3D low-code example](3d-low-code-example/index.md) .
 

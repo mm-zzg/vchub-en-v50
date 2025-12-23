@@ -48,11 +48,11 @@ The Open dialog window will appear. Just find the model you need to upload on th
     ![alt text](3d_PVisualization7.png)
 
 
-| **Name**          | **Description**                                                                                  |
-|:-------------------|:--------------------------------------------------------------------------------------------------|
-| No scaling        | The model will be added to the scene according to its original size                              |
-| Scale to fit grid | The model will be scaled to the size of the scene's corresponding grid.                          |
-| Scale to units    | There are many units in the grid and the model will be scaled to the size of the number of units |
+    | **Name**          | **Description**  |
+    |:-------------------|:-----------------------------|
+    | No scaling        | The model will be added to the scene according to its original size                              |
+    | Scale to fit grid | The model will be scaled to the size of the scene's corresponding grid.                          |
+    | Scale to units    | There are many units in the grid and the model will be scaled to the size of the number of units |
 
     After adding it to the scene, you can perform appearance, animation , and action operations.
 
