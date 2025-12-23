@@ -32,11 +32,12 @@ Modify a device parameter using the input text.
 
 1. The control appearance is as follows:
 
-| **Property** | **Value**                          |
-|--------------|----------------------------------------|
-| Name         | Text Input 1                           |
-| Text         | Binding tag: Area.SN                 |
-| Fill color   | 2ef6a3                                 |
-| Font         | Calibri, 22 , Bold, 000000, Left align |
-2. In the Evnet property of the control, select "Text Changed", select  "Set Value" as action type , tag is bound to: Area.SN,  and new value is bound to: TextInput1#text.
+    | **Property** | **Value**                          |
+    |--------------|----------------------------------------|
+    | Name         | Text Input 1                           |
+    | Text         | Binding tag: Area.SN                 |
+    | Fill color   | 2ef6a3                                 |
+    | Font         | Calibri, 22 , Bold, 000000, Left align |
+2. In the Evnet property of the control, select "Text Changed", select  "Set Value" as action type, tag is bound to: Area.SN, and new value is bound to: TextInput1#text.
+    ![alt text](image.png)
 3. On the running page, enter the content in the text input, and the entered content will be written to the tag: Area.SN.
