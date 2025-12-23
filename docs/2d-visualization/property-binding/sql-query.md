@@ -14,7 +14,7 @@ Currently, only supports **Table** control.
 
 
 
-3. After the binding window pops up, select **"SQL Query"**, then choose the created SQL Query from the Name** **dropdown list. Click the **"OK"** button to complete the binding.
+3. After the binding window pops up, select **"SQL Query"**, then choose the created SQL Query from the **Name** dropdown list. Click the "OK" button to complete the binding.
 
     ![alt text](50.png)
 
@@ -22,4 +22,8 @@ Currently, only supports **Table** control.
 
     ![alt text](49.png)
 
-**Note**: For more detailed information on using SQL Query, please refer to **SQL Query->SQL Query Example->Query** ,**SQL Query->SQL Query Example->Scalar Query**, **SQL Query->SQL Query Example->Update Query**. 
+**Note**: For more detailed information on using SQL Query, please refer to 
+
+- [Query](../sql-query/sql-query-example/query.md) 
+- [Scalar Query](../sql-query/sql-query-example/scalar-query.md) 
+- [Update Query](../sql-query/sql-query-example/update-query.md)
