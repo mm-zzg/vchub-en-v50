@@ -5,7 +5,7 @@ Data connection is the first step before any data analysis. The built-in report 
 1. Double click the mouse on the report and open the design window.
 2. In the design pop-up window, click the "Add" button in the upper right corner of the data source list.
     ![alt text](8.png)
-3. On the new page, keep all default values and enter the following information in the following fields (Note: The following data are only examples, please fill in according to the actual situation).
+3. On the new page, keep all default values and enter the following information in the following fields (**Note:** The following data are only examples, please fill in according to the actual situation).
     ![alt text](9.png)
      - Name: Capacity
      - Query Mode: Raw
