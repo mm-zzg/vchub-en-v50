@@ -1,4 +1,4 @@
-# Invoke Web APIs over HTTPs
+# Call the HTTPS API
 
 Open API provides Web APIs over the HTTPS protocol, with the default HTTPS port set to 10443.
 

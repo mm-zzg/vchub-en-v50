@@ -1,6 +1,8 @@
-# Subscribe to real-time data via WebSocket API
+# Subscribe to real-time data
 
-Open API offers WebSocket API for real-time data access. Using the WebSocket API, you can subscribe to real-time data, including tag values, tag properties, and tag alarms.
+Open API offers WebSocket API for real-time data access. 
+
+Using the WebSocket API, you can subscribe to real-time data, including tag values, tag properties, and tag alarms.
 
 1. Open the postman home page, click the **+** icon, then click the **View more templates** link.
 
@@ -31,19 +33,19 @@ Open API offers WebSocket API for real-time data access. Using the WebSocket API
     ![alt text](18.png)
 
 
-7. Once connected, open the **Message** tab and send payload with the format like the below example. Note that the special charactar **** must not be ignored. The part `[["Default:m1","Default:m2","Default:m3"]]` in third line should be replaced the tags actually exist in the system.
+7. Once connected, open the **Message** tab and send payload with the format like the below example. Note that the special charactar ![alt text](22.png) must not be ignored. The part `[["Default:m1","Default:m2","Default:m3"]]` in third line should be replaced the tags actually exist in the system.
 
-    {"protocol":"json","version":1}
+    {"protocol":"json","version":1}![alt text](22.png)
 
-    {"type":6}
+    {"type":6}![alt text](22.png)
 
-    {"arguments":`[["Default:m1","Default:m2","Default:m3"]]`,"invocationId":"0","target":"TagValues","type":4}
+    {"arguments":`[["Default:m1","Default:m2","Default:m3"]]`,"invocationId":"0","target":"TagValues","type":4}![alt text](22.png)
 
-    ![alt text](19.png)
+    ![alt text](19.png) 
 
 8.After the payload is sent, postman will continuously receive the real-time tag values.
     ![alt text](20.png)
 
-9.The above example demonatrates how to subscribe the tag values. For the other Websocket APIs, refer to chapter **Open API-> Realtime Data API Definitions**. The **target** field in the payload in the example below represents the method name of Reamtime Data API.  You can invoke the other WebSocket APIs by replacing **target** value with the method name specified in the **Realtime Data API Definitions** document. 
+9.The above example demonatrates how to subscribe the tag values. For the other Websocket APIs, refer to chapter [Realtime Data API Definitions](../realtime-data-api-definitions.md). The target field in the payload in the example below represents the method name of Reamtime Data API.  You can call the other WebSocket APIs by replacing target value with the method name specified in the **Realtime Data API Definitions** document. 
     ![alt text](21.png)
 
