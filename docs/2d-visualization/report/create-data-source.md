@@ -10,12 +10,12 @@ Data connection is the first step before any data analysis. The built-in report 
      - Name: Capacity
      - Query Mode: Raw
      - Tag: 
-         - Region:Capacity.Production Line 1
-         - Region:Capacity.Production Line 2
-         - Region:Capacity.Production Line 3 
-         - Region:Capacity.Production Line 4 
-         - Region:Capacity.Production Line 5 
-         - Region:Capacity.Production Line 6
+       Region:Capacity.Production Line 1
+       Region:Capacity.Production Line 2
+       Region:Capacity.Production Line 3 
+       Region:Capacity.Production Line 4 
+       Region:Capacity.Production Line 5 
+       Region:Capacity.Production Line 6
 
 4. Click the **"OK"** button. At this time, the data will be displayed on the data source list page.
 
@@ -29,7 +29,7 @@ Data connection is the first step before any data analysis. The built-in report 
 | Tag         | Set the tags required for the data source. Multiple selections are allowed.  <br>**Note:** Only tags with "history" turned on can be selected. |
 
 5.Switch to the "Report Designer" page and click the Settings button.
-    ![alt text](12.png)
+    ![alt text](12.png)<br>
 6.The created data source information is automatically displayed in the report designer's data sources and datasets.
     ![alt text](13.png)
 
@@ -41,7 +41,7 @@ Data connection is the first step before any data analysis. The built-in report 
      - value 
 2. When the data source is automatically created, two parameters are automatically created for each data source: start date and end date. The end date defaults to **today**; the start date is **(current date - 7 days)**. 
 
-![alt text](14.png) 
+    ![alt text](14.png) 
 
 
 
