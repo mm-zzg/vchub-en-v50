@@ -51,7 +51,7 @@ Display the current system time with the Datetime Input control.
 
     ```typescript
     const data = await System.Tag.read('@System:Server.CurrentDateTime')
-    const calendar = await System.UI.findControl('Datetime Input 1');
+    const calendar = await System.UI.findControl('DatetimeInput1');
     calendar.value = data.value;
     calendar.applyChanges();
     ```
