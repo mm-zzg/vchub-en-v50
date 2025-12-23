@@ -20,7 +20,7 @@ The  menu control is used to facilitate quick navigation for users. Supports up 
 | Secondary  | Set the display style of the secondary menu.  <br>- **W**: The width of the secondary menu. <br>- **H**: The height of the secondary menu. <br>- **Font**: Set the font of the secondary menu. Including font type, font size, bold, italic, horizontal alignment, and vertical alignment. <br>You can set color effects for menus in different operating states. Status includes: default, hover, selected.  ![alt text](10.png)  <br>The background color and font color can be set for each status. |
 | Navigation | Set the names of menus at each level and the navigation page. ![alt text](11.png)    |
 
-## **setting menu**
+## **Setting menu**
 
 In the navigation content, you can set the number, name and page navigation function of the menus.
 
@@ -49,7 +49,7 @@ Click the settings button on the right side of the menu item to pop up the navig
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 
@@ -68,7 +68,7 @@ Use the navigation menu to display information about individual components of th
     ![alt text](17.png)
 
 5. By analogy, set the navigation page of other menus.
-6. In the running page, click the home page menu in the menu control to jump to the content of "Home Page"; click the photovoltaic panel menu again to display the content of the "photovoltaic panel" screen.
+6. In the running page, click the home page menu in the menu control to jump to the content of "Home Page"; click the photovoltaic panel menu again to display the content of the "photovoltaic panel" page.
 
     ![menu-1](../../../assets/images/menu-1.gif)
 

@@ -1,6 +1,7 @@
 # Display
 Used to display data.
-Containsthe following controls:
+
+Contains the following controls:
 
 - [Label](display/label.md) 
 - [Value Display](display/value-display.md)

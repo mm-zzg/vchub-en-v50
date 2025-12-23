@@ -21,7 +21,7 @@ Ruler is used to measure and mark lengths, often used with text label controls.
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 

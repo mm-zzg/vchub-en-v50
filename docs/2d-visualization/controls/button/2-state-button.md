@@ -22,7 +22,7 @@ The 2-State Button is a type of button control with two distinct states. Common 
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 
@@ -35,7 +35,7 @@ The fan can be turned on or off by using the 2-State button control.
 
 | **State**       | **Property** |
 |-----------------|------------------|
-| **State** **0** |  <br>- **State Value**: false <br>- **Control Value**: true <br>- **Text**: Off <br>- **Background**: d11404 <br>-**Font**: ffffff  <br>- **Hover**: db7f75  <br>- **Border**: d11804 |
+| **State** **0** |  <br>- **State Value**: false <br>- **Control Value**: true <br>- **Text**: Off <br>- **Background**: d11404 <br>- **Font**: ffffff  <br>- **Hover**: db7f75  <br>- **Border**: d11804 |
 | **State** **1** |  <br>- **State Value**: true  <br>- **Control Value**: false  <br>- **Text**: On <br>- **Background**: 6ec800 <br>- **Font**:  ffffff  <br>- **Hover**: aad773 <br>- **Border**: 64c800 |
 
 5.On the running page, click the button to start and stop the fan, and view the button style.

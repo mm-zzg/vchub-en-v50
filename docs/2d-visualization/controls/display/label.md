@@ -23,11 +23,11 @@ The Label control is used to display text, either static text or, through proper
 
 **Animation**
 
-Allows you to perform specific animations based on certain conditions. See the  **2D Visualization-> Animation** page for a complete description of the various animations.
+Allows you to perform specific animations based on certain conditions. See the [Animation](../../animation.md) page for a complete description of the various animations.
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the **2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md) page for a complete description of the various events.
 
 **Example 1**
 
@@ -49,7 +49,7 @@ Use text to display the operating status of the device.
 
 | **Name** | **Description**                                                              |
 |----------|------------------------------------------------------------------------------|
-| Text     | Binding expression: "Device operational status: "+tag('@area:device1status') |
+| Text     | Binding expression: "Device operational status: "+ tag(`'@area:device1status'`) |
 | Font     | Calibri, 16, font color f0672e, horizontal left, vertical center             |
 
 **Example 3**

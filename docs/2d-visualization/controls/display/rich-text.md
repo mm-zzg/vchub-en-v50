@@ -37,7 +37,7 @@ Whether you choose Markdown or WYSIWYG mode depends on your personal preferences
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the**2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md) page for a complete description of the various events.
 
 Example
 

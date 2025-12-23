@@ -22,7 +22,7 @@ Buttons are used to initiate an event when pressed and can also be used to displ
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 

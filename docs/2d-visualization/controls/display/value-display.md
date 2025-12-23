@@ -21,11 +21,11 @@ Value display control is used to display data, which can display numerical, bool
 
 **Animation**
 
-Allow you to execute specific animations based on certain conditions. Please refer to the complete description of various animations on the **2D Visualization-> Animation** page.
+Allow you to execute specific animations based on certain conditions. Please refer to the complete description of various animations on the [Animation](../../animation.md) page.
 
 **Event**
 
-Allow you to perform specific event based on certain conditions. Please refer to the complete description of various events on the **2D Visualization-> Event** page.
+Allow you to perform specific event based on certain conditions. Please refer to the complete description of various events on the [Event](../../event/index.md) page.
 
 **Example 1**
 
@@ -46,10 +46,10 @@ Display the system time.
 
 ![alt text](16.png)
 
-| **Property** | **Value**                                               |
-|--------------|---------------------------------------------------------|
-| Text         | Binding tag: System:Server.CurrentDateTime              |
-| Format       | yyyy-MM-dd HH:mm:ss                                     |
+| **Property** | **Value**    |
+|--------------|---------------|
+| Text         | Binding tag: System:Server.CurrentDateTime   |
+| Format       | `yyyy-MM-dd HH:mm:ss`             |
 | Font         | Calibri, 16, 6ec800, horizontal center, vertical center |
 
 **Example 3**
@@ -60,7 +60,7 @@ View Celsius and Fahrenheit temperatures via the right-click menu.
 
 | **Property**     | **Value**         |
 |------------------|------------|
-| Text             | expression：  <br>const value = tag('@Demo:temperature');  <br>if(property('ValueDisplay1#units') === '℃'){      <br>return value;  <br>}  <br>return (value * 9 / 5) + 32; |
+| Text             | expression：  <br>const value = tag(`'@Demo:temperature'`);  <br>if(property('ValueDisplay1#units') === '℃'){      <br>return value;  <br>}  <br>return (value * 9 / 5) + 32; |
 | Format           | #,##0.# |
 | Font             | Calibri,16, 6ec800，horizontal center, vertical center |
 | Right Click Menu | Add two right-click menus: Celsius, Fahrenheit.  In the Fahrenheit action, set the property binding, which displays the value of the control's UNITS property, to set its value to ℉  <br>![alt text](18.png)  In the Celsius action, set the property binding, which displays the value of the control's units property, to set its value to °C  <br>![alt text](19.png) |

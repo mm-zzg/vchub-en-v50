@@ -22,11 +22,11 @@ In industrial automation equipment, used to monitor and display various paramete
 
 **Animation**
 
-Allows you to perform specific animations based on certain conditions. See full descriptions of various animations on the **2D Visualization-> Animation** page.
+Allows you to perform specific animations based on certain conditions. See full descriptions of various animations on the [Animation](../../animation.md) page.
 
 **Event**
 
-Allows you to perform specific event based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific event based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example 1**
 
@@ -53,7 +53,7 @@ Displays the temperature of the workshop.
 | Fill             | c0c0c0 |
 | Border color     | f06868 |
 | Border thickness | 2 |
-| Text             | Bind Expression：tag('Area:temperature')+"℃"  <br>![alt text](24.png) |
+| Text             | Bind Expression：tag(`'@Area:temperature'`)+"℃"  <br>![alt text](24.png) |
 | Font             | 18, bold, ff0000, horizontally centered, vertically centered|
 
 **Example 3**
@@ -67,7 +67,7 @@ The start/stop status of the device is controlled and displayed via the right-cl
 | Fill             | c0c0c0|
 | Border color     | f06868  |
 | Border thickness | 2  |
-| Text             | Expression: <br> let a =tag('Demo:status'); <br> if (a)  <br>{   <br>return "Running"; //When the value of the tag is true, the content of the control displays Running.  <br>}  <br>else  <br>{      <br>return "Stopped";//When the value of the tag is false, the content of the control displays Stopped.  <br>}  |
+| Text             | Expression: <br> let a =tag(`'@Demo:status'`); <br> if (a)  <br>{   <br>return "Running"; //When the value of the tag is true, the content of the control displays Running.  <br>}  <br>else  <br>{      <br>return "Stopped";//When the value of the tag is false, the content of the control displays Stopped.  <br>}  |
 | Font             | 18, bold, ff0000, horizontally centered, vertically centered |
 | Right Click Menu | Create 2 right-click menus: Start, Stop.  Setting the Start action: when this menu is clicked, set the value of the tag "Demo:status" to 1   <br>![alt text](26.png)  Setting the Stop action: when this menu is clicked, set the value of the tag "Demo:status" to 0   <br>![alt text](27.png)|
 
