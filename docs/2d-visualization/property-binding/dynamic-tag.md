@@ -15,19 +15,17 @@ Dynamic tag binding is very similar to tag binding, with the key difference bein
 
 There are four motors, each represented as a folder, and each motor contains a tag: Current. The tag paths for the current values of these four motors are as follows:
 
-```plain
-Default:Motor1.Current
-Default:Motor2.Current
-Default:Motor3.Current
-Default:Motor4.Current
-```
+- Default:Motor1.Current
+- Default:Motor2.Current
+- Default:Motor3.Current
+- Default:Motor4.Current
  
 Instead of creating four separate controls to display the values of these four tags, we can create a single control that indirectly displays the values of different tags. For this, we only need one control to display the value (value display control) and another control (dropdown control) that allows the user to select which motor to view.
 
 1. Draw a value display control and a dropdown control on the page.
-2. Set the dropdown options for the dropdown control.
+2. Set the dropdown options for the dropdown control.<br>
    ![alt text](34.png)
-3. Select the value display control and click the binding button for the "Text" property.
+3. Select the value display control and click the binding button for the "Text" property.<br>
    ![alt text](35.png)
 4. In the pop-up property binding window, choose Dynamic Tag.
        1. On the left side of the asset tree, select the tag **Default: Motor1.Current**.
