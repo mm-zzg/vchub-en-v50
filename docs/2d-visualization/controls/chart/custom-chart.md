@@ -32,9 +32,9 @@ Use a custom chart to display a bar chart that displays the production line's ca
 
 1. Under the chart category of echarts, click on the bar chart,  [https://echarts.apache.org/examples/en/index.html#chart-type-bar](https://echarts.apache.org/examples/en/index.html) 
     ![alt text](51.png)
-2. Under the histogram category, click Basic Histogram to enter the histogram editing page. Copy the code on the left. If necessary, you can also edit the code here directly.
+2. Under the Bar category, click "Basic Bar" to enter the editing page. Copy the code on the left. If necessary, you can also edit the code here directly.
     ![alt text](52.png)
-3. Insert a "custom chart" control on the desgner page.
+3. Insert a "custom chart" control on the designer page.
 4. Set the action properties for the control and add a "load" action.
     ![alt text](53.png)
 5. Enter the following script in the script editor. 

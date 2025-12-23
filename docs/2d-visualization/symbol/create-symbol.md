@@ -30,11 +30,11 @@ After creation, an empty symbol editor will be displayed in the main design spac
 1. Click on a blank area of the symbol editor
 2. Click on its tab name
 
-![alt text](14.png)
+    ![alt text](14.png)
 
 3. click the gray area outside the canvas (the area highlighted in the red box below).
 
-![alt text](15.png)
+    ![alt text](15.png)
 
 ## Edit Symbol
 
@@ -45,12 +45,12 @@ When your symbol creation is complete, you can open the symbol for editing using
 1. Double-click the symbol in the "Symbol Library" to automatically open the symbol's editing window in the editor.
 2. Right-click the symbol and select "Edit" from the context menu that appears.
 
-![alt text](16.png)
+    ![alt text](16.png)
 
-2. In the editor, double-click the symbol component to open the symbol for editing.
-3. In the editor, right-click the selected symbol component and choose the "Edit" button from the context menu to open the symbol.
+3. In the editor, double-click the symbol component to open the symbol for editing.
+4. In the editor, right-click the selected symbol component and choose the "Edit" button from the context menu to open the symbol.
 
-![alt text](17.png)
+    ![alt text](17.png)
 
 ## Save As Symbol
 

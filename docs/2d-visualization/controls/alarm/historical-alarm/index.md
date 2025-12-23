@@ -43,7 +43,7 @@ Historical alarm, no flashing, no alarm sound, no line color.
 
 **Event**
 
-Allow you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allow you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example 1**
 

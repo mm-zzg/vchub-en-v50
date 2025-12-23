@@ -3,8 +3,8 @@
 After the alarm occurs, the alarm can be acknowledged. There are three acknowledge modes, which are configured in the alarm attributes of the tag window.
 
 - Automatic
-- Manual ( Requires Confirmation)
-- Manual (No Confirmation)
+- Manual (Comment Required)
+- Manual (No Comment)
 
 ## **Acknowledge Mode**
 
@@ -16,7 +16,7 @@ In the alarm configuration of the tag, set the **Ack Mode** for the alarm.
 
 After the alarm is generated, if it returns to normal value later, the system automatically acknowledges this alarm. Once automatically acknowledged, the alarm disappears from the real-time alarm control. Automatically acknowledged alarms can also be manually acknowledged at any time before the alarm returns to normal value.
 
-#### **Manual (Requires Confirmation)**
+#### **Manual (Comment Required)**
 
 After the alarm is generated, it must be confirmed manually.And enter the confirmation information. Otherwise, even if the current alarm has returned to normal, it will not disappear from the real-time alarm control.
 
@@ -24,7 +24,7 @@ After selecting the alarm, click the confirmation button, and the confirmation w
 
 ![alt text](20.png)
 
-#### **Manual (No Confirmation)**
+#### **Manual (No Comment)**
 
 After the alarm is generated, it must be confirmed manually, otherwise even if the current alarm has returned to normal, it will not disappear from the real-time alarm control.
 

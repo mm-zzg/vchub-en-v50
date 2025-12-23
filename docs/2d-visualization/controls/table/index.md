@@ -1,5 +1,6 @@
 # Table
 Values can be displayed in various types of tables.
+
 Contains the following controls:
 
 - [Table](table/table.md) 
