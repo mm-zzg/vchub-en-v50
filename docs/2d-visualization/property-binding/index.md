@@ -4,27 +4,27 @@ Binding is linking a control's property to another control.
 
 ## Binding types
 
-- **Tag**: Directly bind to the tag property (usually a value), so that every time the selected tag property changes, the new value is pushed to the bound property.
+- **[Tag](tag.md)**: Directly bind to the tag property (usually a value), so that every time the selected tag property changes, the new value is pushed to the bound property.
 
     ![alt text](1.png)
 
-- **Dynamic Tag**: It is very similar to tag binding, with the key difference being that you can introduce any number of parameters to dynamically construct the tag path at runtime, instead of directly binding to the tag's path. These parameters are represented with curly braces, such as {1}. Once these parameters are replaced with the text values they are bound to, the binding will link to the tag indicated by the constructed tag path.
+- **[Dynamic Tag](dynamic-tag.md)**: It is very similar to tag binding, with the key difference being that you can introduce any number of parameters to dynamically construct the tag path at runtime, instead of directly binding to the tag's path. These parameters are represented with curly braces, such as {1}. Once these parameters are replaced with the text values they are bound to, the binding will link to the tag indicated by the constructed tag path.
 
     ![alt text](2.png)
 
-- **Property**: Bind a property to a custom property of the current page or to one of the properties of a control within the current page. When the bound property changes, the new value will be pushed to the property that is set with the binding.
+- **[Property](property.md)**: Bind a property to a custom property of the current page or to one of the properties of a control within the current page. When the bound property changes, the new value will be pushed to the property that is set with the binding.
 
     ![alt text](3.png)
 
-- **Expression**: Use simple expressions to perform calculations on values that may involve large amounts of dynamic data.
+- **[Expression](expression.md)**: Use simple expressions to perform calculations on values that may involve large amounts of dynamic data.
 
     ![alt text](4.png)
 
-- **Dynamic Cell**: Bind a cell within a datatable to a tag or property. This allows one or more cells in the datatable to be easily made dynamic. It is commonly used in chart controls, such as bar chart.
+- **[Dynamic Cell](dynamic-cell.md)**: Bind a cell within a datatable to a tag or property. This allows one or more cells in the datatable to be easily made dynamic. It is commonly used in chart controls, such as bar chart.
 
     ![alt text](5.png)
 
-- **SQL Query**： Binds the created SQL Query to the control, rendering the data queried from the database on the control. Often used for table controls, such as tables.
+- **[SQL Query](sql-query.md)**： Binds the created SQL Query to the control, rendering the data queried from the database on the control. Often used for table controls, such as tables.
 
     ![alt text](6.png)
 
