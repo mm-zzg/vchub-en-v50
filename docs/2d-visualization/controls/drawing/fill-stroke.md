@@ -4,7 +4,9 @@ You can change the appearance style of a control by setting its fill color, bord
 
 ## **Fill**
 
-Includes 2 fill styles: solid and gradient. In the “Appearance“ property of the control, click the color selector of the fill to set the fill.
+Includes 2 fill styles: **Solid** and **Gradient**. 
+
+In the “Appearance“ property of the control, click the color selector of the fill to set the fill.
 
 ![alt text](15.png)
 

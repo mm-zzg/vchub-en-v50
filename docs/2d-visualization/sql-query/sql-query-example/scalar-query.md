@@ -42,7 +42,7 @@ There is a table named `person_management` in the database, which is used to sto
 
 ## **Use Scalar Query**
 
-1. Find '**Label**' and '**Button**' controls in the Tools window of the design page and drag them to the page.<br>
+1. Find **Label** and **Button** controls in the Tools window of the design page and drag them to the page.<br>
     ![alt text](16.png)
 2. Select the button control and click the icon pointed by the arrow to open the configuration page of the action.
     ![alt text](17.png)

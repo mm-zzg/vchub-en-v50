@@ -12,7 +12,9 @@ On the "Databases"->"Database Connection" page, create a new database connection
 
 ![alt text](1.png)
 
-There is a table named `person_management` in the database, which is used to store personnel information. Its structure is as follows:
+There is a table named `person_management` in the database, which is used to store personnel information. 
+
+Its structure is as follows:
 
 | Id | name          | email               | gender | age |
 |----|---------------|---------------------|--------|-----|
@@ -41,7 +43,7 @@ There is a table named `person_management` in the database, which is used to sto
 
 #### **Use Query**
 
-1. Find the '**Table**' control in the **Tools** window of the 2D design page and drag it to the page.
+1. Find the **Table** control in the **Tools** window of the 2D design page and drag it to the page.
     ![alt text](5.png)
 2. Select the table control, in the property bar, click the binding button of the "Table" property, and bind an SQL Query for it.
     ![alt text](6.png)
