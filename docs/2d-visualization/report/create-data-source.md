@@ -15,7 +15,7 @@ Data connection is the first step before any data analysis. The built-in report 
        Region:Capacity.ProductionLine3 <br>
        Region:Capacity.ProductionLine4 <br>
        Region:Capacity.ProductionLine5 <br>
-       Region:Capacity.ProductionLine6
+       Region:Capacity.ProductionLine6 <br>
 
 4. Click the **"OK"** button. At this time, the data will be displayed on the data source list page.
 
