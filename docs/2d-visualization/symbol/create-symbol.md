@@ -42,13 +42,13 @@ Just like drawing a screen, you can add components (e.g., controls, images, symb
 
 When your symbol creation is complete, you can open the symbol for editing using the following four methods:
 
-1. Double-click the symbol in the "Symbol Library" to automatically open the symbol's editing window in the editor.
-2. Right-click the symbol and select "Edit" from the context menu that appears.
+- **Method 1:** Double-click the symbol in the "Symbol Library" to automatically open the symbol's editing window in the editor.
+- **Method 2:** Right-click the symbol and select "Edit" from the context menu that appears.
 
     ![alt text](16.png)
 
-3. In the editor, double-click the symbol component to open the symbol for editing.
-4. In the editor, right-click the selected symbol component and choose the "Edit" button from the context menu to open the symbol.
+- **Method 3:** In the editor, double-click the symbol component to open the symbol for editing.
+- **Method 4:** In the editor, right-click the selected symbol component and choose the "Edit" button from the context menu to open the symbol.
 
     ![alt text](17.png)
 
