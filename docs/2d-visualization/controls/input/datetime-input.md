@@ -24,7 +24,7 @@ The Datetime Input control is used to set the date and format the date.
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the **2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md) page for a complete description of the various events.
 
 **Example**
 
@@ -48,6 +48,7 @@ Display the current system time with the Datetime Input control.
 3.Set event for the control, event type is "LifeCycle" -> "Loaded".
     ![alt text](22.png)
 4.Turn on the "Enable" button and enter the following script into the Script Editor: 
+
     ```typescript
     const data = await System.Tag.read('@System:Server.CurrentDateTime')
     const calendar = await System.UI.findControl('Datetime Input 1');
