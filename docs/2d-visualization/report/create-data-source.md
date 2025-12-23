@@ -9,12 +9,12 @@ Data connection is the first step before any data analysis. The built-in report 
     ![alt text](9.png)
      - Name: Capacity
      - Query Mode: Raw
-     - Tag: 
-       Region:Capacity.ProductionLine1
-       Region:Capacity.ProductionLine2
-       Region:Capacity.ProductionLine3 
-       Region:Capacity.ProductionLine4 
-       Region:Capacity.ProductionLine5 
+     - Tag: <br>
+       Region:Capacity.ProductionLine1<br>
+       Region:Capacity.ProductionLine2<br>
+       Region:Capacity.ProductionLine3 <br>
+       Region:Capacity.ProductionLine4 <br>
+       Region:Capacity.ProductionLine5 <br>
        Region:Capacity.ProductionLine6
 
 4. Click the **"OK"** button. At this time, the data will be displayed on the data source list page.
