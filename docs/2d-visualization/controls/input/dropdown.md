@@ -29,7 +29,7 @@ When the user selects an option, you can perform a specific action, such as upda
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the **2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md) page for a complete description of the various events.
 
 **Example**
 
@@ -37,12 +37,16 @@ Opens the specified page when an option is selected in the drop-down list.
 
 ![alt text](6.png)
 
+In the event properties, select "Selected Changed" and add the following code in the script:
+
+![alt text](30.png)
+
 ```js
 // Opens Page1 when the value of the drop-down option is 1, and opens Page2 when the value of the drop-down option is 2.
-if (Context.currentEvent.newValue == '1') {
-    System.Page.open('Page1');
+if (System.Context.currentEvent.newValue == '1') {
+    System.UI.open('Page1');
 }
-else if(Context.currentEvent.newValue == '2') {
-    System.Page.open('Page2');
+else if(System.Context.currentEvent.newValue == '2') {
+    System.UI.open('Page2');
 }
 ```

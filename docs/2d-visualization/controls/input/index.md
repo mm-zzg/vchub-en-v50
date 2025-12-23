@@ -2,7 +2,7 @@
 
 Allows the user to enter data.
 
-Containsthe following controls:
+Contains the following controls:
  
 - [Dropdown](input/dropdown.md) 
 - [Text Input](input/text-input.md)
