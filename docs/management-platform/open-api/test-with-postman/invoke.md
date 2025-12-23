@@ -2,7 +2,7 @@
 
 Open API provides Web APIs over the HTTPS protocol, with the default HTTPS port set to 10443.
 
-1. Before creating an HTTP request for Open API in Postman, browse the API definitions on the Swagger documentation page. To access the Swagger page, refer to chapter [API Document(Swagger)](../api-document(Swagger).md).  
+1. Before creating an HTTP request for Open API in Postman, browse the API definitions on the Swagger documentation page. Please refer to chapter [API Document(Swagger)](../api-document-swagger.md).
 
     The API definitions also can be found on chapter 
 
