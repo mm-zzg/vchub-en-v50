@@ -22,7 +22,6 @@ SQL Query can be used in several places. Here are some examples where SQL querie
     ![alt text](2.png)
     You can bind an created SQL Query. The result of a query can be displayed on the table control as the data set of the table.
     ![alt text](3.png)
-2. Script
-    Function **"System.Db.runSqlQuery"** can be used to call SQL Query from any script.
+2. Script function [System.Db.runSqlQuery](../../appendix/system-function/system-db/system-db-runsqlquery.md) can be used to call SQL Query from any script.
     ![alt text](4.png)
 

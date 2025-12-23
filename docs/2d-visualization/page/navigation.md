@@ -6,7 +6,7 @@ Navigation settings can be configured in the event properties of the control.
 
 ![alt text](22.png)
 
-## **Navigation Procedure**
+## **Navigation Steps**
 
 1. Select an event type, e.g. Mouse Pressed. 
 2. Turn on the "Enable" button.
@@ -30,17 +30,17 @@ When a page is selected, the custom properties for that page are automatically d
 
 #### **Page**
 
-Replace: The original page is closed and replaced by a new page.
+- Replace: The original page is closed and replaced by a new page.
 
-New Tab: The original page is unaffected and the new page is displayed in a new tab of the browser.
+- New Tab: The original page is unaffected and the new page is displayed in a new tab of the browser.
 
 #### **Popup Page**
 
-Center: The position of the popup page is displayed in the center of the window.
+- Center: The position of the popup page is displayed in the center of the window.
 
-Follow: The popup page is displayed at the current mouse click position.
+- Follow: The popup page is displayed at the current mouse click position.
 
-Custom: You can set the position of the popup page yourself.
+- Custom: You can set the position of the popup page yourself.
 
 ![alt text](25.png)
 
