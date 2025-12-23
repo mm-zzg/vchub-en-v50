@@ -64,5 +64,4 @@ Once a security group is set for an action, when the action is triggered by runn
 ![alt text](3d_Event9.png)
 
 
-
-> **Note:** The security group is only effective when authentication is performed using a Local-type Identity Provider.
+**Note:** The security group is only effective when authentication is performed using a Local-type Identity Provider.

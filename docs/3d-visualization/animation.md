@@ -27,7 +27,7 @@ Create a sphere model that represents an alarm light that flashes when the value
 | **Name**   | **Value**   |
 |:------------|:--------------------------|
 | Enable     | Enable      |
-| Bool value | Expression: tag('Default:temperature) > 40;  <br> **Note:** This animation only takes effect when the value is a Boolean value.  |
+| Bool value | Expression: tag(`'@Default:temperature`) > 40;  <br> **Note:** This animation only takes effect when the value is a Boolean value.  |
 | Executions | The number of times to flash when the value is true        |
 | Duration   | The execution time of each flash, unit ms.          |
 

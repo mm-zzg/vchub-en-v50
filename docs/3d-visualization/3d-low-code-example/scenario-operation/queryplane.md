@@ -1,8 +1,6 @@
 # queryPlane
 
-**Description: **Query all faces that meet the conditions in the scene
-
-**Query Plane：**
+**Description:** Query all faces that meet the conditions in the scene
 
 ```typescript
 const view = await System.UI.findControl('3DViewer1')// Obtain a 3D viewer control named "3DViewer1" in the page

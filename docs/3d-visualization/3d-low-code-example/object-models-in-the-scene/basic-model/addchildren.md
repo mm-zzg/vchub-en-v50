@@ -1,6 +1,6 @@
 # addChildren
 
-Description: Add children to the model
+**Description: Add children to the model**
 
 ```typescript
 const view = await System.UI.findControl('3DViewer1')// Obtain a 3D viewer control named "3DViewer1" in the page

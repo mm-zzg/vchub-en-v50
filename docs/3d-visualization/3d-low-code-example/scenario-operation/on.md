@@ -13,9 +13,6 @@ if (!chariot.userData?.off)// Determine whether an event has already been bound.
   chariot.userData = {off};// Save the off function in userDatd  
 }
 
-
-
-
 //Script in the off button
 const view = await System.UI.findControl('3DViewer1')// Obtain a 3D viewer control named "3DViewer1" in the page
 const scene = await view.getScene();// Get Scene

@@ -1,9 +1,4 @@
 
-
-
-
-
-
 # on
 
 **Description: Subscribe to mouse events** ('click '|'mousedown' |'mouseup’|'mouseout' |'mouseover’)

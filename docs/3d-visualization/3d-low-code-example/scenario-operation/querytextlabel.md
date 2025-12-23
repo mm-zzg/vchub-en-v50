@@ -2,7 +2,6 @@
 
 **Description**: Query all text annotations that meet the conditions in the scene
 
-Query text annotations:
 
 ```typescript
 const view = await System.UI.findControl('3DViewer1')// Obtain a 3D viewer control named "3DViewer1" in the page

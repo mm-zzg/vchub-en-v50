@@ -1,6 +1,6 @@
 # userData
 
-**Description:** Set the userData of the model
+**Description: Set the userData of the model**
 
 ```typescript
 const view = await System.UI.findControl('3DViewer1')// Obtain a 3D viewer control named "3DViewer1" in the page
