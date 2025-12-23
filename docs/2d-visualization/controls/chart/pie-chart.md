@@ -28,11 +28,11 @@ There are two styles: **Pie Chart** and **Ring Chart**.
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 
-Use a pie chart to display the daily production capacity ratio of different production lines.
+Use a pie chart to display the daily production capacity share of different production lines.
 
 1. Insert a pie chart on the page.
 2. Set the properties of the pie chart.
@@ -43,8 +43,8 @@ Use a pie chart to display the daily production capacity ratio of different prod
 | Label        | - **Show**: Turn on     <br>- **Position**: Outside.     <br>- **Numeric type**: Percentage.  <br>- **Decimals**: 1.          <br>- **Font**: Calibri, 14. |
 | Data         | Click the **Dataset** button to configure the dataset. <br>![alt text](37.png) <br>![alt text](38.png)  <br>After completing the setup, click the **Bind** button to perform dynamic cell binding.  ![alt text](39.png) |
 
-3.Click the Preview button to preview.
+3.Click the Preview button to preview.<br>
     ![alt text](40.png)
 
-4.Close the preview and change the style of the pie chart to donut chart . Preview again.
+4.Exit preview mode, change the pie chart style to a donut chart on the design page, disable the legend display, and then preview again.
     ![alt text](41.png)

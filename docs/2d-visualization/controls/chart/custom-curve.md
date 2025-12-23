@@ -17,12 +17,12 @@ A custom curve refers to a curve form created or defined based on actual conditi
 | Color    | Set the color effect of the control.  | Background | The overall background color of the control. | |------------|----------------------------------------------| | Grid       | The line color of the grid.                  | | X Axis     | The axis color of the X-axis.                | | Y Axis     | The axis color of the Y-axis.                |   |
 | Margin   | Set the spacing between the control and its selection box. Ensure that the chart is displayed clearly and sufficient space is reserved for chart elements, such as legend.  |
 | X Axis   | Set the style of the text displayed on the X-axis, including font, font size, bold, italic, and font color.  |
-| Y Axis   | Set the style of the Y-axis. <br>- **Show Grid**: Control the display and hiding of the grid. Default Display. <br>- **Grid(s)**: Set the number of dividing lines inserted on the Y-axis.   <br>- **Range**: Set the display and hiding of Y-axis range. Selected by default.  When this item is selected, the upper and lower limits of the YY-axis need to be set.  <br>- **Auto Range**: Automatically display scale values  The range of the Y-axis changes dynamically according to the range of bound values. If checked, the value range for the Y-axis will be automatically determined. If unchecked, the specified upper and lower bounds will be used.  **Note:** You can only choose 1 from 2 for display range and automatic display scale value. <br>- **Decimals**: Set the number of decimal places displayed on the Y-axis tick values.    <br>- **Font**: Set the font, font size, bold, italics, and font color of the text displayed on the Y-axis.  |
+| Y Axis   | Set the style of the Y-axis. <br>- **Show Grid**: Control the display and hiding of the grid. Default Display. <br>- **Grid(s)**: Set the number of dividing lines inserted on the Y-axis.   <br>- **Range**: Set the display and hiding of Y-axis range. Selected by default.  When this item is selected, the upper and lower limits of the YY-axis need to be set.  <br>- **Auto Range**: Automatically display scale values  The range of the Y-axis changes dynamically according to the range of bound values. If checked, the value range for the Y-axis will be automatically determined. If unchecked, the specified upper and lower bounds will be used. <br> **Note:** You can only choose 1 from 2 for display range and automatic display scale value. <br>- **Decimals**: Set the number of decimal places displayed on the Y-axis tick values.    <br>- **Font**: Set the font, font size, bold, italics, and font color of the text displayed on the Y-axis.  |
 | Legend   | Set the style of the control's legend.  <br>- **Show**: Control the display and hiding of the legend. Default is to display.  <br>- **Position**: Set the display position of the legend. The default is at the bottom. <br>- **Font**: Set the legend's font, font size, bold, italic, and font color.       | 
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 
@@ -36,6 +36,6 @@ Use custom curves to display equipment failure rates.
 | Y Axis       | The display range is set to 1~60.    |
 | Line Style   | Set the dataset and cell binding for the curve.  <br>![alt text](47.png)  <br>Set the style of the curve.  <br>![alt text](48.png)  <br>- **Line Color**: #00bfbf   <br>- **Line Width**: 1   <br>- **Area**: False     <br>- **Line Style**: Solid Line <br>- **Line Type**:Line       <br>- **Symbol Color**: #00bf35    <br>- **Symbol Style**: Dot        <br>- **Symbol Size**: 6          <br>- **Decimals**:1    |
 
-3.Click the Preview button to preview.
+3.Click the Preview button to preview.<br>
     ![alt text](49.png)
 

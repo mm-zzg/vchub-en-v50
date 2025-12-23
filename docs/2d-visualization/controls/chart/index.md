@@ -1,5 +1,6 @@
 # Chart
 Present data in various chart styles.
+
 Contains the following controls:
 
 
