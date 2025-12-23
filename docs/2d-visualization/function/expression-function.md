@@ -4,7 +4,7 @@
 
 Expression functions are predefined functions that can be called in multiple places within a project. When you execute an expression function, you can pass parameters to it to get the execution result, which helps avoid writing the same logic repeatedly.
 
-Expression functions are located under Project > Function in the editor.
+Expression functions are located under "Project > Function" in the editor.
 
 ![alt text](1.png)
 
@@ -18,12 +18,13 @@ To create an expression function, right-click on the "Expression Function" node 
 ![alt text](2.png)
 
 **Note**：In use, Expression function is referred to by name, so all references to the expression function need to be updated when renaming.
+
 **Property**
 
 | **Name**    | **Description**   |
 |-------------|-------------|
 | Description | Description of expression function. |
-| Script      | **Note:**  <br>- An expression function must contain one and only one `export function`. The name of this export function serves as the name of the expression function. <br>- Names of expression functions must be unique across all functions. <br>- If needed, non-export functions can be defined within the expression function, but they cannot be called by external scripts. <br>- The name displayed in the list corresponds to the name of the export function. <br>- Expression functions only support the two system functions `tag` and `property`. All functions under the `System` namespace are **not supported**. <br>- Expression functions and page functions are independent of each other and **cannot call one another**. |
+| Script      | **Note:**  <br>1. An expression function must contain one and only one `export function`. The name of this export function serves as the name of the expression function. <br>2. Names of expression functions must be unique across all functions. <br>3. If needed, non-export functions can be defined within the expression function, but they cannot be called by external scripts. <br>4. The name displayed in the list corresponds to the name of the export function. <br>5. Expression functions only support the two system functions `tag` and `property`. All functions under the `System` namespace are **not supported**. <br>6. Expression functions and page functions are independent of each other and **cannot call one another**. |
 
 ## **Where can expression functions be used?**
 
@@ -31,7 +32,7 @@ In any property binding interface that supports **Expression**, you can access e
 
 ![alt text](4.png)
 
-## Example: Tank alarm level determination
+**Example:** Tank alarm level determination
 
 1. Create an expression function named `getTankAlarmLevel` with the following script
 

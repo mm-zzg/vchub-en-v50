@@ -4,7 +4,7 @@
 
 Page functions are predefined functions that can be called in multiple places within a project. When you execute an page function, you can pass parameters to it to get the execution result, which helps avoid writing the same logic repeatedly.
 
-Page functions are located under Project > Function in the editor.
+Page functions are located under "Project > Function" in the editor.
 
 ![alt text](5.png)
 
@@ -23,7 +23,7 @@ To create a page function, right-click on the "Page Function" node under "Functi
 | **Name**    | **Description**      |
 |-------------|------------|
 | Description | Description of page function.   |
-| Script      | **Note:**  <br>- A page function must contain one and only one `export function`. The name of this export function serves as the name of the page function. <br>- Names of page functions must be unique across all functions. <br>- If needed, non-export functions can be defined within the page function, but they cannot be called by external scripts. <br>- The name displayed in the list corresponds to the name of the export function. <br>- Page functions and expression functions are independent of each other and cannot call one another. |
+| Script      | **Note:**  <br>1. A page function must contain one and only one `export function`. The name of this export function serves as the name of the page function. <br>2. Names of page functions must be unique across all functions. <br>3. If needed, non-export functions can be defined within the page function, but they cannot be called by external scripts. <br>4. The name displayed in the list corresponds to the name of the export function. <br>5. Page functions and expression functions are independent of each other and cannot call one another. |
 
 ## Where can page functions be used?
 
@@ -31,7 +31,7 @@ In any event configuration interface that supports Script, you can access page f
 
 ![alt text](8.png)
 
-## Example: Batch control pump group start/stop
+**Example:** Batch control pump group start/stop
 
 1. Create a page function named `controlPumpGroup` with the following script
 
