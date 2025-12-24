@@ -27,7 +27,7 @@ VC Hub provides an installation package for the Linux environment, with the file
 1. The program is monitored and managed by the systemd service manager provided by the Linux system. Please ensure that systemd is running properly on the server.
 2. The installation script includes operations such as creating scripts, so make sure you have sufficient permissions.
 
-#### How to Fix libice6 / libsm6 Installation Failures
+## How to Fix libice6 / libsm6 Installation Failures
 
 If you see the message **"Failed to install libice6/libsm6. Please try installing it yourself."** during setup, you can install these packages manually by following the steps below:
 
