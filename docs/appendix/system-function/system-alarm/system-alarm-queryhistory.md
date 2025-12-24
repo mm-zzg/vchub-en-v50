@@ -1,9 +1,11 @@
 # System.Alarm.queryHistory
 
 ## Description
+
 Query the historical alarms of the current historical storage.
 
 ## Grammar
+
 ```typescript
 System.Alarm.queryHistory(historyStorage:string): Promise<any>
 System.Alarm.queryHistory(historyStorage:string,params:{
@@ -54,7 +56,8 @@ Return
 
 ```
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example
+
 Query the historical alarms from the "Default" historical storage for the past 8 hours. 
 ```typescript 
 const value = await System.Alarm.queryHistory("Default");

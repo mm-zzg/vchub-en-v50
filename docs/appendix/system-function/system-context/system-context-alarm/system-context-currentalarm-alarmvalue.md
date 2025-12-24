@@ -4,11 +4,15 @@
 ## Description
 
 The alarm value of the current alarm.
+
 ## Grammar
+
 System.Context.currentAlarm.alarmValue
 
-## Code Example                                                                                                                                                                                                                                                 
-Get the alarm value of the current alarm.                                                         
+## Code Example
+
+Get the alarm value of the current alarm.  
+    
 
 ```typescript 
 

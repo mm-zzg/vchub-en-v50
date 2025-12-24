@@ -1,9 +1,11 @@
 # System.Alarm.query
 
 ## Description
+
 Query real-time alarms. 
 
 ## Grammar
+
 ```typescript
 System.Alarm.query(): Promise<any>  
 System.Alarm.query(params?:{  
@@ -18,7 +20,7 @@ expression?: string}): Promise<any>
   params - The query conditions object, optional parameters
   {
      priority? -  Priority(s), optional values are “Low”,“Medium”,“High”,“Critical”
-     state? - State(s), optional values are “Active”,“Unacked”,“Acked”,“Cleared”
+     state? - State(s), optional values are "Active","Unacked","Acked","Cleared"
      path? - Alarm path(s)
      type? - Type(s), optional values are "H","H2","H3","H4","L","L2","L3","L4","RateOfChange","Equivalent","TrueToFalse","FalseToTrue"
      group? - Alarm group(s)
