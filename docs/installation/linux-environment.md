@@ -34,30 +34,21 @@ If you see the message **"Failed to install libice6/libsm6. Please try installin
 1. Open a terminal.
 
 2. Update the package list:
-
    ```
    sudo apt update
    ``` 
-
 3. Install the required libraries:
-
    ``` 
    sudo apt install libice6 libsm6
    ``` 
-
-   If the installation succeeds, no further action is required.
-   
-   If you encounter an error such as **"Unmet dependencies"** or a prompt suggesting to run **"apt --fix-broken install"**, this indicates broken package dependencies on your system.
-
-   Run the following command to resolve them:
+   If the installation succeeds, no further action is required.<br>
+   If you encounter an error such as **"Unmet dependencies"** or a prompt suggesting to  **try 'apt --fix-broken install'"**, this indicates broken package dependencies on your system.<br>
+   Run the following command to resolve them:<br>
    ```
    sudo apt --fix-broken install
    ```
-
    This command attempts to repair inconsistent package states by installing missing dependencies or completing interrupted installations.
-
 4. After the fix completes successfully, retry installing the libraries:
-
    ```
    sudo apt install libice6 libsm6
    ```
