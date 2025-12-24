@@ -108,6 +108,15 @@ However, please note that if you attempt to update using an invalid license (for
 
 Therefore, please perform this operation with caution.
 
+## License Expired
+
+When the license expires:
+
+- The **Admin Console** and **Designer** pages will remain accessible.
+- **Driver data acquisition will stop**.
+- The **Preview** and **Runtime** pages will display a message indicating that the license has expired if an unauthorized control is used on the page. For example, the licenses for 3D and Report have expired.
+
+    ![alt text](46.png)
 
 
 
