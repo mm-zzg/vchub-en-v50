@@ -27,7 +27,7 @@ VC Hub provides an installation package for the Linux environment, with the file
 1. The program is monitored and managed by the systemd service manager provided by the Linux system. Please ensure that systemd is running properly on the server.
 2. The installation script includes operations such as creating scripts, so make sure you have sufficient permissions.
 
-## How to Fix libice6 / libsm6 Installation Failures
+## **How to Fix libice6 / libsm6 Installation Failures**
 
 If you see the message **"Failed to install libice6/libsm6. Please try installing it yourself."** during setup, you can install these packages manually by following the steps below:
 
@@ -52,7 +52,7 @@ If you see the message **"Failed to install libice6/libsm6. Please try installin
    ```
    sudo apt install libice6 libsm6
    ```
-## Configuration
+## **Configuration**
 
 1. Read and agree the license agreement
 2. Create an administrator user. Remember this username and password, as you will use them to log in for the first time. 
@@ -64,7 +64,7 @@ If you see the message **"Failed to install libice6/libsm6. Please try installin
 **Note**: If you perform an upgrade installation, a new empty workspace will be created by default. To return to the original workspace, you need to log in to the new workspace first and then manually open the original workspace from the workspace list. 
 
 
-## Security Configuration (Optional)
+## **Security Configuration (Optional)**
 
 To further enhance system security, it is recommended to perform the following steps after configuration to set permissions on the **service directory and application data directory**, allowing only specific users to access or modify them. This ensures that sensitive data is well protected and potential risks are minimized.
 
