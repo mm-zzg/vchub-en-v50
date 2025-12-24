@@ -63,7 +63,7 @@ new Vue({
             }, {
                 date: '2016-05-01',
                 name: 'WAGO VC Hub',
-                address: ' Jinshajiang Road, Putuo District, Shanghai'
+                address: 'Jinshajiang Road, Putuo District, Shanghai'
             }, {
                 date: '2016-05-03',
                 name: 'WAGO VC Hub',
