@@ -5,6 +5,7 @@
 ## Description
 
 Subscribing to a tag will retrieve its value, path, quality, and time when the tag changes.
+
 ## Grammar
 
 System.Tag.subscribe(paths: Array<string>, callback: (value: {
@@ -40,6 +41,7 @@ Then create a tag and check the tag group you just created.
 ![alt text](a_sf_st-subscribe2.png)
 
 Finally, when you subscribe to the "Device: Rotate" tag, you will receive the pushed data and print out the new value when the tag changes.
+
 ```typescript 
 const unsubscript = System.Tag.subscribe(['@Device: Rotate'], (value) => {
     console.log('subscribe', value.Value);

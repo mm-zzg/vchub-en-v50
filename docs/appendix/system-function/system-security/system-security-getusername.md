@@ -6,7 +6,9 @@
 ## Description
 
 Gets the username of the currently logged in user.
+
 ## Grammar
+
 System.Security.getUsername(): string
 
      - Parameter
@@ -17,8 +19,10 @@ System.Security.getUsername(): string
 
         Username
 
-## Code Example                                                                                                                                                                                                                                                                                                          
-Displays the username of the currently logged in person on a  label.
+## Code Example
+
+Displays the username of the currently logged in person on a label.
+
 ```typescript 
 
 const user = System.Security.getUsername();

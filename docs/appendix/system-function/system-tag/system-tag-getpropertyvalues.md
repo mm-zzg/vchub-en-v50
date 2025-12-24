@@ -2,9 +2,11 @@
 
 
 ## Description
+
 Get the specified single or multiple node paths, property names, and property values.
 
 ## Grammar
+
 System.Tag.getPropertyValues(path: string): Promise<{ path: string; property: string; value: any }>
 
 System.Tag.getPropertyValues(path: Array<string>): Promise<Array<{ path: string; property: string; value: any }>>
@@ -17,7 +19,7 @@ System.Tag.getPropertyValues(path: Array<string>): Promise<Array<{ path: string;
 
         The path, property name, and value of a single or multiple node properties
 
-## Code Example        
+## Code Example  
 
 Get the path of the node "Device: Temperature" and the value of the Name property.
 

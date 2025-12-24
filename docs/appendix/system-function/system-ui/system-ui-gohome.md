@@ -2,9 +2,11 @@
 
 
 ## Description
+
 Executing the script will bring you back to the startup page for the current project.
 
 ## Grammar
+
 System.UI.goHome(): void
 
      - Parameter

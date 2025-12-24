@@ -1,9 +1,8 @@
 
-
 # System.Db.runSqlQuery
 
-
 ## Description
+
 Execute SQL query to perform operations on the database.Before executing an SQL query to operate on the database, please refer to the [Create SQL Query](../../../2d-visualization/sql-query/create-sql-query.md) section to complete the SqlQuery setup.  
 
 ## Grammar
@@ -24,7 +23,7 @@ System.Db.runSqlQuery(queryName: string, parameters?: Array<{ name: string, valu
     
         Query result
 
-## Code Example     
+## Code Example  
 
 **Query:** Query the database for male students and update the Table control.
 

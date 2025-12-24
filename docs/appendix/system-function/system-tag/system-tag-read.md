@@ -4,7 +4,9 @@
 ## Description
 
 Get value, path, quality and timestamp of tag(s).
+
 ## Grammar
+
 System.Tag.read(path: string): Promise<{ path: string; value: any; time: string; quality: string; }>
 
 System.Tag.read(paths: Array<string>): Promise<Array<{ path: string; value: any; time: string; quality: string; }>>

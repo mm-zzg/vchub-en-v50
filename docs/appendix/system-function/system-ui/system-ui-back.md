@@ -2,9 +2,11 @@
 
 
 ## Description
+
 Call this function to return to the previous page after System.UI.open().
 
 ## Grammar
+
 System.UI.back(): void
 
      - Parameter

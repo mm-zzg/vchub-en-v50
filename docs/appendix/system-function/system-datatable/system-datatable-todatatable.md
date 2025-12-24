@@ -2,6 +2,7 @@
 
 
 ## Description
+
 Transform data from third-party APIs or databases into datatable object.
 
 ## Grammar
@@ -19,7 +20,7 @@ System.Datatable.toDatatable(data: Array<any>, headers?: Array< string>): Datata
          Datatable object
 
 ## Code Example      
-                                                                                                                                            
+
 Scenario 1: Generate a data source from an array of objects that can be used in a table.
 ```typescript 
 const table1 = await System.UI.findControl('Table1');

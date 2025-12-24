@@ -4,9 +4,11 @@
 
 
 ## Description
+
 Open the page in a new tab.
 
 ## Grammar
+
 System.UI.openNewTab(page: string, pageProperties?: any): void
 
      - Parameter

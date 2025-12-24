@@ -2,9 +2,11 @@
 
 
 ## Description
+
 Batch apply control changes.
 
 ## Grammar
+
 System.UI.applyChanges(controls: Array<IControl>, triggerLoadedEvent?: boolean): void
 
     - Parameter

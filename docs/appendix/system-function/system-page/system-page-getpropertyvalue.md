@@ -1,9 +1,11 @@
 # System.Page.getPropertyValue
 
 ## Description
+
 Get the value of the current page's custom property or control property.
+
 ## Grammar
-                                                                                                                               
+
 System.Page.getPropertyValue(path: string): any 
 
      - Parameter 
@@ -15,8 +17,10 @@ System.Page.getPropertyValue(path: string): any
         Property value
 
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example
+
 Get the value of the custom property "no" for the page.
+
 ```typescript 
 
 const value = System.Page.getPropertyValue('#custom.no');

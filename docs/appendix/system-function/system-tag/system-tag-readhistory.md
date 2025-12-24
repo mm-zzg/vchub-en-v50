@@ -2,9 +2,11 @@
 
 
 ## Description
+
 Retrieve the historical records of the current tag, including the tag's path, value, quality code, time and aggregation mode.
 
 ## Grammar
+
 ```typescript
 enum AggregationMode { "Raw", "Avg", "Max", "Min", "First", "Last", "Count", "Range", "CountOn", "CountOff", "DurationOn", "DurationOff" }
 
@@ -57,11 +59,6 @@ System.Tag.readHistory(
 ```
 Parameter
 
-
-
-
-
-
 |  Name         | Type        | Description    |
 |:---------------|:-----------------|:----------------|
 | start         | Date or string         | Start Time    |
@@ -91,6 +88,7 @@ console.log(value);
 
 ```
 Retrieve the historical records of the variable "Device:Temperature" between 2024-08-14 00:00:00 and 2024-08-15 00:00:00 using the "FixedPoints" query mode, with "Avg" as the aggregation mode and a total of 30 data points.
+
 ```typescript 
 const value = await System.Tag.readHistory('2024-08-14 00:00:00', '2024-08-15 00:00:00', '@Device:Temperature','FixedPoints','Avg',30, {
   timeout: 60,
@@ -103,6 +101,7 @@ console.log(value);
 
 ```   
 Retrieve the historical records of the variable "Device:Temperature" between 2024-08-14 00:00:00 and 2024-08-15 00:00:00, using the "Periodic" query mode, with "Max" as the aggregation mode, a period of 1, and "Minute" as the period mode.
+
 ```typescript 
 const value = await System.Tag.readHistory('2024-08-14 00:00:00', '2024-08-15 00:00:00', '@Device:Temperature','Periodic','Max',1,'Minute', {
   timeout: 60,

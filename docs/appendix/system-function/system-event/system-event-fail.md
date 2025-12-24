@@ -1,8 +1,7 @@
-
 # System.Event.fail
 
-
 ## Description
+
 Add a failed operation event to the system event, which can be queried in the real-time event control or historical event control.
 
 ## Grammar

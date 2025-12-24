@@ -2,9 +2,11 @@
 
 
 ## Description
+
 Close the current page.
 
 ## Grammar
+
 System.UI.close(data?: any): void
 
      - Parameter

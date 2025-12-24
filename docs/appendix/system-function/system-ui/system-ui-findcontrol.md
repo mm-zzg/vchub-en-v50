@@ -4,7 +4,9 @@
 ## Description
 
 Find the control instance in the page.
+
 ## Grammar
+
 System.UI.findControl(name: string): any
 
      - Parameter

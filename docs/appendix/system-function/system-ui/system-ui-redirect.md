@@ -2,9 +2,11 @@
 
 
 ## Description
+
 Redirect the page to a new URL.
 
 ## Grammar
+
 System.UI.redirect(url:string, newTab?: boolean)
 
      - Parameter
@@ -26,6 +28,7 @@ Open google on the new tab.
 System.UI.redirect('https://www.google.com/');
 ```
 Open google on the current tab. 
+
 ```typescript 
 System.UI.redirect('https://www.google.com/', false);
 

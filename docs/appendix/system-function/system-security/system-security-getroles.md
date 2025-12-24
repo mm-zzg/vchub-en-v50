@@ -2,9 +2,11 @@
 
 
 ## Description
+
 Get roles of the currently logged in user.
 
 ## Grammar
+
 System.Security.getRoles(): string 
 
      - Parameter 
@@ -15,8 +17,10 @@ System.Security.getRoles(): string
 
         Roles, multiple roles separated by commas.
 
-## Code Example                                                                                                                                                                                                                                                                                                          
-Displays the role of the currently logged in person on a  label.
+## Code Example
+
+Displays the role of the currently logged in person on a label.
+
 ```typescript 
 
 const roles = System.Security.getRoles();

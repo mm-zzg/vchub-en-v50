@@ -3,9 +3,11 @@
 
 
 ## Description
+
 Obtain images from the system library.
 
 ## Grammar
+
 System.Library.getSystemImage(path:string): Promise<string> 
 
 Parameter 
@@ -16,7 +18,8 @@ Return
 
 base64
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example
+
 Obtain"Transformer. svg" under "Power" in the system library.
 
 ```typescript 

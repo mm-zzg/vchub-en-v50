@@ -3,9 +3,11 @@
 
 
 ## Description
+
 Set the value of the current page's custom property or control property.
 
 ## Grammar
+
 System.Page.setPropertyValue(path: string,value: any): void 
 
      - Parameter 
@@ -18,8 +20,10 @@ System.Page.setPropertyValue(path: string,value: any): void
 
         Nothing
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example 
+
 Get the value of the custom property "no" on the page, and add 1 to its value each time.
+
 ```typescript 
 const value = System.Page.getPropertyValue('#custom.no');
 System.Page.setPropertyValue('#custom.no', value > 100 ? 0 : value + 1);

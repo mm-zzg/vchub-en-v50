@@ -4,9 +4,11 @@
 
 
 ## Description
+
 Log out of the currently logged in user and return to the login page.
 
 ## Grammar
+
 System.Security.logout(): Promise<void> 
 
      - Parameter 
@@ -20,6 +22,7 @@ System.Security.logout(): Promise<void>
 ## Code Example
 
 Logout.
+
 ```typescript 
 
 System.Security.logout()

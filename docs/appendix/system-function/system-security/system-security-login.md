@@ -3,9 +3,11 @@
 
 
 ## Description
+
 Use this function to log in directly, avoiding the system's built-in login page.
 
 ## Grammar
+
 System.Security.login(username: string, password: string): Promise<boolean>
 
      - Parameter
@@ -18,7 +20,8 @@ System.Security.login(username: string, password: string): Promise<boolean>
 
         Whether login succeeded.
 
-## Code Example                                                                                                                                                                                                                                                                                                          
+## Code Example
+
 At the top of the page, there is a 'Switch User' button. Clicking the button opens the 'LoginPopup' popup. After the user enters their username and password and successfully login, the system automatically redirects to the project homepage.
 
 Switch User Button Script

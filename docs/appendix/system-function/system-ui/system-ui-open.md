@@ -3,9 +3,11 @@
 
 
 ## Description
+
 Open a new page by replacing the window.
 
 ## Grammar
+
 System.UI.open(page: string, pageProperties?: any): void
 
      - Parameter
