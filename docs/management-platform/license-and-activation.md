@@ -41,6 +41,8 @@ You can also enter a new trial license **before** the current trial ends. Regard
 
 After activation, the license key will be **bound to the installation server**, and the same key cannot be activated on multiple servers.
 
+For a detailed introduction of "license", please refer to [License](../installation/product-license.md).
+
 **Activation Steps:**
 
 1. Click the menu "Node"->"License", and click on the "Activate License" button at the top right corner of the list.
@@ -50,7 +52,19 @@ After activation, the license key will be **bound to the installation server**, 
 3. After successful activation, the license list will show the license information. For activated keys, you can perform deactivate and update operation.
 ![alt text](40.png)
 
+**Notes:**
+
+1. In the license list, the License Type must be the same.
+2. For the same License Item, only one activated license is allowed.
+3. Once any license in the license list has a remaining validity period of 30 days or less, a license expiration reminder will be displayed in the top-right corner of the Admin Console and Designer pages.
+
+    ![alt text](44.png)
+
 ## Deactivation
+
+A license that is in the activated state can be deactivated.
+
+![alt text](41.png)
 
 If you wish to remove the license from the current machine and use it on another machine instead, you must first perform a **deactivation** action. After deactivation, the corresponding license will be removed from the current machine. 
 
@@ -60,17 +74,41 @@ After reactivation, the validity period of this license remains unchanged and is
 
 Unless necessary, please avoid using the deactivation function frequently.
 
+## Delete
+
+A license that is in the expired state can be deleted.
+
+![alt text](45.png)
+
+After clicking the Delete button, the license will be removed from the list.
+
 ## Refresh
 
 You can refresh the license information at any time. After refreshing, the latest status of the license will be retrieved.
 
+![alt text](42.png)
+
 ## Renewal
 
-If you need to renew a license key, the sales representative will perform the renewal after the renewal order is completed. You only need to refresh the license information to obtain the updated validity period.
+If you would like to continue using the license before it expires, please contact the sales support to renew the license.You only need to refresh the license information to obtain the updated validity period.
 
-## Add Module
+Please complete the renewal before the license expires. Once the license expires, the corresponding functionality will become unavailable, which may impact your production environment.
 
-If you need to purchase additional modules, after the order is completed, the sales representative will provide the license key for the new module. You only need to activate the provided license key.
+## Update
+
+When you want to change the number of **I/O tags** or **concurrent online users**, you can use the **Update** operation.
+
+![alt text](43.png)
+
+Only one license can be activated for each license item at a time. Normally, to change a license, you need to deactivate the existing license first and then activate a new one. For I/O tag licenses, deactivation will stop data acquisition, which may cause temporary data loss in a production environment.
+
+By using the Update operation, you can avoid this issue and modify the license without interrupting data acquisition.
+
+However, please note that if you attempt to update using an invalid license (for example, an already activated or expired license), the update will fail and may result in the loss of the license for that module.
+
+Therefore, please perform this operation with caution.
+
+
 
 
 

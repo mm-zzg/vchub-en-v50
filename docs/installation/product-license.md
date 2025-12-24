@@ -23,7 +23,13 @@ There are 6 different license quantities available. You can determine the number
 - 20,000 I/O tags
 - 50,000 I/O tags
 
-Note: The tag numbers cannot be added together. For example: If you need to use 3,000 I/O tags, then you need to purchase a license that supports 5,000 I/O tags. 
+**Notes:**
+
+1. The tag numbers cannot be added together. For example: If you need to use 3,000 I/O tags, based on the number of tags, you need to purchase a license with ≥ 3000 tags.So you need to purchase a license that supports 5,000 I/O tags. 
+2. If the I/O tag license is not activated, the quality of the I/O tag will be displayed as "Bad_NotLicensed".
+3. If the number of created I/O tags exceeds the maximum allowed by the I/O tag license, then according to the tag sorting rules, the tags beyond the maximum limit will have their quality set to "Bad_NotLicensed".
+4. Tags with a quality status of "Bad_NotLicensed" will no longer be collected or pushed in the preview and runtime pages.
+
 
 #### Concurrent Online User
 
@@ -33,13 +39,15 @@ Note: The tag numbers cannot be added together. For example: If you need to use 
 - 5 Concurrent Online Users
 - 10 Concurrent Online Users
 
-If the user does not purchase any Concurrent Online User type license, only one concurrent user is allowed.
+**Notes:**
 
-The number of concurrent users is also not supported for accumulation.
+1. If the user does not purchase any Concurrent Online User type license, only one concurrent user is allowed.
+
+2. The number of concurrent users is also not supported for accumulation.
 
 #### Add On 
 
-The following functional modules are Add Ons. Without purchasing the corresponding license, the functions will be restricted. 
+The following functional modules are Add Ons. 
 
 - Database: MySQL,SQL Server,PostgreSQL,InfluxDB
 - Report
@@ -48,5 +56,12 @@ The following functional modules are Add Ons. Without purchasing the correspondi
 - Driver: MQTT Native,MQTT SparkplugB,WAGO Protocol
 - 3D
 
-Each Add-on module can be purchased separately.
+**Notes:**
+
+1. Each Add-on module can be purchased separately.
+2. For modules that have not been licensed, display a message at the top of the page indicating that the corresponding module does not have a license, for example:
+    ![alt text](36.png)
+    ![alt text](37.png)
+3. For unlicensed functional modules, normal operations (such as create, delete, update, and query) are allowed in the **Admin Console** and **Designer** pages, but functionality is restricted on the Preview and Runtime pages.
+
 
