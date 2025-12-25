@@ -36,7 +36,7 @@ Configure permissions under the Permission page.
 
  Please refer to: [Permission](../management-platform/security/permission.md), [Access Level](../management-platform/security/access-level.md)
 
- #### Breaking Change 2: Permission control added for project creation
+#### Breaking Change 2: Permission control added for project creation
 
 - **Impact** : Users without Admin or Configurator roles.
 - **Change** : From version 4.2, only Admin or Configurator roles can create, copy, or import projects.
