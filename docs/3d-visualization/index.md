@@ -5,7 +5,7 @@ In addition to supporting traditional 2D visualization, VC Hub also supports mor
 Description of 3D files supported on VC Hub:
 
 1. Only files in .glb format are supported. You can [Convert 3D Models to GLB Format](convert-3d-models-to-glb-format/index.md) by third party tools.
-2. The size of a single model **≤** **20 MB** (models exceeding this size will not support browser caching).The total **size** of all models in a single scene should be **≤ 500 MB**, with a maximum of **3,000 models** and a **total triangle** count of **≤** **8 million**.
+2. The size of a single model **≤ 20 MB** (models exceeding this size will not support browser caching).The total **size** of all models in a single scene should be **≤ 500 MB**, with a maximum of **3,000 models** and a **total triangle** count of **≤ 8 million**.
 3. Models can be converted to glb format within 3D drawing tools, such as 3D Max, Auto CAD, etc.
 4. The initial scene loading time is dependent on the network bandwidth quality. For subsequent loads, local caching is automatically utilized according to the browser's default behavior(On the condition that each single model size does not exceed 20 MB).
 
