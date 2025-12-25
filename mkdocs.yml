@@ -194,7 +194,7 @@ nav:
         - Management Platform:
                   - management-platform/index.md
                   - License:
-                            - management-platform/license/license-and-activation.md
+                            - management-platform/license/index.md
                   - Workspaces:
                             - management-platform/workspaces/index.md
                             - management-platform/workspaces/multi-workspace-management.md
@@ -298,7 +298,7 @@ nav:
                             - management-platform/scripts/schedule.md
                             - management-platform/scripts/log-configuration.md
                   - Networking:
-                            - management-platform/networking/networking.md
+                            - management-platform/networking/index.md
                   - Databases:
                             - management-platform/databases/index.md
                             - Database Connection:
@@ -346,13 +346,13 @@ nav:
                                       - management-platform/security/identity-provider/integrates-with-OAuth0.md
                             - management-platform/security/open-api.md
                   - Node Configuration:
-                            - management-platform/node-configuration/node-configuration.md
+                            - management-platform/node-configuration/index.md
                   - Certificate Management:
-                            - management-platform/certificate-management/certificate-management.md
+                            - management-platform/certificate-management/index.md
                   - MQTT Broker:
-                            - management-platform/mqtt-broker/mqtt-broker.md
+                            - management-platform/mqtt-broker/index.md
                   - Trust Store:
-                            - management-platform/trust-store/trust-store.md
+                            - management-platform/trust-store/index.md
                   - Open API:
                             - management-platform/open-api/index.md
                             - management-platform/open-api/api-document-swagger.md
@@ -367,11 +367,11 @@ nav:
                                       - management-platform/open-api/test-with-postman/invoke.md
                                       - management-platform/open-api/test-with-postman/subscribe.md 
                   - Diagnostics:
-                            - management-platform/diagnostics/diagnostics.md
+                            - management-platform/diagnostics/index.md
         - 2D Visualization:
                   - 2d-visualization/index.md
                   - Editor Introduction:
-                            - 2d-visualization/editor-introduction/editor-introduction.md
+                            - 2d-visualization/editor-introduction/index.md
                   - Page:
                             - 2d-visualization/page/index.md
                             - 2d-visualization/page/page-type.md
@@ -380,7 +380,7 @@ nav:
                             - 2d-visualization/page/resolution-adaptation.md
                             - 2d-visualization/page/page-permission.md 
                   - Page Template:                            
-                            - 2d-visualization/page-template/page-template.md
+                            - 2d-visualization/page-template/index.md
                   - Sql Query:
                             - 2d-visualization/sql-query/index.md
                             - 2d-visualization/sql-query/create-sql-query.md
@@ -484,7 +484,7 @@ nav:
                             - 2d-visualization/property-binding/sql-query.md
                             - 2d-visualization/property-binding/bidirectional-bindings.md 
                   - Animation:
-                            - 2d-visualization/animation/animation.md
+                            - 2d-visualization/animation/index.md
                   - Event:
                             - 2d-visualization/event/index.md
                             - 2d-visualization/event/navigation.md
