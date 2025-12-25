@@ -4,7 +4,7 @@ You can add models, set model properties, set animations, events, etc. for the m
 
 ## Add scene
 
-In the  " **3D Scenes** " window, click the ➕ button in the upper right corner to add a scene.
+In the  "**3D Scenes**" window, click the ➕ button in the upper right corner to add a scene.
 
 Right-click the scene to modify, rename, export, and delete it.
 

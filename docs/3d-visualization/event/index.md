@@ -29,7 +29,7 @@ Simply select a page from the page list. When the trigger condition for the even
 
 Add a cube model to the page in the scene editor. When the mouse is clicked on the model, a pop-up window will open to introduce the detailed information of the model.
 
-![3d_Event3](../assets/images/3d_Event3.gif)
+![3d_Event3](../../assets/images/3d_Event3.gif)
 
 #### **Set Value**
 
@@ -41,7 +41,7 @@ Assign a new value to the tag.
 
 When the mouse is clicked and the model is lifted, the value of tag 1 will be modified to 10.
 
-![3d_Event5](../assets/images/3d_Event5.gif)
+![3d_Event5](../../assets/images/3d_Event5.gif)
 
 #### **Script**
 
@@ -51,7 +51,7 @@ Allows you to write custom scripts for more flexible configuration.
 **Example**
 
 When the mouse enters the model range, a script will be executed.
-![3d_Event7](../assets/images/3d_Event7.gif)
+![3d_Event7](../../assets/images/3d_Event7.gif)
 
 #### **Security Group**
 

@@ -497,13 +497,20 @@ nav:
                             - 2d-visualization/project-properties/customize-login-page.md
         - 3D Visualization:
                   - 3d-visualization/index.md
-                  - 3d-visualization/introduction-to-scene-editor.md
-                  - 3d-visualization/introduction-to-model-editor.md
-                  - 3d-visualization/page-visualization.md
-                  - 3d-visualization/animation.md
-                  - 3d-visualization/event.md
-                  - 3d-visualization/convert-3d-models-to-glb-format.md
-                  - 3d-visualization/lighting-settings.md
+                  - Scene Editor:
+                            - 3d-visualization/scene-editor/index.md
+                  - Model Editor:
+                            - 3d-visualization/model-editor/index.md
+                  - Page Visualization:
+                            - 3d-visualization/page-visualization/index.md
+                  - Animation:
+                            - 3d-visualization/animation/index.md
+                  - Event:
+                            - 3d-visualization/event/index.md
+                  - Convert 3D Models to GLB Format:
+                            - 3d-visualization/convert-3d-models-to-glb-format/index.md
+                  - Lighting Settings:
+                            - 3d-visualization/lighting-settings/index.md
                   - 3D Low Code Example:
                             - 3d-visualization/3d-low-code-example/index.md
                             - 3d-visualization/3d-low-code-example/find-3dview.md

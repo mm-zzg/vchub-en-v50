@@ -46,8 +46,8 @@ After creating a new scene, it is recommended to first adjust the default parall
 
 
 
-| **Before adding lights**                                                                                                                    | **After adding lights**                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Before adding lights**   | **After adding lights**   |
+|----------------|----------------|
 | ![alt text](3d_LSettings1.png) | ![alt text](3d_LSettings2.png) |
 
 ## Usage Recommendations and Notes

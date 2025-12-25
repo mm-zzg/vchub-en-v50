@@ -19,7 +19,7 @@ The blink effect is easy to attract attention and is often used to alarm when ab
 Create a sphere model that represents an alarm light that flashes when the value of Temperature is greater than 40.
 
 
-![3d_Animation2](../assets/images/3d_Animation2.gif)
+![3d_Animation2](../../assets/images/3d_Animation2.gif)
 
 ![alt text](3d_Animation3.png)
 
@@ -38,7 +38,7 @@ Let the model perform dynamic effects of displacement through paths.
 **Example**
 
 The model is displaced according to the path on the conveyor belt.
-![3d_Animation4](../assets/images/3d_Animation4.gif)
+![3d_Animation4](../../assets/images/3d_Animation4.gif)
 ![alt text](3d_Animation5.png)
 
 
@@ -59,7 +59,7 @@ The model is displaced according to the path on the conveyor belt.
 
 The model rotates as the value changes.
 
-![3d_Animation6](../assets/images/3d_Animation6.gif)
+![3d_Animation6](../../assets/images/3d_Animation6.gif)
 
 ![alt text](3d_Animation7.png)
 
@@ -88,7 +88,7 @@ Change the model through changes in values.
 
 The cube determines whether to scale based on a Bool value.
 
-![3d_Animation11](../assets/images/3d_Animation11.gif)
+![3d_Animation11](../../assets/images/3d_Animation11.gif)
 
 ![3d_Animation12](3d_Animation12.png)
 
