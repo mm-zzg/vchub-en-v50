@@ -43,10 +43,6 @@ The user data directory and the installation program directory are independent. 
 
 ## **Upgrade**
 
-Within the maintenance period, you can upgrade to the VC Hub installation package released during the maintenance period for free.
-
-If the maintenance has expired and has not been renewed, you can upgrade to the revision version for free. As long as the "Major Version. Minor Version" matches the current authorized version, there are no restrictions on upgrading.
-
 Direct upgrade installation is not currently supported. Before upgrading, please uninstall first. After uninstalling, install the new version.
 
 ## **System Environment Tags**

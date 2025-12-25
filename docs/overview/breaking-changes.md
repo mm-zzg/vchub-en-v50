@@ -34,29 +34,29 @@ Configure permissions under the Permission page.
 
 ![alt text](8.png)
 
- Please refer to: **Management->Paltform->Security->Permission**，**Management->Paltform->Security->Access Level**
+ Please refer to: [Permission](../management-platform/security/permission.md), [Access Level](../management-platform/security/access-level.md)
 
  #### Breaking Change 2: Permission control added for project creation
 
 - **Impact** : Users without Admin or Configurator roles.
 - **Change** : From version 4.2, only Admin or Configurator roles can create, copy, or import projects.
-- **Solution** : Use an Admin account to create roles and grant project creation permission under Permission >Create Project Permission.
+- **Solution** : Use an Admin account to create roles and grant project creation permission under Permission > Create Project Permission.
 
 ![alt text](9.png)
 
- Please refer to: **Management->Paltform->Security->Permission**
+ Please refer to: [Permission](../management-platform/security/permission.md)
 
 #### Breaking Change 3: Permission control for designing/deleting projects
 
 - **Impact** : Users without Admin,Configurator, or Operator roles.
 - **Change** : From version 4.2, by default only users with the role Admin, Configurator or Operator have permission to design and delete projects. Other users cannot perform these operations.
-- **Solution** :  If a user needs design and delete permissions for a project, log in with a user account with the role Admin.
+- **Solution** : If a user needs design and delete permissions for a project, log in with a user account with the role Admin.
    -  Use an Admin account to create a new role under Access Level.
    -  Open the desired project in the editor.
    -  In the editor's settings, assign design and delete permissions for the role.
 ![alt text](10.png)
 
- Please refer to: **2D Visualization->Project Properties**
+ Please refer to: [Project Properties](../2d-visualization/project-properties/index.md)
 
 #### Breaking Change 4: Bezier curve removed
 
@@ -94,7 +94,7 @@ Configure permissions under the Permission page.
 - **Change** : From version 4.2, added discovery services and advanced group settings, which may caused previously connected devices to no longer function properly.
 - **Solution** : Delete and recreate devices and groups.
 
- Please refer to：**Management->Devices-> OPC UA**
+ Please refer to: [OPC UA](../management-platform/devices/opc-ua/index.md)
 
 #### Breaking Change 10: Alarm table refactored
 
@@ -368,10 +368,10 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
 #### Breaking Change 13: System.Tag.readHistory function parameters updated
 
 - **Impact** : All scripts using this function.
-- **Change** : From version 4.2, a new aggregate mode query has been added to the parameters of the** System.Tag.readHistory**  function, supporting the return of query results by  a fixed number of points.
+- **Change** : From version 4.2, a new aggregate mode query has been added to the parameters of the **System.Tag.readHistory**  function, supporting the return of query results by  a fixed number of points.
 - **Solution** : Existing code runs, but editing will show errors. Update parameter format accordingly.
 
- Please refer to:**Appendix->System Functions->System.Tag->System.Tag.readHistory**
+ Please refer to:[System.Tag.readHistory](../appendix/system-function/system-tag/system-tag-readhistory.md)
 
 #### BreakingChange 14: Beckhoff driver removed
 
@@ -381,11 +381,11 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
 
 #### Breaking Change 15: System.UI.currentPage changed to System.Page
 
-- **Impact** : Scripts using System.UI.currentPage.*
-- **Change** : The System.UI.currentPage.* function has one more level relative to other functions. Starting from version 4.2, System.UI.currentPage is adjusted to System.Page 
+- **Impact** : Scripts using System.UI.currentPage.
+- **Change** : The System.UI.currentPage.function has one more level relative to other functions. Starting from version 4.2, System.UI.currentPage is adjusted to System.Page 
 - **Solution** : Rename System.UI.currentPage to System.Page in scripts.
 
- Please refer to: **Appendix->System Functions->System.Page->System.Page.getPropertyValue**, **Appendix->System Functions->System.Page->System.Page.setPropertyValue**
+ Please refer to: [System.Page.getPropertyValue](../appendix/system-function/system-page/system-page-getpropertyvalue.md),[System.Page.setPropertyValue](../appendix/system-function/system-page/system-page-setpropertyvalue.md)
 
 #### Breaking Change 16: System.UI.openPopup parameters modified
 
@@ -396,7 +396,7 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
    -  The page Properties parameter that was originally passed in now needs to be unified into the **options** object.
 - **Solution** : Old syntax works but shows warnings. Update to new format.
 
- Please refer to: **Appendix->System Functions->System.UI->System.UI.openPopup**
+ Please refer to: [System.UI.openPopup](../appendix/system-function/system-ui/system-ui-openpopup.md)
 
 #### Breaking Change 17: In the script, the series under yAxis for realtime chart is changed to axes 
 
