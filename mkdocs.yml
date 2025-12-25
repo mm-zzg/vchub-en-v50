@@ -346,13 +346,13 @@ nav:
                                       - management-platform/security/identity-provider/integrates-with-OAuth0.md
                             - management-platform/security/open-api.md
                   - Node Configuration:
-                  - management-platform/node-configuration/node-configuration.md
+                            - management-platform/node-configuration/node-configuration.md
                   - Certificate Management:
-                  - management-platform/certificate-management/certificate-management.md
+                            - management-platform/certificate-management/certificate-management.md
                   - MQTT Broker:
-                  - management-platform/mqtt-broker/mqtt-broker.md
+                            - management-platform/mqtt-broker/mqtt-broker.md
                   - Trust Store:
-                  - management-platform/trust-store/trust-store.md
+                            - management-platform/trust-store/trust-store.md
                   - Open API:
                             - management-platform/open-api/index.md
                             - management-platform/open-api/api-document-swagger.md
@@ -367,18 +367,20 @@ nav:
                                       - management-platform/open-api/test-with-postman/invoke.md
                                       - management-platform/open-api/test-with-postman/subscribe.md 
                   - Diagnostics:
-                  - management-platform/diagnostics/diagnostics.md
+                            - management-platform/diagnostics/diagnostics.md
         - 2D Visualization:
                   - 2d-visualization/index.md
-                  - 2d-visualization/editor-introduction.md
+                  - Editor Introduction:
+                            - 2d-visualization/editor-introduction/editor-introduction.md
                   - Page:
                             - 2d-visualization/page/index.md
                             - 2d-visualization/page/page-type.md
                             - 2d-visualization/page/page-parameter-passing.md
                             - 2d-visualization/page/navigation.md
                             - 2d-visualization/page/resolution-adaptation.md
-                            - 2d-visualization/page/page-permission.md                    
-                  - 2d-visualization/page-template.md
+                            - 2d-visualization/page/page-permission.md 
+                  - Page Template:                            
+                            - 2d-visualization/page-template/page-template.md
                   - Sql Query:
                             - 2d-visualization/sql-query/index.md
                             - 2d-visualization/sql-query/create-sql-query.md
@@ -481,7 +483,8 @@ nav:
                             - 2d-visualization/property-binding/dynamic-cell.md
                             - 2d-visualization/property-binding/sql-query.md
                             - 2d-visualization/property-binding/bidirectional-bindings.md 
-                  - 2d-visualization/animation.md
+                  - Animation:
+                            - 2d-visualization/animation/animation.md
                   - Event:
                             - 2d-visualization/event/index.md
                             - 2d-visualization/event/navigation.md

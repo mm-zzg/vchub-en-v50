@@ -20,7 +20,7 @@ The blinking effect is easy to attract attention and is often used to alarm when
 
 Create a circular control that represents an alarm indicator light that blinks when the value of "temperature" is greater than 40.
 
-![animation](../assets/images/animation.gif)
+![animation](../../assets/images/animation.gif)
 
 ![alt text](81.png)
 
@@ -40,7 +40,7 @@ Create dynamic effects by changing the position of the control, which can be mov
 
 See where objects are traveling on the conveyor belt.
 
-![animation1](../assets/images/animation1.gif)
+![animation1](../../assets/images/animation1.gif)
 
 ![alt text](82.png)
 
@@ -60,7 +60,7 @@ The object rotates as the value changes.
 
 **Example**
 
-![animation2](../assets/images/animation2.gif)
+![animation2](../../assets/images/animation2.gif)
 
 ![alt text](86.png)
 
@@ -85,7 +85,7 @@ By changing the value, the filling effect of the object is changed.
 
 The liquid level in the tank is constantly changing. Represent the jar as a rectangle.
 
-![animation3](../assets/images/animation3.gif)
+![animation3](../../assets/images/animation3.gif)
 
 ![alt text](91.png)
 
@@ -108,7 +108,7 @@ Through changes in value, the overall shape of the object is changed. Scale is p
 
 The mercury column of a thermometer changes as the value changes.
 
-![animation4](../assets/images/animation4.gif)
+![animation4](../../assets/images/animation4.gif)
 
 ![alt text](100.png)
 
