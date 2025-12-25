@@ -24,7 +24,7 @@ You can configure its parameters by clicking **“Node” -> “MQTT Broker”**
 
 ## Precautions Before Enabling TLS
 
-Before enabling TLS, you must first go to the [Certificate Management](certificate-management.md) page to configure the TLS certificate used by the MQTT Broker.
+Before enabling TLS, you must first go to the [Certificate Management](../certificate-management/index.md) page to configure the TLS certificate used by the MQTT Broker.
 
 You can choose to upload an existing TLS certificate or use a self-signed certificate provided by the system. Once configured, return to this page to enable the TLS feature.
 
