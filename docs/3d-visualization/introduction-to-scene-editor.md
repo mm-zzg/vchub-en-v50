@@ -1,4 +1,4 @@
-# Introduction to Scene Editor
+# Scene Editor
 
 You can add models, set model properties, set animations, events, etc. for the model in the scene editor.
 

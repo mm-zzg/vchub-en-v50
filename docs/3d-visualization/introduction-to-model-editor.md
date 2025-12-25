@@ -1,4 +1,4 @@
-# Introduction to Model Editor
+# Model Editor
 
 Models uploaded to the model library can be modified in the model editor. The operations of the model editor and the scene editor are the same. The scene editor is mainly responsible for operating the scene and modifying multiple models at the same time. However, the modification of the model will only take effect in the current scene, while the model modified by the model editor will not It will take effect on all models referenced by the scene. It is worth noting that if the model is modified in the editor, the modification of the model configuration in the scene editor will take precedence over the configuration in the model editor.
 
