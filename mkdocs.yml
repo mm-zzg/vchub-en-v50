@@ -193,7 +193,8 @@ nav:
                   - system-deployment/azure-cloud-deployment.md
         - Management Platform:
                   - management-platform/index.md
-                  - management-platform/license-and-activation.md
+                  - License:
+                            - management-platform/license/license-and-activation.md
                   - Workspaces:
                             - management-platform/workspaces/index.md
                             - management-platform/workspaces/multi-workspace-management.md
@@ -296,7 +297,8 @@ nav:
                             - management-platform/scripts/custom-function.md
                             - management-platform/scripts/schedule.md
                             - management-platform/scripts/log-configuration.md
-                  - management-platform/networking.md
+                  - Networking:
+                            - management-platform/networking/networking.md
                   - Databases:
                             - management-platform/databases/index.md
                             - Database Connection:
@@ -343,10 +345,14 @@ nav:
                                       - management-platform/security/identity-provider/azure-AD-integration.md
                                       - management-platform/security/identity-provider/integrates-with-OAuth0.md
                             - management-platform/security/open-api.md
-                  - management-platform/node-configuration.md
-                  - management-platform/certificate-management.md
-                  - management-platform/mqtt-broker.md
-                  - management-platform/trust-store.md
+                  - Node Configuration:
+                  - management-platform/node-configuration/node-configuration.md
+                  - Certificate Management:
+                  - management-platform/certificate-management/certificate-management.md
+                  - MQTT Broker:
+                  - management-platform/mqtt-broker/mqtt-broker.md
+                  - Trust Store:
+                  - management-platform/trust-store/trust-store.md
                   - Open API:
                             - management-platform/open-api/index.md
                             - management-platform/open-api/api-document-swagger.md
@@ -360,8 +366,8 @@ nav:
                                       - management-platform/open-api/test-with-postman/get-access-token.md
                                       - management-platform/open-api/test-with-postman/invoke.md
                                       - management-platform/open-api/test-with-postman/subscribe.md 
-
-                  - management-platform/diagnostics.md
+                  - Diagnostics:
+                  - management-platform/diagnostics/diagnostics.md
         - 2D Visualization:
                   - 2d-visualization/index.md
                   - 2d-visualization/editor-introduction.md
