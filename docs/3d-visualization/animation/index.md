@@ -19,7 +19,7 @@ The blink effect is easy to attract attention and is often used to alarm when ab
 Create a sphere model that represents an alarm light that flashes when the value of Temperature is greater than 40.
 
 
-![3d_Animation2](../../assets/images/3d_Animation2.gif)
+![3d_Animation2](../assets/images/3d_Animation2.gif)
 
 ![alt text](3d_Animation3.png)
 
