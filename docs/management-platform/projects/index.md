@@ -65,10 +65,10 @@ Users can input the keywords of the **project name** through the input box at th
 
 Users can create a new project by clicking on the Add button in the upper right corner button and entering the basic information of the project.
 
-| **Configuration**   | **Description**                                                                                                                                                                                                                      |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Project Name        | The name of the project, the name cannot be repeated, required.                                                                                                                                                                      |
-| Project Description | The description of the project, optional.                                                                                                                                                                                            |
+| **Configuration**   | **Description**  |
+|---------------------|----------------------|
+| Project Name        | The name of the project, the name cannot be repeated, required.  |
+| Project Description | The description of the project, optional.  |
 | Project Image       | The image that will be displayed when the project is arranged, only JPG, GIF, PNG, SVG, JPEG format is supported. Optional. If no customized image is uploaded, the default image will be displayed, as shown in the query function. |
 
 #### **Design**
