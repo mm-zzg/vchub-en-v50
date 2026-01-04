@@ -11,11 +11,11 @@ Get the specified single or multiple node paths, property names, and property va
 
 - Parameter<br>
 
-   path - The path of a single or multiple node properties<br>
+    path - The path of a single or multiple node properties<br>
 
 - Return<br>
 
-   The path, property name, and value of a single or multiple node properties<br>
+    The path, property name, and value of a single or multiple node properties<br>
 
 ## Code Example  
 

@@ -13,11 +13,11 @@ Log out of the currently logged in user and return to the login page.
 
 - Parameter <br>
 
-   Nothing <br>
+    Nothing <br>
 
 - Return <br>
 
-   Nothing<br>
+    Nothing<br>
 
 ## Code Example
 

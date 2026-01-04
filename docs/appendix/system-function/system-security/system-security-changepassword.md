@@ -11,13 +11,13 @@ Change password of the currently logged in user.
 
 - Parameter<br>
 
-   oldPassword - Old password <br>
+    oldPassword - Old password <br>
 
-   newPassword - New password<br>
+    newPassword - New password<br>
 
 - Return<br>
 
-   Whether the password was successfully changed<br>
+    Whether the password was successfully changed<br>
 
 ## Code Example 
 Change the password of the currently logged in user from "abc123" to "abc456".

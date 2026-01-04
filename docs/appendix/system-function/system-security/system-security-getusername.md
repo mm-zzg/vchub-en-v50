@@ -13,11 +13,11 @@ Gets the username of the currently logged in user.
 
 - Parameter<br>
 
-   Nothing<br>
+    Nothing<br>
 
 - Return<br>
 
-   Username<br>
+    Username<br>
 
 ## Code Example
 
