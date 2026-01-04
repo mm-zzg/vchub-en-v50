@@ -6,7 +6,7 @@ Query real-time alarms.
 
 ## Grammar
 
-**System.Alarm.query(): Promise\<any>\<br>
+**System.Alarm.query(): Promise`<any>`<br>
 System.Alarm.query(params?:{<br>  
 priority?: AlarmPriority | AlarmPriority[],<br>
 state?: AlarmState | AlarmState[],<br>
