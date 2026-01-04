@@ -6,17 +6,17 @@ Add a failed operation event to the system event, which can be queried in the re
 
 ## Grammar
 
-System.Event.fail(message:string,...args: any): Promise<void> 
+**System.Event.fail(message:string,...args: any): Promise\<void>** 
 
-     - Parameter 
+- Parameter 
 
-        message - Description of the failed event 
+   message - Description of the failed event 
 
-        args - Details of the failed event 
+   args - Details of the failed event 
 
-     - Return 
+- Return 
 
-Nothing
+   Nothing
 
 ## Code Example   
 

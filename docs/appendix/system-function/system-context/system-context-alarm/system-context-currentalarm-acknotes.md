@@ -6,7 +6,7 @@ The acknowledgment notes of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.ackNotes
+**System.Context.currentAlarm.ackNotes**
 
 ## Code Example
 

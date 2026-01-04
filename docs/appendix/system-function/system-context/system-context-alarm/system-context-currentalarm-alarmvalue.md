@@ -7,7 +7,7 @@ The alarm value of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.alarmValue
+**System.Context.currentAlarm.alarmValue**
 
 ## Code Example
 

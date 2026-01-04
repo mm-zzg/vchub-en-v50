@@ -8,17 +8,17 @@ Open a new page by replacing the window.
 
 ## Grammar
 
-System.UI.open(page: string, pageProperties?: any): void
+**System.UI.open(page: string, pageProperties?: any): void**
 
-     - Parameter
+- Parameter
 
-        page - The name of the page that needs to be opened.
+    page - The name of the page that needs to be opened.
 
-        pageProperties - Properties of page.
+    pageProperties - Properties of page.
 
-     - Return
+- Return
 
-        Nothing
+    Nothing
 
 ## Code Example
 

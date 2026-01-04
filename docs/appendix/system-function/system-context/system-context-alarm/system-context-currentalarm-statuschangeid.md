@@ -6,7 +6,7 @@ The id of the current alarm's status change.
 
 ## Grammar
 
-System.Context.currentAlarm.statusChangeId
+**System.Context.currentAlarm.statusChangeId**
 
 ## Code Example
 

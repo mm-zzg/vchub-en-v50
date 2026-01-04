@@ -6,7 +6,7 @@ The name of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.name
+**System.Context.currentAlarm.name**
 
 ## Code Example 
 

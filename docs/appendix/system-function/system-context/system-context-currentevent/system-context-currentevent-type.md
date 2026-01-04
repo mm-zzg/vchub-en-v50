@@ -6,7 +6,7 @@ The type of event.
 
 ## Grammar
 
-System.Context.currentEvent.type
+**System.Context.currentEvent.type**
 
 ## Code Example
 

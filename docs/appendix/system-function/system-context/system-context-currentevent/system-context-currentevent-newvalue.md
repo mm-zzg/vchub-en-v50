@@ -7,7 +7,7 @@ If it is triggered by a value change to obtain a new value.
 
 ## Grammar
 
-System.Context.currentEvent.newValue
+**System.Context.currentEvent.newValue**
 
 ## Code Example 
 

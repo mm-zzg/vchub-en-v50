@@ -7,15 +7,15 @@ Import a JavaScript file.
 
 ## Grammar
 
-System.Utils.importScript(scriptFileUrl: string): Promise<void> 
+**System.Utils.importScript(scriptFileUrl: string): Promise\<void>**
 
-     - Parameter 
+- Parameter 
 
-        scriptFileUrl - Script file path  
+  scriptFileUrl - Script file path  
 
-     - Return 
+- Return 
 
-        Nothing
+  Nothing
 
 ## Code Example
 

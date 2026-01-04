@@ -7,7 +7,7 @@ Obtain the vertical coordinates of the event target relative to the triggering e
 
 ## Grammar
 
-System.Context.currentEvent.screenY
+**System.Context.currentEvent.screenY**
 
 ## Code Example 
 

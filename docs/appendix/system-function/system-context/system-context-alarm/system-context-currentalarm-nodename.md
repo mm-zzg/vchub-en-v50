@@ -6,7 +6,7 @@ The name of the node where the current alarm is located.
 
 ## Grammar
 
-System.Context.currentAlarm.nodeName
+**System.Context.currentAlarm.nodeName**
 
 ## Code Example
 

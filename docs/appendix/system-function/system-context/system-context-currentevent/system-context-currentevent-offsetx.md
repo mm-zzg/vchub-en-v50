@@ -8,7 +8,7 @@ Obtain the horizontal offset of the event target relative to the element that tr
 
 ## Grammar
 
-System.Context.currentEvent.offsetX
+**System.Context.currentEvent.offsetX**
 
 ## Code Example
 

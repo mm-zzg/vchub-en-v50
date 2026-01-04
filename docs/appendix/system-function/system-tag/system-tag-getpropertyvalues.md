@@ -7,17 +7,16 @@ Get the specified single or multiple node paths, property names, and property va
 
 ## Grammar
 
-System.Tag.getPropertyValues(path: string): Promise<{ path: string; property: string; value: any }>
+**System.Tag.getPropertyValues(path: string): Promise<{ path: string; property: string; value: any }>
+System.Tag.getPropertyValues(path: Array\<string>): Promise\<Array<{ path: string; property: string; value: any }>>**
 
-System.Tag.getPropertyValues(path: Array<string>): Promise<Array<{ path: string; property: string; value: any }>>
+- Parameter
 
-     - Parameter
+   path - The path of a single or multiple node properties
 
-        path - The path of a single or multiple node properties
+- Return
 
-     - Return
-
-        The path, property name, and value of a single or multiple node properties
+   The path, property name, and value of a single or multiple node properties
 
 ## Code Example  
 

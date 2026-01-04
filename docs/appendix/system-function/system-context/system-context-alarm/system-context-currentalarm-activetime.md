@@ -6,7 +6,7 @@ The activation time of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.activeTime
+**System.Context.currentAlarm.activeTime**
 
 ## Code Example
             

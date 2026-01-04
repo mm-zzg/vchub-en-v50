@@ -9,7 +9,7 @@ Obtain the horizontal coordinates of the event target relative to the triggering
 
 ## Grammar
 
-System.Context.currentEvent.screenX
+**System.Context.currentEvent.screenX**
 
 ## Code Example
 

@@ -7,15 +7,15 @@ Call this function to return to the previous page after System.UI.back().
 
 ## Grammar
 
-System.UI.forward(): void
+**System.UI.forward(): void**
 
-     - Parameter
+ - Parameter
 
-        Nothing
+   Nothing
 
-     - Return
+- Return
 
-        Nothing
+   Nothing
 
 ## Code Example 
 

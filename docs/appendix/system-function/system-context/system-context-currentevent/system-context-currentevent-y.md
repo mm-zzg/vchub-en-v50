@@ -6,7 +6,7 @@ The vertical coordinate of the event relative to the page.
 
 ## Grammar
 
-System.Context.currentEvent.y
+**System.Context.currentEvent.y**
 
 ## Code Example 
 

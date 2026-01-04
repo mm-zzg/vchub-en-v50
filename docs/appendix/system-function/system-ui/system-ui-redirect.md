@@ -7,17 +7,17 @@ Redirect the page to a new URL.
 
 ## Grammar
 
-System.UI.redirect(url:string, newTab?: boolean)
+**System.UI.redirect(url:string, newTab?: boolean)**
 
-     - Parameter
+- Parameter
 
-        url - The URL path that needs to be opened
+   url - The URL path that needs to be opened
 
-        newTab - Whether to open as a new tab, default to true, can be left blank
+   newTab - Whether to open as a new tab, default to true, can be left blank
 
-     - Return
+- Return
 
-        Nothing
+   Nothing
 
 ## Code Example
 

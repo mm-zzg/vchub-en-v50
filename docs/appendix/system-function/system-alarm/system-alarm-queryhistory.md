@@ -6,8 +6,8 @@ Query the historical alarms of the current historical storage.
 
 ## Grammar
 
-```typescript
-System.Alarm.queryHistory(historyStorage:string): Promise<any>
+
+**System.Alarm.queryHistory(historyStorage:string): Promise\<any>
 System.Alarm.queryHistory(historyStorage:string,params:{
 startTime?: Date | string,
 endTime?: Date | string,
@@ -16,8 +16,8 @@ state?: AssetAlarmState | AssetAlarmState[],
 path?: string | string[],
 type?: AssetAlarmType | AssetAlarmType[],
 asset?: string | string[],
-expression?: string}): Promise<any>
-Parameter
+expression?: string}): Promise\<any>**
+- Parameter
       historyStorage - Name of the history storage
       params  - The query conditions object, optional parameters
       {
@@ -30,7 +30,7 @@ Parameter
            asset? - Asset(s)
            expression? - Expression, Example1:priority == "Low", Example2:path.Contains("Device"), Example3:state.HasFlag("Active") && state.HasFlag("Unacked")         
       }
-Return
+- Return
 [
          {
             path: string // Alarm path
@@ -53,7 +53,6 @@ Return
           ...
 ]
 
-```
 
 ## Code Example
 

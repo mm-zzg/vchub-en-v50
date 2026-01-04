@@ -7,7 +7,7 @@ The clear time of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.clearTime
+**System.Context.currentAlarm.clearTime**
 
 ## Code Example 
 

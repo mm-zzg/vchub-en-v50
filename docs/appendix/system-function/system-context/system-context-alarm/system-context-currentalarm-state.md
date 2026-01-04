@@ -6,7 +6,7 @@ The state of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.state
+**System.Context.currentAlarm.state**
 
 ## Code Example 
 

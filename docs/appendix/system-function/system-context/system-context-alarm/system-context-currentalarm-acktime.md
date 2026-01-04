@@ -6,7 +6,7 @@ The acknowledgment time of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.ackTime
+**System.Context.currentAlarm.ackTime**
 
 ## Code Example
 

@@ -8,17 +8,17 @@ Set the value of the current page's custom property or control property.
 
 ## Grammar
 
-System.Page.setPropertyValue(path: string,value: any): void 
+**System.Page.setPropertyValue(path: string,value: any): void** 
 
-     - Parameter 
+- Parameter 
 
-        path - Path of the page's custom property or control property 
+   path - Path of the page's custom property or control property 
 
-        value - New value 
+   value - New value 
 
-     - Return 
+- Return 
 
-        Nothing
+   Nothing
 
 ## Code Example 
 

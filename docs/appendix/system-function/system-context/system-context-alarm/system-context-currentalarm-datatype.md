@@ -6,7 +6,7 @@ The data type of the alarm tag.
 
 ## Grammar
 
-System.Context.currentAlarm.dataType
+**System.Context.currentAlarm.dataType**
 
 ## Code Example
 

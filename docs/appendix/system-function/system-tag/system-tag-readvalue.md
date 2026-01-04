@@ -8,17 +8,17 @@
 Read tag value(s).
 
 ## Grammar
-System.Tag.readValue(path: string): Promise<any>
+**System.Tag.readValue(path: string): Promise\<any>**
 
-System.Tag.readValue(path: Array<string>): Promise<{path: string; value: any}>
+**System.Tag.readValue(path: Array\<string>): Promise<{path: string; value: any}>**
 
-     - Parameter
+- Parameter
 
-        path - Tag path(s)
+   path - Tag path(s)
 
-     - Return
+- Return
 
-        Single tag value or multiple tag values and paths
+   Single tag value or multiple tag values and paths
 
 ## Code Example 
 

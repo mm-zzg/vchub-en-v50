@@ -7,7 +7,7 @@ The notification rule of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.notificationRule
+**System.Context.currentAlarm.notificationRule**
 
 ## Code Example
 

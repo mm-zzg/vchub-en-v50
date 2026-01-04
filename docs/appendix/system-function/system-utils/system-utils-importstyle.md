@@ -7,15 +7,15 @@ Import a CSS style file.
 
 ## Grammar
 
-System.Utils.importStyle(styleFileUrl: string): Promise<void> 
+**System.Utils.importStyle(styleFileUrl: string): Promise\<void>** 
 
-     - Parameter 
+- Parameter 
 
-        styleFileUrl - Style file path  
+  styleFileUrl - Style file path  
 
-     - Return 
+- Return 
 
-        Nothing
+  Nothing
 
 ## Code Example
 

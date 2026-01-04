@@ -6,7 +6,7 @@ The timestamp of the current alarm's status change.
 
 ## Grammar
 
-System.Context.currentAlarm.statusChangeTime
+**System.Context.currentAlarm.statusChangeTime**
 
 ## Code Example    
 

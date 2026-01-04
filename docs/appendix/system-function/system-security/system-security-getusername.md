@@ -9,15 +9,15 @@ Gets the username of the currently logged in user.
 
 ## Grammar
 
-System.Security.getUsername(): string
+**System.Security.getUsername(): string**
 
-     - Parameter
+- Parameter
 
-        Nothing
+   Nothing
 
-     - Return
+- Return
 
-        Username
+   Username
 
 ## Code Example
 

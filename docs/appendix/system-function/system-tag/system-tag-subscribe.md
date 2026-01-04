@@ -8,27 +8,22 @@ Subscribing to a tag will retrieve its value, path, quality, and time when the t
 
 ## Grammar
 
-System.Tag.subscribe(paths: Array<string>, callback: (value: {
-  
-Time: string;
-  
-Path: string;
-    
-Value: any;
-    
+**System.Tag.subscribe(paths: Array<string>, callback: (value: {
+Time: string; 
+Path: string;   
+Value: any;   
 Quality: number;
+}=>void): () => void**
 
-}=>void): () => void
+- Parameter
 
-     - Parameter
+    paths - Tag paths 
 
-        paths - Tag paths 
+    callback - A callback function used to handle notifications of changes in tag values 
 
-        callback - A callback function used to handle notifications of changes in tag values 
+- Return
 
-     - Return
-
-        Unsubscription function
+    Unsubscription function
 
 ## Code Example 
 

@@ -7,17 +7,17 @@ Give a simulated value to the tag.
 
 ## Grammar
 
-System.Tag.mock(path:string, value:any): void
+**System.Tag.mock(path:string, value:any): void**
 
-     - Parameter
+- Parameter
 
-        path - Tag path
+   path - Tag path
 
-        value - Simulated value 
+   value - Simulated value 
 
-     - Return
+- Return
 
-        Nothing
+   Nothing
 
 ## Code Example 
 

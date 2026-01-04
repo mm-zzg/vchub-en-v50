@@ -7,15 +7,15 @@ Get images from the local library.
 
 ## Grammar
 
-System.Library.getLocalImage(path:string): Promise<string>
+**System.Library.getLocalImage(path:string): Promise\<string>**
 
-Parameter
+- Parameter
 
-path - The path of the image
+    path - The path of the image
 
-Return
+- Return
 
-base64
+    base64
 
 ## Code Example
 

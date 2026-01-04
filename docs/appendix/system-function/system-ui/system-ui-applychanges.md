@@ -7,17 +7,17 @@ Batch apply control changes.
 
 ## Grammar
 
-System.UI.applyChanges(controls: Array<IControl>, triggerLoadedEvent?: boolean): void
+**System.UI.applyChanges(controls: Array\<IControl>, triggerLoadedEvent?:boolean): void**
 
-    - Parameter
+- Parameter
 
-        controls - Controls that need to apply changes
+    controls - Controls that need to apply changes
 
-        triggerLoadedEvent - Whether to trigger the loaded event, This field is optional and defaults to false.
+    triggerLoadedEvent - Whether to trigger the loaded event, This field is optional and defaults to false.
 
-    - Return
+- Return
 
-        Nothing
+    Nothing
 
 ## Code Example 
 

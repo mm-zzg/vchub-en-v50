@@ -7,15 +7,15 @@ Executing the script will bring you back to the startup page for the current pro
 
 ## Grammar
 
-System.UI.goHome(): void
+**System.UI.goHome(): void**
 
-     - Parameter
+- Parameter
 
-        Nothing
+   Nothing
 
-     - Return
+- Return
 
-        Nothing
+   Nothing
 
 ## Code Example
 

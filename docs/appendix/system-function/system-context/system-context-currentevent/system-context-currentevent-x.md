@@ -7,7 +7,7 @@ The horizontal coordinate of the event relative to the page.
 
 ## Grammar
 
-System.Context.currentEvent.x
+**System.Context.currentEvent.x**
 
 ## Code Example
 

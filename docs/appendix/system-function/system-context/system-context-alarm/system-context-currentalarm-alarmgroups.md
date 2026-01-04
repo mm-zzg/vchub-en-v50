@@ -6,7 +6,7 @@ The alarm group(s) where the current alarm is located.
 
 ## Grammar
 
-System.Context.currentAlarm.alarmGroups
+**System.Context.currentAlarm.alarmGroups**
 
 ## Code Example
 

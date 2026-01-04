@@ -6,7 +6,7 @@ The user who acknowledged the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.ackUser
+**System.Context.currentAlarm.ackUser**
 
 ## Code Example 
 

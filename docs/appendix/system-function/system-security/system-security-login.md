@@ -8,17 +8,17 @@ Use this function to log in directly, avoiding the system's built-in login page.
 
 ## Grammar
 
-System.Security.login(username: string, password: string): Promise<boolean>
+**System.Security.login(username: string, password: string): Promise\<boolean>**
 
-     - Parameter
+- Parameter
 
-        username
+    username
 
-        password
+    password
 
-     - Return
+- Return
 
-        Whether login succeeded.
+    Whether login succeeded.
 
 ## Code Example
 

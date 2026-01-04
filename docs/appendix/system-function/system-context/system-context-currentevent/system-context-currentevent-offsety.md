@@ -9,7 +9,7 @@ Obtain the vertical offset of the event target relative to the element that trig
 
 ## Grammar
 
-System.Context.currentEvent.offsetY
+**System.Context.currentEvent.offsetY**
 
 ## Code Example 
 

@@ -6,7 +6,7 @@ The path of the alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.path
+**System.Context.currentAlarm.path**
 
 ## Code Example
 

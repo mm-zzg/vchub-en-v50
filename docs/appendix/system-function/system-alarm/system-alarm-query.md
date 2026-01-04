@@ -6,8 +6,7 @@ Query real-time alarms.
 
 ## Grammar
 
-```typescript
-System.Alarm.query(): Promise<any>  
+**System.Alarm.query(): Promise\<any>  
 System.Alarm.query(params?:{  
 priority?: AlarmPriority | AlarmPriority[],
 state?: AlarmState | AlarmState[],
@@ -15,7 +14,7 @@ path?: string | string[],
 type?:AlarmType | AlarmType[],
 asset?: string | string[],
 group?: string | string[],
-expression?: string}): Promise<any>
+expression?: string}): Promise\<any>**
 - Parameter
   params - The query conditions object, optional parameters
   {
@@ -48,7 +47,6 @@ expression?: string}): Promise<any>
       ...
   ] 
 
-```
 
 ## Code Example 
 

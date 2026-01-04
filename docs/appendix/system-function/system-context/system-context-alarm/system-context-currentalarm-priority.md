@@ -6,7 +6,7 @@ The priority of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.priority
+**System.Context.currentAlarm.priority**
 
 ## Code Example 
 

@@ -6,7 +6,7 @@ The description of the current alarm.
 
 ## Grammar
 
-System.Context.currentAlarm.description
+**System.Context.currentAlarm.description**
 
 ## Code Example
 
