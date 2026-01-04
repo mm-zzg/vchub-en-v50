@@ -12,13 +12,13 @@ Set the value of the current page's custom property or control property.
 
 - Parameter <br>
 
-   path - Path of the page's custom property or control property <br>
+    path - Path of the page's custom property or control property <br>
 
-   value - New value <br>
+    value - New value <br>
 
 - Return <br>
 
-   Nothing<br>
+    Nothing<br>
 
 ## Code Example 
 
