@@ -7,51 +7,51 @@ Query the historical alarms of the current historical storage.
 ## Grammar
 
 
-**System.Alarm.queryHistory(historyStorage:string): Promise\<any>
-System.Alarm.queryHistory(historyStorage:string,params:{
-startTime?: Date | string,
-endTime?: Date | string,
-priority?: AssetAlarmPriority | AssetAlarmPriority[],
-state?: AssetAlarmState | AssetAlarmState[],
-path?: string | string[],
-type?: AssetAlarmType | AssetAlarmType[],
-asset?: string | string[],
-expression?: string}): Promise\<any>**
-- Parameter
-      historyStorage - Name of the history storage
-      params  - The query conditions object, optional parameters
-      {
-           startTime? - Start time, default is 8 hours before the current time
-           endTime? - End time, default is the current time
-           priority? -  Priority(s), optional values are "Low","Medium","High","Critical"
-           state? - State(s), optional values are "Active","Unacked","Acked","Cleared"
-           path? - Alarm path(s)
-           type? - Type(s), optional values are "H","H2","H3","H4","L","L2","L3","L4","RateOfChange","Equivalent","TrueToFalse","FalseToTrue"
-           asset? - Asset(s)
-           expression? - Expression, Example1:priority == "Low", Example2:path.Contains("Device"), Example3:state.HasFlag("Active") && state.HasFlag("Unacked")         
-      }
-- Return
-[
-         {
-            path: string // Alarm path
-            name: string // Alarm name
-            type: string // Type
-            priority: string // Priority
-            eventId: string // State change ID
-            eventTime: string // State change time
-            state: string // State
-            operator: string // Acknowledgment operator
-            valueType: string // Value type
-            value: string // Alarm value
-            ackTime: string  // Acknowledgment time
-            ackNotes: string // Acknowledgment notes
-            ackMode: string // Acknowledgment mode
-            nodeName: string // Node name
-            storageName: string // History storage name
-            description: string // Description
-           },
-          ...
-]
+**System.Alarm.queryHistory(historyStorage:string): Promise`<any>`<br>
+System.Alarm.queryHistory(historyStorage:string,params:{<br>
+startTime?: Date | string,<br>
+endTime?: Date | string,<br>
+priority?: AssetAlarmPriority | AssetAlarmPriority[],<br>
+state?: AssetAlarmState | AssetAlarmState[],<br>
+path?: string | string[],<br>
+type?: AssetAlarmType | AssetAlarmType[],<br>
+asset?: string | string[],<br>
+expression?: string}): Promise`<any>`**<br>
+- Parameter<br>
+      historyStorage - Name of the history storage<br>
+      params  - The query conditions object, optional parameters<br>
+      {<br>
+           startTime? - Start time, default is 8 hours before the current time<br>
+           endTime? - End time, default is the current time<br>
+           priority? -  Priority(s), optional values are "Low","Medium","High","Critical"<br>
+           state? - State(s), optional values are "Active","Unacked","Acked","Cleared"<br>
+           path? - Alarm path(s)<br>
+           type? - Type(s), optional values are "H","H2","H3","H4","L","L2","L3","L4","RateOfChange","Equivalent","TrueToFalse","FalseToTrue"<br>
+           asset? - Asset(s)<br>
+           expression? - Expression, Example1:priority == "Low", Example2:path.Contains("Device"), Example3:state.HasFlag("Active") && state.HasFlag("Unacked")  <br>       
+      }<br>
+- Return<br>
+[<br>
+         {<br>
+            path: string // Alarm path<br>
+            name: string // Alarm name<br>
+            type: string // Type<br>
+            priority: string // Priority<br>
+            eventId: string // State change ID<br>
+            eventTime: string // State change time<br>
+            state: string // State<br>
+            operator: string // Acknowledgment operator<br>
+            valueType: string // Value type<br>
+            value: string // Alarm value<br>
+            ackTime: string  // Acknowledgment time<br>
+            ackNotes: string // Acknowledgment notes<br>
+            ackMode: string // Acknowledgment mode<br>
+            nodeName: string // Node name<br>
+            storageName: string // History storage name<br>
+            description: string // Description<br>
+           },<br>
+          ...<br>
+]<br>
 
 
 ## Code Example

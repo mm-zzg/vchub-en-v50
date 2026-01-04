@@ -7,14 +7,14 @@ Query real-time alarms.
 ## Grammar
 
 **System.Alarm.query(): Promise`<any>`<br>
-System.Alarm.query(params?:{<br>  
+System.Alarm.query(params?:{  
 priority?: AlarmPriority | AlarmPriority[],<br>
 state?: AlarmState | AlarmState[],<br>
 path?: string | string[],<br>
 type?:AlarmType | AlarmType[],<br>
 asset?: string | string[],<br>
 group?: string | string[],<br>
-expression?: string}): Promise\<any>**<br>
+expression?: string}): Promise`<any>`**<br>
 - Parameter<br>
   params - The query conditions object, optional parameters<br>
   {<br>
