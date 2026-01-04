@@ -7,15 +7,15 @@ Get roles of the currently logged in user.
 
 ## Grammar
 
-**System.Security.getRoles(): string**
+**System.Security.getRoles(): string**<br>
 
-- Parameter 
+- Parameter <br>
 
-   Nothing 
+   Nothing <br>
 
-- Return 
+- Return <br>
 
-   Roles, multiple roles separated by commas.
+   Roles, multiple roles separated by commas.<br>
 
 ## Code Example
 

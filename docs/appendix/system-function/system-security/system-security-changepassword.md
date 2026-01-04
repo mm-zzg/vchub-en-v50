@@ -7,17 +7,17 @@ Change password of the currently logged in user.
 
 ## Grammar
 
-**System.Security.changePassword(oldPassword:string,newPassword:string): Promise\<boolean>**
+**System.Security.changePassword(oldPassword:string,newPassword:string): Promise`<boolean>`**<br>
 
-- Parameter
+- Parameter<br>
 
-   oldPassword - Old password 
+   oldPassword - Old password <br>
 
-   newPassword - New password
+   newPassword - New password<br>
 
-- Return
+- Return<br>
 
-   Whether the password was successfully changed
+   Whether the password was successfully changed<br>
 
 ## Code Example 
 Change the password of the currently logged in user from "abc123" to "abc456".

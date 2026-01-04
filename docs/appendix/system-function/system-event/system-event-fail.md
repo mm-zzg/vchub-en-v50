@@ -10,13 +10,13 @@ Add a failed operation event to the system event, which can be queried in the re
 
 - Parameter <br>
 
-   message - Description of the failed event <br>
+    message - Description of the failed event <br>
 
-   args - Details of the failed event <br>
+    args - Details of the failed event <br>
 
 - Return <br>
 
-   Nothing<br>
+    Nothing<br>
 
 ## Code Example   
 

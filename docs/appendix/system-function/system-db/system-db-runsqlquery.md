@@ -9,7 +9,7 @@ Execute SQL query to perform operations on the database.Before executing an SQL 
 
 **System.Db.runSqlQuery(projectName: string, queryName: string, parameters?: Array<{ name: string, value: any}>): Promise`<any>`**
 
-**System.Db.runSqlQuery(queryName: string, parameters?: Array<{ name: string, value: any}>): Promise`<any>` **
+**System.Db.runSqlQuery(queryName: string, parameters?: Array<{ name: string, value: any}>): Promise`<any>`**
 
 - Parameter <br>
 

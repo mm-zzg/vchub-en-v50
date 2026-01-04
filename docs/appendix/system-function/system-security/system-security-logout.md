@@ -9,15 +9,15 @@ Log out of the currently logged in user and return to the login page.
 
 ## Grammar
 
-**System.Security.logout(): Promise\<void>** 
+**System.Security.logout(): Promise`<void>`** <br>
 
-- Parameter 
+- Parameter <br>
 
-   Nothing 
+   Nothing <br>
 
-- Return 
+- Return <br>
 
-   Nothing
+   Nothing<br>
 
 ## Code Example
 
