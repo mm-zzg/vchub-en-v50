@@ -8,7 +8,7 @@ Subscribing to a tag will retrieve its value, path, quality, and time when the t
 
 ## Grammar
 
-**System.Tag.subscribe(paths: Array<string>, callback: (value: {
+**System.Tag.subscribe(paths: Array`<string>`, callback: (value: {
 Time: string; 
 Path: string;   
 Value: any;   

@@ -8,9 +8,9 @@
 Read tag value(s).
 
 ## Grammar
-**System.Tag.readValue(path: string): Promise\<any>**
+**System.Tag.readValue(path: string): Promise`<any>`**
 
-**System.Tag.readValue(path: Array\<string>): Promise<{path: string; value: any}>**
+**System.Tag.readValue(path: Array`<string>`): Promise<{path: string; value: any}>**
 
 - Parameter
 
