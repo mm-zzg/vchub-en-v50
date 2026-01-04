@@ -6,46 +6,47 @@ Query real-time alarms.
 
 ## Grammar
 
-**System.Alarm.query(): Promise\<any>  
-System.Alarm.query(params?:{  
-priority?: AlarmPriority | AlarmPriority[],
-state?: AlarmState | AlarmState[],
-path?: string | string[],
-type?:AlarmType | AlarmType[],
-asset?: string | string[],
-group?: string | string[],
-expression?: string}): Promise\<any>**
-- Parameter
-  params - The query conditions object, optional parameters
-  {
-     priority? -  Priority(s), optional values are "Low","Medium","High","Critical"
-     state? - State(s), optional values are "Active","Unacked","Acked","Cleared"
-     path? - Alarm path(s)
-     type? - Type(s), optional values are "H","H2","H3","H4","L","L2","L3","L4","RateOfChange","Equivalent","TrueToFalse","FalseToTrue"
-     group? - Alarm group(s)
-     asset? - Asset(s)
-     expression? - Expression, Example1:priority == "Low", Example2:path.Contains("Device"), Example3:state.HasFlag("Active") && state.HasFlag("Unacked")
-   } 
-- Return
-  [
-    {
-      path: string // Alarm path
-      name: string // Alarm name
-      type: string // Type
-      priority: string // Priority
-      eventTime: string // State change time
-      state: string // State
-      operator: string // Acknowledgment operator
-      valueType: string // Value type
-      value: string // Alarm value
-      ackTime: string  // Acknowledgment time
-      ackNotes: string // Acknowledgment notes
-      recoveryTime:string // Recovery time  description: string // Description  ackMode: string // Acknowledgment mode
-      ruleName: string // Notification Rule  groupNames: string // Alarm group
-      activeTime: string // Activation time
-    },
-      ...
-  ] 
+**System.Alarm.query(): Promise\<any>\<br>
+System.Alarm.query(params?:{<br>  
+priority?: AlarmPriority | AlarmPriority[],<br>
+state?: AlarmState | AlarmState[],<br>
+path?: string | string[],<br>
+type?:AlarmType | AlarmType[],<br>
+asset?: string | string[],<br>
+group?: string | string[],<br>
+expression?: string}): Promise\<any>**<br>
+- Parameter<br>
+  params - The query conditions object, optional parameters<br>
+  {<br>
+     priority? -  Priority(s), optional values are "Low","Medium","High","Critical"<br>
+     state? - State(s), optional values are "Active","Unacked","Acked","Cleared"<br>
+     path? - Alarm path(s)<br>
+     type? - Type(s), optional values are "H","H2","H3","H4","L","L2","L3","L4","RateOfChange","Equivalent","TrueToFalse","FalseToTrue"<br>
+     group? - Alarm group(s)<br>
+     asset? - Asset(s)<br>
+     expression? - Expression, Example1:priority == "Low", Example2:path.Contains("Device"), Example3:state.HasFlag("Active") && state.HasFlag("Unacked")<br>
+   } <br>
+- Return<br>
+  [<br>
+    {<br>
+      path: string // Alarm path<br>
+      name: string // Alarm name<br>
+      type: string // Type<br>
+      priority: string // Priority<br>
+      eventTime: string // State change time<br>
+      state: string // State<br>
+      operator: string // Acknowledgment operator<br>
+      valueType: string // Value type<br>
+      value: string // Alarm value<br>
+      ackTime: string  // Acknowledgment time<br>
+      ackNotes: string // Acknowledgment notes<br>
+      recoveryTime:string // Recovery time  description: string // <br>
+      Description  ackMode: string // Acknowledgment mode<br>
+      ruleName: string // Notification Rule  groupNames: string // Alarm group<br>
+      activeTime: string // Activation time<br>
+    },<br>
+      ...<br>
+  ] <br>
 
 
 ## Code Example 
