@@ -12,13 +12,13 @@ Get the child nodes path, property name, and property value of a specific proper
 
 - Parameter
 
-    tagParentPath - Parent path
+     tagParentPath - Parent path
 
-    property  - Property name
+     property  - Property name
 
 - Return
 
-    Path, name, and value of the direct child node property
+     Path, name, and value of the direct child node property
 
 ## Code Example 
 

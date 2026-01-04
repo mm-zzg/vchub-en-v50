@@ -11,11 +11,11 @@ Call this function to return to the previous page after System.UI.open().
 
 - Parameter
 
-   Nothing
+    Nothing
 
 - Return
 
-   Nothing
+    Nothing
 
 ## Code Example 
 

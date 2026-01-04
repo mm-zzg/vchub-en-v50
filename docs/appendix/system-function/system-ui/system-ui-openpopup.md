@@ -23,7 +23,7 @@ titleBar?: {
         bold?: boolean;              
         italic?: number;              
       }
-    }): Promise\<any>**
+    }): Promise`<any>`**
 
 - Parameter
 

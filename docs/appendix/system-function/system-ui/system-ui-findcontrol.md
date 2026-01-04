@@ -11,11 +11,11 @@ Find the control instance in the page.
 
 - Parameter
 
-   name - The name of thecontrol to be queried, and the control type can be inferred directly from thecontrol name.
+    name - The name of the control to be queried, and the control type can be inferred directly from the control name.
 
 - Return
 
-   Control instance
+    Control instance
 
 ## Code Example
 

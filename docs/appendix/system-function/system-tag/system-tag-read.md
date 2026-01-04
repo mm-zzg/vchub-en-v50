@@ -12,11 +12,11 @@ System.Tag.read(paths: Array\<string>): Promise\<Array<{ path: string; value: an
 
 - Parameter
 
-   path - Tag path(s) 
+    path - Tag path(s) 
 
 - Return
 
-   Value, path, quality and timestamp of tag(s)
+    Value, path, quality and timestamp of tag(s)
 
 ## Code Example 
 

@@ -14,13 +14,13 @@ System.Tag.writeValue(path: string[], newValue: Array\<any>): Promise<void>**
 
 - Parameter
 
-   path - Tag path(s) 
+    path - Tag path(s) 
 
-   newValue - Tag new value(s)
+    newValue - Tag new value(s)
 
 - Return
 
-   Nothing
+    Nothing
 
 ## Code Example 
 

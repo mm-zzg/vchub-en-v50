@@ -11,11 +11,11 @@ Close the current page.
 
 - Parameter
 
-   data - available when closing the pop-up page, returned as the value of the System.UI.openPopup function.
+    data - available when closing the pop-up page, returned as the value of the System.UI.openPopup function.
 
 - Return
 
-   Nothing
+    Nothing
 
 ## Code Example
 

@@ -14,11 +14,11 @@ Read tag value(s).
 
 - Parameter
 
-   path - Tag path(s)
+    path - Tag path(s)
 
 - Return
 
-   Single tag value or multiple tag values and paths
+    Single tag value or multiple tag values and paths
 
 ## Code Example 
 
