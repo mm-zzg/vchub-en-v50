@@ -79,7 +79,7 @@ label1.applyChanges();
 
 
 ```   
-**Update Query:** Update Thomas' email to thomas@example.com and update the Label control.
+**Update Query:** Update Thomas's email to `thomas@example.com` and update the Label control.
 
 ```typescript 
 // Scenario 1: Execute the SQL query in the current project
