@@ -10,15 +10,15 @@ Set the value of the current page's custom property or control property.
 
 **System.Page.setPropertyValue(path: string,value: any): void** 
 
-- Parameter 
+- Parameter <br>
 
-   path - Path of the page's custom property or control property 
+   path - Path of the page's custom property or control property <br>
 
-   value - New value 
+   value - New value <br>
 
-- Return 
+- Return <br>
 
-   Nothing
+   Nothing<br>
 
 ## Code Example 
 

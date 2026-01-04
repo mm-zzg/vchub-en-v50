@@ -7,13 +7,13 @@ Transform data from third-party APIs or databases into datatable object.
 
 ## Grammar
 
-**System.Datatable.toDatatable(data: Array\<any>, headers?: Array< string>): Datatable**
+**System.Datatable.toDatatable(data: Array\<any>, headers?: Array< string>): Datatable**<br>
 
- - Parameter
-    data
-    headers - Column names are required if 'data' is a two-dimensional array.
-- Return
-    Datatable object
+ - Parameter<br>
+    data<br>
+    headers - Column names are required if 'data' is a two-dimensional array.<br>
+- Return<br>
+    Datatable object<br>
 
 ## Code Example      
 

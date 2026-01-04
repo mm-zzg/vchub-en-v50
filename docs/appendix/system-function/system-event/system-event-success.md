@@ -6,17 +6,17 @@ Add a successful operation event to the system event, which can be queried in re
 
 ## Grammar
 
-System.Event.success(message:string,...args: any): Promise<void> 
+System.Event.success(message:string,...args: any): Promise`<void>`
 
-- Parameter 
+- Parameter <br>
 
-   message - Description of the successful event 
+   message - Description of the successful event <br>
 
-   args - Detail of the successful event 
+   args - Detail of the successful event <br>
 
-- Return 
+- Return <br>
 
-   Nothing
+   Nothing<br>
 
 ## Code Example 
 

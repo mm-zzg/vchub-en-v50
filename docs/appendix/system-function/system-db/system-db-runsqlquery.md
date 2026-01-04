@@ -7,21 +7,21 @@ Execute SQL query to perform operations on the database.Before executing an SQL 
 
 ## Grammar
 
-**System.Db.runSqlQuery(projectName: string, queryName: string, parameters?: Array<{ name: string, value: any}>): Promise\<any>**
+**System.Db.runSqlQuery(projectName: string, queryName: string, parameters?: Array<{ name: string, value: any}>): Promise`<any>`**
 
-System.Db.runSqlQuery(queryName: string, parameters?: Array<{ name: string, value: any}>): Promise<any> 
+**System.Db.runSqlQuery(queryName: string, parameters?: Array<{ name: string, value: any}>): Promise`<any>` **
 
-- Parameter 
+- Parameter <br>
 
-    projectName - Project name, see code example below for usage 
+    projectName - Project name, see code example below for usage <br>
 
-    queryName - Query name       
+    queryName - Query name   <br>    
 
-    parameters - Query parameters 
+    parameters - Query parameters <br>
 
-- Return 
+- Return <br>
     
-    Query result
+    Query result<br>
 
 ## Code Example  
 

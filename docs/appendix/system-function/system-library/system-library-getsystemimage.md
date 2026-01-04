@@ -8,15 +8,15 @@ Obtain images from the system library.
 
 ## Grammar
 
-**System.Library.getSystemImage(path:string): Promise\<string>** 
+**System.Library.getSystemImage(path:string): Promise`<string>`** 
 
-- Parameter 
+- Parameter <br>
 
-    path - The path of the image  
+    path - The path of the image  <br>
 
-- Return 
+- Return <br>
 
-    base64
+    base64<br>
 
 ## Code Example
 
