@@ -40,7 +40,7 @@ Before you can use the WAGO Protocol driver, you need to connect to the MQTT Bor
       - In the **Port** field, enter 1884.
       - In the **Client ID** field, enter the device identifier, **which must match the device name added in the WAGO Protocol device list**. This is used to identify your connection on the MQTT Server.
       - Check the Clean session box to enable session clearing.
-      - In the **User** field, enter the username for connecting to the MQTT Server, **using the username from the device information added in the WAGO Protocol device lis**t.
+      - In the **User** field, enter the username for connecting to the MQTT Server, **using the username from the device information added in the WAGO Protocol device list**.
       - In the **Password** field, enter the password for connecting to the MQTT Server, **using the password from the device information added in the WAGO Protocol device list**.
       - From the **Data protocol** drop-down list, select WAGO Protocol 1.5.
       - Click **Submit** and restart the device.

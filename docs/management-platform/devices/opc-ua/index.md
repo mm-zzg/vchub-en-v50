@@ -84,7 +84,7 @@ Configure the OPC client connection:
    ![alt text](13.png)
 5. Click the Trusted Clients tab.
    ![alt text](14.png)
-6. Click the corresponding OPC UA client for your system, click the** Trust **button, and then click Close. The OPC Server Connections page now displays the status of the Kepware to which you want to connect.
+6. Click the corresponding OPC UA client for your system, click the **Trust** button, and then click **Close** button. The OPC Server Connections page now displays the status of the Kepware to which you want to connect.
 7. Right-click the KEPServerEX icon on the desktop where KEPServerEX is installed and select **Reinitialize** from the menu.
 8. Re-click **Test Connection** to verify that the connection was successful.
 9. Click **View** in the action bar to display information about the directories or nodes configured in the OPC UA server (Kepware).
