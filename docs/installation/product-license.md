@@ -43,11 +43,11 @@ There are 6 different license quantities available. You can determine the number
 
 - Users with Security Permission attempting to log in will be prompted with a login failure message. As shown in the figure below:
 ![alt text](38.png)
-  - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
-  - Clicking on "Force Login" will force a login and will also forcibly log out the user who was online first.
+     - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
+     - Clicking on "Force Login" will force a login and will also forcibly  log out the user who was online first.
 - Users without Security Permission will be prompted with a login failure message. As shown in the following picture:
 ![alt text](41.png) 
-  - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
+     - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
 
 
 
@@ -55,12 +55,12 @@ There are 6 different license quantities available. You can determine the number
 
 - When a user with Security Permission is forced to log out due to violating the rules, they will automatically be redirected to the following page:
 ![alt text](40.png)
-  - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
-  - Clicking on "Force Login" will force a login and will also forcibly log out the user who was online first.
+     - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
+     - Clicking on "Force Login" will force a login and will also forcibly log out the user who was online first.
 
 - When a user without Security Permission is forcibly logged out, they will automatically be redirected to the following page:
 ![alt text](39.png)
-  - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
+     - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
 
 
 **Notes:**
