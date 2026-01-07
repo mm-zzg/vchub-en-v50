@@ -50,7 +50,6 @@ There are 6 different license quantities available. You can determine the number
      - Click the "Switch" button to navigate to the login page. You can use another account or your current account to log in again. 
 
 
-
 **When the user is forcibly logged out**
 
 - When a user with Security Permission is forced to log out due to violating the rules, they will automatically be redirected to the following page:
