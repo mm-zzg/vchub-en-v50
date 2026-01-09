@@ -31,7 +31,7 @@ There is a table named `person_management` in the database, which is used to sto
 3. In this example, we set the name of this SQL Query to **UpdateQuery**.
     ![alt text](20.png)
      - **Database Connection:** Select an item whose status is "Connected "in the "Databases" ->"Database Connection" list. Here we select the **TestSQLQuery** already created in Step 1.
-     - **Query Type:** In this example, we want to update the table data, so we choose **Scalar Query**.
+     - **Query Type:** In this example, we want to update the table data, so we choose **Update Query**.
      - **SQL Editor:** Write the following SQL statement that adds a new row to the`person_management` table with a parameter.
     ```sql
     INSERT INTO person_management (name, email, gender, age) 
