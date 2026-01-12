@@ -21,7 +21,7 @@ Value display control is used to display data, which can display numerical, bool
 
 **Animation**
 
-Allow you to execute specific animations based on certain conditions. Please refer to the complete description of various animations on the [Animation](../../animation.md) page.
+Allow you to execute specific animations based on certain conditions. Please refer to the complete description of various animations on the [Animation](../../animation/index.md) page.
 
 **Event**
 
