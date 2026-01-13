@@ -22,7 +22,9 @@ On this page, we will demonstrate how to connect VC Hub to SQLite.
      - Query Timeout(s)：30
 
     **Notes:** 
+
     1. The database name is the name of the SQLite file without suffix. 
+    
     2. The storage path of SQLite file supports placeholders such as"{WorkspaceDirectory}/history/default.db". This allows users to create a history database file within workspace folder by utilizing the placeholder in the storage path. 
 
 4. Click **"OK"** button, the popup window will be closed and the list of database connections will be displayed. The connection status of the data in the list is "Connected".
