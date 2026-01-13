@@ -69,6 +69,8 @@ There are 6 different license quantities available. You can determine the number
 
 2. The number of concurrent users is also not supported for accumulation.
 
+3. An auto login will also count as one online user.
+
 #### Add On 
 
 The following functional modules are Add Ons. 

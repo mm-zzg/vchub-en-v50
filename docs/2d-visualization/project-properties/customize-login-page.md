@@ -1,8 +1,8 @@
 # Customize the Login Page
 
-If you prefer not to use the default login screen for VC Hub, you can configure a custom login screen for your project. This custom login screen will be displayed when users access the operation screen and login authentication is required.
+If you prefer not to use the default login page for VC Hub, you can configure a custom login page for your project. This custom login page will be displayed when users access the operation page and login authentication is required.
 
-You can configure a custom login screen for each item individually.
+You can configure a custom login page for each item individually.
 
 ## Customize a Login Page
 
@@ -19,7 +19,12 @@ You can configure a custom login screen for each item individually.
     // Login successfully, jump to startup page
     if (loginSuccess) System.UI.redirect('#/runtime/yuan/Start', false)
     ```
-**Note:** The script provided here is just an example. You can edit and customize the script according to your specific requirements. 
+**Note:** 
+
+1. The script provided here is just an example. You can edit and customize the script according to your specific requirements. 
+
+2. An auto login will also count as one online user.
+
 
 ## To configure a login page for your project, follow these steps:
 
