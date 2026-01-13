@@ -39,7 +39,7 @@ You can set the columns to be displayed by clicking the "Column Setting" button 
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
+Allows you to perform a specific event based on certain conditions. See the full description of each event on the [Event](../../../event/index.md) page. 
 
 **Example 1**
 
