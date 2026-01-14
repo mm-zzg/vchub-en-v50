@@ -6,7 +6,7 @@ On the design page of the report, click the settings button of "Report Designer"
 
 ## Introduction to the Report Designer
 
-The operation interface consists of the top **menu bar**, **toolbar**, **toolbox on the left**, **design area in the middle** , **property setting panel** and **data binding panel**on the right , as shown in the figure below.
+The operation interface consists of the top **menu bar**, **toolbar**, **toolbox on the left**, **design area in the middle** , **property setting panel** and **data binding panel** on the right , as shown in the figure below.
 
 ![alt text](2.png)
 
