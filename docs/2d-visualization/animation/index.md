@@ -6,7 +6,7 @@ In VC Hub, when the control has animation properties, the "Animation" column wil
 
 In addition to "Value" supporting binding, the "Enable" state also supports binding. Through binding, the enabled state of the animation can dynamically change along with the value of a certain tag or expression. It is no longer manually fixed as "on/off", but rather determined dynamically by the bound value whether the animation is enabled or not.
 
-![alt text](image.png)
+![alt text](80.png)
 
 ## Animation Types
 
