@@ -19,10 +19,10 @@ You can configure a custom login page for each item individually.
     // Login successfully, jump to startup page
     if (loginSuccess) System.UI.redirect('#/runtime/yuan/Start', false)
     ```
+
 **Note:** 
 
 1. The script provided here is just an example. You can edit and customize the script according to your specific requirements. 
-
 2. An auto login will also count as one online user.
 
 
