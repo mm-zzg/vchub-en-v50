@@ -32,7 +32,7 @@ We recommend users to subscribe directly to Azure Database service for storing V
 
 For cloud-based VC Hub nodes, communication with device sites can be achieved via the MQTT protocol, as depicted with Station2 in the diagram. To establish MQTT communication, users need to enable port 1883 on Azure Virtual Machine. Cloud-based VC Hub communicates with device sites through port 1883, which is currently not customizable.
 
-Users can utilize the built-in [networking](../management-platform/networking.md) feature of VC Hub to establish communication between cloud-based VC Hub nodes and other VC Hub nodes, as shown with Station2 in the diagram. Station2 can be deployed in the cloud or locally, and users need to enable port 8060 on Azure Virtual Machine for communication. This port can be customized within the VC Hub website.
+Users can utilize the built-in [networking](../management-platform/networking/index.md)feature of VC Hub to establish communication between cloud-based VC Hub nodes and other VC Hub nodes, as shown with Station2 in the diagram. Station2 can be deployed in the cloud or locally, and users need to enable port 8060 on Azure Virtual Machine for communication. This port can be customized within the VC Hub website.
 
 ![alt text](10.png)
 
