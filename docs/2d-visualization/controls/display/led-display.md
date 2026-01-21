@@ -22,7 +22,7 @@ In industrial automation equipment, used to monitor and display various paramete
 
 **Animation**
 
-Allows you to perform specific animations based on certain conditions. See full descriptions of various animations on the [Animation](../../animation.md) page.
+Allows you to perform specific animations based on certain conditions. See full descriptions of various animations on the [Animation](../../animation/index.md) page.
 
 **Event**
 
