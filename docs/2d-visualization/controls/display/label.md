@@ -23,7 +23,7 @@ The Label control is used to display text, either static text or, through proper
 
 **Animation**
 
-Allows you to perform specific animations based on certain conditions. See the [Animation](../../animation.md) page for a complete description of the various animations.
+Allows you to perform specific animations based on certain conditions. See the [Animation](../../animation/index.md) page for a complete description of the various animations.
 
 **Event**
 
