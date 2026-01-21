@@ -7,11 +7,10 @@
  You can find out the version number of VC Hub you are currently using in the following two ways:
 
 1.  In the bottom right corner of the management platform, you can find the corresponding VC Hub version number.
-
     ![alt text](5.png)
 2.  In the top right corner ofthe configuration editing interface, there is an exclamation mark icon. You can click on this icon to get the corresponding VC Hub version number information.
-
     ![alt text](6.png)
+
 
 -  WYSIWYG Configuration Editor：VC Hub provides a WYSIWYG (What You See Is What You Get) configuration editor, allowing you to preview the configuration effects in real-time.
 -  Standardized Alarms：VC Hub offers standardized alarm functions, including various limit alarms, rate of change alarms, and equal value alarms, and provides corresponding real-time and historical configuration controls.
