@@ -12,13 +12,6 @@
     ![alt text](6.png)
 
 
--  WYSIWYG Configuration Editor：VC Hub provides a WYSIWYG (What You See Is What You Get) configuration editor, allowing you to preview the configuration effects in real-time.
--  Standardized Alarms：VC Hub offers standardized alarm functions, including various limit alarms, rate of change alarms, and equal value alarms, and provides corresponding real-time and historical configuration controls.
--  Object-Oriented VC Hub supports the direct creation of tags and supports the creation of tags in an object-oriented manner. You can build your field applications through the concept of assets.
--  Multi-Database: VC Hub supports the configuration of various databases for historical data storage, such as MySQL, SQL Server, etc.
--  Networking and Redundancy: VC Hub supports large-scale configurations and high-availability scenarios. You can build your complexfield configuration projects through multiple SCADA networking.
--  3D Digital Twin: VC Hub supports 3D configuration, like 2D configuration. You can build your digital twin scenarios, and it provides many 3D API for you to configure more advanced and complex digital twin applications.
-
 ## New Features
 
 #### 5.0.X
