@@ -29,7 +29,7 @@ Scenario example: There are two motors: motor 1 and motor 2. when you click butt
 
     ![alt text](21.png)
 
-3. Set the press script in the "Action" of Motor 1. When the button is clicked, open the "Motor_Details" popup page, it centered display, and set the value of the custom property "Number" on the "Motor_Details" popup page to 1. 
+3. Set the press script in the "Event" of Motor 1. When the button is clicked, open the "Motor_Details" popup page, it centered display, and set the value of the custom property "Number" on the "Motor_Details" popup page to 1. 
 
 ```typescript
 System.UI.openPopup("Motor_Details", {
@@ -42,7 +42,7 @@ System.UI.openPopup("Motor_Details", {
 });
 ```
  
-4.Click on the "Motor 2" button and set the same script in the "Action" to change the value of the incoming parameter from 1 to 2. 
+4.Click on the "Motor 2" button and set the same script in the "Event" to change the value of the incoming parameter from 1 to 2. 
 
 ```typescript
 System.UI.openPopup("Motor_Details", {
