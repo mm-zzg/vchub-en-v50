@@ -8,7 +8,7 @@
 
 1.  In the bottom right corner of the management platform, you can find the corresponding VC Hub version number.
     ![alt text](5.png)
-2.  In the top right corner ofthe configuration editing interface, there is an exclamation mark icon. You can click on this icon to get the corresponding VC Hub version number information.
+2.  In the top right corner of the configuration editing interface, you can click on this icon to get the corresponding VC Hub version number information.
     ![alt text](6.png)
 
 
