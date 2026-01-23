@@ -1,6 +1,6 @@
 # Redundancy
 
-VC Hub supports master and backup, which means that two identical devices are running at the same time, one device is the master node and the other is the backup node. The configuration of the two nodes needs to be identical (you need to manually import the data from the master node to the backup node), see [configuration redundancy](configuration.md) for details.
+VC Hub supports master and backup, which means that two identical devices are running at the same time, one device is the master node and the other is the backup node. The configuration of the two nodes needs to be identical (you need to manually import the data from the master node to the backup node), see [synchronization](synchronization.md) for details.
 
 ## **Network communication between master and backup nodes**
 
