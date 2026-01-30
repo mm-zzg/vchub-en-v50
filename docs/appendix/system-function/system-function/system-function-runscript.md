@@ -7,10 +7,15 @@ Executes a user-defined custom function asynchronously within the system by its 
 ## Grammar
 
 **System.Function.runScript(name: string, args?: Array`<any>`): Promise`<any>`**  
-- Parameter  <br>
+
+- Parameter <br>
+
     name - Custom function name  <br>
-    args - Function parameters  <br>
--  Return  <br>
+
+    args - Function parameters  <br> 
+
+- Return  <br>
+
     Function result <br>
 
 ## Code Example
