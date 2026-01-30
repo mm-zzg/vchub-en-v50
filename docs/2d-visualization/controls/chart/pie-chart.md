@@ -46,5 +46,5 @@ Use a pie chart to display the daily production capacity share of different prod
 3.Click the Preview button to preview.<br>
     ![alt text](40.png)
 
-4.Exit preview mode, change the pie chart style to a donut chart on the design page, disable the legend display, and then preview again.
+4.Exit preview mode, change the pie chart style to a donut chart on the design page, disable the legend display, and then preview again.<br>
     ![alt text](41.png)
