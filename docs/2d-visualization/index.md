@@ -1,6 +1,6 @@
 # 2D Visualization
 
-Through the 2D visualization interface, users can intuitively understand and control each part of the industrial automation system, and improve the operation and management efficiency. It is widely used in factory automation, energy management, building automation and other fields to help users realize the functions of equipment monitoring, data analysis and remote operation.
+Through the 2D visualization interface, users can intuitively understand and control each part of the industrial automation system, and improve the operation and management efficiency. It is widely used in factory automation, energy management and other fields to help users realize the functions of equipment monitoring, data analysis and remote operation.
 
 The following are some of the main functions of 2D visualization:
 
