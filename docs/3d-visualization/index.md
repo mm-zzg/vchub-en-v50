@@ -13,7 +13,7 @@ Description of 3D files supported on VC Hub:
 
 To ensure smooth performance of 3D models within the editor, the following requirements must be met:
 
-1. **Remove invisible geometry**, such as internal building structures, furniture, or other non-visible components.
+1. **Remove invisible geometry**, such as internal structures, furniture, or other non-visible components.
 2. **Split large models** by material into separate parts, and combine geometries with the same material into a single mesh.
 3. It is recommended to **use standard PBR** (Physically Based Rendering) materials provided by 3D Max.
 4. Each material should contain no more than 5 texture maps, and each texture should not exceed 5 MB in size. The reflectivity value should be adjusted according to the physical properties of each object. If reflection is not needed, set the reflectivity to 0 and the roughness to 1.
