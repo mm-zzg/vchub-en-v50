@@ -102,7 +102,7 @@ To further enhance system security, it is recommended to perform the following s
 4. Set Application Data Directory Permissions<br>
     Assign ownership of the data directory (e.g., /usr/share/wagovisualizationandcontrolhub) to wago_vc_hub and ensure read/write access while restricting other users:
    ```
-   sudo chown -R wago_vc_hub:wago_vc_hub /usr/share/wagovisualizationandcontrolhub
+   sudo chown -R wago_vc_hub:wago_vc_hub/usr/share/wagovisualizationandcontrolhub
    sudo chmod -R 750 /usr/share/wagovisualizationandcontrolhub
    ``` 
 5. Verify Configuration
