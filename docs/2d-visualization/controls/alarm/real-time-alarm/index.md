@@ -1,6 +1,10 @@
 # Real Time Alarm
 
-The real time alarm control shows the on going alarms, including alarms for the current node and alarms for remote nodes in a networked environment. By default, all alarm information is displayed, and the control only supports displaying the latest 2,000 alarm data. You can also set filters.
+The real time alarm control shows the on going alarms, including alarms for the current node and alarms for remote nodes in a networked environment. 
+
+The system memory supports up to 50,000 alarm records. Any excess records will be removed starting from the earliest ones, with cleanup performed every minute.
+
+By default, all alarm information is displayed, and the control only supports displaying the latest 2,000 alarm data. You can also set filters.
 
 Support operations such as acknowledging, shelving, and filtering for all alarms displayed in the list.
 
