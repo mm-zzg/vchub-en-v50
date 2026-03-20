@@ -84,7 +84,7 @@ In the alarm notification rules, you will select the notification service.
 
 1. Click on **"Alarming" -> "Alarm Notifications" -> "Rules"** to enter the notification rules list page.
 2. Click the **"New"** button in the upper right corner of the list.
-3. In the pop-up window, click the **'+DingTalk'** button to add a new Email notification rule.In the notification service dropdown, select the previously created notification service.
+3. In the pop-up window, click the **'+DingTalk'** button to add a new dingtalk notification rule.In the notification service dropdown, select the previously created notification service.
 
     ![alt text](63.png)
 
