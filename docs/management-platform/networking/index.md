@@ -100,7 +100,6 @@ When the current node needs to connect to another node, you can create an outgoi
 
 | **Configuration item**   | **Description**                                                                                                                                                          |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Enabled                  | Uncheck to disable this outgoing connection.                                                                                                                             |
 | Host                     | The network address of the remote VC Hub process.                                                                                                                        |
 | Port                     | Default 8099, the listening port of the remote VC Hub node.                                                                                                              |
 | Description              | Information about the outgoing connection.                                                                                                                               |
