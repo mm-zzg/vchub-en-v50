@@ -1,64 +1,87 @@
 # Azure AD integration with MFA
 
-The VC Hub  identity provider is compatible with Azure AD, enabling seamless integration. By leveraging Azure AD's multi-factor authentication (MFA) capability, the identity provider can extend MFA support to the VC Hub thereby enhancing security indirectly.
+VC Hub identity provider supports integration with Azure AD (Microsoft Entra ID). After integration, users can sign in through Entra ID and use multi-factor authentication (MFA), which improves account security.
 
-1. Open the Azure portal from Url: [ https://portal.azure.com/]( https://portal.azure.com/) , then open the Microsoft Entra ID.
+## Prerequisites
 
-    ![alt text](10.png)
+- Access to Azure portal: [https://portal.azure.com/](https://portal.azure.com/)
+- Permission to create app registrations in Microsoft Entra ID
+- VC Hub login URL and logout URL
+- A test user account in Entra ID
 
-2. Click the menu itme "App registration" in the left panel, then click the "+ New registration" icon.
+## Configure Microsoft Entra ID
 
-    ![alt text](11.png)
+1. Sign in to the Azure portal, then open **Microsoft Entra ID**.
 
-3. Click the "Authentication" menu item in the left panel,  then fill the VC Hub login url and logout url into the "Web Redirect URIs" panel.
+   ![Open Microsoft Entra ID](10.png)
 
-    ![alt text](12.png)
+2. In the left panel, select **App registrations**, then select **+ New registration**.
 
-4. Click the menu item "Token configuration",  add the optional claim.
+   ![Create app registration](11.png)
 
-    ![alt text](13.png)
+3. Open **Authentication** for the app registration. In **Web redirect URIs**, add the VC Hub login URL and logout URL.
 
-5. Click the menu item "Certificates & secrets", and a pair of client id and client secret.
+   ![Configure redirect URIs](12.png)
 
-    ![alt text](14.png)
+4. Open **Token configuration**, then add the required optional claims.
 
-6.  Copy the client id and client secret. 
+   ![Configure token claims](13.png)
 
-    ![alt text](15.png)
+5. Open **Certificates & secrets**, then create a client secret.
 
-7. Click the menu item "Overview" from the left panel, then click the "Endpoints" icon and copy the "OpenID Connect metadata document" Url
+   ![Create client secret](14.png)
 
-    ![alt text](16.png)
+6. Copy the **Application (client) ID**.
 
-8. Back to the root path of "Microsoft Entra ID",  then click the "Users" menu item 
+   ![Copy client ID](42.png)
 
-    ![alt text](17.png)
+7. Copy the **client secret value**.
 
-9. Click the "Per-user MFA" icon, 
+   ![Copy client secret](15.png)
 
-    ![alt text](18.png)
+8. Open **Overview**, select **Endpoints**, then copy the **OpenID Connect metadata document** URL.
 
-10. Select the users and click the "Enable MFA" button, then MFA is enabled for the selected users. 
+   ![Copy OpenID metadata URL](16.png)
 
-    ![alt text](19.png)
+## Enable MFA for users
 
-11. Navigate to VC Hub identity provider page, then create a new provider with the client id, client secret and openId onnecct meta docuemnt Url
+9. Return to the root of **Microsoft Entra ID**, then open **Users**.
 
-    ![alt text](20.png)
+   ![Open Users](17.png)
 
-12. Click the "Login Test" of the AzureAD provider, then current page is  navigated to Microsoft login page.
+10. Select **Per-user MFA**.
 
-    ![alt text](21.png)
+    ![Open Per-user MFA](18.png)
 
-    ![alt text](22.png)
+11. Select the target users and choose **Enable MFA**.
 
-13. Enter the personal user account or domain account, then login page shows the random number used to verify the user account.
+    ![Enable MFA](19.png)
 
-    ![alt text](23.png)
+## Configure VC Hub identity provider
 
-14. Enter the number into the Microsoft Authenticator on the mobile phone, then login request is auhenticated.
+12. In VC Hub, open the identity provider page and create a new provider using:
 
-    ![alt text](24.png)
+- Client ID
+- Client secret
+- OpenID Connect metadata document URL
+
+    ![Create VC Hub provider](20.png)
+
+## Verify the login flow
+
+13. In the Azure AD provider settings, select **Login Test**. The browser should redirect to the Microsoft sign-in page.
+
+    ![Redirect to Microsoft sign-in](21.png)
+
+    ![Microsoft sign-in page](22.png)
+
+14. Sign in with a personal or domain account. A number-matching challenge is displayed.
+
+    ![Number-matching challenge](23.png)
+
+15. Enter the number in Microsoft Authenticator on the mobile device to complete authentication.
+
+    ![MFA authentication complete](24.png)
 
 
 
