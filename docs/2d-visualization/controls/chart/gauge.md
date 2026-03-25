@@ -45,7 +45,7 @@ Display the current device temperature through the gauge.
 
 **Example 2 Range gauge**
 
-
+![alt text](image.png)
 
 | **Property** | **Value**  |
 |--------------|-----|
