@@ -33,3 +33,4 @@ paginate>=0.5
 backrefs>=5.7.post1
 requests>=2.26
 
+mkdocs-print-site-plugin>=2.8
